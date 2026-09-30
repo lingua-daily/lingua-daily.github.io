@@ -228,3 +228,16 @@ footer{max-width:1260px;margin:0 auto 46px;padding:0 24px;color:var(--dim);
   border-radius:0 10px 10px 0;font-family:ui-sans-serif,system-ui,sans-serif;font-size:15px;line-height:1.6}
 .tiphead{font:700 11px/1 ui-sans-serif,system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase;
   color:var(--gold);margin-bottom:8px}
+
+/* ---------- phones: nothing runs off the edge ---------- */
+@media (max-width: 640px){
+  .topbar{padding:12px 16px;gap:12px}
+  .langtabs{margin-left:0;width:100%;flex-wrap:wrap;gap:6px}
+  .langtabs button{padding:8px 11px;font-size:13px}
+  .topright{margin-left:0;width:100%;flex-wrap:wrap;gap:8px}
+  .daylabel{min-width:84px}
+  main{padding:0 16px;margin-top:18px}
+  .panel{padding:18px 16px 20px}
+  .panelhead{flex-wrap:wrap}
+  footer{padding:0 16px}
+}
