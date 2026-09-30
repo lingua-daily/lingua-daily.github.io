@@ -138,6 +138,7 @@ function setAllWords(root, on){
 function render(){
   const lang = S.lang, data = C[lang], { day, fresh } = pickDay(lang);
   const n = data.perDay || PER_DAY;
+  const bandName = { A: 'written for A1–A2', B: 'written for B1–B2', C: 'written for C1–C2' };
   // Arabic script / Chinese characters appear only from B1 up
   const showScript = !!data.script && LEVELS.indexOf(levelFor(lang)) >= 2;
 
