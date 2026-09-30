@@ -75,6 +75,73 @@ function variant(item, level){
   return item;
 }
 
+
+/* ---------- pronunciation (the device's built-in voices) ----------
+   One switch in the top bar. With sound on, tapping a word also says it.
+   "listen" links read whole sentences whether or not the switch is on.
+   Arabic and Mandarin are spoken from the real script, never the romanised
+   text, so single romanised words stay silent. */
+const SPEECH = 'speechSynthesis' in window;
+let soundOn = false;
+try { soundOn = localStorage.getItem('lingua.sound') === 'on'; } catch (e) {}
+
+const LANG_TAG = { es: 'es-ES', de: 'de-DE', it: 'it-IT', ar: 'ar-SA', zh: 'zh-CN' };
+const REGION_TAG = [
+  [/méxico|mexico/i, 'es-MX'], [/argentina/i, 'es-AR'], [/colombia/i, 'es-CO'],
+  [/perú|peru|chile|cuba|guatemala|venezuela|ecuador|bolivia/i, 'es-US'],
+  [/österreich|austria/i, 'de-AT'], [/schweiz|switzerland/i, 'de-CH'],
+  [/egypt|misr|masr/i, 'ar-EG'], [/leban|lubnan/i, 'ar-LB'], [/saudi|su'udiyya/i, 'ar-SA'],
+  [/taiwan/i, 'zh-TW']
+];
+function speechTag(lang, region){
+  for (const [re, tag] of REGION_TAG) if (region && re.test(region) && tag.slice(0, 2) === lang) return tag;
+  return LANG_TAG[lang];
+}
+/* Prefer natural voices: enhanced/premium and Google voices first, and skip
+   Apple's novelty and robotic voices (Grandma, Rocko, Zarvox…). */
+const NOVELTY = /^(Eddy|Flo|Grandma|Grandpa|Reed|Rocko|Sandy|Shelley|Albert|Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Good News|Jester|Organ|Superstar|Trinoids|Whisper|Wobble|Zarvox|Fred|Junior|Kathy|Ralph)\b/i;
+function voiceScore(v){
+  return (/premium|enhanced|neural/i.test(v.name) ? 4 : 0) + (/google/i.test(v.name) ? 3 : 0) +
+         (v.localService ? 1 : 0) - (NOVELTY.test(v.name) ? 10 : 0);
+}
+function pickVoice(tag){
+  if (!SPEECH) return null;
+  const voices = speechSynthesis.getVoices().slice().sort((x, y) => voiceScore(y) - voiceScore(x));
+  const norm = v => v.lang.replace('_', '-').toLowerCase();
+  const want = tag.toLowerCase(), base = want.slice(0, 2);
+  // exact region first; for Latin American Spanish prefer any other LatAm voice over Spain's
+  return voices.find(v => norm(v) === want)
+      || (base === 'es' && want !== 'es-es' && voices.find(v => /^es-(mx|us|419)/.test(norm(v))))
+      || voices.find(v => norm(v) === LANG_TAG[base].toLowerCase())
+      || voices.find(v => norm(v).startsWith(base))
+      || null;
+}
+function canSpeak(lang){ return !!pickVoice(LANG_TAG[lang]); }
+function speak(text, lang, region){
+  const voice = pickVoice(speechTag(lang, region));
+  if (!voice || !text) return;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.voice = voice;
+  u.lang = voice.lang;
+  u.rate = 0.9;                     // a touch slower than normal speech
+  speechSynthesis.speak(u);
+}
+/* A small text link ("listen") for a whole sentence. Nothing if the device has no voice. */
+function listenLink(text, lang, region){
+  if (!text || !canSpeak(lang)) return null;
+  const a = document.createElement('button');
+  a.className = 'listen';
+  a.textContent = 'listen';
+  a.onclick = () => speak(text, lang, region);
+  return a;
+}
+function wordSay(lang, region){
+  if (C[lang].script) return null;        // romanised words can't be voiced reliably
+  return word => speak(word, lang, region);
+}
+function regionOf(topic){ return topic && topic.includes('·') ? topic.split('·').pop().trim() : ''; }
+
 /* ---------- word glossing ---------- */
 const WORD = /[\p{L}\p{M}]+(?:[-'’][\p{L}\p{M}]+)*/gu;
 
@@ -95,20 +162,21 @@ function lookup(token, gloss){
 }
 
 /* Renders text into a container, each word a clickable <span>. */
-function renderGlossed(text, gloss, container){
+function renderGlossed(text, gloss, container, say){
   container.innerHTML = '';
   let last = 0, m;
   WORD.lastIndex = 0;
   while ((m = WORD.exec(text)) !== null){
     if (m.index > last) container.append(document.createTextNode(text.slice(last, m.index)));
     const span = document.createElement('span');
+    const m0 = m[0];
     span.className = 'w';
-    span.textContent = m[0];
+    span.textContent = m0;
     const en = lookup(m[0], gloss);
     if (en){
       span.classList.add('has');
       span.dataset.en = en;
-      span.addEventListener('click', () => toggleWord(span));
+      span.addEventListener('click', () => { toggleWord(span); if (soundOn && say) say(m0); });
     }
     container.append(span);
     last = m.index + m[0].length;
@@ -196,7 +264,7 @@ function render(){
 
     const p = document.createElement('div');
     p.className = 'sent';
-    renderGlossed(item.text, item.gloss, p);
+    renderGlossed(item.text, item.gloss, p, wordSay(lang, regionOf(item.topic)));
     li.append(p);
     if (showScript && item.script) li.append(scriptLine(item.script, lang, 'script'));
 
@@ -214,6 +282,8 @@ function render(){
       btn.textContent = on ? 'hide translation' : 'full translation';
     };
     row.append(btn);
+    const hl = listenLink(item.script || item.text, lang, regionOf(item.topic));
+    if (hl) row.append(hl);
     if (item.source){
       const a = document.createElement('a');
       a.className = 'src';
@@ -243,6 +313,34 @@ function render(){
     box.append(t);
   }
 
+  // just for fun — an idiom, saying or joke with the culture behind it
+  if (day.fun){
+    const f = day.fun, box = document.getElementById('tipbox');
+    const c = document.createElement('div');
+    c.className = 'fun';
+    const h = document.createElement('div');
+    h.className = 'funhead';
+    h.textContent = 'Just for fun · ' + ({ idiom: 'idiom', saying: 'saying', joke: 'joke' }[f.kind] || f.kind) +
+      (f.region && f.region !== 'general' ? ' · ' + f.region : '');
+    const line = document.createElement('div');
+    line.className = 'funtext';
+    renderGlossed(f.text, f.gloss, line, wordSay(lang, f.region));
+    c.append(h, line);
+    const fl = listenLink(f.script || f.text, lang, f.region);
+    if (fl){ const r = document.createElement('div'); r.className = 'fullrow'; r.append(fl); c.append(r); }
+    if (showScript && f.script) c.append(scriptLine(f.script, lang, 'script'));
+    const rows = [['Literally', f.literal], [f.kind === 'joke' ? 'Why it’s funny' : 'Meaning', f.meaning], ['The culture', f.culture]];
+    rows.filter(([, v]) => v).forEach(([k, v]) => {
+      const p = document.createElement('div');
+      p.className = 'funrow';
+      const b = document.createElement('b');
+      b.textContent = k + ' ';
+      p.append(b, document.createTextNode(v));
+      c.append(p);
+    });
+    box.append(c);
+  }
+
   // vocab
   day.vocab.slice(0, n).forEach(v => {
     const card = document.createElement('div');
@@ -254,6 +352,7 @@ function render(){
     term.className = 'term';
     if (v.article) term.innerHTML = '<span class="art">' + v.article + '</span> ';
     term.append(document.createTextNode(v.word));
+    term.onclick = () => { if (soundOn) speak(v.wordScript || v.word.replace(/[?!¿¡]/g, ''), lang, v.region); };
     if (showScript && v.wordScript) term.append(' ', scriptLine(v.wordScript, lang, 'wscript', 'span'));
     const pos = document.createElement('span');
     pos.className = 'pos' + (/slang|idiom/i.test(v.pos) ? ' slang' : '');
@@ -289,7 +388,7 @@ function render(){
 
     const ex = document.createElement('div');
     ex.className = 'ex';
-    renderGlossed(v.example, v.exGloss, ex);
+    renderGlossed(v.example, v.exGloss, ex, wordSay(lang, v.region));
     card.append(ex);
     if (showScript && v.exScript) card.append(scriptLine(v.exScript, lang, 'script'));
 
@@ -297,6 +396,8 @@ function render(){
     exen.className = 'exen';
     exen.textContent = v.exampleEn;
     card.append(exen);
+    const vl = listenLink(v.exScript || v.example, lang, v.region);
+    if (vl){ const r = document.createElement('div'); r.className = 'fullrow'; r.append(vl); card.append(r); }
 
     grid.append(card);
   });
@@ -461,6 +562,24 @@ document.getElementById('revealVocab').onclick = () => {
 /* ---------- day nav + theme ---------- */
 document.getElementById('prevDay').onclick = () => { S.offset--; render(); };
 document.getElementById('nextDay').onclick = () => { S.offset++; render(); };
+
+const soundBtn = document.getElementById('soundBtn');
+function paintSound(){
+  soundBtn.textContent = soundOn ? '🔊' : '🔇';
+  soundBtn.title = soundOn ? 'Sound on: tapping a word says it' : 'Sound off: tap to hear words as you tap them';
+}
+if (SPEECH){
+  soundBtn.hidden = false;
+  paintSound();
+  soundBtn.onclick = () => {
+    soundOn = !soundOn;
+    try { localStorage.setItem('lingua.sound', soundOn ? 'on' : 'off'); } catch (e) {}
+    paintSound();
+    if (!soundOn) speechSynthesis.cancel();
+  };
+  // voices load after the page; redraw once so "listen" links appear
+  speechSynthesis.onvoiceschanged = () => { speechSynthesis.onvoiceschanged = null; render(); };
+}
 
 const themeBtn = document.getElementById('themeBtn');
 function applyTheme(t){

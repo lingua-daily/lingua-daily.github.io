@@ -243,3 +243,20 @@ footer{max-width:1260px;margin:0 auto 46px;padding:0 24px;color:var(--dim);
 }
 #newsBand:empty{display:none}
 #newsBand{margin-left:6px;text-transform:none;letter-spacing:.02em}
+
+/* ---------- just for fun: idiom / saying / joke ---------- */
+.fun{margin-top:14px;padding:14px 16px;border:1px solid color-mix(in srgb,var(--accent) 35%,transparent);
+  background:var(--accent-soft);border-radius:10px;font-family:ui-sans-serif,system-ui,sans-serif}
+.funhead{font:700 11px/1 ui-sans-serif,system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--accent);margin-bottom:9px}
+.funtext{font:400 20px/1.6 ui-serif,Georgia,serif}
+.funrow{font-size:14.5px;line-height:1.6;margin-top:7px}
+.funrow b{color:var(--gold);font-weight:600}
+
+/* ---------- "listen" links ---------- */
+.listen{margin-left:14px;font:600 13px/1 ui-sans-serif,system-ui,sans-serif;color:var(--dim);
+  background:none;border:none;padding:0;cursor:pointer;border-bottom:1px dashed var(--line)}
+.fullrow > .listen:first-child{margin-left:0}
+.listen:hover{color:var(--accent)}
+.card .fullrow, .fun .fullrow{margin-top:8px}
+.term{cursor:default}

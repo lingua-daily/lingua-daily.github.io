@@ -300,6 +300,19 @@ var LINGUA_DAILY = {
    "tip": {
     "title": "Perfecto vs indefinido, Spain vs Mexico",
     "text": "In Spain, something finished today or this week usually takes the perfect tense: «el museo ha celebrado». Mexico and most of Latin America prefer the simple past for the same thing: «el museo celebró». Today's headlines use the perfect («ha celebrado», «han hallado») in Spanish-press style; a Mexican paper would more likely write «celebró» and «hallaron»."
+   },
+   "fun": {
+    "kind": "idiom",
+    "region": "España",
+    "text": "Tirar la casa por la ventana.",
+    "gloss": {
+     "tirar": "to throw",
+     "casa": "house",
+     "ventana": "window"
+    },
+    "literal": "To throw the house out of the window.",
+    "meaning": "To splash out: spend big, usually on a celebration.",
+    "culture": "The popular story ties it to Spain's national lottery: winners were said to throw their old furniture out of the window because they could now buy everything new. Spaniards still say it about weddings and big birthdays: «Para la boda tiraron la casa por la ventana»."
    }
   },
   "de": {
@@ -578,6 +591,18 @@ var LINGUA_DAILY = {
    "tip": {
     "title": "The dative plural -n",
     "text": "«Nach mehr als 14.000 Besuchern»: in the dative plural, a noun takes an extra -n unless it already ends in -n or -s. Die Besucher → mit den Besuchern; die Gäste → den Gästen. In writing it is never dropped, and getting it right is one of the clearest marks of careful German. In fast speech, especially in the south, you'll sometimes hear it slip."
+   },
+   "fun": {
+    "kind": "saying",
+    "region": "Bayern",
+    "text": "Mia san mia.",
+    "gloss": {
+     "mia": "we (Bavarian for «wir»)",
+     "san": "are (Bavarian for «sind»)"
+    },
+    "literal": "We are we.",
+    "meaning": "We are who we are, and proud of it.",
+    "culture": "It's the unofficial motto of Bavaria's self-confidence. Bavaria sees itself as a state with its own traditions and dialect, not just a region of Germany. FC Bayern Munich uses it as its club motto. In standard German it would be «Wir sind wir»."
    }
   },
   "it": {
@@ -815,6 +840,19 @@ var LINGUA_DAILY = {
    "tip": {
     "title": "Masculine -o, feminine -a",
     "text": "Most Italian nouns ending in -o are masculine (il museo) and most ending in -a are feminine (la tomba). The plural changes the last vowel: museo → musei, tomba → tombe. Both words are on today's page, so read the headlines again with that in mind."
+   },
+   "fun": {
+    "kind": "saying",
+    "region": "general",
+    "text": "«In bocca al lupo!» «Crepi!»",
+    "gloss": {
+     "bocca": "mouth",
+     "lupo": "wolf",
+     "crepi": "may it die"
+    },
+    "literal": "“Into the wolf's mouth!” “May it die!”",
+    "meaning": "Good luck! Said before an exam, an interview or a performance.",
+    "culture": "Italians avoid wishing “good luck” directly, as if that might tempt fate. The right reply is «Crepi!» (or «Crepi il lupo!»), never «grazie», which is said to bring bad luck. Many connect it to old hunters' sayings."
    }
   },
   "ar": {
@@ -1050,6 +1088,20 @@ var LINGUA_DAILY = {
    "tip": {
     "title": "The word al-",
     "text": "«Al-» means 'the' and never changes for gender or number: al-qabr (the tomb), al-waaha (the oasis). It's joined to its word, which is why it's written here with a hyphen. Before sounds like d, t, s, sh, n and r, the l blends into the next letter, so al-daakhla in today's headline is said 'ad-daakhla'."
+   },
+   "fun": {
+    "kind": "saying",
+    "region": "general",
+    "text": "Al-jaar qabla al-daar.",
+    "script": "الجار قبل الدار.",
+    "gloss": {
+     "al-jaar": "the neighbour",
+     "qabla": "before",
+     "al-daar": "the house"
+    },
+    "literal": "The neighbour before the house.",
+    "meaning": "Choose your neighbour before you choose your home.",
+    "culture": "Across the Arab world, neighbours are part of daily life: food gets sent over, doors are knocked on, children run between homes. People still quote this when renting or buying: a great flat next to bad neighbours is a bad flat. It rhymes in Arabic, jaar and daar, which is why it sticks."
    }
   },
   "zh": {
@@ -1288,6 +1340,19 @@ var LINGUA_DAILY = {
    "tip": {
     "title": "Verbs never change",
     "text": "Chinese verbs don't change for person or tense. «Lái» is come, comes, came and will come. Time comes from words like jīntiān (today), or from context. That's why today's headlines have no tenses to learn: «yǒu» works for 'there is' and 'there was' alike."
+   },
+   "fun": {
+    "kind": "saying",
+    "region": "general",
+    "text": "Niánnián yǒu yú.",
+    "script": "年年有余。",
+    "gloss": {
+     "niánnián": "every year",
+     "yú": "surplus (sounds like 'fish')"
+    },
+    "literal": "Every year, have a surplus.",
+    "meaning": "May you have more than enough, every year.",
+    "culture": "«Yú» 余 (surplus) sounds exactly like «yú» 鱼 (fish). That's why fish is served at the Chinese New Year's Eve dinner, and often a little is left on the plate, so there is literally 'fish left over'. Chinese culture is full of lucky puns like this."
    }
   }
  }
