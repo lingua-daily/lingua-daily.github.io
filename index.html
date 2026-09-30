@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lingua — Daily Languages</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="mark">L</span>
+    <div>
+      <h1>Lingua</h1>
+      <p class="tag">Daily news &amp; vocab · tap any word</p>
+    </div>
+  </div>
+
+  <nav class="langtabs" id="langtabs" aria-label="Language"></nav>
+
+  <div class="topright">
+    <label class="levelpick">
+      <span>Level</span>
+      <select id="levelSel" aria-label="CEFR level"></select>
+    </label>
+    <div class="daynav">
+      <button id="prevDay" class="ghost" title="Previous day">‹</button>
+      <span id="dayLabel" class="daylabel">—</span>
+      <button id="nextDay" class="ghost" title="Next day">›</button>
+    </div>
+    <button id="themeBtn" class="ghost" title="Light / dark">◐</button>
+  </div>
+</header>
+
+<main>
+  <section class="panel" id="newsPanel">
+    <div class="panelhead">
+      <h2>Today in the <span id="worldLabel">Spanish-speaking</span> world</h2>
+      <button class="ghost small" id="revealNews">Reveal all English</button>
+    </div>
+    <div id="keybox"></div>
+    <ol class="news" id="news"></ol>
+    <div id="tipbox"></div>
+  </section>
+
+  <div class="side">
+    <section class="panel" id="vocabPanel">
+      <div class="panelhead">
+        <h2>Today's words</h2>
+        <button class="ghost small" id="revealVocab">Reveal all English</button>
+      </div>
+      <div class="vocabgrid" id="vocab"></div>
+    </section>
+
+    <section class="panel" id="quizPanel">
+      <div class="panelhead">
+        <h2>Quick check <span class="lvlchip" id="quizLevel"></span></h2>
+        <button class="ghost small" id="resetQuiz">Reset</button>
+      </div>
+      <div class="quiz" id="quiz"></div>
+    </section>
+  </div>
+</main>
+
+<footer><span id="footNote"></span></footer>
+
+<script src="content/languages.js"></script>
+<script src="content/daily.js"></script>
+<script>
+/* Load every language listed in content/languages.js, then start the app. */
+(function () {
+  var codes = window.LANGUAGES, left = codes.length;
+  window.CONTENT = window.CONTENT || {};
+  codes.forEach(function (code) {
+    var s = document.createElement('script');
+    s.src = 'content/' + code + '.js';
+    s.onload = s.onerror = function () {
+      if (--left === 0) {
+        var a = document.createElement('script');
+        a.src = 'app.js';
+        document.body.appendChild(a);
+      }
+    };
+    document.head.appendChild(s);
+  });
+})();
+</script>
+</body>
+</html>
