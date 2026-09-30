@@ -6,69 +6,156 @@ var LINGUA_DAILY = {
    "news": [
     {
      "topic": "Museos · España",
-     "text": "El Museo Nacional de Arte Romano de Mérida ha celebrado los cuarenta años de su sede, el edificio de ladrillo que Rafael Moneo levantó sobre los restos de la ciudad romana.",
-     "en": "Mérida's National Museum of Roman Art has celebrated forty years of its home, the brick building Rafael Moneo raised over the remains of the Roman city.",
      "source": "https://www.eldiario.es/extremadura/cultura/entrada-gratis-regalo-libros-presencia-rafael-moneo-celebrar-40-anos-museo-romano-merida_1_13516754.html",
-     "gloss": {
-      "museo": "museum",
-      "nacional": "national",
-      "arte": "art",
-      "romano": "Roman",
-      "celebrado": "celebrated",
-      "cuarenta": "forty",
-      "sede": "headquarters / home",
-      "edificio": "building",
-      "ladrillo": "brick",
-      "levantó": "raised / built",
-      "restos": "remains",
-      "ciudad": "city",
-      "romana": "Roman"
+     "levels": {
+      "C": {
+       "text": "El Museo Nacional de Arte Romano de Mérida ha celebrado los cuarenta años de su sede, el edificio de ladrillo que Rafael Moneo levantó sobre los restos de la ciudad romana.",
+       "en": "Mérida's National Museum of Roman Art has celebrated forty years of its home, the brick building Rafael Moneo raised over the remains of the Roman city.",
+       "gloss": {
+        "museo": "museum",
+        "nacional": "national",
+        "arte": "art",
+        "romano": "Roman",
+        "celebrado": "celebrated",
+        "cuarenta": "forty",
+        "sede": "headquarters / home",
+        "edificio": "building",
+        "ladrillo": "brick",
+        "levantó": "raised / built",
+        "restos": "remains",
+        "ciudad": "city",
+        "romana": "Roman"
+       }
+      },
+      "A": {
+       "text": "Un museo romano en Mérida tiene cuarenta años.",
+       "en": "A Roman museum in Mérida is forty years old.",
+       "gloss": {
+        "museo": "museum",
+        "romano": "Roman",
+        "tiene": "has (here: is … old)",
+        "cuarenta": "forty"
+       }
+      },
+      "B": {
+       "text": "El Museo de Arte Romano de Mérida celebra cuarenta años en su edificio actual, diseñado por el arquitecto Rafael Moneo.",
+       "en": "Mérida's Museum of Roman Art celebrates forty years in its current building, designed by the architect Rafael Moneo.",
+       "gloss": {
+        "museo": "museum",
+        "arte": "art",
+        "romano": "Roman",
+        "celebra": "celebrates",
+        "cuarenta": "forty",
+        "edificio": "building",
+        "actual": "current",
+        "diseñado": "designed",
+        "arquitecto": "architect"
+       }
+      }
      }
     },
     {
      "topic": "Cultura · México",
-     "text": "La Noche de Museos de este miércoles abre hasta tarde decenas de recintos capitalinos, casi todos gratis, con lucha libre en el Museo de San Carlos y mariachi en Bellas Artes.",
-     "en": "This Wednesday's Museum Night keeps dozens of venues in the capital open late, almost all of them free, with lucha libre at the San Carlos Museum and mariachi at the Palace of Fine Arts.",
      "source": "https://www.milenio.com/cultura/noche-museos-septiembre-2026-cdmx",
-     "gloss": {
-      "noche": "night",
-      "museos": "museums",
-      "miércoles": "Wednesday",
-      "abre": "opens",
-      "tarde": "late / afternoon",
-      "decenas": "dozens",
-      "recintos": "venues",
-      "capitalinos": "in the capital (adj.)",
-      "casi": "almost",
-      "gratis": "free (of charge)",
-      "lucha": "fight / wrestling",
-      "libre": "free",
-      "museo": "museum",
-      "mariachi": "mariachi",
-      "bellas": "fine / beautiful",
-      "artes": "arts"
+     "levels": {
+      "C": {
+       "text": "La Noche de Museos de este miércoles abre hasta tarde decenas de recintos capitalinos, casi todos gratis, con lucha libre en el Museo de San Carlos y mariachi en Bellas Artes.",
+       "en": "This Wednesday's Museum Night keeps dozens of venues in the capital open late, almost all of them free, with lucha libre at the San Carlos Museum and mariachi at the Palace of Fine Arts.",
+       "gloss": {
+        "noche": "night",
+        "museos": "museums",
+        "miércoles": "Wednesday",
+        "abre": "opens",
+        "tarde": "late / afternoon",
+        "decenas": "dozens",
+        "recintos": "venues",
+        "capitalinos": "in the capital (adj.)",
+        "casi": "almost",
+        "gratis": "free (of charge)",
+        "lucha": "fight / wrestling",
+        "libre": "free",
+        "museo": "museum",
+        "mariachi": "mariachi",
+        "bellas": "fine / beautiful",
+        "artes": "arts"
+       }
+      },
+      "A": {
+       "text": "El miércoles hay una noche de museos gratis en México.",
+       "en": "On Wednesday there's a free museum night in Mexico.",
+       "gloss": {
+        "miércoles": "Wednesday",
+        "noche": "night",
+        "museos": "museums",
+        "gratis": "free (of charge)"
+       }
+      },
+      "B": {
+       "text": "Este miércoles, muchos museos de la Ciudad de México abren hasta tarde y casi todos son gratis.",
+       "en": "This Wednesday, many museums in Mexico City stay open late, and almost all of them are free.",
+       "gloss": {
+        "miércoles": "Wednesday",
+        "muchos": "many",
+        "museos": "museums",
+        "ciudad": "city",
+        "abren": "open",
+        "tarde": "late",
+        "casi": "almost",
+        "gratis": "free (of charge)"
+       }
+      }
      }
     },
     {
      "topic": "Arqueología · Perú",
-     "text": "En Chan Chan, la antigua capital chimú, los arqueólogos han hallado intacto un mausoleo de unos seiscientos años con treinta y ocho cuerpos y ofrendas de plata y cobre.",
-     "en": "At Chan Chan, the old Chimú capital, archaeologists have found an intact mausoleum around six hundred years old, holding thirty-eight bodies and offerings of silver and copper.",
      "source": "https://www.artribune.com/arti-visive/archeologia-arte-antica/2026/09/scoperte-archeologiche-fulgur-conditum-spighe-bolsena-chan-chan-peru/",
-     "gloss": {
-      "antigua": "old / ancient",
-      "capital": "capital",
-      "chimú": "Chimú (pre-Inca kingdom)",
-      "arqueólogos": "archaeologists",
-      "hallado": "found",
-      "intacto": "intact",
-      "mausoleo": "mausoleum",
-      "seiscientos": "six hundred",
-      "treinta": "thirty",
-      "ocho": "eight",
-      "cuerpos": "bodies",
-      "ofrendas": "offerings",
-      "plata": "silver",
-      "cobre": "copper"
+     "levels": {
+      "C": {
+       "text": "En Chan Chan, la antigua capital chimú, los arqueólogos han hallado intacto un mausoleo de unos seiscientos años con treinta y ocho cuerpos y ofrendas de plata y cobre.",
+       "en": "At Chan Chan, the old Chimú capital, archaeologists have found an intact mausoleum around six hundred years old, holding thirty-eight bodies and offerings of silver and copper.",
+       "gloss": {
+        "antigua": "old / ancient",
+        "capital": "capital",
+        "chimú": "Chimú (pre-Inca kingdom)",
+        "arqueólogos": "archaeologists",
+        "hallado": "found",
+        "intacto": "intact",
+        "mausoleo": "mausoleum",
+        "seiscientos": "six hundred",
+        "treinta": "thirty",
+        "ocho": "eight",
+        "cuerpos": "bodies",
+        "ofrendas": "offerings",
+        "plata": "silver",
+        "cobre": "copper"
+       }
+      },
+      "A": {
+       "text": "En Perú, unos arqueólogos encuentran una tumba muy antigua.",
+       "en": "In Peru, archaeologists find a very old tomb.",
+       "gloss": {
+        "perú": "Peru",
+        "arqueólogos": "archaeologists",
+        "encuentran": "find",
+        "tumba": "tomb",
+        "antigua": "old / ancient"
+       }
+      },
+      "B": {
+       "text": "En Perú, unos arqueólogos han encontrado una tumba de hace seiscientos años con treinta y ocho cuerpos.",
+       "en": "In Peru, archaeologists have found a six-hundred-year-old tomb with thirty-eight bodies.",
+       "gloss": {
+        "perú": "Peru",
+        "arqueólogos": "archaeologists",
+        "encontrado": "found",
+        "tumba": "tomb",
+        "hace": "ago",
+        "seiscientos": "six hundred",
+        "treinta": "thirty",
+        "ocho": "eight",
+        "cuerpos": "bodies"
+       }
+      }
      }
     }
    ],
@@ -128,16 +215,16 @@ var LINGUA_DAILY = {
     {
      "level": "A1",
      "ref": "news3",
-     "q": "Which word means “silver”?",
+     "q": "Which word means “tomb”?",
      "options": [
-      "el cobre",
-      "la plata",
-      "el oro",
-      "el hierro"
+      "la tienda",
+      "la tumba",
+      "la tarde",
+      "la tabla"
      ],
      "answer": 1,
-     "why": "«Plata» = silver; in much of Latin America it also means money. «Cobre» is copper, «oro» gold, «hierro» iron.",
-     "lesson": "«Plata» and «cobre» sit side by side in the headline, so they're easy to swap. Tie «plata» to the Río de la Plata, the River of Silver."
+     "why": "«Tumba» = tomb. «Tienda» is shop, «tarde» afternoon, «tabla» board.",
+     "lesson": "All four start with t-. «Tumba» is closest to English 'tomb'; lookalike words like this are the quickest wins at A1."
     },
     {
      "level": "A2",
@@ -156,16 +243,16 @@ var LINGUA_DAILY = {
     {
      "level": "B1",
      "ref": "news1",
-     "q": "Completa: El museo ___ los cuarenta años de su sede.",
+     "q": "Completa: El museo ___ cuarenta años en su edificio actual.",
      "options": [
-      "han celebrado",
-      "has celebrado",
-      "he celebrado",
-      "ha celebrado"
+      "celebran",
+      "celebra",
+      "celebras",
+      "celebro"
      ],
-     "answer": 3,
-     "why": "El sujeto es «el museo», tercera persona del singular, así que el verbo es «ha celebrado».",
-     "lesson": "«Han» suena natural porque se habla de «cuarenta años», pero los años son lo que se celebra, no quien celebra. Pregunta siempre quién hace la acción."
+     "answer": 1,
+     "why": "El sujeto es «el museo», tercera persona del singular: «celebra».",
+     "lesson": "«Celebran» tienta porque se habla de «cuarenta años», pero los años son lo que se celebra, no quien celebra. Pregunta siempre quién hace la acción."
     },
     {
      "level": "B2",
@@ -219,52 +306,133 @@ var LINGUA_DAILY = {
    "news": [
     {
      "topic": "Volksfest · München",
-     "text": "Zur Halbzeit des 191. Oktoberfests haben rund 3,8 Millionen Gäste die Theresienwiese besucht, 300.000 mehr als im Vorjahr.",
-     "en": "At the halfway point of the 191st Oktoberfest, around 3.8 million guests have visited the Theresienwiese, 300,000 more than last year.",
      "source": "https://www.muenchen.de/veranstaltungen/oktoberfest/aktuell/oktoberfest-halbzeitbilanz-2026",
-     "gloss": {
-      "halbzeit": "halfway point / half-time",
-      "oktoberfests": "of the Oktoberfest",
-      "rund": "around / roughly",
-      "millionen": "million",
-      "gäste": "guests",
-      "theresienwiese": "Theresienwiese (the Oktoberfest grounds)",
-      "besucht": "visited",
-      "vorjahr": "previous year"
+     "levels": {
+      "C": {
+       "text": "Zur Halbzeit des 191. Oktoberfests haben rund 3,8 Millionen Gäste die Theresienwiese besucht, 300.000 mehr als im Vorjahr.",
+       "en": "At the halfway point of the 191st Oktoberfest, around 3.8 million guests have visited the Theresienwiese, 300,000 more than last year.",
+       "gloss": {
+        "halbzeit": "halfway point / half-time",
+        "oktoberfests": "of the Oktoberfest",
+        "rund": "around / roughly",
+        "millionen": "million",
+        "gäste": "guests",
+        "theresienwiese": "Theresienwiese (the Oktoberfest grounds)",
+        "besucht": "visited",
+        "vorjahr": "previous year"
+       }
+      },
+      "A": {
+       "text": "Auf dem Oktoberfest sind schon fast vier Millionen Gäste.",
+       "en": "There are already almost four million guests at the Oktoberfest.",
+       "gloss": {
+        "oktoberfest": "Oktoberfest",
+        "fast": "almost",
+        "millionen": "million",
+        "gäste": "guests"
+       }
+      },
+      "B": {
+       "text": "Zur Halbzeit waren schon 3,8 Millionen Menschen auf dem Oktoberfest, mehr als im letzten Jahr.",
+       "en": "By the halfway point, 3.8 million people had already been to the Oktoberfest, more than last year.",
+       "gloss": {
+        "halbzeit": "halfway point",
+        "millionen": "million",
+        "menschen": "people",
+        "oktoberfest": "Oktoberfest",
+        "letzten": "last"
+       }
+      }
      }
     },
     {
      "topic": "Kunst · Regensburg",
-     "text": "Nach mehr als 14.000 Besuchern zieht die Ausstellung „Faszination Kathedrale“ zum 750. Jubiläum des Regensburger Doms ins Donau-Einkaufszentrum.",
-     "en": "After more than 14,000 visitors, the exhibition “Faszination Kathedrale”, marking the 750th anniversary of Regensburg Cathedral, moves into the Danube shopping centre.",
      "source": "https://www.regensburger-nachrichten.de/kultur-und-szene/100307-faszination-kathedrale-gastiert-im-donaueinkaufszentrum",
-     "gloss": {
-      "besuchern": "visitors (dative plural)",
-      "zieht": "moves (lit. pulls)",
-      "ausstellung": "exhibition",
-      "faszination": "fascination",
-      "kathedrale": "cathedral",
-      "jubiläum": "anniversary",
-      "regensburger": "Regensburg (adj.)",
-      "doms": "of the cathedral",
-      "ins": "into the",
-      "donau-einkaufszentrum": "Danube shopping centre",
-      "einkaufszentrum": "shopping centre"
+     "levels": {
+      "C": {
+       "text": "Nach mehr als 14.000 Besuchern zieht die Ausstellung „Faszination Kathedrale“ zum 750. Jubiläum des Regensburger Doms ins Donau-Einkaufszentrum.",
+       "en": "After more than 14,000 visitors, the exhibition “Faszination Kathedrale”, marking the 750th anniversary of Regensburg Cathedral, moves into the Danube shopping centre.",
+       "gloss": {
+        "besuchern": "visitors (dative plural)",
+        "zieht": "moves (lit. pulls)",
+        "ausstellung": "exhibition",
+        "faszination": "fascination",
+        "kathedrale": "cathedral",
+        "jubiläum": "anniversary",
+        "regensburger": "Regensburg (adj.)",
+        "doms": "of the cathedral",
+        "ins": "into the",
+        "donau-einkaufszentrum": "Danube shopping centre",
+        "einkaufszentrum": "shopping centre"
+       }
+      },
+      "A": {
+       "text": "In Regensburg gibt es Kunst über den Dom im Einkaufszentrum.",
+       "en": "In Regensburg there's art about the cathedral in the shopping centre.",
+       "gloss": {
+        "gibt": "gives (es gibt = there is)",
+        "kunst": "art",
+        "dom": "cathedral",
+        "einkaufszentrum": "shopping centre"
+       }
+      },
+      "B": {
+       "text": "Die Ausstellung „Faszination Kathedrale“ über den Regensburger Dom ist jetzt im Einkaufszentrum zu sehen.",
+       "en": "The exhibition “Faszination Kathedrale”, about Regensburg Cathedral, can now be seen in the shopping centre.",
+       "gloss": {
+        "ausstellung": "exhibition",
+        "faszination": "fascination",
+        "kathedrale": "cathedral",
+        "regensburger": "Regensburg (adj.)",
+        "dom": "cathedral",
+        "jetzt": "now",
+        "einkaufszentrum": "shopping centre",
+        "sehen": "to see"
+       }
+      }
      }
     },
     {
      "topic": "Kunst · München",
-     "text": "Das Bayerische Nationalmuseum in München zeigt bis Januar Hinterglasbilder der Künstlerin Fride Wirtl-Walser, eine Technik aus der bayerischen Volkskunst.",
-     "en": "Munich's Bavarian National Museum is showing reverse-glass paintings by the artist Fride Wirtl-Walser until January, a technique from Bavarian folk art.",
      "source": "https://www.muenchen.travel/artikel/kunst-kultur/ausstellungen-2026-2027",
-     "gloss": {
-      "nationalmuseum": "national museum",
-      "zeigt": "shows",
-      "januar": "January",
-      "hinterglasbilder": "reverse-glass paintings",
-      "künstlerin": "artist (female)",
-      "technik": "technique",
-      "volkskunst": "folk art"
+     "levels": {
+      "C": {
+       "text": "Das Bayerische Nationalmuseum in München zeigt bis Januar Hinterglasbilder der Künstlerin Fride Wirtl-Walser, eine Technik aus der bayerischen Volkskunst.",
+       "en": "Munich's Bavarian National Museum is showing reverse-glass paintings by the artist Fride Wirtl-Walser until January, a technique from Bavarian folk art.",
+       "gloss": {
+        "nationalmuseum": "national museum",
+        "zeigt": "shows",
+        "januar": "January",
+        "hinterglasbilder": "reverse-glass paintings",
+        "künstlerin": "artist (female)",
+        "technik": "technique",
+        "volkskunst": "folk art"
+       }
+      },
+      "A": {
+       "text": "In München zeigt ein Museum Bilder auf Glas.",
+       "en": "In Munich, a museum is showing pictures on glass.",
+       "gloss": {
+        "zeigt": "shows",
+        "museum": "museum",
+        "bilder": "pictures",
+        "glas": "glass"
+       }
+      },
+      "B": {
+       "text": "Im Bayerischen Nationalmuseum in München sind jetzt Bilder hinter Glas zu sehen, eine alte bayerische Technik.",
+       "en": "Pictures painted behind glass, an old Bavarian technique, are now on show at the Bavarian National Museum in Munich.",
+       "gloss": {
+        "nationalmuseum": "national museum",
+        "jetzt": "now",
+        "bilder": "pictures",
+        "hinter": "behind",
+        "glas": "glass",
+        "sehen": "to see",
+        "alte": "old",
+        "technik": "technique"
+       }
+      }
      }
     }
    ],
@@ -353,16 +521,16 @@ var LINGUA_DAILY = {
     {
      "level": "B1",
      "ref": "news2",
-     "q": "Ergänze: Die Ausstellung zieht ___ Donau-Einkaufszentrum.",
+     "q": "Ergänze: Die Ausstellung ist jetzt ___ Einkaufszentrum zu sehen.",
      "options": [
-      "im",
       "ins",
-      "in dem",
+      "im",
+      "in den",
       "am"
      ],
      "answer": 1,
-     "why": "Eine Bewegung (wohin?) verlangt den Akkusativ: in + das = ins.",
-     "lesson": "«Im» und «in dem» antworten auf «wo?», also auf einen Ort, an dem man schon ist. Die Ausstellung bewegt sich aber irgendwohin, deshalb «ins»."
+     "why": "Ein Ort ohne Bewegung (wo?) verlangt den Dativ: in + dem = im.",
+     "lesson": "«Ins» wäre richtig bei einer Bewegung (wohin?): Sie zieht ins Einkaufszentrum. Hier ist die Ausstellung schon dort, also «im»."
     },
     {
      "level": "B2",
@@ -416,28 +584,109 @@ var LINGUA_DAILY = {
    "news": [
     {
      "topic": "Archeologia · Campania",
-     "text": "A Pontecagnano c'è una nuova mostra: una tomba di più di 2.500 anni.",
-     "en": "In Pontecagnano there is a new exhibition: a tomb more than 2,500 years old.",
      "source": "https://www.ilportico.it/it/cultura-29/a-pontecagnano-i-reperti-dell-ultima-scoperta-arch-179693/article",
-     "gloss": {
-      "nuova": "new",
-      "mostra": "exhibition",
-      "tomba": "tomb"
+     "levels": {
+      "A": {
+       "text": "A Pontecagnano c'è una nuova mostra: una tomba di più di 2.500 anni.",
+       "en": "In Pontecagnano there is a new exhibition: a tomb more than 2,500 years old.",
+       "gloss": {
+        "nuova": "new",
+        "mostra": "exhibition",
+        "tomba": "tomb"
+       }
+      },
+      "B": {
+       "text": "A Pontecagnano, vicino a Salerno, una mostra presenta una tomba del VI secolo avanti Cristo.",
+       "en": "In Pontecagnano, near Salerno, an exhibition presents a tomb from the 6th century BC.",
+       "gloss": {
+        "vicino": "near",
+        "mostra": "exhibition",
+        "presenta": "presents",
+        "tomba": "tomb",
+        "vi": "6th (Roman numeral)",
+        "secolo": "century",
+        "avanti": "before",
+        "cristo": "Christ"
+       }
+      },
+      "C": {
+       "text": "Il Museo archeologico di Pontecagnano espone la tomba 10188, una rara sepoltura a cubo in travertino con un cratere corinzio decorato con cavalieri e sirene.",
+       "en": "Pontecagnano's archaeological museum is showing tomb 10188, a rare cube-shaped travertine burial holding a Corinthian crater decorated with horsemen and sirens.",
+       "gloss": {
+        "museo": "museum",
+        "archeologico": "archaeological",
+        "espone": "exhibits",
+        "tomba": "tomb",
+        "rara": "rare",
+        "sepoltura": "burial",
+        "cubo": "cube",
+        "travertino": "travertine",
+        "cratere": "crater (wine-mixing vase)",
+        "corinzio": "Corinthian",
+        "decorato": "decorated",
+        "cavalieri": "horsemen / knights",
+        "sirene": "sirens"
+       }
+      }
      }
     },
     {
      "topic": "Cultura · Sardegna",
-     "text": "Sabato molti musei sardi hanno aperto la sera per un euro.",
-     "en": "On Saturday, many museums in Sardinia opened in the evening for one euro.",
      "source": "https://www.ansa.it/sardegna/notizie/2026/09/24/musei-e-siti-aperti-nellisola-per-le-giornate-europee-del-patrimonio_7993fa51-72fb-40e5-93fb-63492d1fe12c.html",
-     "gloss": {
-      "sabato": "Saturday",
-      "molti": "many",
-      "musei": "museums",
-      "sardi": "Sardinian",
-      "aperto": "opened",
-      "sera": "evening",
-      "euro": "euro"
+     "levels": {
+      "A": {
+       "text": "Sabato molti musei sardi hanno aperto la sera per un euro.",
+       "en": "On Saturday, many museums in Sardinia opened in the evening for one euro.",
+       "gloss": {
+        "sabato": "Saturday",
+        "molti": "many",
+        "musei": "museums",
+        "sardi": "Sardinian",
+        "aperto": "opened",
+        "sera": "evening",
+        "euro": "euro"
+       }
+      },
+      "B": {
+       "text": "Per le Giornate europee del patrimonio, sabato molti musei sardi sono rimasti aperti la sera per un euro.",
+       "en": "For the European Heritage Days, many Sardinian museums stayed open on Saturday evening for one euro.",
+       "gloss": {
+        "giornate": "days",
+        "europee": "European",
+        "patrimonio": "heritage",
+        "sabato": "Saturday",
+        "molti": "many",
+        "musei": "museums",
+        "sardi": "Sardinian",
+        "rimasti": "stayed",
+        "aperti": "open",
+        "sera": "evening",
+        "euro": "euro"
+       }
+      },
+      "C": {
+       "text": "Nelle Giornate europee del patrimonio, dedicate al tema «Proteggere il patrimonio», oltre quaranta enti sardi hanno aperto musei e siti, con ingresso serale a un euro.",
+       "en": "During the European Heritage Days, themed “Protecting heritage”, more than forty Sardinian institutions opened museums and sites, with evening entry for one euro.",
+       "gloss": {
+        "nelle": "in the",
+        "giornate": "days",
+        "europee": "European",
+        "patrimonio": "heritage",
+        "dedicate": "dedicated",
+        "tema": "theme",
+        "proteggere": "to protect",
+        "oltre": "more than",
+        "quaranta": "forty",
+        "enti": "institutions",
+        "sardi": "Sardinian",
+        "aperto": "opened",
+        "musei": "museums",
+        "siti": "sites",
+        "ingresso": "entry",
+        "serale": "evening (adj.)",
+        "euro": "euro"
+       }
+      }
      }
     }
    ],
@@ -509,16 +758,16 @@ var LINGUA_DAILY = {
     {
      "level": "B1",
      "ref": "news2",
-     "q": "Completa: Molti musei ___ aperto la sera.",
+     "q": "Completa: Molti musei sono rimasti ___ la sera.",
      "options": [
-      "ha",
-      "hanno",
-      "sono",
-      "abbiamo"
+      "aperto",
+      "aperti",
+      "aperta",
+      "aprire"
      ],
      "answer": 1,
-     "why": "«Molti musei» è plurale, e «aprire» nel passato prossimo usa «avere»: hanno aperto.",
-     "lesson": "«Sono aperti» esiste e vuol dire 'are open', ma allora il participio diventa «aperti». Con «hanno» il participio resta «aperto»."
+     "why": "Con «essere» il participio concorda con il soggetto: musei, maschile plurale, quindi «aperti».",
+     "lesson": "«Aperto» tenta perché l'hai visto in «hanno aperto». Con «avere» il participio non cambia, ma con «essere» sì."
     },
     {
      "level": "B2",
@@ -572,30 +821,103 @@ var LINGUA_DAILY = {
    "news": [
     {
      "topic": "Athar · Misr",
-     "text": "Iktishaaf qabr ala shakl haram fi waahat al-daakhla bi-misr.",
-     "script": "اكتشاف قبر على شكل هرم في واحة الداخلة بمصر.",
-     "en": "A pyramid-shaped tomb is discovered in Egypt's Dakhla Oasis.",
      "source": "https://archaeology.org/news/2026/09/25/pyramid-shaped-tomb-unearthed-in-egypts-dakhleh-oasis/",
-     "gloss": {
-      "iktishaaf": "discovery",
-      "qabr": "tomb",
-      "shakl": "shape",
-      "haram": "pyramid",
-      "waahat": "oasis (of)",
-      "al-daakhla": "Dakhla (lit. 'the inner one')",
-      "bi-misr": "in Egypt"
+     "levels": {
+      "A": {
+       "text": "Iktishaaf qabr ala shakl haram fi waahat al-daakhla bi-misr.",
+       "en": "A pyramid-shaped tomb is discovered in Egypt's Dakhla Oasis.",
+       "gloss": {
+        "iktishaaf": "discovery",
+        "qabr": "tomb",
+        "shakl": "shape",
+        "haram": "pyramid",
+        "waahat": "oasis (of)",
+        "al-daakhla": "Dakhla (lit. 'the inner one')",
+        "bi-misr": "in Egypt"
+       },
+       "script": "اكتشاف قبر على شكل هرم في واحة الداخلة بمصر."
+      },
+      "B": {
+       "text": "Wajada ulamaa al-athaar qabran ala shakl haram fi waahat al-daakhla bi-misr.",
+       "en": "Archaeologists found a pyramid-shaped tomb in Egypt's Dakhla Oasis.",
+       "gloss": {
+        "wajada": "found",
+        "ulamaa": "scholars",
+        "al-athaar": "antiquities (ulamaa al-athaar = archaeologists)",
+        "qabran": "a tomb",
+        "shakl": "shape",
+        "haram": "pyramid",
+        "waahat": "oasis (of)",
+        "al-daakhla": "Dakhla (lit. 'the inner one')",
+        "bi-misr": "in Egypt"
+       },
+       "script": "وجد علماء الآثار قبرًا على شكل هرم في واحة الداخلة بمصر."
+      },
+      "C": {
+       "text": "Kashafat ba'tha misriyya an qabr ala shakl haram fi waahat al-daakhla yarji'u ila al-qarn al-raabi al-miilaadii taqriiban.",
+       "en": "An Egyptian mission has uncovered a pyramid-shaped tomb in the Dakhla Oasis dating to roughly the fourth century AD.",
+       "gloss": {
+        "kashafat": "uncovered",
+        "ba'tha": "mission",
+        "misriyya": "Egyptian",
+        "qabr": "tomb",
+        "shakl": "shape",
+        "haram": "pyramid",
+        "waahat": "oasis (of)",
+        "al-daakhla": "Dakhla",
+        "yarji'u": "dates back",
+        "al-qarn": "the century",
+        "al-raabi": "the fourth",
+        "al-miilaadii": "AD (lit. of the Nativity)",
+        "taqriiban": "approximately"
+       },
+       "script": "كشفت بعثة مصرية عن قبر على شكل هرم في واحة الداخلة يرجع إلى القرن الرابع الميلادي تقريبًا."
+      }
      }
     },
     {
      "topic": "Turath · Lubnan",
-     "text": "Lubnan yu'iid 37 qit'a athariyya ila misr.",
-     "script": "لبنان يعيد 37 قطعة أثرية إلى مصر.",
-     "en": "Lebanon returns 37 antiquities to Egypt.",
      "source": "https://english.aawsat.com/culture/5319135-lebanon-returns-37-artifacts-smuggled-out-egypt",
-     "gloss": {
-      "yu'iid": "returns / gives back",
-      "qit'a": "piece",
-      "athariyya": "archaeological, antique"
+     "levels": {
+      "A": {
+       "text": "Lubnan yu'iid 37 qit'a athariyya ila misr.",
+       "en": "Lebanon returns 37 antiquities to Egypt.",
+       "gloss": {
+        "yu'iid": "returns / gives back",
+        "qit'a": "piece",
+        "athariyya": "archaeological, antique"
+       },
+       "script": "لبنان يعيد 37 قطعة أثرية إلى مصر."
+      },
+      "B": {
+       "text": "Sallama Lubnan ila Misr 37 qit'a athariyya kaanat qad hurribat qabla sanawaat.",
+       "en": "Lebanon handed Egypt 37 antiquities that had been smuggled years ago.",
+       "gloss": {
+        "sallama": "handed over",
+        "qit'a": "piece",
+        "athariyya": "archaeological, antique",
+        "hurribat": "were smuggled",
+        "qabla": "before / ago",
+        "sanawaat": "years"
+       },
+       "script": "سلّم لبنان إلى مصر 37 قطعة أثرية كانت قد هُرّبت قبل سنوات."
+      },
+      "C": {
+       "text": "Fi al-mathaf al-watanii bi-bayrut, a'aada Lubnan ila Misr 37 qit'a fir'awniyya dubitat fi marfa bayrut aam 2020.",
+       "en": "At the National Museum in Beirut, Lebanon returned to Egypt 37 pharaonic pieces seized at Beirut port in 2020.",
+       "gloss": {
+        "al-mathaf": "the museum",
+        "al-watanii": "the national",
+        "bi-bayrut": "in Beirut",
+        "a'aada": "returned",
+        "qit'a": "piece",
+        "fir'awniyya": "pharaonic",
+        "dubitat": "were seized",
+        "marfa": "port",
+        "aam": "year"
+       },
+       "script": "في المتحف الوطني ببيروت، أعاد لبنان إلى مصر 37 قطعة فرعونية ضُبطت في مرفأ بيروت عام 2020."
+      }
      }
     }
    ],
@@ -734,35 +1056,110 @@ var LINGUA_DAILY = {
    "news": [
     {
      "topic": "Kēxué · Zhōngguó",
-     "text": "Jiǔyuè shì Zhōngguó de kēpǔ yuè, quánguó yǒu sānshíliù wàn duō ge huódòng.",
-     "script": "九月是中国的科普月，全国有三十六万多个活动。",
-     "en": "September is China's popular-science month, with more than 360,000 events across the country.",
      "source": "http://global.chinadaily.com.cn/a/202609/29/WS6abb55fce4b06d4aa0560c96.html",
-     "gloss": {
-      "jiǔyuè": "September",
-      "kēpǔ": "popular science",
-      "yuè": "month",
-      "quánguó": "the whole country",
-      "sānshíliù": "thirty-six",
-      "wàn": "ten thousand",
-      "duō": "more than / many",
-      "huódòng": "events / activities"
+     "levels": {
+      "B": {
+       "text": "Jiǔyuè shì Zhōngguó de kēpǔ yuè, quánguó yǒu sānshíliù wàn duō ge huódòng.",
+       "en": "September is China's popular-science month, with more than 360,000 events across the country.",
+       "gloss": {
+        "jiǔyuè": "September",
+        "kēpǔ": "popular science",
+        "yuè": "month",
+        "quánguó": "the whole country",
+        "sānshíliù": "thirty-six",
+        "wàn": "ten thousand",
+        "duō": "more than / many",
+        "huódòng": "events / activities"
+       },
+       "script": "九月是中国的科普月，全国有三十六万多个活动。"
+      },
+      "A": {
+       "text": "Jiǔyuè, Zhōngguó yǒu hěn duō kēxué huódòng.",
+       "en": "In September, China has lots of science events.",
+       "gloss": {
+        "jiǔyuè": "September",
+        "duō": "many",
+        "kēxué": "science",
+        "huódòng": "events"
+       },
+       "script": "九月，中国有很多科学活动。"
+      },
+      "C": {
+       "text": "Zài jīnnián de quánguó kēpǔ yuè lǐ, gèdì jǔbàn le sānshíliù wàn duō chǎng huódòng, xiànshàng xiànxià guānzhòng chāoguò yìbǎi yì rénci.",
+       "en": "During this year's national popular-science month, more than 360,000 events were held across the country, with audiences online and offline exceeding 10 billion.",
+       "gloss": {
+        "jīnnián": "this year",
+        "quánguó": "the whole country",
+        "kēpǔ": "popular science",
+        "yuè": "month",
+        "lǐ": "in / during",
+        "gèdì": "everywhere",
+        "jǔbàn": "held",
+        "sānshíliù": "thirty-six",
+        "wàn": "ten thousand",
+        "duō": "more than",
+        "chǎng": "(measure word for events)",
+        "huódòng": "events",
+        "xiànshàng": "online",
+        "xiànxià": "offline",
+        "guānzhòng": "audience",
+        "chāoguò": "exceed",
+        "yìbǎi": "one hundred",
+        "yì": "hundred million",
+        "rénci": "person-visits"
+       },
+       "script": "在今年的全国科普月里，各地举办了三十六万多场活动，线上线下观众超过一百亿人次。"
+      }
      }
     },
     {
      "topic": "Kēxué · Běijīng",
-     "text": "Běijīng Kēxué Zhōngxīn yǒu yí ge guójì kēxué zhōu, shíyī ge guójiā de rén lái cānjiā.",
-     "script": "北京科学中心有一个国际科学周，十一个国家的人来参加。",
-     "en": "The Beijing Science Center holds an international science week, and people from 11 countries come to take part.",
      "source": "https://macaubusiness.com/2026-beijing-international-week-for-science-literacy-launched-in-beijing/",
-     "gloss": {
-      "kēxué": "science",
-      "zhōngxīn": "centre",
-      "guójì": "international",
-      "zhōu": "week",
-      "shíyī": "eleven",
-      "guójiā": "country / countries",
-      "cānjiā": "take part"
+     "levels": {
+      "B": {
+       "text": "Běijīng Kēxué Zhōngxīn yǒu yí ge guójì kēxué zhōu, shíyī ge guójiā de rén lái cānjiā.",
+       "en": "The Beijing Science Center holds an international science week, and people from 11 countries come to take part.",
+       "gloss": {
+        "kēxué": "science",
+        "zhōngxīn": "centre",
+        "guójì": "international",
+        "zhōu": "week",
+        "shíyī": "eleven",
+        "guójiā": "country / countries",
+        "cānjiā": "take part"
+       },
+       "script": "北京科学中心有一个国际科学周，十一个国家的人来参加。"
+      },
+      "A": {
+       "text": "Běijīng yǒu yí ge kēxué zhōu.",
+       "en": "Beijing has a science week.",
+       "gloss": {
+        "kēxué": "science",
+        "zhōu": "week"
+       },
+       "script": "北京有一个科学周。"
+      },
+      "C": {
+       "text": "Běijīng Kēxué Zhōngxīn yǔ Tàiguó hé Xīlà de bówùguǎn qiānshǔ le hézuò yìxiàngshū, jiāng gòngtóng kāifā kēxué jiàoyù xiàngmù.",
+       "en": "The Beijing Science Center signed letters of intent with museums in Thailand and Greece to develop science-education programmes together.",
+       "gloss": {
+        "kēxué": "science",
+        "zhōngxīn": "centre",
+        "yǔ": "with",
+        "tàiguó": "Thailand",
+        "xīlà": "Greece",
+        "bówùguǎn": "museums",
+        "qiānshǔ": "signed",
+        "hézuò": "cooperation",
+        "yìxiàngshū": "letter of intent",
+        "jiāng": "will",
+        "gòngtóng": "jointly",
+        "kāifā": "develop",
+        "jiàoyù": "education",
+        "xiàngmù": "programmes / projects"
+       },
+       "script": "北京科学中心与泰国和希腊的博物馆签署了合作意向书，将共同开发科学教育项目。"
+      }
      }
     }
    ],

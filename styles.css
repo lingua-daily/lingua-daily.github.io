@@ -241,3 +241,5 @@ footer{max-width:1260px;margin:0 auto 46px;padding:0 24px;color:var(--dim);
   .panelhead{flex-wrap:wrap}
   footer{padding:0 16px}
 }
+#newsBand:empty{display:none}
+#newsBand{margin-left:6px;text-transform:none;letter-spacing:.02em}

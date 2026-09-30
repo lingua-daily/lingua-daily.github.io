@@ -63,6 +63,18 @@ function dayDate(){
   return d;
 }
 
+
+/* Headlines come in three versions: A (A1–A2), B (B1–B2), C (C1–C2). Show the
+   one for the chosen level, falling back to the nearest band, then to the
+   single-version text older days carry. */
+function variant(item, level){
+  const L = item.levels;
+  if (!L) return item;
+  const order = { A: ['A', 'B', 'C'], B: ['B', 'A', 'C'], C: ['C', 'B', 'A'] }[level[0]] || ['B', 'A', 'C'];
+  for (const b of order) if (L[b]) return Object.assign({}, item, L[b], { band: b });
+  return item;
+}
+
 /* ---------- word glossing ---------- */
 const WORD = /[\p{L}\p{M}]+(?:[-'’][\p{L}\p{M}]+)*/gu;
 
@@ -158,6 +170,7 @@ function render(){
   ol.innerHTML = '';
   grid.innerHTML = '';
   if (!day){
+    document.getElementById('newsBand').textContent = '';
     ol.innerHTML = '<li class="empty">No lesson for this date yet — the morning task writes one each day.</li>';
     document.getElementById('quiz').innerHTML = '';
     document.getElementById('footNote').textContent = data.label + ' · nothing written for this date';
@@ -166,7 +179,11 @@ function render(){
   }
 
   // news
-  day.news.slice(0, n).forEach(item => {
+  const level = levelFor(lang);
+  // tell the reader which version of the headlines they're seeing
+  document.getElementById('newsBand').textContent =
+    day.news.some(it => it.levels) ? bandName[level[0]] : '';
+  day.news.slice(0, n).map(it => variant(it, level)).forEach(item => {
     const li = document.createElement('li');
 
     if (item.topic){
