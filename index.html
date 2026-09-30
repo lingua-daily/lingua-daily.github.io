@@ -4,87 +4,36 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Lingua — Daily Languages</title>
-<link rel="stylesheet" href="styles.css?v=202609292321">
 </head>
 <body>
-
-<header class="topbar">
-  <div class="brand">
-    <span class="mark">L</span>
-    <div>
-      <h1>Lingua</h1>
-      <p class="tag">Daily news &amp; vocab · tap any word</p>
-    </div>
-  </div>
-
-  <nav class="langtabs" id="langtabs" aria-label="Language"></nav>
-
-  <div class="topright">
-    <label class="levelpick">
-      <span>Level</span>
-      <select id="levelSel" aria-label="CEFR level"></select>
-    </label>
-    <div class="daynav">
-      <button id="prevDay" class="ghost" title="Previous day">‹</button>
-      <span id="dayLabel" class="daylabel">—</span>
-      <button id="nextDay" class="ghost" title="Next day">›</button>
-    </div>
-    <button id="soundBtn" class="ghost" title="Say words aloud when you tap them" hidden>🔇</button>
-    <button id="themeBtn" class="ghost" title="Light / dark">◐</button>
-  </div>
-</header>
-
-<main>
-  <section class="panel" id="newsPanel">
-    <div class="panelhead">
-      <h2>Today in the <span id="worldLabel">Spanish-speaking</span> world <span class="lvlchip" id="newsBand"></span></h2>
-      <button class="ghost small" id="revealNews">Reveal all English</button>
-    </div>
-    <div id="keybox"></div>
-    <ol class="news" id="news"></ol>
-    <div id="tipbox"></div>
-  </section>
-
-  <div class="side">
-    <section class="panel" id="vocabPanel">
-      <div class="panelhead">
-        <h2>Today's words</h2>
-        <button class="ghost small" id="revealVocab">Reveal all English</button>
-      </div>
-      <div class="vocabgrid" id="vocab"></div>
-    </section>
-
-    <section class="panel" id="quizPanel">
-      <div class="panelhead">
-        <h2>Quick check <span class="lvlchip" id="quizLevel"></span></h2>
-        <button class="ghost small" id="resetQuiz">Reset</button>
-      </div>
-      <div class="quiz" id="quiz"></div>
-    </section>
-  </div>
-</main>
-
-<footer><span id="footNote"></span></footer>
-
-<script src="content/languages.js?v=202609292321"></script>
-<script src="content/daily.js?v=202609292321"></script>
 <script>
-/* Load every language listed in content/languages.js, then start the app. */
+/* This page never changes. Everything else is fetched fresh, by version. */
 (function () {
-  var codes = window.LANGUAGES, left = codes.length;
-  window.CONTENT = window.CONTENT || {};
-  codes.forEach(function (code) {
-    var s = document.createElement('script');
-    s.src = 'content/' + code + '.js?v=202609292321';
-    s.onload = s.onerror = function () {
-      if (--left === 0) {
-        var a = document.createElement('script');
-        a.src = 'app.js?v=202609292321';
-        document.body.appendChild(a);
-      }
-    };
-    document.head.appendChild(s);
-  });
+  function load(src) {
+    return new Promise(function (done) {
+      var s = document.createElement('script');
+      s.src = src; s.onload = s.onerror = done;
+      document.head.appendChild(s);
+    });
+  }
+  fetch('version.json', { cache: 'no-store' })
+    .then(function (r) { return r.json(); })
+    .catch(function () { return { v: String(Date.now()) }; })
+    .then(function (ver) {
+      var q = '?v=' + ver.v;
+      var css = document.createElement('link');
+      css.rel = 'stylesheet'; css.href = 'styles.css' + q;
+      document.head.appendChild(css);
+      return load('layout.js' + q).then(function () {
+        document.body.insertAdjacentHTML('afterbegin', window.LINGUA_LAYOUT);
+        return load('content/languages.js' + q);
+      }).then(function () {
+        return load('content/daily.js' + q);
+      }).then(function () {
+        window.CONTENT = window.CONTENT || {};
+        return Promise.all(window.LANGUAGES.map(function (c) { return load('content/' + c + '.js' + q); }));
+      }).then(function () { return load('app.js' + q); });
+    });
 })();
 </script>
 </body>

@@ -116,14 +116,19 @@ function pickVoice(tag){
       || voices.find(v => norm(v).startsWith(base))
       || null;
 }
-function canSpeak(lang){ return !!pickVoice(LANG_TAG[lang]); }
+/* Show "listen" whenever the device can speak at all. If its voice list hasn't
+   loaded yet (common on iPhone), assume yes; the voice is chosen at tap time. */
+function canSpeak(lang){
+  if (!SPEECH) return false;
+  return speechSynthesis.getVoices().length === 0 || !!pickVoice(LANG_TAG[lang]);
+}
 function speak(text, lang, region){
-  const voice = pickVoice(speechTag(lang, region));
-  if (!voice || !text) return;
+  if (!SPEECH || !text) return;
+  const tag = speechTag(lang, region), voice = pickVoice(tag);
   speechSynthesis.cancel();
   const u = new SpeechSynthesisUtterance(text);
-  u.voice = voice;
-  u.lang = voice.lang;
+  if (voice){ u.voice = voice; u.lang = voice.lang; }
+  else u.lang = tag;                // let the device pick its own voice for the language
   u.rate = 0.9;                     // a touch slower than normal speech
   speechSynthesis.speak(u);
 }
