@@ -2846,6 +2846,1518 @@ var LINGUA_DAILY = {
     "culture": "It comes from the Hánfēizǐ, a 3rd-century-BC text: a farmer in the state of Song saw a rabbit run into a tree stump and die, so he gave up farming to wait for another one. None came. People still use it to tell someone to stop waiting for easy wins."
    }
   }
+ },
+ "2026-10-06": {
+  "es": {
+   "news": [
+    {
+     "topic": "Arte · Madrid",
+     "source": "https://www.timeout.es/madrid/es/noticias/este-precioso-museo-de-madrid-abre-tras-dos-anos-cerrado-con-nuevas-salas-y-una-espectacular-exposicion-090826",
+     "levels": {
+      "A": {
+       "text": "El Museo Sorolla de Madrid abre otra vez el 15 de octubre.",
+       "en": "Madrid's Sorolla Museum opens again on 15 October.",
+       "gloss": {
+        "museo": "museum",
+        "abre": "opens",
+        "otra": "other (otra vez = again)",
+        "vez": "time (otra vez = again)",
+        "octubre": "October"
+       }
+      },
+      "B": {
+       "text": "Tras casi dos años cerrado, el Museo Sorolla reabrirá el 15 de octubre con más de 2.000 metros cuadrados nuevos.",
+       "en": "After almost two years closed, the Sorolla Museum will reopen on 15 October with more than 2,000 new square metres.",
+       "gloss": {
+        "tras": "after",
+        "casi": "almost",
+        "dos": "two",
+        "años": "years",
+        "cerrado": "closed",
+        "museo": "museum",
+        "reabrirá": "will reopen",
+        "octubre": "October",
+        "más": "more",
+        "metros": "metres",
+        "cuadrados": "square",
+        "nuevos": "new"
+       }
+      },
+      "C": {
+       "text": "El Museo Sorolla reabre el 15 de octubre, tras casi dos años de obras, con una ampliación de Nieto Sobejano en el edificio contiguo de la calle Zurbano y una muestra sobre la arquitectura de la casa del pintor.",
+       "en": "The Sorolla Museum reopens on 15 October after almost two years of building work, with an extension by Nieto Sobejano in the adjoining building on Calle Zurbano and a show on the architecture of the painter's house.",
+       "gloss": {
+        "museo": "museum",
+        "reabre": "reopens",
+        "octubre": "October",
+        "tras": "after",
+        "casi": "almost",
+        "dos": "two",
+        "años": "years",
+        "obras": "building work",
+        "ampliación": "extension",
+        "nieto": "Nieto (architect)",
+        "sobejano": "Sobejano (architect)",
+        "edificio": "building",
+        "contiguo": "adjoining",
+        "calle": "street",
+        "zurbano": "Zurbano (street name)",
+        "muestra": "exhibition, show",
+        "sobre": "about",
+        "arquitectura": "architecture",
+        "casa": "house",
+        "pintor": "painter"
+       }
+      }
+     }
+    },
+    {
+     "topic": "Festivales · México",
+     "source": "https://www.mexicodesconocido.com.mx/festival-internacional-cervantino-2026.html",
+     "levels": {
+      "A": {
+       "text": "Guanajuato tiene un gran festival de arte hasta el 18 de octubre.",
+       "en": "Guanajuato has a big arts festival until 18 October.",
+       "gloss": {
+        "tiene": "has",
+        "gran": "big, great",
+        "festival": "festival",
+        "arte": "art",
+        "hasta": "until",
+        "octubre": "October"
+       }
+      },
+      "B": {
+       "text": "El Festival Cervantino reúne en Guanajuato a 2.746 artistas de 29 países, y este año Francia es el invitado de honor.",
+       "en": "The Cervantino Festival brings together 2,746 artists from 29 countries in Guanajuato, and this year France is the guest of honour.",
+       "gloss": {
+        "festival": "festival",
+        "cervantino": "Cervantine (named after Cervantes)",
+        "reúne": "brings together",
+        "artistas": "artists",
+        "países": "countries",
+        "este": "this",
+        "año": "year",
+        "francia": "France",
+        "invitado": "guest",
+        "honor": "honour"
+       }
+      },
+      "C": {
+       "text": "La edición número 54 del Festival Internacional Cervantino, que se celebra en Guanajuato hasta el 18 de octubre, tiene a Francia como invitada de honor por los doscientos años de relaciones diplomáticas con México.",
+       "en": "The 54th Cervantino International Festival, held in Guanajuato until 18 October, has France as its guest of honour to mark two hundred years of diplomatic relations with Mexico.",
+       "gloss": {
+        "edición": "edition",
+        "número": "number",
+        "festival": "festival",
+        "internacional": "international",
+        "cervantino": "Cervantine (named after Cervantes)",
+        "celebra": "is held (se celebra)",
+        "hasta": "until",
+        "octubre": "October",
+        "tiene": "has",
+        "francia": "France",
+        "invitada": "guest",
+        "honor": "honour",
+        "doscientos": "two hundred",
+        "años": "years",
+        "relaciones": "relations",
+        "diplomáticas": "diplomatic"
+       }
+      }
+     }
+    },
+    {
+     "topic": "Arqueología · Argentina",
+     "source": "https://www.heritagedaily.com/2026/10/archaeologists-to-investigate-possible-inca-ceremonial-geoglyph-in-the-andes/159491",
+     "levels": {
+      "A": {
+       "text": "Un montañista encuentra en Google Earth un posible sitio inca.",
+       "en": "A mountaineer finds a possible Inca site on Google Earth.",
+       "gloss": {
+        "montañista": "mountaineer",
+        "encuentra": "finds",
+        "posible": "possible",
+        "sitio": "site",
+        "inca": "Inca"
+       }
+      },
+      "B": {
+       "text": "En Mendoza, a 3.000 metros de altura, unos arqueólogos van a estudiar un posible geoglifo inca que un montañista vio en Google Earth.",
+       "en": "In Mendoza, at 3,000 metres, archaeologists are going to study a possible Inca geoglyph that a mountaineer spotted on Google Earth.",
+       "gloss": {
+        "metros": "metres",
+        "altura": "height, altitude",
+        "arqueólogos": "archaeologists",
+        "van": "are going",
+        "estudiar": "to study",
+        "posible": "possible",
+        "geoglifo": "geoglyph (a design laid out on the ground)",
+        "inca": "Inca",
+        "montañista": "mountaineer",
+        "vio": "saw"
+       }
+      },
+      "C": {
+       "text": "En la Cordillera del Tigre, en Mendoza, un equipo hispano-argentino estudiará con drones y fotogrametría unas estructuras de piedra a 3.000 metros que podrían formar un geoglifo ceremonial de época incaica.",
+       "en": "In the Cordillera del Tigre in Mendoza, a Spanish-Argentine team will use drones and photogrammetry to study stone structures at 3,000 metres that could form a ceremonial geoglyph from the Inca period.",
+       "gloss": {
+        "cordillera": "mountain range",
+        "tigre": "tiger",
+        "equipo": "team",
+        "hispano-argentino": "Spanish-Argentine",
+        "argentino": "Argentine",
+        "estudiará": "will study",
+        "drones": "drones",
+        "fotogrametría": "photogrammetry",
+        "estructuras": "structures",
+        "piedra": "stone",
+        "metros": "metres",
+        "podrían": "could",
+        "formar": "to form",
+        "geoglifo": "geoglyph",
+        "ceremonial": "ceremonial",
+        "época": "period, era",
+        "incaica": "Inca (adj.)"
+       }
+      }
+     }
+    }
+   ],
+   "vocab": [
+    {
+     "word": "quedar",
+     "pos": "verb",
+     "region": "España",
+     "ties": 1,
+     "meaning": "to arrange to meet, to meet up",
+     "note": "Spain. «¿Quedamos?» = shall we meet up? «Quedar con alguien» = to meet someone. Mexico says «quedar de verse» or just «nos vemos». Careful: «quedarse», with -se, means to stay. Regular -ar verb.",
+     "example": "¿Quedamos el sábado en el Museo Sorolla?",
+     "exampleEn": "Shall we meet up at the Sorolla Museum on Saturday?",
+     "exGloss": {
+      "quedamos": "shall we meet up",
+      "sábado": "Saturday",
+      "museo": "museum"
+     }
+    },
+    {
+     "word": "padre",
+     "pos": "adjective · slang",
+     "region": "México",
+     "ties": 2,
+     "meaning": "cool, great",
+     "note": "Mexico. «¡Qué padre!» = how cool! «Padrísimo» = awesome. As slang it doesn't change for gender: «una fiesta padre». Spain says «guay»; elsewhere «padre» just means father.",
+     "example": "¡Qué padre está el Cervantino este año!",
+     "exampleEn": "The Cervantino is so cool this year!",
+     "exGloss": {
+      "qué": "how",
+      "padre": "cool (Mex.)",
+      "está": "is",
+      "cervantino": "the Cervantino festival",
+      "este": "this",
+      "año": "year"
+     }
+    },
+    {
+     "word": "laburo",
+     "article": "el",
+     "pos": "noun · slang",
+     "region": "Argentina",
+     "ties": 3,
+     "meaning": "work, job",
+     "note": "Argentina and Uruguay, from Italian «lavoro». Verb: laburar. Spain says «el curro», Mexico «la chamba».",
+     "example": "Subir a 3.000 metros para medir piedras es mucho laburo.",
+     "exampleEn": "Climbing to 3,000 metres to measure stones is a lot of work.",
+     "exGloss": {
+      "subir": "to climb, go up",
+      "metros": "metres",
+      "medir": "to measure",
+      "piedras": "stones",
+      "mucho": "a lot of",
+      "laburo": "work (Arg.)"
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "level": "A1",
+     "ref": "news1",
+     "q": "“El Museo Sorolla de Madrid abre otra vez el 15 de octubre.” What does «abre» mean?",
+     "options": [
+      "closes",
+      "opens",
+      "sells",
+      "builds"
+     ],
+     "answer": 1,
+     "why": "«Abre» comes from «abrir», to open: the museum opens again.",
+     "lesson": "The story is about a museum that was closed, so 'closes' feels natural. The verb for closing is «cerrar». Link «abrir» to English 'aperture', an opening."
+    },
+    {
+     "level": "A2",
+     "ref": "vocab2",
+     "q": "“¡Qué padre está el Cervantino este año!” What does «padre» mean here?",
+     "options": [
+      "father",
+      "boring",
+      "cool, great",
+      "far away"
+     ],
+     "answer": 2,
+     "why": "In Mexico, «padre» after «qué» is praise: how cool!",
+     "lesson": "'Father' is the textbook meaning, so it pulls hard. But a festival can't be a father; after «¡Qué…!» in Mexico, «padre» is slang for great."
+    },
+    {
+     "level": "B1",
+     "ref": "news2",
+     "q": "En «Francia es el invitado de honor», ¿qué significa «invitado»?",
+     "options": [
+      "huésped de un hotel",
+      "artista francés",
+      "premio",
+      "persona o país al que se invita"
+     ],
+     "answer": 3,
+     "why": "«Invitado» es quien recibe una invitación; el «invitado de honor» es el más destacado.",
+     "lesson": "En inglés 'guest' sirve para las dos cosas, por eso tienta «huésped». En español el «huésped» se aloja en un hotel o en una casa; el «invitado» viene porque lo han invitado."
+    },
+    {
+     "level": "B2",
+     "ref": "vocab1",
+     "q": "«¿Quedamos el sábado en el Museo Sorolla?»: ¿qué propone el hablante?",
+     "options": [
+      "Quedarse en casa el sábado",
+      "Verse con alguien el sábado",
+      "Que el museo siga abierto",
+      "Ir al museo solo"
+     ],
+     "answer": 1,
+     "why": "Sin «se», «quedar» significa citarse: «¿quedamos?» = ¿nos vemos?",
+     "lesson": "«Quedarse» (con «se») significa permanecer, y de ahí sale la trampa de «quedarse en casa». Fíjate en el pronombre: sin «se», es una cita."
+    },
+    {
+     "level": "C1",
+     "ref": "news3",
+     "q": "«Unas estructuras de piedra que podrían formar un geoglifo»: ¿por qué el condicional «podrían»?",
+     "options": [
+      "Expresa una hipótesis aún no confirmada",
+      "Indica una acción pasada",
+      "Es una fórmula de cortesía",
+      "Expresa una obligación"
+     ],
+     "answer": 0,
+     "why": "En prensa, el condicional marca prudencia: los investigadores todavía no han verificado que sea un geoglifo.",
+     "lesson": "El condicional se aprende con la cortesía («¿podrían ayudarme?»), y por eso tienta. Aquí nadie pide nada: el periodista se distancia de una hipótesis."
+    },
+    {
+     "level": "C2",
+     "ref": "news1",
+     "q": "«En el edificio contiguo de la calle Zurbano»: ¿qué significa «contiguo»?",
+     "options": [
+      "antiguo",
+      "contemporáneo",
+      "situado justo al lado",
+      "en la planta de arriba"
+     ],
+     "answer": 2,
+     "why": "«Contiguo» es lo que está pegado a otra cosa: el nuevo espacio está en el edificio de al lado.",
+     "lesson": "Rima con «antiguo» y la casa es de principios del siglo XX, así que la trampa es fácil. Pero «contiguo» habla de posición, no de edad: comparte pared o linde."
+    }
+   ],
+   "tip": {
+    "title": "Estar for impressions",
+    "text": "In «¡Qué padre está el Cervantino!», estar isn't about a temporary state but about how the thing strikes the speaker right now. «El festival es padre» states a fact; «está padre» reports the experience. Mexico leans on this constantly («está bien padre», «estuvo increíble»), and Spain does too with food: «¡qué rico está el jamón!»."
+   },
+   "fun": {
+    "kind": "saying",
+    "region": "México",
+    "text": "Camarón que se duerme, se lo lleva la corriente.",
+    "gloss": {
+     "camarón": "shrimp",
+     "duerme": "falls asleep",
+     "lleva": "carries off",
+     "corriente": "current"
+    },
+    "literal": "The shrimp that falls asleep gets carried off by the current.",
+    "meaning": "If you snooze, you lose: stay alert or you'll miss your chance.",
+    "culture": "Mexican parents and grandparents say it to get children out of bed or to push someone to grab an opportunity. It's heard across Latin America, but the coastal image of shrimp in a river current is especially at home in Mexico, where «camarones» are everyday food from Sinaloa to Veracruz."
+   }
+  },
+  "de": {
+   "news": [
+    {
+     "topic": "Archäologie · München",
+     "source": "https://www.sonntagsblatt.de/artikel/ausstellung-zeigt-stonehenge-und-seine-menschen",
+     "levels": {
+      "A": {
+       "text": "In München zeigt ein Museum alte Dinge aus Stonehenge.",
+       "en": "In Munich, a museum is showing old things from Stonehenge.",
+       "gloss": {
+        "zeigt": "shows",
+        "museum": "museum",
+        "alte": "old",
+        "dinge": "things"
+       }
+      },
+      "B": {
+       "text": "Seit dem 18. September zeigt die Archäologische Staatssammlung in München rund 600 Objekte rund um Stonehenge.",
+       "en": "Since 18 September, the Archaeological State Collection in Munich has been showing around 600 objects about Stonehenge.",
+       "gloss": {
+        "seit": "since",
+        "september": "September",
+        "zeigt": "shows",
+        "archäologische": "archaeological",
+        "staatssammlung": "state collection",
+        "rund": "around (rund um = all about)",
+        "objekte": "objects"
+       }
+      },
+      "C": {
+       "text": "Erstmals in Mitteleuropa zeigt die Archäologische Staatssammlung in München die Stonehenge-Schau mit rund 600 Objekten, darunter Originale aus Salisbury, Schweineknochen aus der Jungsteinzeit und Gefäße der Glockenbecherkultur.",
+       "en": "For the first time in Central Europe, Munich's Archaeological State Collection is showing the Stonehenge exhibition, with around 600 objects including originals from Salisbury, Neolithic pig bones and Bell Beaker vessels.",
+       "gloss": {
+        "erstmals": "for the first time",
+        "mitteleuropa": "Central Europe",
+        "zeigt": "shows",
+        "archäologische": "archaeological",
+        "staatssammlung": "state collection",
+        "stonehenge-schau": "Stonehenge exhibition",
+        "schau": "show, exhibition",
+        "rund": "around",
+        "objekten": "objects (dative)",
+        "darunter": "among them",
+        "originale": "originals",
+        "schweineknochen": "pig bones",
+        "jungsteinzeit": "Neolithic (lit. young Stone Age)",
+        "gefäße": "vessels",
+        "glockenbecherkultur": "Bell Beaker culture"
+       }
+      }
+     }
+    },
+    {
+     "topic": "Kultur · Regensburg",
+     "source": "https://www.regensburger-nachrichten.de/kultur-und-szene/100261-die-lange-nacht-der-museen-regensburg-geht-in-die-zweite-runde",
+     "levels": {
+      "A": {
+       "text": "Am Samstag sind die Museen in Regensburg bis ein Uhr nachts offen.",
+       "en": "On Saturday, the museums in Regensburg are open until one in the morning.",
+       "gloss": {
+        "samstag": "Saturday",
+        "museen": "museums",
+        "bis": "until",
+        "uhr": "o'clock",
+        "nachts": "at night",
+        "offen": "open"
+       }
+      },
+      "B": {
+       "text": "Bei der zweiten Langen Nacht der Museen öffnen am 10. Oktober Museen, Kirchen und Galerien in Regensburg mit einem Ticket für 20 Euro.",
+       "en": "For the second Long Night of Museums, museums, churches and galleries in Regensburg open on 10 October with one ticket for 20 euros.",
+       "gloss": {
+        "zweiten": "second",
+        "langen": "long",
+        "nacht": "night",
+        "museen": "museums",
+        "öffnen": "open",
+        "oktober": "October",
+        "kirchen": "churches",
+        "galerien": "galleries",
+        "ticket": "ticket",
+        "euro": "euros"
+       }
+      },
+      "C": {
+       "text": "Zur zweiten Auflage der Langen Nacht der Museen öffnen am Samstag von 18 bis 1 Uhr Museen, Kirchen und Ateliers in Regensburg, darunter elf neue Kulturorte, verbunden durch Shuttlebusse.",
+       "en": "For the second edition of the Long Night of Museums, museums, churches and studios in Regensburg open on Saturday from 6 pm to 1 am, including eleven new cultural venues, linked by shuttle buses.",
+       "gloss": {
+        "zweiten": "second",
+        "auflage": "edition",
+        "langen": "long",
+        "nacht": "night",
+        "museen": "museums",
+        "öffnen": "open",
+        "samstag": "Saturday",
+        "bis": "until",
+        "uhr": "o'clock",
+        "kirchen": "churches",
+        "ateliers": "studios",
+        "darunter": "among them",
+        "elf": "eleven",
+        "neue": "new",
+        "kulturorte": "cultural venues",
+        "verbunden": "connected",
+        "shuttlebusse": "shuttle buses"
+       }
+      }
+     }
+    },
+    {
+     "topic": "Archäologie · Sachsen-Anhalt",
+     "source": "https://www.archaeologie-online.de/nachrichten/reste-von-ueber-10-000-jahre-alten-mittelsteinzeitlichen-holzkonstruktionen-im-arendsee-gefunden-676/",
+     "levels": {
+      "A": {
+       "text": "In einem See finden Taucher sehr altes Holz.",
+       "en": "In a lake, divers find very old wood.",
+       "gloss": {
+        "see": "lake",
+        "finden": "find",
+        "taucher": "divers",
+        "sehr": "very",
+        "altes": "old",
+        "holz": "wood"
+       }
+      },
+      "B": {
+       "text": "Im Arendsee in Sachsen-Anhalt haben Archäologen in 20 Metern Tiefe bis zu 10.500 Jahre alte Hölzer gefunden.",
+       "en": "In Lake Arendsee in Saxony-Anhalt, archaeologists have found pieces of wood up to 10,500 years old at a depth of 20 metres.",
+       "gloss": {
+        "sachsen-anhalt": "Saxony-Anhalt",
+        "archäologen": "archaeologists",
+        "metern": "metres (dative)",
+        "tiefe": "depth",
+        "bis": "up to (bis zu)",
+        "jahre": "years",
+        "alte": "old",
+        "hölzer": "pieces of wood",
+        "gefunden": "found"
+       }
+      },
+      "C": {
+       "text": "Unterwasserarchäologen haben im Arendsee in rund 20 Metern Tiefe bis zu 10.500 Jahre alte, bearbeitete Hölzer aus der Mittelsteinzeit entdeckt; sauerstoffarmes Wasser über einem Salzstock hat sie außergewöhnlich gut erhalten.",
+       "en": "Underwater archaeologists have discovered worked pieces of Mesolithic wood up to 10,500 years old at a depth of around 20 metres in Lake Arendsee; low-oxygen water above a salt dome has preserved them exceptionally well.",
+       "gloss": {
+        "unterwasserarchäologen": "underwater archaeologists",
+        "rund": "around",
+        "metern": "metres (dative)",
+        "tiefe": "depth",
+        "bis": "up to (bis zu)",
+        "jahre": "years",
+        "alte": "old",
+        "bearbeitete": "worked (by human hands)",
+        "hölzer": "pieces of wood",
+        "mittelsteinzeit": "Mesolithic (Middle Stone Age)",
+        "entdeckt": "discovered",
+        "sauerstoffarmes": "low-oxygen",
+        "wasser": "water",
+        "salzstock": "salt dome",
+        "außergewöhnlich": "exceptionally",
+        "gut": "well",
+        "erhalten": "preserved"
+       }
+      }
+     }
+    }
+   ],
+   "vocab": [
+    {
+     "word": "Hammer",
+     "article": "der",
+     "pos": "noun · slang",
+     "region": "general",
+     "ties": 1,
+     "meaning": "amazing (lit. the hammer)",
+     "note": "Colloquial all over Germany: «Das ist der Hammer!» = that's amazing. With a different tone it can mean outrageous. Bavarians may also say «a Wahnsinn».",
+     "example": "Die Stonehenge-Ausstellung ist echt der Hammer!",
+     "exampleEn": "The Stonehenge exhibition is seriously amazing!",
+     "exGloss": {
+      "stonehenge-ausstellung": "Stonehenge exhibition",
+      "ausstellung": "exhibition",
+      "echt": "really",
+      "hammer": "amazing (slang)"
+     }
+    },
+    {
+     "word": "Gaudi",
+     "article": "die",
+     "pos": "noun · dialect",
+     "region": "Bayern · Österreich",
+     "ties": 2,
+     "meaning": "fun, a good laugh",
+     "note": "Bavarian and Austrian: «Des is a Gaudi!» = this is great fun. Standard German says «der Spaß». Nothing to do with the architect Gaudí, though it's said the same way.",
+     "example": "Die Lange Nacht war a richtige Gaudi.",
+     "exampleEn": "The Long Night was real fun.",
+     "exGloss": {
+      "lange": "long",
+      "nacht": "night",
+      "war": "was",
+      "a": "a (Bav. «eine»)",
+      "richtige": "real, proper",
+      "gaudi": "fun (Bav.)"
+     }
+    },
+    {
+     "word": "baden gehen",
+     "pos": "verb phrase · idiom",
+     "region": "general",
+     "ties": 3,
+     "meaning": "to go for a swim (outdoors); colloquially: to flop, to come a cropper",
+     "note": "«Im See baden gehen» = to go swimming in the lake. Figuratively, «Damit gehst du baden» = that'll go wrong for you. «Gehen» is irregular: ging, ist gegangen.",
+     "example": "Im Sommer gehen wir im Arendsee baden.",
+     "exampleEn": "In summer we go swimming in Lake Arendsee.",
+     "exGloss": {
+      "sommer": "summer",
+      "gehen": "go",
+      "arendsee": "Lake Arendsee",
+      "baden": "to bathe, swim"
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "level": "A1",
+     "ref": "news2",
+     "q": "“Am Samstag sind die Museen bis ein Uhr nachts offen.” Which word means “open”?",
+     "options": [
+      "oft",
+      "offen",
+      "Ofen",
+      "oben"
+     ],
+     "answer": 1,
+     "why": "«Offen» = open. «Oft» is often, «Ofen» oven, «oben» above.",
+     "lesson": "«Ofen» looks almost the same, but German capitalises every noun. A lowercase «offen» after «sind» can't be a noun: it's describing the museums."
+    },
+    {
+     "level": "A2",
+     "ref": "vocab2",
+     "q": "“Die Lange Nacht war a richtige Gaudi.” What was the night like?",
+     "options": [
+      "boring",
+      "too long",
+      "very expensive",
+      "great fun"
+     ],
+     "answer": 3,
+     "why": "«Gaudi» is Bavarian for fun; «a richtige Gaudi» = real fun.",
+     "lesson": "«Lange» (long) sits right there, so 'too long' tempts. But «Lange Nacht» is just the event's name; the verdict is in the last word."
+    },
+    {
+     "level": "B1",
+     "ref": "news3",
+     "q": "Ergänze: Archäologen haben im Arendsee alte Hölzer ___.",
+     "options": [
+      "finden",
+      "fanden",
+      "gefunden",
+      "gefindet"
+     ],
+     "answer": 2,
+     "why": "Perfekt = «haben» + Partizip II. «Finden» ist ein starkes Verb: finden – fand – gefunden.",
+     "lesson": "«Gefindet» folgt dem Muster der schwachen Verben (ge-…-t, wie «gesucht»). Starke Verben wechseln den Vokal und enden auf -en: gefunden, getrunken, gesungen."
+    },
+    {
+     "level": "B2",
+     "ref": "vocab3",
+     "q": "«Mit diesem Plan gehst du baden»: Was bedeutet das?",
+     "options": [
+      "Du gehst schwimmen",
+      "Der Plan wird scheitern",
+      "Du wirst nass",
+      "Der Plan ist entspannend"
+     ],
+     "answer": 1,
+     "why": "Im übertragenen Sinn heißt «baden gehen» scheitern oder einen Reinfall erleben.",
+     "lesson": "Die wörtliche Bedeutung ist im Beispielsatz zum Arendsee richtig, deshalb lockt «schwimmen». Aber ein Plan kann nicht schwimmen: Wenn das Subjekt nicht ins Wasser kann, ist es die Redewendung."
+    },
+    {
+     "level": "C1",
+     "ref": "news1",
+     "q": "«Schweineknochen aus der Jungsteinzeit»: Welche Epoche ist gemeint?",
+     "options": [
+      "Das Neolithikum",
+      "Die Altsteinzeit",
+      "Die Bronzezeit",
+      "Die frühe Neuzeit"
+     ],
+     "answer": 0,
+     "why": "Die Jungsteinzeit ist das Neolithikum, die Zeit der ersten Bauern, die Stonehenge errichteten.",
+     "lesson": "«Jung» klingt nach 'kürzlich', aber gemeint ist die jüngste, also letzte Phase der Steinzeit. Die Reihenfolge: Altsteinzeit, Mittelsteinzeit (wie die Hölzer im Arendsee), Jungsteinzeit."
+    },
+    {
+     "level": "C2",
+     "ref": "news3",
+     "q": "«Bis zu 10.500 Jahre alte, bearbeitete Hölzer»: Warum steht ein Komma zwischen «alte» und «bearbeitete»?",
+     "options": [
+      "Weil ein Relativsatz folgt",
+      "Weil Zahlenangaben ein Komma verlangen",
+      "Das Komma ist ein Fehler",
+      "Weil die Adjektive gleichrangig sind"
+     ],
+     "answer": 3,
+     "why": "Beide Attribute beschreiben die Hölzer gleichrangig; man könnte «und» einsetzen: alte und bearbeitete Hölzer.",
+     "lesson": "Bei «alte römische Münzen» steht kein Komma, weil «alte» die Einheit «römische Münzen» näher bestimmt. Der Test: Passt «und» dazwischen, ohne dass sich der Sinn verschiebt, braucht es ein Komma."
+    }
+   ],
+   "tip": {
+    "title": "Gehen + bare infinitive",
+    "text": "«Wir gehen im Arendsee baden»: gehen takes a bare infinitive, with no «zu», and the infinitive moves to the end of the clause. Likewise «essen gehen», «einkaufen gehen», «spazieren gehen». A handful of verbs work the same way: bleiben, lassen, sehen, hören, lernen. In the perfect, gehen keeps «sein»: «wir sind baden gegangen»."
+   },
+   "fun": {
+    "kind": "joke",
+    "region": "Deutschland",
+    "text": "Was ist grün und klopft an die Tür? Ein Klopfsalat.",
+    "gloss": {
+     "was": "what",
+     "grün": "green",
+     "klopft": "knocks",
+     "tür": "door",
+     "klopfsalat": "knock-lettuce (pun on «Kopfsalat»)"
+    },
+    "literal": "What is green and knocks on the door? A knock-lettuce.",
+    "meaning": "«Kopfsalat» is an ordinary head of lettuce. Slip in an l and «Kopf» (head) becomes «Klopf» (knock), so the lettuce is now knocking.",
+    "culture": "«Was ist grün und…?» riddles are a staple of German children's jokes. Germans call this kind of groaner a «Flachwitz», a flat joke, and telling one deadpan is half the fun."
+   }
+  },
+  "it": {
+   "news": [
+    {
+     "topic": "Archeologia · Sardegna",
+     "source": "https://www.cagliaripad.it/678782/ovodda-straordinario-ritrovamento-archeologico-la-soprintendenza-a-lavoro/",
+     "levels": {
+      "A": {
+       "text": "In Sardegna trovano due grandi pietre con cerchi.",
+       "en": "In Sardinia they find two large stones with circles.",
+       "gloss": {
+        "trovano": "they find",
+        "due": "two",
+        "grandi": "large, big",
+        "pietre": "stones",
+        "cerchi": "circles"
+       }
+      },
+      "B": {
+       "text": "A Ovodda, in Sardegna, la Soprintendenza ha recuperato due grandi pietre incise con archi concentrici, forse del IV millennio avanti Cristo.",
+       "en": "At Ovodda in Sardinia, the heritage authority has recovered two large stones carved with concentric arcs, perhaps from the 4th millennium BC.",
+       "gloss": {
+        "soprintendenza": "heritage authority",
+        "recuperato": "recovered",
+        "due": "two",
+        "grandi": "large",
+        "pietre": "stones",
+        "incise": "engraved, carved",
+        "archi": "arcs",
+        "concentrici": "concentric",
+        "forse": "perhaps",
+        "iv": "4th",
+        "millennio": "millennium",
+        "avanti": "before",
+        "cristo": "Christ"
+       }
+      },
+      "C": {
+       "text": "Nelle campagne di Ovodda, in Barbagia, la Soprintendenza ha recuperato due grandi pietre incise con archi concentrici attorno a un cerchio centrale, forse risalenti almeno al IV millennio avanti Cristo e legate a riti o confini.",
+       "en": "In the countryside around Ovodda, in Barbagia, the heritage authority has recovered two large stones carved with concentric arcs around a central circle, perhaps dating back at least to the 4th millennium BC and linked to rites or boundaries.",
+       "gloss": {
+        "nelle": "in the",
+        "campagne": "countryside",
+        "barbagia": "Barbagia (mountain region of Sardinia)",
+        "soprintendenza": "heritage authority",
+        "recuperato": "recovered",
+        "due": "two",
+        "grandi": "large",
+        "pietre": "stones",
+        "incise": "engraved, carved",
+        "archi": "arcs",
+        "concentrici": "concentric",
+        "attorno": "around",
+        "cerchio": "circle",
+        "centrale": "central",
+        "forse": "perhaps",
+        "risalenti": "dating back",
+        "almeno": "at least",
+        "iv": "4th",
+        "millennio": "millennium",
+        "avanti": "before",
+        "cristo": "Christ",
+        "legate": "linked",
+        "riti": "rites",
+        "confini": "boundaries"
+       }
+      }
+     }
+    },
+    {
+     "topic": "Arte · Roma",
+     "source": "https://www.artribune.com/arti-visive/2026/09/grandi-mostre-autunno-2026/",
+     "levels": {
+      "A": {
+       "text": "A Roma apre una grande mostra su Pontormo, un pittore del Cinquecento.",
+       "en": "In Rome, a big exhibition opens on Pontormo, a 16th-century painter.",
+       "gloss": {
+        "apre": "opens",
+        "grande": "big",
+        "mostra": "exhibition",
+        "pittore": "painter",
+        "cinquecento": "the 1500s (16th century)"
+       }
+      },
+      "B": {
+       "text": "Da giovedì le Scuderie del Quirinale di Roma dedicano una grande mostra a Pontormo, pittore fiorentino del Cinquecento.",
+       "en": "From Thursday, the Scuderie del Quirinale in Rome devotes a major exhibition to Pontormo, a 16th-century Florentine painter.",
+       "gloss": {
+        "giovedì": "Thursday",
+        "scuderie": "stables",
+        "quirinale": "Quirinal (hill and palace in Rome)",
+        "dedicano": "devote, dedicate",
+        "grande": "big, major",
+        "mostra": "exhibition",
+        "pittore": "painter",
+        "fiorentino": "Florentine",
+        "cinquecento": "the 1500s (16th century)"
+       }
+      },
+      "C": {
+       "text": "Alle Scuderie del Quirinale apre giovedì 8 ottobre una monografica su Jacopo Carucci, detto il Pontormo, che mette in luce l'anticonformismo, la drammaticità dei volumi e l'uso visionario del colore del maestro del Manierismo.",
+       "en": "On Thursday 8 October a monographic show opens at the Scuderie del Quirinale on Jacopo Carucci, known as Pontormo, highlighting the nonconformism, dramatic volumes and visionary use of colour of the Mannerist master.",
+       "gloss": {
+        "alle": "at the",
+        "scuderie": "stables",
+        "quirinale": "Quirinal",
+        "apre": "opens",
+        "giovedì": "Thursday",
+        "ottobre": "October",
+        "monografica": "single-artist exhibition",
+        "detto": "known as",
+        "mette": "puts (mettere in luce = to highlight)",
+        "luce": "light",
+        "anticonformismo": "nonconformism",
+        "drammaticità": "drama",
+        "volumi": "volumes",
+        "uso": "use",
+        "visionario": "visionary",
+        "colore": "colour",
+        "maestro": "master",
+        "manierismo": "Mannerism"
+       }
+      }
+     }
+    }
+   ],
+   "vocab": [
+    {
+     "word": "che roba!",
+     "pos": "interjection",
+     "region": "general",
+     "ties": 1,
+     "meaning": "wow! what a thing!",
+     "note": "Literally 'what stuff!'. Said in wonder or disbelief, depending on tone. «Roba» alone means stuff, things: «Quanta roba!» = so much stuff!",
+     "example": "Pietre così antiche? Che roba!",
+     "exampleEn": "Stones that old? Wow!",
+     "exGloss": {
+      "pietre": "stones",
+      "così": "so",
+      "antiche": "ancient, old",
+      "roba": "stuff"
+     }
+    },
+    {
+     "word": "fare la fila",
+     "pos": "verb phrase",
+     "region": "general",
+     "ties": 2,
+     "meaning": "to queue, to wait in line",
+     "note": "«La fila» = the line, the queue. Many people, especially in the north, say «fare la coda». «Saltare la fila» = to jump the queue, and museums sell «biglietti saltafila», skip-the-line tickets.",
+     "example": "Per la mostra di Pontormo abbiamo fatto la fila per un'ora.",
+     "exampleEn": "We queued for an hour for the Pontormo exhibition.",
+     "exGloss": {
+      "mostra": "exhibition",
+      "abbiamo": "we have",
+      "fatto": "done, made",
+      "fila": "queue",
+      "un'ora": "an hour",
+      "ora": "hour"
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "level": "A1",
+     "ref": "news1",
+     "q": "“In Sardegna trovano due grandi pietre con cerchi.” Which word means “stones”?",
+     "options": [
+      "piante",
+      "pietre",
+      "porte",
+      "piazze"
+     ],
+     "answer": 1,
+     "why": "«Pietre» = stones (singular «pietra»). «Piante» are plants, «porte» doors, «piazze» squares.",
+     "lesson": "All four are feminine plurals ending in -e, so the ending won't help. Think of the name Peter, 'rock': «Pietro», «pietra»."
+    },
+    {
+     "level": "A2",
+     "ref": "vocab2",
+     "q": "“Abbiamo fatto la fila per un'ora.” What did they do for an hour?",
+     "options": [
+      "They waited in a queue",
+      "They filed papers",
+      "They ate lunch",
+      "They painted"
+     ],
+     "answer": 0,
+     "why": "«Fare la fila» = to queue. «Fila» means line.",
+     "lesson": "«Fila» looks like English 'file', so paperwork tempts. Think of 'single file': people standing in a line."
+    },
+    {
+     "level": "B1",
+     "ref": "news2",
+     "q": "«Pontormo, pittore fiorentino del Cinquecento»: che secolo è il Cinquecento?",
+     "options": [
+      "il V secolo",
+      "il XV secolo",
+      "il XVI secolo",
+      "il L secolo"
+     ],
+     "answer": 2,
+     "why": "Il Cinquecento sono gli anni 1500: il XVI secolo.",
+     "lesson": "«Cinque» fa pensare al XV, ma l'italiano nomina i secoli dalle centinaia (millecinquecento), mentre la numerazione ordinale aggiunge uno. Quattrocento = XV, Cinquecento = XVI."
+    },
+    {
+     "level": "B2",
+     "ref": "vocab1",
+     "q": "«Pietre così antiche? Che roba!»: che cosa esprime «che roba!»?",
+     "options": [
+      "Disgusto per la sporcizia",
+      "Una domanda sul prezzo",
+      "Un ordine",
+      "Stupore, meraviglia"
+     ],
+     "answer": 3,
+     "why": "Detto da solo dopo una notizia sorprendente, «che roba!» esprime stupore.",
+     "lesson": "«Roba» può essere negativa («che roba schifosa!»), per questo il disgusto tenta. Senza aggettivo, e dopo una domanda stupita, è meraviglia."
+    },
+    {
+     "level": "C1",
+     "ref": "news1",
+     "q": "«Pietre … forse risalenti almeno al IV millennio»: che forma è «risalenti»?",
+     "options": [
+      "participio presente con valore di aggettivo",
+      "gerundio",
+      "infinito",
+      "participio passato"
+     ],
+     "answer": 0,
+     "why": "«Risalente» è il participio presente di «risalire»: concorda con «pietre» (plurale) e vale «che risalgono».",
+     "lesson": "Il gerundio sarebbe «risalendo», invariabile. La desinenza -ente/-enti e l'accordo al plurale tradiscono il participio presente, frequentissimo nella prosa giornalistica."
+    },
+    {
+     "level": "C2",
+     "ref": "news2",
+     "q": "«Jacopo Carucci, detto il Pontormo»: perché l'articolo davanti a «Pontormo»?",
+     "options": [
+      "È un errore",
+      "Con i soprannomi d'artista l'articolo è tradizionale",
+      "Indica che si tratta di un luogo",
+      "È un uso solo dialettale"
+     ],
+     "answer": 1,
+     "why": "I soprannomi con cui sono noti molti pittori prendono spesso l'articolo: il Pontormo, il Perugino, il Caravaggio.",
+     "lesson": "In italiano standard i cognomi di uomini non vogliono l'articolo, e per questo sembra un errore. I soprannomi d'artista, però, funzionano quasi come nomi comuni e lo conservano."
+    }
+   ],
+   "tip": {
+    "title": "Adjectives in -e",
+    "text": "Some adjectives end in -e and use the same form for masculine and feminine: «grande». Their plural ends in -i, so headline 1 has «due grandi pietre» at every level. Compare the noun «pietra» → «pietre»: -a words take -e in the plural, so the -e of «grande» doesn't mean feminine."
+   },
+   "fun": {
+    "kind": "idiom",
+    "region": "general",
+    "text": "Essere al verde.",
+    "gloss": {
+     "essere": "to be",
+     "verde": "green"
+    },
+    "literal": "To be at the green.",
+    "meaning": "To be broke, out of money.",
+    "culture": "A popular explanation goes back to old candles whose base was painted green: when the flame burned down to the green, time (or the auction) was up. Italians use it all the time, usually with a smile: «Sono al verde fino a fine mese», I'm broke till the end of the month."
+   }
+  },
+  "ar": {
+   "news": [
+    {
+     "topic": "Athar · al-Iskandariyya",
+     "source": "https://tourismdailynews.com/2026/10/06/%D8%AE%D8%A7%D8%AA%D9%85-%D8%A3%D8%AB%D8%B1%D9%8A-%D9%8A%D8%AC%D8%B3%D8%AF-%D9%81%D9%86%D8%A7%D8%B1-%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9-%D9%88%D8%A7%D9%83%D8%AA%D8%B4%D8%A7%D9%81%D8%A7/",
+     "levels": {
+      "A": {
+       "text": "Fi al-Iskandariyya, khaatam qadiim alayhi suurat al-fanaar.",
+       "script": "في الإسكندرية، خاتم قديم عليه صورة الفنار.",
+       "en": "In Alexandria, an old ring has a picture of the lighthouse on it.",
+       "gloss": {
+        "fi": "in",
+        "al-iskandariyya": "Alexandria",
+        "khaatam": "ring",
+        "qadiim": "old",
+        "alayhi": "on it",
+        "suurat": "picture (of)",
+        "al-fanaar": "the lighthouse"
+       }
+      },
+      "B": {
+       "text": "Wajadat ba'tha fi al-miinaa al-sharqii bi-al-Iskandariyya khaataman burunziyyan alayhi suurat fanaar al-Iskandariyya.",
+       "script": "وجدت بعثة في الميناء الشرقي بالإسكندرية خاتمًا برونزيًا عليه صورة فنار الإسكندرية.",
+       "en": "A mission in Alexandria's Eastern Harbour found a bronze ring with a picture of the Alexandria lighthouse on it.",
+       "gloss": {
+        "wajadat": "found (f.)",
+        "ba'tha": "mission",
+        "fi": "in",
+        "al-miinaa": "the harbour",
+        "al-sharqii": "the eastern",
+        "bi-al-iskandariyya": "in Alexandria",
+        "khaataman": "a ring",
+        "burunziyyan": "bronze (adj.)",
+        "alayhi": "on it",
+        "suurat": "picture (of)",
+        "fanaar": "lighthouse (of)",
+        "al-iskandariyya": "Alexandria"
+       }
+      },
+      "C": {
+       "text": "Kashafat ba'tha lil-athaar al-ghaariqa fi jaziirat Antirhoodos bi-al-miinaa al-sharqii an khaatam burunzii yahmilu suurat fanaar al-Iskandariyya, wa-hiya al-marra al-uulaa allatii yazharu fiihaa al-fanaar alaa khaatam.",
+       "script": "كشفت بعثة للآثار الغارقة في جزيرة أنتيرودس بالميناء الشرقي عن خاتم برونزي يحمل صورة فنار الإسكندرية، وهي المرة الأولى التي يظهر فيها الفنار على خاتم.",
+       "en": "A submerged-antiquities mission on Antirhodos island in the Eastern Harbour has uncovered a bronze ring bearing an image of the Pharos of Alexandria, the first time the lighthouse has appeared on a ring.",
+       "gloss": {
+        "kashafat": "uncovered (f.)",
+        "ba'tha": "mission",
+        "lil-athaar": "for antiquities",
+        "al-ghaariqa": "the submerged",
+        "fi": "in, on",
+        "jaziirat": "island (of)",
+        "antirhoodos": "Antirhodos (sunken royal island)",
+        "bi-al-miinaa": "in the harbour",
+        "al-sharqii": "the eastern",
+        "an": "(kashafa an = to uncover)",
+        "khaatam": "ring",
+        "burunzii": "bronze (adj.)",
+        "yahmilu": "bears, carries",
+        "suurat": "picture, image (of)",
+        "fanaar": "lighthouse (of)",
+        "al-iskandariyya": "Alexandria",
+        "wa-hiya": "and it is",
+        "al-marra": "the time",
+        "al-uulaa": "the first",
+        "allatii": "which, that",
+        "yazharu": "appears",
+        "fiihaa": "in it (in which)",
+        "al-fanaar": "the lighthouse",
+        "alaa": "on"
+       }
+      }
+     }
+    },
+    {
+     "topic": "Fann · Lubnaan",
+     "source": "https://www.med-or.org/en/news/med-or-partecipa-allinaugurazione-della-mostra-echoes-of-existence-presso-il-museo-nazionale-di-beirut",
+     "levels": {
+      "A": {
+       "text": "Fi Bayruut, ma'rad fannii an shajarat al-sanawbar.",
+       "script": "في بيروت، معرض فني عن شجرة الصنوبر.",
+       "en": "In Beirut, an art exhibition about the pine tree.",
+       "gloss": {
+        "fi": "in",
+        "bayruut": "Beirut",
+        "ma'rad": "exhibition",
+        "fannii": "art (adj.)",
+        "an": "about",
+        "shajarat": "tree (of)",
+        "al-sanawbar": "the pine"
+       }
+      },
+      "B": {
+       "text": "Fi al-mathaf al-watanii bi-Bayruut, ya'ridu fannaanaani a'maalan an shajarat al-sanawbar, ramz al-bahr al-mutawassit.",
+       "script": "في المتحف الوطني ببيروت، يعرض فنانان أعمالًا عن شجرة الصنوبر، رمز البحر المتوسط.",
+       "en": "At the National Museum in Beirut, two artists are showing works about the pine tree, a symbol of the Mediterranean.",
+       "gloss": {
+        "fi": "in",
+        "al-mathaf": "the museum",
+        "al-watanii": "the national",
+        "bi-bayruut": "in Beirut",
+        "ya'ridu": "show, exhibit",
+        "fannaanaani": "two artists",
+        "a'maalan": "works",
+        "an": "about",
+        "shajarat": "tree (of)",
+        "al-sanawbar": "the pine",
+        "ramz": "symbol (of)",
+        "al-bahr": "the sea",
+        "al-mutawassit": "the Mediterranean (lit. the middle one)"
+       }
+      },
+      "C": {
+       "text": "Yajma'u ma'rad «Asdaa al-wujuud» fi al-mathaf al-watanii bi-Bayruut bayna a'maal al-fannaan al-lubnaanii al-iitaalii Jilbeer al-Halabii wa-al-iitaalii Enzo Kukkii, hawla al-sanawbar ramzan lil-dhaakira wa-al-intimaa fi hawd al-mutawassit.",
+       "script": "يجمع معرض «أصداء الوجود» في المتحف الوطني ببيروت بين أعمال الفنان اللبناني الإيطالي جيلبير الحلبي والإيطالي إنزو كوكي، حول الصنوبر رمزًا للذاكرة والانتماء في حوض المتوسط.",
+       "en": "The exhibition “Echoes of Existence” at the National Museum in Beirut brings together works by the Lebanese-Italian artist Gilbert El Halaby and the Italian Enzo Cucchi around the pine as a symbol of memory and belonging in the Mediterranean basin.",
+       "gloss": {
+        "yajma'u": "brings together",
+        "ma'rad": "exhibition",
+        "asdaa": "echoes",
+        "al-wujuud": "existence",
+        "fi": "in",
+        "al-mathaf": "the museum",
+        "al-watanii": "the national",
+        "bi-bayruut": "in Beirut",
+        "bayna": "between",
+        "a'maal": "works (of)",
+        "al-fannaan": "the artist",
+        "al-lubnaanii": "the Lebanese",
+        "al-iitaalii": "the Italian",
+        "jilbeer": "Gilbert",
+        "al-halabii": "El Halaby",
+        "wa-al-iitaalii": "and the Italian",
+        "enzo": "Enzo",
+        "kukkii": "Cucchi",
+        "hawla": "around, about",
+        "al-sanawbar": "the pine",
+        "ramzan": "as a symbol",
+        "lil-dhaakira": "of memory",
+        "wa-al-intimaa": "and belonging",
+        "hawd": "basin",
+        "al-mutawassit": "the Mediterranean"
+       }
+      }
+     }
+    }
+   ],
+   "vocab": [
+    {
+     "word": "maashi",
+     "wordScript": "ماشي",
+     "pos": "interjection",
+     "region": "Egypt",
+     "ties": 1,
+     "meaning": "OK, fine, alright",
+     "note": "Egyptian, literally 'walking' (as in: it's going fine). Lebanese also say «maashi» or «tayyib», Saudis «tamaam» or «zeen», Standard Arabic «hasanan». The example is Egyptian too: «bukra» (tomorrow), and «Iskindiriyya» for Alexandria.",
+     "example": "Maashi, bukra nruuh Iskindiriyya.",
+     "exScript": "ماشي، بكرة نروح إسكندرية.",
+     "exampleEn": "OK, tomorrow we'll go to Alexandria.",
+     "exGloss": {
+      "maashi": "OK (Egyptian)",
+      "bukra": "tomorrow",
+      "nruuh": "we go",
+      "iskindiriyya": "Alexandria (Egyptian pronunciation)"
+     }
+    },
+    {
+     "word": "hilu",
+     "wordScript": "حلو",
+     "pos": "adjective",
+     "region": "Lebanon",
+     "ties": 2,
+     "meaning": "nice, lovely, pretty (also: sweet)",
+     "note": "Lebanese and Levantine; feminine «hilwe». Egyptians say «hilw» or «gamiil», Saudis «zeen», Standard Arabic «jamiil». It also means sweet, of food. «Ktiir» = very, Lebanese.",
+     "example": "Al-ma'rad ktiir hilu!",
+     "exScript": "المعرض كتير حلو!",
+     "exampleEn": "The exhibition is really lovely!",
+     "exGloss": {
+      "al-ma'rad": "the exhibition",
+      "ktiir": "very (Lebanese)",
+      "hilu": "nice, lovely"
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "level": "A1",
+     "ref": "news1",
+     "q": "“Fi al-Iskandariyya, khaatam qadiim alayhi suurat al-fanaar.” Which word means “ring”?",
+     "options": [
+      "fanaar",
+      "suura",
+      "khaatam",
+      "qadiim"
+     ],
+     "answer": 2,
+     "why": "«Khaatam» = ring. «Fanaar» is lighthouse, «suura» picture, «qadiim» old.",
+     "lesson": "The story is famous for the lighthouse, so «fanaar» tempts. But the lighthouse is only the picture on the ring; the object found is the «khaatam»."
+    },
+    {
+     "level": "A2",
+     "ref": "vocab2",
+     "q": "“Al-ma'rad ktiir hilu!” What does the speaker think of the exhibition?",
+     "options": [
+      "It's closed",
+      "It's really lovely",
+      "It's too small",
+      "It's expensive"
+     ],
+     "answer": 1,
+     "why": "«Hilu» = nice, lovely; «ktiir» = very.",
+     "lesson": "«Ktiir» also means 'a lot', which can sound like a complaint (too much, too expensive). Here it just strengthens «hilu», which is praise."
+    },
+    {
+     "level": "B1",
+     "ref": "news2",
+     "q": "Maa ma'naa «al-sanawbar» fi «shajarat al-sanawbar»?",
+     "options": [
+      "cedar",
+      "olive",
+      "palm",
+      "pine"
+     ],
+     "answer": 3,
+     "why": "«Al-sanawbar» = the pine; «shajarat al-sanawbar» = the pine tree.",
+     "lesson": "Lebanon's national tree, on its flag, is the cedar, so 'cedar' is the reflex answer. The cedar is «al-arz»; the pine is «al-sanawbar»."
+    },
+    {
+     "level": "B2",
+     "ref": "vocab1",
+     "q": "«Maashi, bukra nruuh Iskindiriyya»: maa ma'naa «maashi» hunaa?",
+     "options": [
+      "walking",
+      "OK",
+      "tomorrow",
+      "maybe"
+     ],
+     "answer": 1,
+     "why": "In Egyptian speech «maashi» at the start of a reply means OK, agreed.",
+     "lesson": "The literal meaning is 'walking', the participle of «mashaa». Used alone as a reply, it agrees, like English 'fine'."
+    },
+    {
+     "level": "C1",
+     "ref": "news1",
+     "q": "«Khaatam burunzii yahmilu suurat fanaar al-Iskandariyya»: maa ma'naa «yahmilu» hunaa?",
+     "options": [
+      "bears, shows",
+      "carries away",
+      "is pregnant with",
+      "weighs"
+     ],
+     "answer": 0,
+     "why": "With an image, a name or an inscription, «hamala» means to bear: the ring bears a picture.",
+     "lesson": "The everyday meaning is 'to carry', so 'carries away' tempts. A ring can't carry anything off; with «suura» the verb means to display."
+    },
+    {
+     "level": "C2",
+     "ref": "news2",
+     "q": "«Hawla al-sanawbar ramzan lil-dhaakira»: limaadhaa «ramzan» bi-al-nasb (-an)?",
+     "options": [
+      "It's the subject of the sentence",
+      "It's a plural form",
+      "It's an accusative of state: 'as a symbol'",
+      "It's a spelling mistake"
+     ],
+     "answer": 2,
+     "why": "«Ramzan» is a haal, an accusative describing the pine's role: around the pine, as a symbol of memory.",
+     "lesson": "Readers often expect the genitive after «hawla al-sanawbar», reading it as 'the pine's symbol'. The -an ending breaks that link: it tells you what the pine is being treated as."
+    }
+   ],
+   "tip": {
+    "title": "Three-letter roots",
+    "text": "Most Arabic words are built on a root of three consonants. «Khaatam» (ring) comes from kh-t-m, the idea of sealing: rings were once seals. The same root gives «khitaam» (the end, a 'seal' on something) and «makhtuum» (sealed). Spot the root and you can often guess a new word's family."
+   },
+   "fun": {
+    "kind": "saying",
+    "region": "Lebanon",
+    "text": "Ba'd il-iid ma byinfitil ka'k.",
+    "script": "بعد العيد ما بينفتل كعك.",
+    "gloss": {
+     "ba'd": "after",
+     "il-iid": "the feast, the holiday",
+     "ma": "not",
+     "byinfitil": "gets shaped, gets twisted",
+     "ka'k": "ka'k (festive biscuits)"
+    },
+    "literal": "After the feast, no ka'k gets shaped.",
+    "meaning": "It's too late: there's no point doing something once the moment has passed.",
+    "culture": "Ka'k al-iid are festive biscuits filled with dates or nuts that families shape together in the days before the holiday. Baking them afterwards makes no sense, so Lebanese and Syrians say this to anyone who turns up with help, or an apology, too late."
+   }
+  },
+  "zh": {
+   "news": [
+    {
+     "topic": "Kǎogǔ · Sìchuān",
+     "source": "https://www.heritagedaily.com/2026/09/archaeologists-uncover-2000-year-old-han-dynasty-city/159348",
+     "levels": {
+      "A": {
+       "text": "Sìchuān yǒu yí zuò liǎngqiān nián de gǔchéng.",
+       "script": "四川有一座两千年的古城。",
+       "en": "In Sichuan there is a 2,000-year-old ancient city.",
+       "gloss": {
+        "yǒu": "there is, have",
+        "yí": "one",
+        "zuò": "(measure word for big things)",
+        "liǎngqiān": "two thousand",
+        "nián": "years",
+        "de": "(links describer to noun)",
+        "gǔchéng": "ancient city"
+       }
+      },
+      "B": {
+       "text": "Kǎogǔ xuéjiā zài Sìchuān fāxiàn le yí zuò Hàncháo chéngshì, yǒu chéngqiáng, jiēdào hé mǎtóu.",
+       "script": "考古学家在四川发现了一座汉朝城市，有城墙、街道和码头。",
+       "en": "Archaeologists found a Han-dynasty city in Sichuan, with city walls, streets and a dock.",
+       "gloss": {
+        "kǎogǔ": "archaeology",
+        "xuéjiā": "scholars (kǎogǔ xuéjiā = archaeologists)",
+        "zài": "in, at",
+        "fāxiàn": "discover",
+        "le": "(completed action)",
+        "yí": "one",
+        "zuò": "(measure word for big things)",
+        "hàncháo": "Han dynasty",
+        "chéngshì": "city",
+        "yǒu": "have",
+        "chéngqiáng": "city walls",
+        "jiēdào": "streets",
+        "hé": "and",
+        "mǎtóu": "dock, wharf"
+       }
+      },
+      "C": {
+       "text": "Sìchuān Qúxiàn Chéngbà yízhǐ chūtǔ le Xīhàn chéngqiáng, zhújiǎn hé qīngtóngqì, hái yǒu yí chù kěnéng shì quánguó wéiyī de Hàndài shuǐ chéngmén.",
+       "script": "四川渠县城坝遗址出土了西汉城墙、竹简和青铜器，还有一处可能是全国唯一的汉代水城门。",
+       "en": "The Chengba site in Qu County, Sichuan, has yielded Western Han city walls, bamboo slips and bronzes, as well as what may be the only Han-era water gate in the country.",
+       "gloss": {
+        "qúxiàn": "Qu County",
+        "chéngbà": "Chengba (site name)",
+        "yízhǐ": "site, ruins",
+        "chūtǔ": "unearth (lit. come out of the soil)",
+        "le": "(completed action)",
+        "xīhàn": "Western Han (202 BC – AD 8)",
+        "chéngqiáng": "city walls",
+        "zhújiǎn": "bamboo slips (for writing)",
+        "hé": "and",
+        "qīngtóngqì": "bronzes",
+        "hái": "also",
+        "yǒu": "there is",
+        "yí": "one",
+        "chù": "(measure word for places)",
+        "kěnéng": "possibly",
+        "shì": "is",
+        "quánguó": "the whole country",
+        "wéiyī": "only, sole",
+        "de": "(links describer to noun)",
+        "hàndài": "Han era",
+        "shuǐ": "water",
+        "chéngmén": "city gate"
+       }
+      }
+     }
+    },
+    {
+     "topic": "Wénhuà · Zhōngguó",
+     "source": "https://en.people.cn/n3/2026/1003/c90000-20505538.html",
+     "levels": {
+      "A": {
+       "text": "Guóqìng jiàqī, hěn duō rén qù bówùguǎn.",
+       "script": "国庆假期，很多人去博物馆。",
+       "en": "During the National Day holiday, lots of people go to museums.",
+       "gloss": {
+        "guóqìng": "National Day",
+        "jiàqī": "holiday",
+        "hěn": "very",
+        "duō": "many",
+        "rén": "people",
+        "qù": "go",
+        "bówùguǎn": "museum"
+       }
+      },
+      "B": {
+       "text": "Guóqìng jiàqī, gèdì yóukè kàn le píyǐngxì, Chuānjù hé bówùguǎn zhǎnlǎn.",
+       "script": "国庆假期，各地游客看了皮影戏、川剧和博物馆展览。",
+       "en": "Over the National Day holiday, visitors all over the country watched shadow-puppet plays, Sichuan Opera and museum exhibitions.",
+       "gloss": {
+        "guóqìng": "National Day",
+        "jiàqī": "holiday",
+        "gèdì": "everywhere, all over",
+        "yóukè": "visitors, tourists",
+        "kàn": "watch, see",
+        "le": "(completed action)",
+        "píyǐngxì": "shadow-puppet play",
+        "chuānjù": "Sichuan Opera",
+        "hé": "and",
+        "bówùguǎn": "museum",
+        "zhǎnlǎn": "exhibition"
+       }
+      },
+      "C": {
+       "text": "Guóqìng jiàqī qījiān, Húběi Bādōng de fēiyí zhǎnlǎnguǎn shàngyǎn píyǐngxì, Sìchuān Yíbīn de jùyuàn shàngyǎn Chuānjù, Shāndōng hé Héběi de bówùguǎn yě xīyǐn le dàliàng yóukè.",
+       "script": "国庆假期期间，湖北巴东的非遗展览馆上演皮影戏，四川宜宾的剧院上演川剧，山东和河北的博物馆也吸引了大量游客。",
+       "en": "During the National Day holiday, an intangible-heritage hall in Badong, Hubei staged shadow-puppet plays, a theatre in Yibin, Sichuan put on Sichuan Opera, and museums in Shandong and Hebei also drew large numbers of visitors.",
+       "gloss": {
+        "guóqìng": "National Day",
+        "jiàqī": "holiday",
+        "qījiān": "during, period",
+        "de": "(links describer to noun)",
+        "fēiyí": "intangible cultural heritage (abbr.)",
+        "zhǎnlǎnguǎn": "exhibition hall",
+        "shàngyǎn": "stage, put on",
+        "píyǐngxì": "shadow-puppet play",
+        "jùyuàn": "theatre",
+        "chuānjù": "Sichuan Opera",
+        "hé": "and",
+        "bówùguǎn": "museums",
+        "yě": "also",
+        "xīyǐn": "attract",
+        "le": "(completed action)",
+        "dàliàng": "large numbers of",
+        "yóukè": "visitors"
+       }
+      }
+     }
+    }
+   ],
+   "vocab": [
+    {
+     "word": "lìhai",
+     "wordScript": "厉害",
+     "pos": "adjective",
+     "region": "general",
+     "ties": 1,
+     "meaning": "amazing, impressive (also: severe, fierce)",
+     "note": "Everyday praise: «Nǐ zhēn lìhai!» = you're amazing! Said of people, skills and feats. It can also mean severe: «téng de lìhai» = it hurts badly.",
+     "example": "Liǎngqiān nián qián jiù yǒu shuǐ chéngmén, zhēn lìhai!",
+     "exScript": "两千年前就有水城门，真厉害！",
+     "exampleEn": "They had a water gate two thousand years ago. That's amazing!",
+     "exGloss": {
+      "liǎngqiān": "two thousand",
+      "nián": "years",
+      "qián": "ago",
+      "jiù": "already",
+      "yǒu": "have",
+      "shuǐ": "water",
+      "chéngmén": "city gate",
+      "zhēn": "really",
+      "lìhai": "amazing"
+     }
+    },
+    {
+     "word": "rén shān rén hǎi",
+     "wordScript": "人山人海",
+     "pos": "idiom (chéngyǔ)",
+     "region": "general",
+     "ties": 2,
+     "meaning": "huge crowds, packed (lit. people mountain, people sea)",
+     "note": "The stock phrase for every Golden Week crowd at a sight or museum. The casual version is «rén tài duō le!» = way too many people!",
+     "example": "Guóqìng jiàqī, bówùguǎn lǐ rén shān rén hǎi.",
+     "exScript": "国庆假期，博物馆里人山人海。",
+     "exampleEn": "Over the National Day holiday, the museum was packed.",
+     "exGloss": {
+      "guóqìng": "National Day",
+      "jiàqī": "holiday",
+      "bówùguǎn": "museum",
+      "lǐ": "inside",
+      "rén": "people",
+      "shān": "mountain",
+      "hǎi": "sea"
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "level": "A1",
+     "ref": "news2",
+     "q": "“Guóqìng jiàqī, hěn duō rén qù bówùguǎn.” Which word means “museum”?",
+     "options": [
+      "jiàqī",
+      "bówùguǎn",
+      "guóqìng",
+      "rén"
+     ],
+     "answer": 1,
+     "why": "«Bówùguǎn» = museum. «Jiàqī» is holiday, «guóqìng» National Day, «rén» people.",
+     "lesson": "«Guǎn» at the end means a building or hall, as in «túshūguǎn» (library) and «fànguǎn» (restaurant). Spot «-guǎn» and you're looking for a place."
+    },
+    {
+     "level": "A2",
+     "ref": "vocab2",
+     "q": "“Bówùguǎn lǐ rén shān rén hǎi.” What is the museum like?",
+     "options": [
+      "empty",
+      "in the mountains",
+      "packed with people",
+      "by the sea"
+     ],
+     "answer": 2,
+     "why": "«Rén shān rén hǎi» = a mountain of people, a sea of people: packed.",
+     "lesson": "«Shān» (mountain) and «hǎi» (sea) tempt you to read it as a location. They're images: there are so many people they look like a mountain and a sea."
+    },
+    {
+     "level": "B1",
+     "ref": "news1",
+     "q": "«Yǒu chéngqiáng, jiēdào hé mǎtóu»: «chéngqiáng» shì shénme yìsi?",
+     "options": [
+      "city walls",
+      "bridges",
+      "streets",
+      "gates"
+     ],
+     "answer": 0,
+     "why": "«Chéng» = city, «qiáng» = wall: city walls.",
+     "lesson": "«Qiáng» (wall) sounds a lot like «qiáo» (bridge), so 'bridges' is the trap. Listen for the -ng at the end: qiáng is the wall."
+    },
+    {
+     "level": "B2",
+     "ref": "vocab1",
+     "q": "«Liǎngqiān nián qián jiù yǒu shuǐ chéngmén, zhēn lìhai!»: «lìhai» zài zhèlǐ shì shénme yìsi?",
+     "options": [
+      "That's terrible",
+      "That's dangerous",
+      "That's expensive",
+      "That's amazing"
+     ],
+     "answer": 3,
+     "why": "Here «lìhai» is admiration: what they built 2,000 years ago is impressive.",
+     "lesson": "«Lìhai» can also mean fierce or severe, so 'terrible' or 'dangerous' tempt. With «zhēn» and an achievement before it, it's praise."
+    },
+    {
+     "level": "C1",
+     "ref": "news1",
+     "q": "«Chéngbà yízhǐ chūtǔ le Xīhàn chéngqiáng»: «chūtǔ» shì shénme yìsi?",
+     "options": [
+      "were built",
+      "were unearthed",
+      "were destroyed",
+      "were sold"
+     ],
+     "answer": 1,
+     "why": "«Chū» = come out, «tǔ» = soil: to come out of the ground, i.e. be unearthed.",
+     "lesson": "The sentence has no passive marker, so it can read like the site 'built' the walls. «Chūtǔ» works like 'yield': the site is the place things come out of."
+    },
+    {
+     "level": "C2",
+     "ref": "news2",
+     "q": "«Jùyuàn shàngyǎn Chuānjù»: «shàngyǎn» de «shàng» zài zhèlǐ biǎoshì shénme?",
+     "options": [
+      "up, above",
+      "last (as in last week)",
+      "putting on, onto the stage",
+      "going to a place"
+     ],
+     "answer": 2,
+     "why": "«Shàngyǎn» = to stage, to put on a performance: «shàng» is the move onto the stage.",
+     "lesson": "«Shàng» is learned first as 'up' or 'last' («shàng ge xīngqī»), which is why those tempt. In verbs like «shàngyǎn» and «shàngyìng» (to screen a film) it means bringing something before the public."
+    }
+   ],
+   "tip": {
+    "title": "Chéngyǔ: four-character idioms",
+    "text": "Chinese has thousands of chéngyǔ, fixed idioms of four syllables. Some, like «rén shān rén hǎi» ('people mountain, people sea'), are pure images and easy to guess. Others only make sense once you know the old story behind them. They turn up everywhere, from news headlines to chat with friends."
+   },
+   "fun": {
+    "kind": "joke",
+    "region": "general",
+    "text": "Hǎi wèishénme shì lán de? Yīnwèi yú zài shuǐ lǐ tǔ pàopao: blue, blue, blue!",
+    "script": "海为什么是蓝的？因为鱼在水里吐泡泡：blue, blue, blue！",
+    "gloss": {
+     "hǎi": "sea",
+     "wèishénme": "why",
+     "shì": "is",
+     "lán": "blue",
+     "de": "(particle)",
+     "yīnwèi": "because",
+     "yú": "fish",
+     "zài": "(doing right now)",
+     "shuǐ": "water",
+     "lǐ": "in",
+     "tǔ": "blow, spit out",
+     "pàopao": "bubbles",
+     "blue": "English 'blue', said like a bubbling 'bùlū'"
+    },
+    "literal": "Why is the sea blue? Because the fish are blowing bubbles in the water: blue, blue, blue!",
+    "meaning": "The bubbling noise sounds like the English word 'blue' in a Chinese accent, so the fish are 'saying' blue and colouring the sea.",
+    "culture": "Chinese kids love «lěng xiàohua», 'cold jokes': puns so bad they leave the room chilly. Slipping in an English word is a modern twist, since almost every Chinese child learns English at school."
+   }
+  }
  }
 };
 
