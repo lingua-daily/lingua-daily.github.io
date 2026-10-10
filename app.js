@@ -231,7 +231,7 @@ function render(){
     const b = document.createElement('button');
     b.textContent = (C[code].flag ? C[code].flag + '  ' : '') + C[code].label;
     b.setAttribute('aria-selected', String(code === lang));
-    b.onclick = () => { S.lang = code; localStorage.setItem('lingua.lang', code); render(); };
+    b.onclick = () => { S.lang = code; localStorage.setItem('lingua.lang', code); render(); window.scrollTo(0, 0); };
     tabs.append(b);
   });
 
