@@ -243,6 +243,7 @@ function render(){
   const grid = document.getElementById('vocab');
   ol.innerHTML = '';
   grid.innerHTML = '';
+  document.getElementById('phrases').innerHTML = '';
   if (!day){
     document.getElementById('newsBand').textContent = '';
     ol.innerHTML = '<li class="empty">No lesson for this date yet — the morning task writes one each day.</li>';
@@ -257,7 +258,11 @@ function render(){
   // tell the reader which version of the headlines they're seeing
   document.getElementById('newsBand').textContent =
     day.news.some(it => it.levels) ? bandName[level[0]] : '';
-  day.news.slice(0, n).map(it => variant(it, level)).forEach(item => {
+  /* Beginners (A1–A2) get one headline and two everyday-phrase scenes, a
+     two-thirds split towards practical language. B and C get the full headlines. */
+  const beginner = level[0] === 'A' && Array.isArray(day.phrases) && day.phrases.length;
+  if (beginner) renderPhrases(day.phrases, lang);
+  day.news.slice(0, beginner ? 1 : n).map(it => variant(it, level)).forEach(item => {
     const li = document.createElement('li');
 
     if (item.topic){
@@ -452,6 +457,63 @@ function renderKey(data){
   box.append(d);
 }
 
+/* ---------- everyday phrases (beginner levels) ---------- */
+function renderPhrases(scenes, lang){
+  const box = document.getElementById('phrases');
+  const head = document.createElement('div');
+  head.className = 'phrasehead';
+  head.textContent = 'Everyday phrases';
+  box.append(head);
+  scenes.forEach(sc => {
+    const card = document.createElement('div');
+    card.className = 'scene';
+    const t = document.createElement('div');
+    t.className = 'scenetitle';
+    t.textContent = sc.topic;
+    card.append(t);
+    if (sc.situation){
+      const sit = document.createElement('div');
+      sit.className = 'situation';
+      sit.textContent = sc.situation;
+      card.append(sit);
+    }
+    sc.lines.forEach(ln => {
+      const row = document.createElement('div');
+      row.className = 'pline';
+      if (ln.who){
+        const who = document.createElement('span');
+        who.className = 'who';
+        who.textContent = ln.who;
+        row.append(who);
+      }
+      const txt = document.createElement('span');
+      txt.className = 'ptext';
+      renderGlossed(ln.text, ln.gloss, txt, wordSay(lang, sc.region));
+      row.append(txt);
+      const l = listenLink(ln.script || ln.text, lang, sc.region);
+      if (l) row.append(l);
+      const en = document.createElement('div');
+      en.className = 'full pen';
+      en.textContent = ln.en;
+      row.append(en);
+      card.append(row);
+    });
+    const tog = document.createElement('button');
+    tog.className = 'fulltoggle';
+    tog.textContent = 'show English';
+    tog.onclick = () => {
+      const on = !card.querySelector('.pen.on');
+      card.querySelectorAll('.pen').forEach(e => e.classList.toggle('on', on));
+      tog.textContent = on ? 'hide English' : 'show English';
+    };
+    const r = document.createElement('div');
+    r.className = 'fullrow';
+    r.append(tog);
+    card.append(r);
+    box.append(card);
+  });
+}
+
 /* ---------- level picker ---------- */
 function renderLevelPicker(lang){
   const level = levelFor(lang);
@@ -549,7 +611,7 @@ function resetReveal(){
 }
 document.getElementById('revealNews').onclick = () => {
   newsRevealed = !newsRevealed;
-  const root = document.getElementById('news');
+  const root = document.getElementById('newsPanel');
   setAllWords(root, newsRevealed);
   root.querySelectorAll('.full').forEach(f => f.classList.toggle('on', newsRevealed));
   root.querySelectorAll('.fulltoggle').forEach(b => b.textContent = newsRevealed ? 'hide translation' : 'full translation');
