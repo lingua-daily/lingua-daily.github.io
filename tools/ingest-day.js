@@ -103,20 +103,25 @@ for (const lang of present){
     if (String(d.tip.text).length > 450) warn(`${L} tip: keep it under ~450 characters`);
   }
 
-  // beginner content: two everyday-phrase scenes, shown at A1–A2
-  if (!Array.isArray(d.phrases) || d.phrases.length !== 2) err(`${L}: needs phrases, exactly 2 everyday scenes`);
-  (d.phrases || []).forEach((sc, si) => {
-    const w = `${L} phrases ${si + 1}`;
-    ['topic', 'situation'].forEach(k => str(sc[k], `${w}.${k}`));
-    if (!Array.isArray(sc.lines) || sc.lines.length < 3 || sc.lines.length > 8) { err(`${w}: needs 3 to 8 lines`); return; }
-    sc.lines.forEach((ln, li) => {
-      const wl = `${w} line ${li + 1}`;
-      ['text', 'en'].forEach(k => str(ln[k], `${wl}.${k}`));
-      obj(ln.gloss, `${wl}.gloss`);
-      if (SCRIPT) str(ln.script, `${wl}.script`);
-      coverage(lang, ln.text, ln.gloss, wl);
+  // conversation content: two scenes per band, shown at A1–A2 and B1–B2
+  const P = d.phrases;
+  if (!P || typeof P !== 'object' || Array.isArray(P)) err(`${L}: phrases must be { "A": [2 scenes], "B": [2 scenes] }`);
+  else for (const band of ['A', 'B']){
+    const list = P[band], maxLines = band === 'A' ? 6 : 8, minLines = band === 'A' ? 3 : 4;
+    if (!Array.isArray(list) || list.length !== 2) { err(`${L}: phrases.${band} needs exactly 2 scenes`); continue; }
+    list.forEach((sc, si) => {
+      const w = `${L} phrases.${band} ${si + 1}`;
+      ['topic', 'situation'].forEach(k => str(sc[k], `${w}.${k}`));
+      if (!Array.isArray(sc.lines) || sc.lines.length < minLines || sc.lines.length > maxLines) { err(`${w}: needs ${minLines} to ${maxLines} lines`); return; }
+      sc.lines.forEach((ln, li) => {
+        const wl = `${w} line ${li + 1}`;
+        ['text', 'en'].forEach(k => str(ln[k], `${wl}.${k}`));
+        obj(ln.gloss, `${wl}.gloss`);
+        if (SCRIPT) str(ln.script, `${wl}.script`);
+        coverage(lang, ln.text, ln.gloss, wl);
+      });
     });
-  });
+  }
 
   const f = d.fun;
   if (!f || typeof f !== 'object') err(`${L}: needs a fun item { kind, text, gloss, literal, meaning, culture }`);
@@ -129,8 +134,10 @@ for (const lang of present){
   }
 
   const q = d.quiz || [];
-  const aRefs = q.filter(x => x.level === 'A1' || x.level === 'A2').map(x => x.ref || '');
-  if (!aRefs.some(r => r.startsWith('phrase'))) err(`${L}: the A1 or A2 quiz question must reinforce a phrase scene (ref phrase1 or phrase2)`);
+  for (const [lv, band] of [[['A1', 'A2'], 'A'], [['B1', 'B2'], 'B']]){
+    const refs = q.filter(x => lv.includes(x.level)).map(x => x.ref || '');
+    if (!refs.some(r => r.startsWith('phrase'))) err(`${L}: the ${lv.join(' or ')} quiz question must reinforce a ${band}-level phrase scene (ref phrase1 or phrase2)`);
+  }
   if (q.length !== 6) err(`${L}: quiz needs exactly 6 questions`);
   const lv = q.map(x => x.level).sort().join(',');
   if (lv !== LEVELS.join(',')) err(`${L}: quiz needs one question at each level ${LEVELS.join(' ')}, got ${lv}`);

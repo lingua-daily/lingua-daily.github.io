@@ -85,7 +85,7 @@ const SPEECH = 'speechSynthesis' in window;
 let soundOn = false;
 try { soundOn = localStorage.getItem('lingua.sound') === 'on'; } catch (e) {}
 
-const LANG_TAG = { es: 'es-ES', de: 'de-DE', it: 'it-IT', ar: 'ar-SA', zh: 'zh-CN' };
+const LANG_TAG = { es: 'es-ES', de: 'de-DE', it: 'it-IT', ar: 'ar-SA', zh: 'zh-CN', ru: 'ru-RU', fa: 'fa-IR' };
 const REGION_TAG = [
   [/méxico|mexico/i, 'es-MX'], [/argentina/i, 'es-AR'], [/colombia/i, 'es-CO'],
   [/perú|peru|chile|cuba|guatemala|venezuela|ecuador|bolivia/i, 'es-US'],
@@ -236,7 +236,7 @@ function render(){
   });
 
   renderLevelPicker(lang);
-  renderKey(data);
+  renderKey(data, levelFor(lang));
   document.getElementById('tipbox').innerHTML = '';
 
   const ol = document.getElementById('news');
@@ -244,6 +244,9 @@ function render(){
   ol.innerHTML = '';
   grid.innerHTML = '';
   document.getElementById('phrases').innerHTML = '';
+  document.getElementById('alphabet').innerHTML = '';
+  // the alphabet course doesn't depend on the day's news, so it shows even before a lesson exists
+  if (levelFor(lang)[0] === 'B' && data.alphabet) renderAlphabet(data.alphabet, lang);
   if (!day){
     document.getElementById('newsBand').textContent = '';
     ol.innerHTML = '<li class="empty">No lesson for this date yet — the morning task writes one each day.</li>';
@@ -258,11 +261,14 @@ function render(){
   // tell the reader which version of the headlines they're seeing
   document.getElementById('newsBand').textContent =
     day.news.some(it => it.levels) ? bandName[level[0]] : '';
-  /* Beginners (A1–A2) get one headline and two everyday-phrase scenes, a
-     two-thirds split towards practical language. B and C get the full headlines. */
-  const beginner = level[0] === 'A' && Array.isArray(day.phrases) && day.phrases.length;
-  if (beginner) renderPhrases(day.phrases, lang);
-  day.news.slice(0, beginner ? 1 : n).map(it => variant(it, level)).forEach(item => {
+  /* A and B levels get one headline plus two everyday-conversation scenes,
+     a two-thirds split towards usable speech; C gets the full headlines.
+     Older days stored a plain array of beginner scenes. */
+  const P = Array.isArray(day.phrases) ? { A: day.phrases } : (day.phrases || {});
+  const scenes = level[0] === 'C' ? null : P[level[0]];
+  const conversational = Array.isArray(scenes) && scenes.length > 0;
+  if (conversational) renderPhrases(scenes, lang, level[0]);
+  day.news.slice(0, conversational ? 1 : n).map(it => variant(it, level)).forEach(item => {
     const li = document.createElement('li');
 
     if (item.topic){
@@ -432,14 +438,14 @@ function scriptLine(text, lang, cls, tag){
 }
 
 /* Permanent reading key (tone marks, romanisation) for languages that need one. */
-function renderKey(data){
+function renderKey(data, level){
   const box = document.getElementById('keybox');
   box.innerHTML = '';
   if (!data.key) return;
   const k = data.key;
   const d = document.createElement('details');
   d.className = 'keyd';
-  d.open = true;
+  d.open = !level || level[0] === 'A';   // open for beginners, folded away after
   const sum = document.createElement('summary');
   sum.textContent = k.title;
   d.append(sum);
@@ -458,11 +464,11 @@ function renderKey(data){
 }
 
 /* ---------- everyday phrases (beginner levels) ---------- */
-function renderPhrases(scenes, lang){
+function renderPhrases(scenes, lang, band){
   const box = document.getElementById('phrases');
   const head = document.createElement('div');
   head.className = 'phrasehead';
-  head.textContent = 'Everyday phrases';
+  head.textContent = band === 'B' ? 'Everyday conversation' : 'Everyday phrases';
   box.append(head);
   scenes.forEach(sc => {
     const card = document.createElement('div');
@@ -512,6 +518,75 @@ function renderPhrases(scenes, lang){
     card.append(r);
     box.append(card);
   });
+}
+
+/* ---------- alphabet course (B1–B2, script languages) ----------
+   One short lesson a day per reader, counted from the first day they saw it,
+   with the previous lesson's letters as a quick review. Tap a tile to flip it. */
+function abcLesson(lang, total){
+  const key = 'lingua.abc.' + lang;
+  let st = null;
+  try { st = JSON.parse(localStorage.getItem(key)); } catch (e) {}
+  if (!st || !st.start){ st = { start: Date.now(), shift: 0 }; try { localStorage.setItem(key, JSON.stringify(st)); } catch (e) {} }
+  const days = Math.floor((Date.now() - st.start) / 86400000) + (st.shift || 0);
+  return { i: ((days % total) + total) % total, st, key };
+}
+function renderAlphabet(abc, lang){
+  const box = document.getElementById('alphabet');
+  const total = abc.lessons.length, pos = abcLesson(lang, total), L = abc.lessons[pos.i];
+  const card = document.createElement('div');
+  card.className = 'abc';
+
+  const head = document.createElement('div');
+  head.className = 'abchead';
+  const t = document.createElement('span');
+  t.textContent = abc.title + ' · ' + (pos.i + 1) + ' of ' + total + ': ' + L.title;
+  const nav = document.createElement('span');
+  nav.className = 'abcnav';
+  [['‹', -1], ['›', 1]].forEach(([label, step]) => {
+    const b = document.createElement('button');
+    b.className = 'ghost small';
+    b.textContent = label;
+    b.onclick = () => {
+      pos.st.shift = (pos.st.shift || 0) + step;
+      try { localStorage.setItem(pos.key, JSON.stringify(pos.st)); } catch (e) {}
+      render();
+    };
+    nav.append(b);
+  });
+  head.append(t, nav);
+  card.append(head);
+
+  const grid = document.createElement('div');
+  grid.className = 'abcgrid';
+  L.letters.forEach(l => {
+    const tile = document.createElement('button');
+    tile.className = 'tile';
+    tile.lang = lang;
+    tile.innerHTML = '<span class="glyph"></span><span class="tname"></span><span class="tback"></span>';
+    tile.querySelector('.glyph').textContent = l.char;
+    tile.querySelector('.tname').textContent = l.name;
+    tile.querySelector('.tback').textContent = l.sound + ' · ' + l.exScript + ' ' + l.exRoman + ', ' + l.exEn;
+    tile.onclick = () => { tile.classList.toggle('flip'); if (tile.classList.contains('flip')) speak(l.exScript, lang); };
+    grid.append(tile);
+  });
+  card.append(grid);
+
+  if (pos.i > 0){
+    const rev = document.createElement('div');
+    rev.className = 'abcreview';
+    rev.append('Review: ');
+    abc.lessons[pos.i - 1].letters.forEach(l => {
+      const chip = document.createElement('button');
+      chip.className = 'chip';
+      chip.textContent = l.char;
+      chip.title = 'tap to check';
+      chip.onclick = () => { chip.textContent = chip.textContent === l.char ? l.char + ' = ' + l.name : l.char; };
+      rev.append(chip);
+    });
+    card.append(rev);
+  }
+  box.append(card);
 }
 
 /* ---------- level picker ---------- */

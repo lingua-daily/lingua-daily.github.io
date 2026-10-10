@@ -7,7 +7,7 @@
    Both the web app and the daily email pick it up automatically.
    ============================================================ */
 
-var LINGUA_LANGUAGES = ["es", "de", "it", "ar", "zh"];
+var LINGUA_LANGUAGES = ["es", "de", "it", "ar", "zh", "ru", "fa"];
 
 /* Default number of headlines, words and quiz questions shown per language.
    A language can override it with `perDay` in its own file. */
