@@ -4363,383 +4363,479 @@ var LINGUA_DAILY = {
   "es": {
    "news": [
     {
-     "topic": "Arte · Zaragoza",
-     "source": "https://www.elindependiente.com/tendencias/cultura/2026/10/08/el-museo-goya-reabre-en-zaragoza-con-solo-goya-el-arte-de-ver-una-muestra-con-casi-medio-centenar-de-obras-del-artista/",
+     "topic": "Arte · Madrid",
+     "source": "https://www.esmadrid.com/node/108245",
      "levels": {
       "A": {
-       "text": "El Museo Goya de Zaragoza vuelve a abrir con cuadros de Goya.",
-       "en": "The Goya Museum in Zaragoza opens again with paintings by Goya.",
+       "text": "El Prado muestra dibujos de Ricardo de Madrazo desde el martes.",
+       "en": "The Prado shows drawings by Ricardo de Madrazo from Tuesday.",
        "gloss": {
-        "museo": "museum",
-        "goya": "Goya (painter)",
-        "zaragoza": "Zaragoza (city in Aragon)",
-        "vuelve": "returns (vuelve a = again)",
-        "abrir": "to open",
-        "cuadros": "paintings"
+        "prado": "Prado (museum)",
+        "muestra": "shows",
+        "dibujos": "drawings",
+        "martes": "Tuesday"
        }
       },
       "B": {
-       "text": "El Museo Goya de Zaragoza reabrió el 9 de octubre tras 656 días cerrado por obras.",
-       "en": "The Goya Museum in Zaragoza reopened on 9 October after 656 days closed for building work.",
+       "text": "El Museo del Prado abrirá el 13 de octubre una exposición de dibujos y acuarelas del pintor Ricardo de Madrazo.",
+       "en": "The Prado Museum will open an exhibition of drawings and watercolours by the painter Ricardo de Madrazo on 13 October.",
        "gloss": {
         "museo": "museum",
-        "goya": "Goya (painter)",
-        "zaragoza": "Zaragoza (city in Aragon)",
-        "reabrió": "reopened",
+        "prado": "Prado",
+        "abrirá": "will open",
         "octubre": "October",
-        "cerrado": "closed",
-        "obras": "building work"
+        "exposición": "exhibition",
+        "dibujos": "drawings",
+        "acuarelas": "watercolours",
+        "pintor": "painter"
        }
       },
       "C": {
-       "text": "Tras permanecer 656 días cerrado por obras de ampliación, el Museo Goya de Zaragoza reabre sus puertas con «Solo Goya. El arte de ver», una muestra con obras prestadas por el Prado, los Uffizi y la National Gallery de Londres.",
-       "en": "After remaining closed for 656 days for expansion work, Zaragoza's Goya Museum reopens its doors with 'Only Goya. The Art of Seeing', an exhibition with works lent by the Prado, the Uffizi and the National Gallery in London.",
+       "text": "El Prado dedica por primera vez una muestra exclusivamente a la obra sobre papel de Ricardo de Madrazo, con cuadernos, dibujos y acuarelas de sus viajes por España, Europa y el norte de África.",
+       "en": "For the first time the Prado devotes a show exclusively to Ricardo de Madrazo's work on paper, with sketchbooks, drawings and watercolours from his travels through Spain, Europe and North Africa.",
        "gloss": {
-        "permanecer": "to remain",
-        "cerrado": "closed",
-        "obras": "works / building work",
-        "ampliación": "expansion",
-        "museo": "museum",
-        "goya": "Goya (painter)",
-        "zaragoza": "Zaragoza",
-        "reabre": "reopens",
-        "puertas": "doors",
-        "solo": "only",
-        "arte": "art",
-        "ver": "to see",
-        "muestra": "exhibition",
-        "prestadas": "lent",
-        "prado": "the Prado (museum in Madrid)",
-        "uffizi": "the Uffizi (gallery in Florence)",
-        "national": "National",
-        "gallery": "Gallery",
-        "londres": "London"
+        "prado": "Prado",
+        "dedica": "devotes",
+        "muestra": "show, exhibition",
+        "exclusivamente": "exclusively",
+        "obra": "work",
+        "papel": "paper",
+        "cuadernos": "notebooks, sketchbooks",
+        "dibujos": "drawings",
+        "acuarelas": "watercolours",
+        "viajes": "travels, trips",
+        "europa": "Europe",
+        "norte": "north",
+        "áfrica": "Africa"
        }
       }
      }
     },
     {
-     "topic": "Historia · Hidalgo",
-     "source": "https://www.inah.gob.mx//boletines/jornada-cultural-evocara-los-codices-matrinense-y-florentino-a-11-anos-de-su-inscripcion-por-la-unesco",
+     "topic": "Arqueología · Colima",
+     "source": "https://www.unotv.com/ciencia-y-tecnologia/sorpresivo-hallazgo-mar-de-fondo-deja-al-descubierto-mas-de-90-piezas-arqueologicas-en-colima/",
      "levels": {
       "A": {
-       "text": "Tepeapulco, en Hidalgo, celebra dos códices antiguos con una jornada gratis.",
-       "en": "Tepeapulco, in Hidalgo, celebrates two old codices with a free day of events.",
+       "text": "El mar descubre más de 90 piezas antiguas en una playa de Colima.",
+       "en": "The sea uncovers more than 90 ancient pieces on a beach in Colima.",
        "gloss": {
-        "tepeapulco": "Tepeapulco (town in Hidalgo)",
-        "hidalgo": "Hidalgo (Mexican state)",
-        "celebra": "celebrates",
-        "códices": "codices (old manuscript books)",
-        "antiguos": "old / ancient",
-        "jornada": "day (of events)",
-        "gratis": "free"
+        "mar": "sea",
+        "descubre": "uncovers",
+        "piezas": "pieces",
+        "antiguas": "ancient, old",
+        "playa": "beach"
        }
       },
       "B": {
-       "text": "El INAH organizó el viernes en Tepeapulco una jornada gratuita sobre dos códices que la Unesco reconoció hace 11 años.",
-       "en": "On Friday, INAH organised a free day of events in Tepeapulco about two codices that UNESCO recognised 11 years ago.",
+       "text": "Las olas dejaron al descubierto más de 90 piezas arqueológicas en la playa Tecuanillo, y los vecinos avisaron al INAH.",
+       "en": "The waves left more than 90 archaeological pieces exposed on Tecuanillo beach, and local residents alerted INAH.",
        "gloss": {
-        "inah": "INAH (Mexico's National Institute of Anthropology and History)",
-        "organizó": "organised",
-        "viernes": "Friday",
-        "tepeapulco": "Tepeapulco",
-        "jornada": "day (of events)",
-        "gratuita": "free",
-        "códices": "codices (old manuscript books)",
-        "unesco": "UNESCO",
-        "reconoció": "recognised",
-        "hace": "ago"
+        "olas": "waves",
+        "dejaron": "left",
+        "descubierto": "uncovered (al descubierto = exposed)",
+        "piezas": "pieces",
+        "arqueológicas": "archaeological",
+        "playa": "beach",
+        "vecinos": "neighbours, local residents",
+        "avisaron": "warned, alerted",
+        "inah": "INAH (national institute of anthropology and history)"
        }
       },
       "C": {
-       "text": "En el antiguo convento de Tepeapulco, donde fray Bernardino de Sahagún inició las investigaciones que darían origen al Códice Florentino, el INAH programó una conferencia y un documental para conmemorar los 11 años de la inscripción de los códices Matritense y Florentino en el programa Memoria del Mundo de la Unesco.",
-       "en": "In the former convent of Tepeapulco, where Friar Bernardino de Sahagún began the research that would give rise to the Florentine Codex, INAH scheduled a lecture and a documentary to mark 11 years since the Matritense and Florentine codices were inscribed in UNESCO's Memory of the World programme.",
+       "text": "Un mar de fondo dejó al descubierto en la playa Tecuanillo, en Tecomán, más de noventa piezas de cerámica, figurillas y restos óseos que abarcan desde el 1200 antes de Cristo hasta 1521.",
+       "en": "A ground swell exposed more than ninety pieces on Tecuanillo beach in Tecomán, ceramics, figurines and bone remains spanning from 1200 BC to 1521.",
        "gloss": {
-        "antiguo": "former / old",
-        "convento": "convent / friary",
-        "tepeapulco": "Tepeapulco",
-        "fray": "Friar",
-        "bernardino": "Bernardino",
-        "sahagún": "Sahagún",
-        "inició": "began",
-        "investigaciones": "research",
-        "darían": "would give",
-        "origen": "origin (dar origen = give rise to)",
-        "códice": "codex",
-        "florentino": "Florentine",
-        "inah": "INAH (Mexico's heritage institute)",
-        "programó": "scheduled",
-        "conferencia": "lecture",
-        "documental": "documentary",
-        "conmemorar": "to commemorate",
-        "inscripción": "inscription / listing",
-        "códices": "codices",
-        "matritense": "Matritense (of Madrid)",
-        "programa": "programme",
-        "memoria": "memory",
-        "unesco": "UNESCO"
+        "mar": "sea (mar de fondo = ground swell)",
+        "fondo": "bottom, depth",
+        "dejó": "left",
+        "descubierto": "uncovered (al descubierto = exposed)",
+        "playa": "beach",
+        "noventa": "ninety",
+        "piezas": "pieces",
+        "cerámica": "ceramics, pottery",
+        "figurillas": "figurines",
+        "restos": "remains",
+        "óseos": "bone (adj.)",
+        "abarcan": "span, cover",
+        "antes": "before",
+        "cristo": "Christ"
        }
       }
      }
     },
     {
-     "topic": "Gastronomía · Guatemala",
-     "source": "https://www.publinews.gt/turismo/2026/10/06/declaran-patrimonio-el-chal-kuum-como-se-prepara/",
+     "topic": "Arqueología maya · Yucatán",
+     "source": "https://escapadah.com/tendencias/2026/10/5/inah-analiza-pendientes-prehispanicos-hallados-en-proyecto-tren-maya-para-entender-antiguo-comercio-47519.html",
      "levels": {
       "A": {
-       "text": "Una comida maya de Petén ya es patrimonio de Guatemala.",
-       "en": "A Mayan dish from Petén is now part of Guatemala's heritage.",
+       "text": "Expertos estudian 14 pendientes mayas con forma de rana.",
+       "en": "Experts study 14 Maya pendants shaped like frogs.",
        "gloss": {
-        "comida": "food / dish",
-        "maya": "Mayan",
-        "petén": "Petén (region of Guatemala)",
-        "patrimonio": "heritage",
-        "guatemala": "Guatemala"
+        "expertos": "experts",
+        "estudian": "study",
+        "pendientes": "pendants",
+        "mayas": "Maya",
+        "forma": "shape",
+        "rana": "frog"
        }
       },
       "B": {
-       "text": "Guatemala declaró patrimonio cultural intangible los conocimientos tradicionales del chal k'uum, un platillo maya mopán de Dolores, Petén.",
-       "en": "Guatemala declared the traditional know-how behind chal k'uum, a Maya Mopán dish from Dolores, Petén, intangible cultural heritage.",
+       "text": "El INAH analiza 14 pendientes de concha con forma de rana o sapo que aparecieron en las obras del Tren Maya.",
+       "en": "INAH is analysing 14 shell pendants shaped like frogs or toads that turned up during the Maya Train works.",
        "gloss": {
-        "guatemala": "Guatemala",
-        "declaró": "declared",
-        "patrimonio": "heritage",
-        "cultural": "cultural",
-        "intangible": "intangible",
-        "conocimientos": "knowledge / know-how",
-        "tradicionales": "traditional",
-        "chal": "chal (Maya word)",
-        "k'uum": "k'uum (Maya word)",
-        "platillo": "dish",
-        "maya": "Maya",
-        "mopán": "Mopán (a Maya people)",
-        "dolores": "Dolores (town)",
-        "petén": "Petén"
+        "inah": "INAH",
+        "analiza": "analyses",
+        "pendientes": "pendants",
+        "concha": "shell",
+        "forma": "shape",
+        "rana": "frog",
+        "sapo": "toad",
+        "aparecieron": "appeared, turned up",
+        "obras": "building works",
+        "tren": "train",
+        "maya": "Maya"
        }
       },
       "C": {
-       "text": "El Ministerio de Cultura y Deportes de Guatemala ha reconocido como patrimonio cultural intangible las técnicas y saberes ancestrales del chal k'uum, un platillo maya mopán de Dolores, en Petén, cuyo nombre significa «carne preparada y cocida en olla».",
-       "en": "Guatemala's Ministry of Culture and Sports has recognised the ancestral techniques and knowledge behind chal k'uum, a Maya Mopán dish from Dolores in Petén whose name means 'meat prepared and cooked in a pot', as intangible cultural heritage.",
+       "text": "El INAH estudia catorce pendientes de concha del Clásico tardío, hallados en Campeche y Yucatán durante las obras del Tren Maya, para entender las antiguas redes de intercambio.",
+       "en": "INAH is studying fourteen Late Classic shell pendants, found in Campeche and Yucatán during the Maya Train works, to understand ancient exchange networks.",
        "gloss": {
-        "ministerio": "ministry",
-        "cultura": "culture",
-        "deportes": "sports",
-        "guatemala": "Guatemala",
-        "reconocido": "recognised",
-        "patrimonio": "heritage",
-        "cultural": "cultural",
-        "intangible": "intangible",
-        "técnicas": "techniques",
-        "saberes": "knowledge",
-        "ancestrales": "ancestral",
-        "chal": "chal (Maya word)",
-        "k'uum": "k'uum (Maya word)",
-        "platillo": "dish",
+        "inah": "INAH",
+        "estudia": "studies",
+        "catorce": "fourteen",
+        "pendientes": "pendants",
+        "concha": "shell",
+        "clásico": "Classic (period)",
+        "tardío": "late",
+        "hallados": "found",
+        "durante": "during",
+        "obras": "building works",
+        "tren": "train",
         "maya": "Maya",
-        "mopán": "Mopán (a Maya people)",
-        "dolores": "Dolores (town)",
-        "petén": "Petén",
-        "cuyo": "whose",
-        "nombre": "name",
-        "significa": "means",
-        "carne": "meat",
-        "preparada": "prepared",
-        "cocida": "cooked",
-        "olla": "pot"
+        "entender": "to understand",
+        "antiguas": "ancient",
+        "redes": "networks",
+        "intercambio": "exchange"
        }
       }
      }
     }
    ],
-   "phrases": [
-    {
-     "topic": "Asking for directions",
-     "situation": "You are in Zaragoza and stop a local to ask the way to the Goya Museum.",
-     "region": "España",
-     "lines": [
-      {
-       "who": "You",
-       "text": "Perdona, ¿dónde está el Museo Goya?",
-       "en": "Excuse me, where is the Goya Museum?",
-       "gloss": {
-        "perdona": "excuse me (informal)",
-        "dónde": "where",
-        "museo": "museum",
-        "goya": "Goya"
+   "phrases": {
+    "A": [
+     {
+      "topic": "Paying and numbers",
+      "situation": "Buying fruit at a market stall in Madrid",
+      "region": "España",
+      "lines": [
+       {
+        "who": "You",
+        "text": "Hola, ¿cuánto cuestan las naranjas?",
+        "en": "Hi, how much are the oranges?",
+        "gloss": {
+         "hola": "hi",
+         "cuánto": "how much",
+         "cuestan": "cost",
+         "naranjas": "oranges"
+        }
+       },
+       {
+        "who": "Seller",
+        "text": "Dos euros el kilo.",
+        "en": "Two euros a kilo.",
+        "gloss": {
+         "euros": "euros",
+         "kilo": "kilo"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Vale, un kilo, por favor.",
+        "en": "OK, a kilo, please.",
+        "gloss": {
+         "vale": "OK (Spain)",
+         "kilo": "kilo",
+         "favor": "favour (por favor = please)"
+        }
+       },
+       {
+        "who": "Seller",
+        "text": "¿Algo más?",
+        "en": "Anything else?",
+        "gloss": {
+         "algo": "something, anything"
+        }
+       },
+       {
+        "who": "You",
+        "text": "No, gracias. ¿Puedo pagar con tarjeta?",
+        "en": "No, thanks. Can I pay by card?",
+        "gloss": {
+         "gracias": "thanks",
+         "puedo": "can I",
+         "pagar": "to pay",
+         "tarjeta": "card"
+        }
+       },
+       {
+        "who": "Seller",
+        "text": "Claro, son dos euros.",
+        "en": "Of course, that's two euros.",
+        "gloss": {
+         "claro": "of course",
+         "euros": "euros"
+        }
        }
-      },
-      {
-       "who": "Local",
-       "text": "Está cerca. Sigue todo recto y luego gira a la derecha.",
-       "en": "It's close. Keep going straight on and then turn right.",
-       "gloss": {
-        "cerca": "near / close",
-        "sigue": "keep going / continue",
-        "recto": "straight (todo recto = straight on)",
-        "luego": "then",
-        "gira": "turn",
-        "derecha": "right"
+      ]
+     },
+     {
+      "topic": "The weather",
+      "situation": "Chatting with a hotel receptionist in Colima",
+      "region": "México",
+      "lines": [
+       {
+        "who": "You",
+        "text": "¡Qué calor hace hoy!",
+        "en": "It's so hot today!",
+        "gloss": {
+         "qué": "how, what",
+         "calor": "heat",
+         "hace": "makes (hace calor = it's hot)"
+        }
+       },
+       {
+        "who": "Receptionist",
+        "text": "Sí, pero en la tarde va a llover.",
+        "en": "Yes, but it's going to rain in the afternoon.",
+        "gloss": {
+         "tarde": "afternoon",
+         "llover": "to rain"
+        }
+       },
+       {
+        "who": "You",
+        "text": "¿Y mañana? Quiero ir a la playa.",
+        "en": "And tomorrow? I want to go to the beach.",
+        "gloss": {
+         "quiero": "I want",
+         "ir": "to go",
+         "playa": "beach"
+        }
+       },
+       {
+        "who": "Receptionist",
+        "text": "Mañana va a estar soleado. ¡Lleve bloqueador!",
+        "en": "Tomorrow it'll be sunny. Take sunscreen!",
+        "gloss": {
+         "soleado": "sunny",
+         "lleve": "take (polite command)",
+         "bloqueador": "sunscreen (Mexico)"
+        }
        }
-      },
-      {
-       "who": "You",
-       "text": "¿Está lejos andando?",
-       "en": "Is it far on foot?",
-       "gloss": {
-        "lejos": "far",
-        "andando": "walking / on foot"
+      ]
+     }
+    ],
+    "B": [
+     {
+      "topic": "Complaining about a wrong order",
+      "situation": "At a fonda in Mexico City, your dish isn't what you asked for",
+      "region": "México",
+      "lines": [
+       {
+        "who": "You",
+        "text": "Disculpe, joven, creo que hubo un error con mi orden.",
+        "en": "Excuse me, young man, I think there was a mistake with my order.",
+        "gloss": {
+         "disculpe": "excuse me (polite)",
+         "joven": "young man (polite way to address a waiter in Mexico)",
+         "creo": "I think",
+         "hubo": "there was",
+         "error": "mistake",
+         "orden": "order (Mexico)"
+        }
+       },
+       {
+        "who": "Waiter",
+        "text": "¿Qué pasó? ¿No es lo que pidió?",
+        "en": "What happened? Isn't it what you ordered?",
+        "gloss": {
+         "qué": "what",
+         "pasó": "happened",
+         "pidió": "you ordered (polite)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Pedí las enchiladas verdes, y estas son rojas. Y la verdad pican un buen.",
+        "en": "I ordered the green enchiladas, and these are red. And honestly they're really spicy.",
+        "gloss": {
+         "pedí": "I ordered",
+         "enchiladas": "enchiladas",
+         "verdes": "green",
+         "rojas": "red",
+         "verdad": "truth (la verdad = honestly)",
+         "pican": "are spicy, sting",
+         "buen": "good (un buen = a lot, Mexico slang)"
+        }
+       },
+       {
+        "who": "Waiter",
+        "text": "Ay, perdón, ahorita se las cambio.",
+        "en": "Oh, sorry, I'll change them for you right away.",
+        "gloss": {
+         "ay": "oh",
+         "perdón": "sorry",
+         "ahorita": "right now, in a moment (Mexico)",
+         "cambio": "I change"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Órale, gracias. No hay prisa.",
+        "en": "Great, thanks. No rush.",
+        "gloss": {
+         "órale": "OK, great (Mexico)",
+         "gracias": "thanks",
+         "prisa": "hurry, rush"
+        }
+       },
+       {
+        "who": "Waiter",
+        "text": "Y le traigo un agua de jamaica de cortesía, ¿va?",
+        "en": "And I'll bring you a hibiscus water on the house, OK?",
+        "gloss": {
+         "traigo": "I bring",
+         "agua": "water (agua de jamaica = hibiscus drink)",
+         "jamaica": "hibiscus",
+         "cortesía": "courtesy (de cortesía = on the house)",
+         "va": "OK? (Mexico, ¿va? = deal?)"
+        }
        }
-      },
-      {
-       "who": "Local",
-       "text": "Qué va, son unos cinco minutos.",
-       "en": "Not at all, it's about five minutes.",
-       "gloss": {
-        "qué": "what",
-        "va": "goes (qué va = not at all)",
-        "minutos": "minutes"
+      ]
+     },
+     {
+      "topic": "Making and changing plans",
+      "situation": "Voice note from a friend in Madrid about Saturday",
+      "region": "España",
+      "lines": [
+       {
+        "who": "Friend",
+        "text": "Tío, ¿al final quedamos el sábado para ir al Prado?",
+        "en": "Mate, so are we meeting on Saturday to go to the Prado after all?",
+        "gloss": {
+         "tío": "mate, dude (Spain)",
+         "final": "end (al final = in the end, after all)",
+         "quedamos": "we meet up",
+         "sábado": "Saturday",
+         "ir": "to go",
+         "prado": "Prado"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Uf, el sábado no puedo, me ha salido un curro.",
+        "en": "Ugh, I can't on Saturday, a job's come up.",
+        "gloss": {
+         "uf": "ugh",
+         "sábado": "Saturday",
+         "puedo": "I can",
+         "salido": "come up (salir = come out)",
+         "curro": "job, work (Spain slang)"
+        }
+       },
+       {
+        "who": "Friend",
+        "text": "Vaya. ¿Y el domingo por la mañana?",
+        "en": "Oh well. And Sunday morning?",
+        "gloss": {
+         "vaya": "oh well, what a pity",
+         "domingo": "Sunday"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Vale, el domingo me viene genial. ¿A las once en la puerta?",
+        "en": "OK, Sunday suits me perfectly. Eleven o'clock at the entrance?",
+        "gloss": {
+         "vale": "OK (Spain)",
+         "domingo": "Sunday",
+         "viene": "comes (me viene genial = suits me great)",
+         "genial": "great",
+         "once": "eleven",
+         "puerta": "door, entrance"
+        }
+       },
+       {
+        "who": "Friend",
+        "text": "Hecho. Y luego nos tomamos unas cañas, ¿no?",
+        "en": "Done. And then we'll have a few beers, right?",
+        "gloss": {
+         "hecho": "done, deal",
+         "luego": "then, afterwards",
+         "tomamos": "we have (a drink)",
+         "cañas": "small draught beers"
+        }
+       },
+       {
+        "who": "You",
+        "text": "¡Por supuesto! Nos vemos.",
+        "en": "Of course! See you.",
+        "gloss": {
+         "supuesto": "supposed (por supuesto = of course)",
+         "vemos": "we see (nos vemos = see you)"
+        }
        }
-      },
-      {
-       "who": "You",
-       "text": "Vale, ¡muchas gracias!",
-       "en": "OK, thanks a lot!",
-       "gloss": {
-        "vale": "OK (Spain)",
-        "muchas": "many",
-        "gracias": "thanks"
-       }
-      },
-      {
-       "who": "Local",
-       "text": "De nada. ¡Que te guste!",
-       "en": "You're welcome. Hope you like it!",
-       "gloss": {
-        "nada": "nothing (de nada = you're welcome)",
-        "guste": "pleases (que te guste = hope you like it)"
-       }
-      }
-     ]
-    },
-    {
-     "topic": "Phone and messaging",
-     "situation": "In Mexico City, a new friend wants your number so you can meet up later.",
-     "region": "México",
-     "lines": [
-      {
-       "who": "Ana",
-       "text": "Oye, ¿me pasas tu número de celular?",
-       "en": "Hey, can you give me your mobile number?",
-       "gloss": {
-        "oye": "hey (lit. listen)",
-        "pasas": "pass / give",
-        "tu": "your",
-        "número": "number",
-        "celular": "mobile phone (Latin America)"
-       }
-      },
-      {
-       "who": "You",
-       "text": "Claro, te mando un mensaje ahorita.",
-       "en": "Sure, I'll send you a message right now.",
-       "gloss": {
-        "claro": "sure / of course",
-        "mando": "I send",
-        "mensaje": "message",
-        "ahorita": "right now (Mexico)"
-       }
-      },
-      {
-       "who": "Ana",
-       "text": "Órale, ya me llegó. ¿Te marco en la tarde?",
-       "en": "Great, it's arrived. Shall I call you in the afternoon?",
-       "gloss": {
-        "órale": "great / OK (Mexico)",
-        "llegó": "arrived",
-        "marco": "I call (Mexico, lit. I dial)",
-        "tarde": "afternoon"
-       }
-      },
-      {
-       "who": "You",
-       "text": "Sí, márcame a las seis, ¿sale?",
-       "en": "Yes, call me at six, OK?",
-       "gloss": {
-        "márcame": "call me (Mexico)",
-        "seis": "six",
-        "sale": "OK? / deal? (Mexico)"
-       }
-      },
-      {
-       "who": "Ana",
-       "text": "Sale. ¡Nos vemos!",
-       "en": "Deal. See you!",
-       "gloss": {
-        "sale": "deal / OK (Mexico)",
-        "vemos": "we see (nos vemos = see you)"
-       }
-      }
-     ]
-    }
-   ],
+      ]
+     }
+    ]
+   },
    "vocab": [
     {
-     "word": "cola",
-     "article": "la",
-     "pos": "noun · idiom (hacer cola)",
+     "word": "molar",
+     "pos": "verb · slang",
      "region": "España",
      "ties": 1,
-     "meaning": "queue, line of people (also: tail)",
-     "note": "Hacer cola = to queue. In Mexico people say la fila and hacer fila.",
-     "example": "Si vas al Museo Goya el sábado, seguro que tienes que hacer cola.",
-     "exampleEn": "If you go to the Goya Museum on Saturday, you'll surely have to queue.",
+     "meaning": "to be cool, to be great (me mola = I love it)",
+     "note": "Works like gustar: the thing you like is the subject (me mola, me molan). Mexico: está padre, está chido.",
+     "example": "¡Cómo me molan las acuarelas de Madrazo!",
+     "exampleEn": "I really love Madrazo's watercolours!",
      "exGloss": {
-      "si": "if",
-      "vas": "you go",
-      "museo": "museum",
-      "goya": "Goya",
-      "sábado": "Saturday",
-      "seguro": "surely",
-      "tienes": "you have",
-      "hacer": "to do / make",
-      "cola": "queue"
+      "cómo": "how",
+      "molan": "are cool (me molan = I love them)",
+      "acuarelas": "watercolours"
      }
     },
     {
-     "word": "plática",
-     "article": "la",
-     "pos": "noun",
+     "word": "¡aguas!",
+     "pos": "interjection · slang",
      "region": "México",
      "ties": 2,
-     "meaning": "a chat, conversation; also an informal talk or lecture",
-     "note": "Verb: platicar (to chat). In Spain: la charla / charlar.",
-     "example": "Después de la plática sobre los códices, platicamos un rato con el guía.",
-     "exampleEn": "After the talk about the codices, we chatted for a while with the guide.",
+     "meaning": "watch out!, careful!",
+     "note": "Often «¡aguas con…!» for what to watch out for. Spain: ¡cuidado!, ¡ojo!",
+     "example": "¡Aguas con las olas, que hoy está muy bravo el mar!",
+     "exampleEn": "Watch out for the waves, the sea's really rough today!",
      "exGloss": {
-      "después": "after",
-      "plática": "talk",
-      "códices": "codices",
-      "platicamos": "we chatted",
-      "rato": "while",
-      "guía": "guide"
+      "aguas": "watch out (Mexico)",
+      "olas": "waves",
+      "bravo": "rough, wild",
+      "mar": "sea"
      }
     },
     {
-     "word": "chapín",
-     "pos": "adjective · noun · slang",
-     "region": "Guatemala",
+     "word": "collar",
+     "article": "el",
+     "pos": "noun",
+     "region": "general",
      "ties": 3,
-     "meaning": "Guatemalan (friendly, colloquial)",
-     "note": "Feminine chapina, plural chapines. Guatemalans use it proudly about themselves. In Spain and Mexico the usual word is guatemalteco / guatemalteca.",
-     "example": "El chal k'uum es un platillo bien chapín de Petén.",
-     "exampleEn": "Chal k'uum is a very Guatemalan dish from Petén.",
+     "meaning": "necklace",
+     "note": "Plural: los collares. A pendant hanging from it is un colgante in Spain and un dije in Mexico.",
+     "example": "En Mérida compré un collar con una rana de concha.",
+     "exampleEn": "In Mérida I bought a necklace with a shell frog.",
      "exGloss": {
-      "chal": "chal (Maya word)",
-      "k'uum": "k'uum (Maya word)",
-      "platillo": "dish",
-      "bien": "very / really",
-      "chapín": "Guatemalan",
-      "petén": "Petén"
+      "compré": "I bought",
+      "collar": "necklace",
+      "rana": "frog",
+      "concha": "shell"
      }
     }
    ],
@@ -4747,485 +4843,596 @@ var LINGUA_DAILY = {
     {
      "level": "A1",
      "ref": "phrase1",
-     "q": "In the Zaragoza scene, the local says \"Sigue todo recto\". What should you do?",
+     "q": "At the market you ask «¿Cuánto cuestan las naranjas?». What are you asking?",
      "options": [
-      "Turn right",
-      "Take the bus",
-      "Keep going straight on",
-      "Go back the way you came"
+      "Where the oranges are",
+      "How much the oranges cost",
+      "Whether the oranges are fresh",
+      "How many oranges are left"
      ],
-     "answer": 2,
-     "why": "Seguir = to keep going, and todo recto = straight on, so \"sigue todo recto\" means keep going straight ahead.",
-     "lesson": "\"Turn right\" comes in the same sentence (\"gira a la derecha\"), so it's easy to grab, but it's the second step; recto looks like \"right\" yet means straight, while \"right\" is derecha."
+     "answer": 1,
+     "why": "«¿Cuánto cuestan…?» means «How much do … cost?»: cuánto = how much, cuestan = they cost.",
+     "lesson": "Cuánto (how much) and cuántos (how many) look almost the same; the verb cuestan, from costar, is what tells you this is about price."
     },
     {
      "level": "A2",
-     "ref": "news3",
-     "q": "\"Una comida maya de Petén ya es patrimonio de Guatemala.\" What does \"ya es\" mean here?",
+     "ref": "news2",
+     "q": "In the Colima headline, «El mar descubre más de 90 piezas», what does «descubre» mean here?",
      "options": [
-      "is not yet",
-      "is now / has become",
-      "was once",
-      "will soon be"
+      "Covers",
+      "Destroys",
+      "Carries away",
+      "Uncovers"
      ],
-     "answer": 1,
-     "why": "With a present-tense verb, ya means \"now\" or \"already\": the dish has just become part of the national heritage.",
-     "lesson": "Learners often map ya to English \"yet\", which leads to \"is not yet\"; \"not yet\" is todavía no, and there is no no in the sentence."
+     "answer": 3,
+     "why": "Descubrir is literally «dis-cover»: the sea took the sand away and uncovered the pieces.",
+     "lesson": "Descubrir usually means «to discover», so learners expect a person as the subject; with the sea as subject, the literal sense «to uncover» is the one meant."
     },
     {
      "level": "B1",
-     "ref": "vocab1",
-     "q": "En España, ¿qué significa «hacer cola» delante del Museo Goya?",
+     "ref": "phrase2",
+     "q": "En el audio, tu amigo dice «¿al final quedamos el sábado?». ¿Qué significa «quedamos» aquí?",
      "options": [
-      "Pintar un cuadro",
-      "Comprar una entrada por internet",
-      "Cerrar el museo",
-      "Esperar en una fila de personas"
+      "Nos quedamos en casa",
+      "Nos vemos, tenemos una cita",
+      "Nos sobra tiempo",
+      "Nos quedamos sin dinero"
      ],
-     "answer": 3,
-     "why": "La cola es la fila de personas que esperan; «hacer cola» es esperar tu turno. En México se dice «hacer fila».",
-     "lesson": "«Comprar una entrada» atrae porque muchas veces haces cola para eso, pero la expresión habla de esperar, no de lo que compras al final."
+     "answer": 1,
+     "why": "Quedar (sin «se») significa acordar una cita: «quedamos el sábado» = nos vemos el sábado.",
+     "lesson": "Quedarse, con «se», es permanecer en un sitio; sin el pronombre, quedar con alguien es citarse, y esa pequeña «se» cambia todo el sentido."
     },
     {
      "level": "B2",
-     "ref": "news1",
-     "q": "«El Museo Goya de Zaragoza reabrió el 9 de octubre tras 656 días cerrado por obras.» ¿Qué significa aquí «por obras»?",
+     "ref": "vocab2",
+     "q": "Un amigo mexicano grita «¡Aguas con las olas!». ¿Qué te está diciendo?",
      "options": [
-      "Para mostrar obras de Goya",
-      "A causa de trabajos de construcción",
-      "Gracias a obras de otros museos",
-      "En lugar de sus obras de arte"
+      "Que bebas agua",
+      "Que el agua está fría",
+      "Que tengas cuidado con las olas",
+      "Que te metas al agua"
      ],
-     "answer": 1,
-     "why": "«Cerrado por obras» es la fórmula de los carteles en España: algo está cerrado porque lo están reformando o ampliando. Aquí «por» indica la causa.",
-     "lesson": "«Obras de Goya» atrae porque «obra» también es una obra de arte, pero con «cerrado por» se refiere a obras de construcción, no a cuadros."
+     "answer": 2,
+     "why": "En México, «¡aguas!» es un aviso: ¡cuidado! «Aguas con…» indica de qué hay que cuidarse.",
+     "lesson": "Como la frase va de la playa, la palabra «agua» invita a pensar en beber o nadar; pero «¡aguas!» en plural es una interjección fija y no habla del agua en absoluto."
     },
     {
      "level": "C1",
-     "ref": "news2",
-     "q": "«…donde fray Bernardino de Sahagún inició las investigaciones que darían origen al Códice Florentino…» ¿Qué valor tiene aquí «darían»?",
+     "ref": "news1",
+     "q": "«El Prado dedica por primera vez una muestra exclusivamente a la obra sobre papel». ¿Qué quiere decir «muestra» en este titular?",
      "options": [
-      "Una condición hipotética que nunca se cumplió",
-      "Una petición cortés",
-      "Un hecho posterior contado desde el pasado: lo que después originaron",
-      "Una acción que se repetía cada día"
+      "Una prueba o señal",
+      "Una exposición",
+      "Una pequeña cantidad de producto",
+      "Una forma del verbo enseñar"
      ],
-     "answer": 2,
-     "why": "Es el condicional como «futuro del pasado», típico de la prosa periodística e histórica: desde el momento de las investigaciones se anuncia lo que ocurrió después, el Códice Florentino.",
-     "lesson": "La forma condicional hace pensar en hipótesis («si…, darían»), pero aquí no hay ninguna condición: el códice existe, y el verbo solo sitúa el hecho como posterior."
+     "answer": 1,
+     "why": "Con «dedica una muestra a…», «muestra» es un sustantivo: exposición, sinónimo muy habitual en la prensa cultural.",
+     "lesson": "«Muestra» también es una muestra de perfume o la tercera persona de «mostrar»; aquí el artículo «una» delante lo convierte en sustantivo, y el contexto de museo fija el sentido de exposición."
     },
     {
      "level": "C2",
-     "ref": "vocab3",
-     "q": "Tras leer que Guatemala «ha reconocido como patrimonio cultural intangible las técnicas y saberes ancestrales del chal k'uum», un guatemalteco comenta: «Es comida bien chapina». ¿Qué quiere decir?",
+     "ref": "vocab1",
+     "q": "¿Cuál de estas frases usa «molar» correctamente?",
      "options": [
-      "Que es comida típica de Chiapas",
-      "Que es comida barata",
-      "Que es comida muy picante",
-      "Que es comida muy guatemalteca"
+      "Yo molo las acuarelas de Madrazo.",
+      "Me molan las acuarelas de Madrazo.",
+      "Me mola las acuarelas de Madrazo.",
+      "Yo me molo con las acuarelas."
      ],
-     "answer": 3,
-     "why": "Chapín/chapina es la forma coloquial y afectuosa de decir guatemalteco; «bien» intensifica: muy guatemalteca.",
-     "lesson": "«Chapina» se parece a «Chiapas», el estado mexicano vecino, y como el plato es maya la confusión parece lógica, pero la palabra no tiene relación con ese nombre."
+     "answer": 1,
+     "why": "Molar se construye como gustar: lo que gusta es el sujeto y concuerda con el verbo, así que «las acuarelas» exige «molan».",
+     "lesson": "Muchos hablantes no nativos dejan el verbo en singular porque «me mola» es la forma que más se oye; pero el verbo concuerda con lo que gusta, no con «me»."
     }
    ],
    "tip": {
-    "title": "Volver a + infinitive = again",
-    "text": "Spanish often says \"again\" with volver a + infinitive instead of an adverb: «El Museo Goya vuelve a abrir» = the museum opens again. Only volver changes (vuelvo, vuelve, volvió); the infinitive stays put. The prefix re- can do the same job («reabrió»), but it only exists for some verbs, while volver a works with any: vuelve a llamar, volví a ver."
+    "title": "Molar and gustar: the liked thing is the subject",
+    "text": "In «me molan las acuarelas», the watercolours are the grammatical subject, and «me» is the person who is pleased, so the verb goes plural with a plural thing. Gustar, encantar, molar and also «me viene genial» from the voice note all work this way. Think «the watercolours are cool to me», not «I like»."
    },
    "fun": {
     "kind": "idiom",
-    "region": "México",
-    "text": "Dar atole con el dedo.",
+    "region": "general",
+    "text": "Ser pan comido.",
     "gloss": {
-     "dar": "to give",
-     "atole": "atole (warm maize drink)",
-     "dedo": "finger"
+     "ser": "to be",
+     "pan": "bread",
+     "comido": "eaten"
     },
-    "literal": "To give someone atole with your finger.",
-    "meaning": "To string someone along: keep them happy with small gestures or empty promises instead of really giving them what they want.",
-    "culture": "Atole is a warm, thick drink made from maize, drunk in Mexico since pre-Hispanic times and still a breakfast favourite at street stalls. Offering it on a fingertip looks like feeding someone but gives them almost nothing, so people use the phrase about promises that never arrive."
+    "literal": "To be eaten bread.",
+    "meaning": "To be very easy, a piece of cake.",
+    "culture": "Bread is so basic to Spanish and Mexican tables that bread already eaten stands for something done without effort. You hear it everywhere: «El examen fue pan comido»."
    }
   },
   "de": {
    "news": [
     {
-     "topic": "Verkehrsgeschichte · München",
-     "source": "https://www.mvg.de/news/150-jahre-tram.html",
+     "topic": "Kunst · München",
+     "source": "https://www.pinakothek-der-moderne.de/en/exhibitions/die-nacht-beruehrt-die-erde/",
      "levels": {
       "A": {
-       "text": "Die Münchner Tram wird 150 Jahre alt und feiert mit einer Parade.",
-       "en": "Munich's tram turns 150 and celebrates with a parade.",
+       "text": "Ein Museum in München zeigt Bilder von Fritz Winter.",
+       "en": "A museum in Munich shows pictures by Fritz Winter.",
        "gloss": {
-        "tram": "tram",
-        "alt": "old",
-        "feiert": "celebrates",
-        "parade": "parade"
+        "museum": "museum",
+        "zeigt": "shows",
+        "bilder": "pictures, paintings"
        }
       },
       "B": {
-       "text": "1876 fuhr in München die erste Pferde-Tram vom Promenadeplatz zur Maillingerstraße; am 17. Oktober feiert die Stadt mit einer Parade.",
-       "en": "In 1876 Munich's first horse-drawn tram ran from Promenadeplatz to Maillingerstraße; on 17 October the city celebrates with a parade.",
+       "text": "Seit dem 9. Oktober zeigt die Pinakothek der Moderne Werke des Malers Fritz Winter, der vor 50 Jahren starb.",
+       "en": "Since 9 October the Pinakothek der Moderne has been showing works by the painter Fritz Winter, who died 50 years ago.",
        "gloss": {
-        "fuhr": "ran / drove (past of fahren)",
-        "erste": "first",
-        "pferde-tram": "horse-drawn tram",
-        "pferde": "horses",
-        "tram": "tram",
-        "promenadeplatz": "Promenadeplatz (square in central Munich)",
-        "maillingerstraße": "Maillingerstraße (street in Munich)",
         "oktober": "October",
-        "feiert": "celebrates",
-        "parade": "parade"
+        "zeigt": "shows",
+        "pinakothek": "Pinakothek (art gallery)",
+        "moderne": "modern art (die Moderne = modernism)",
+        "werke": "works",
+        "malers": "painter's (genitive)",
+        "vor": "ago, before",
+        "starb": "died"
        }
       },
       "C": {
-       "text": "Zum 150-jährigen Jubiläum der Münchner Tram, deren erste Pferdebahn 1876 vom Promenadeplatz zur Maillingerstraße fuhr, rollen am 17. Oktober historische Wagen in einem Korso durch die Innenstadt, und der Eintritt zu allen Veranstaltungen des Festwochenendes ist frei.",
-       "en": "For the 150th anniversary of Munich's tram, whose first horse-drawn line ran from Promenadeplatz to Maillingerstraße in 1876, historic cars will roll through the city centre in a procession on 17 October, and entry to every event of the festival weekend is free.",
+       "text": "Zum 50. Todestag des Bauhaus-Schülers Fritz Winter, dessen Kunst ab 1937 als „entartet“ galt, beleuchtet die Pinakothek der Moderne anhand seines neu zugänglichen Nachlasses sein Schaffen der 1930er und 40er Jahre.",
+       "en": "On the 50th anniversary of the death of Bauhaus pupil Fritz Winter, whose art was branded 'degenerate' from 1937, the Pinakothek der Moderne sheds light on his work of the 1930s and 40s using his newly accessible estate.",
        "gloss": {
-        "jährigen": "-year",
-        "150-jährigen": "150-year",
-        "jubiläum": "anniversary",
-        "tram": "tram",
-        "deren": "whose",
-        "erste": "first",
-        "pferdebahn": "horse-drawn tramway",
-        "promenadeplatz": "Promenadeplatz (square in central Munich)",
-        "maillingerstraße": "Maillingerstraße (street in Munich)",
-        "fuhr": "ran (past of fahren)",
-        "rollen": "roll",
-        "oktober": "October",
-        "historische": "historic",
-        "wagen": "cars / carriages",
-        "korso": "procession, parade",
-        "innenstadt": "city centre",
-        "eintritt": "admission, entry",
-        "allen": "all",
-        "veranstaltungen": "events",
-        "festwochenendes": "of the festival weekend",
-        "frei": "free"
-       }
-      }
-     }
-    },
-    {
-     "topic": "Kunstpreise · Regensburg",
-     "source": "https://www.regensburg.de/aktuelles/pressemitteilungen/159998/616508/preistraegerinnen-und-preistraeger-des-kulturpreises-und-der-kulturfoerderpreise-2026-stehen-fest.html",
-     "levels": {
-      "A": {
-       "text": "Regensburg ehrt zwei Künstler und einen Verein für Kinder mit Preisen.",
-       "en": "Regensburg honours two artists and a club for children with prizes.",
-       "gloss": {
-        "ehrt": "honours",
-        "künstler": "artists",
-        "verein": "club, association",
-        "kindern": "children",
-        "kinder": "children",
-        "preisen": "prizes"
-       }
-      },
-      "B": {
-       "text": "Heuer bekommen Paula Dischinger, Vincent Pollak und der Verein subsTanz die Kulturförderpreise der Stadt Regensburg, jeweils mit 2.500 Euro.",
-       "en": "This year Paula Dischinger, Vincent Pollak and the association subsTanz receive the City of Regensburg's culture-support prizes, each worth 2,500 euros.",
-       "gloss": {
-        "heuer": "this year (southern)",
-        "bekommen": "get, receive",
-        "verein": "club, association",
-        "substanz": "subsTanz (name of a dance and arts association)",
-        "kulturförderpreise": "culture-support prizes",
-        "jeweils": "each",
-        "euro": "euros"
-       }
-      },
-      "C": {
-       "text": "Mit je 2.500 Euro dotierte Kulturförderpreise gehen an die Performancekünstlerin Paula Dischinger, den Künstler Vincent Pollak und den Verein subsTanz, der Kindern zwischen acht und vierzehn Jahren Tanz, Theater und Kunst nahebringt, und verliehen werden sie am 21. Oktober im Staatstheater Regensburg.",
-       "en": "Culture-support prizes worth 2,500 euros each go to the performance artist Paula Dischinger, the artist Vincent Pollak and the association subsTanz, which brings dance, theatre and art to children aged eight to fourteen, and they will be presented on 21 October at the Staatstheater Regensburg.",
-       "gloss": {
-        "je": "each",
-        "euro": "euros",
-        "dotierte": "endowed, worth",
-        "kulturförderpreise": "culture-support prizes",
-        "gehen": "go",
-        "performancekünstlerin": "performance artist (female)",
-        "künstler": "artist",
-        "verein": "club, association",
-        "substanz": "subsTanz (name of a dance and arts association)",
-        "kindern": "children",
-        "zwischen": "between",
-        "acht": "eight",
-        "vierzehn": "fourteen",
-        "tanz": "dance",
-        "theater": "theatre",
+        "todestag": "anniversary of death",
+        "bauhaus-schülers": "Bauhaus pupil's",
+        "schülers": "pupil's",
+        "dessen": "whose",
         "kunst": "art",
-        "nahebringt": "brings closer, introduces",
-        "verliehen": "awarded, presented",
-        "oktober": "October",
-        "staatstheater": "state theatre"
+        "ab": "from",
+        "entartet": "degenerate (Nazi term)",
+        "galt": "was considered",
+        "beleuchtet": "sheds light on",
+        "pinakothek": "Pinakothek",
+        "moderne": "modern art",
+        "anhand": "by means of, using",
+        "seines": "his",
+        "neu": "newly",
+        "zugänglichen": "accessible",
+        "nachlasses": "estate (papers left after death)",
+        "sein": "his",
+        "schaffen": "creative work",
+        "er": "-s (in 1930er = 1930s)",
+        "jahre": "years"
        }
       }
      }
     },
     {
-     "topic": "Mode · Wien",
-     "source": "https://orf.at/stories/3442882/",
+     "topic": "Kunst · München",
+     "source": "https://www.muenchen.de/veranstaltungen/freizeit/ausstellung-museen/barcelona-moderna",
      "levels": {
       "A": {
-       "text": "Ein Museum in Wien zeigt Mode, nach Farben geordnet.",
-       "en": "A museum in Vienna shows fashion, arranged by colour.",
+       "text": "Bald zeigt München Kunst aus Barcelona, von Gaudí bis Picasso.",
+       "en": "Soon Munich shows art from Barcelona, from Gaudí to Picasso.",
        "gloss": {
-        "museum": "museum",
-        "wien": "Vienna",
+        "bald": "soon",
         "zeigt": "shows",
-        "mode": "fashion",
-        "farben": "colours",
-        "geordnet": "arranged, sorted"
+        "kunst": "art"
        }
       },
       "B": {
-       "text": "Seit dem 1. Oktober zeigt das Wien Museum rund 350 Kleider und Accessoires aus vier Jahrhunderten, nach Farben statt nach Zeit geordnet.",
-       "en": "Since 1 October the Wien Museum has been showing about 350 garments and accessories from four centuries, arranged by colour instead of by period.",
+       "text": "Ab dem 23. Oktober zeigt die Kunsthalle München die Kunst Barcelonas zwischen 1880 und 1914, von Gaudí bis zum jungen Picasso.",
+       "en": "From 23 October the Kunsthalle München is showing the art of Barcelona between 1880 and 1914, from Gaudí to the young Picasso.",
        "gloss": {
+        "ab": "from",
         "oktober": "October",
         "zeigt": "shows",
-        "wien": "Vienna",
-        "museum": "museum",
-        "rund": "around, about",
-        "kleider": "clothes, dresses",
-        "accessoires": "accessories",
-        "jahrhunderten": "centuries",
-        "farben": "colours",
-        "statt": "instead of",
-        "zeit": "time",
-        "geordnet": "arranged, sorted"
+        "kunsthalle": "art exhibition hall",
+        "kunst": "art",
+        "barcelonas": "Barcelona's",
+        "zwischen": "between",
+        "jungen": "young"
        }
       },
       "C": {
-       "text": "In der Schau „Farbenspiel“ ordnet das Wien Museum rund 350 Kleidungsstücke und Accessoires aus vier Jahrhunderten nach Farben und erinnert daran, dass Gelb, heute ein Sinnbild für Sommer und Optimismus, im Mittelalter als Farbe der Außenseiter galt.",
-       "en": "In the show 'Farbenspiel' (Play of Colours), the Wien Museum arranges some 350 garments and accessories from four centuries by colour, and recalls that yellow, today a symbol of summer and optimism, was considered the colour of outcasts in the Middle Ages.",
+       "text": "Als erste Ausstellung in Deutschland widmet sich „Barcelona moderna“ in der Kunsthalle München ab dem 23. Oktober der katalanischen Moderne und holt neben Gaudí und dem jungen Picasso hierzulande kaum bekannte Künstler wie Ramon Casas und Santiago Rusiñol ins Licht.",
+       "en": "As the first exhibition in Germany of its kind, 'Barcelona moderna' at the Kunsthalle München is devoted from 23 October to Catalan modernism, bringing into the light, alongside Gaudí and the young Picasso, artists barely known in this country such as Ramon Casas and Santiago Rusiñol.",
        "gloss": {
-        "schau": "show, exhibition",
-        "farbenspiel": "play of colours",
-        "ordnet": "arranges",
-        "wien": "Vienna",
-        "museum": "museum",
-        "rund": "some, about",
-        "kleidungsstücke": "garments",
-        "accessoires": "accessories",
-        "jahrhunderten": "centuries",
-        "farben": "colours",
-        "erinnert": "reminds",
-        "daran": "of it",
-        "dass": "that",
-        "gelb": "yellow",
-        "sinnbild": "symbol",
-        "sommer": "summer",
-        "optimismus": "optimism",
-        "mittelalter": "Middle Ages",
-        "farbe": "colour",
-        "außenseiter": "outsiders, outcasts",
-        "galt": "was considered (past of gelten)"
+        "erste": "first",
+        "ausstellung": "exhibition",
+        "widmet": "devotes (sich widmen = to be devoted to)",
+        "moderna": "modern (Spanish/Catalan)",
+        "kunsthalle": "art exhibition hall",
+        "ab": "from",
+        "oktober": "October",
+        "katalanischen": "Catalan",
+        "moderne": "modernism",
+        "holt": "brings, fetches",
+        "neben": "alongside",
+        "jungen": "young",
+        "hierzulande": "in this country",
+        "kaum": "barely",
+        "bekannte": "known",
+        "künstler": "artists",
+        "ins": "into the",
+        "licht": "light"
+       }
+      }
+     }
+    },
+    {
+     "topic": "Archäologie · Rheinland",
+     "source": "https://de.euronews.com/2026/09/29/934-silbermuenze-deutschland-roemerschatz",
+     "levels": {
+      "A": {
+       "text": "Ein Mann findet 934 alte Silbermünzen auf einem Feld.",
+       "en": "A man finds 934 old silver coins in a field.",
+       "gloss": {
+        "mann": "man",
+        "findet": "finds",
+        "alte": "old",
+        "silbermünzen": "silver coins",
+        "feld": "field"
+       }
+      },
+      "B": {
+       "text": "Bei Wesseling hat ein Sondengänger 934 römische Silbermünzen gefunden, die zur Zeit von Kaiser Hadrian vergraben wurden.",
+       "en": "Near Wesseling a metal detectorist has found 934 Roman silver coins that were buried in the time of Emperor Hadrian.",
+       "gloss": {
+        "sondengänger": "metal detectorist",
+        "römische": "Roman",
+        "silbermünzen": "silver coins",
+        "gefunden": "found",
+        "zeit": "time",
+        "kaiser": "emperor",
+        "vergraben": "buried"
+       }
+      },
+      "C": {
+       "text": "Mit 934 Denaren und gut drei Kilogramm Silber ist der Hort von Wesseling der größte bekannte Münzschatz in Deutschland, der unter Kaiser Hadrian vergraben wurde.",
+       "en": "With 934 denarii and just over three kilograms of silver, the Wesseling hoard is the largest known coin treasure in Germany buried under Emperor Hadrian.",
+       "gloss": {
+        "denaren": "denarii (Roman silver coins)",
+        "gut": "good (gut drei = a good three, just over three)",
+        "kilogramm": "kilograms",
+        "silber": "silver",
+        "hort": "hoard",
+        "größte": "largest",
+        "bekannte": "known",
+        "münzschatz": "coin hoard, coin treasure",
+        "kaiser": "emperor",
+        "vergraben": "buried"
        }
       }
      }
     }
    ],
-   "phrases": [
-    {
-     "topic": "Taking the tram",
-     "situation": "You are at a tram stop in Munich and ask a local for help.",
-     "region": "Bayern",
-     "lines": [
-      {
-       "who": "You",
-       "text": "Servus! Fährt die Tram zum Hauptbahnhof?",
-       "en": "Hi! Does the tram go to the main station?",
-       "gloss": {
-        "servus": "hi / bye (Bavarian, Austrian)",
-        "fährt": "goes, runs",
-        "tram": "tram",
-        "hauptbahnhof": "main station"
+   "phrases": {
+    "A": [
+     {
+      "topic": "Greetings and goodbyes",
+      "situation": "Meeting a neighbour in the stairwell in Munich",
+      "region": "Bayern",
+      "lines": [
+       {
+        "who": "Neighbour",
+        "text": "Servus! Wie geht's?",
+        "en": "Hi! How are you?",
+        "gloss": {
+         "servus": "hi / bye (Bavaria, Austria)",
+         "geht's": "goes it (wie geht's = how are you)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Servus! Gut, danke. Und dir?",
+        "en": "Hi! Good, thanks. And you?",
+        "gloss": {
+         "servus": "hi",
+         "gut": "good",
+         "danke": "thanks"
+        }
+       },
+       {
+        "who": "Neighbour",
+        "text": "Passt scho. Gehst du in die Arbeit?",
+        "en": "Fine, thanks. Are you going to work?",
+        "gloss": {
+         "passt": "fits (passt scho = it's fine, Bavarian)",
+         "scho": "already (Bavarian for schon)",
+         "gehst": "are you going",
+         "arbeit": "work"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Ja, ich bin spät dran. Pfiat di!",
+        "en": "Yes, I'm running late. Bye!",
+        "gloss": {
+         "ja": "yes",
+         "spät": "late",
+         "dran": "on it (spät dran = running late)",
+         "pfiat": "bye (Bavarian, 'God protect you')",
+         "di": "you (Bavarian for dich)",
+         "bin": "am"
+        }
+       },
+       {
+        "who": "Neighbour",
+        "text": "Pfiat di, bis später!",
+        "en": "Bye, see you later!",
+        "gloss": {
+         "pfiat": "bye (Bavarian)",
+         "di": "you (Bavarian)",
+         "später": "later"
+        }
        }
-      },
-      {
-       "who": "Local",
-       "text": "Ja, die Neunzehn. Aber zuerst brauchen Sie ein Ticket.",
-       "en": "Yes, the number nineteen. But first you need a ticket.",
-       "gloss": {
-        "ja": "yes",
-        "neunzehn": "nineteen",
-        "zuerst": "first",
-        "brauchen": "need",
-        "ticket": "ticket"
+      ]
+     },
+     {
+      "topic": "Hotel check-in",
+      "situation": "Arriving at a small hotel in Vienna",
+      "region": "Österreich",
+      "lines": [
+       {
+        "who": "Receptionist",
+        "text": "Grüß Gott! Haben Sie reserviert?",
+        "en": "Hello! Do you have a reservation?",
+        "gloss": {
+         "grüß": "greet (Grüß Gott = hello, southern German/Austrian)",
+         "gott": "God",
+         "reserviert": "reserved, booked"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Ja, auf den Namen Miller, für zwei Nächte.",
+        "en": "Yes, under the name Miller, for two nights.",
+        "gloss": {
+         "ja": "yes",
+         "namen": "name",
+         "nächte": "nights"
+        }
+       },
+       {
+        "who": "Receptionist",
+        "text": "Sehr gut. Hier ist Ihr Schlüssel, Zimmer zwölf.",
+        "en": "Very good. Here's your key, room twelve.",
+        "gloss": {
+         "gut": "good",
+         "ihr": "your (polite)",
+         "schlüssel": "key",
+         "zimmer": "room",
+         "zwölf": "twelve"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Danke! Wann gibt es Frühstück?",
+        "en": "Thanks! When is breakfast?",
+        "gloss": {
+         "danke": "thanks",
+         "wann": "when",
+         "gibt": "gives (es gibt = there is)",
+         "frühstück": "breakfast"
+        }
+       },
+       {
+        "who": "Receptionist",
+        "text": "Von sieben bis zehn Uhr.",
+        "en": "From seven to ten o'clock.",
+        "gloss": {
+         "von": "from",
+         "sieben": "seven",
+         "uhr": "o'clock"
+        }
        }
-      },
-      {
-       "who": "You",
-       "text": "Wo kauf ich das Ticket?",
-       "en": "Where do I buy the ticket?",
-       "gloss": {
-        "wo": "where",
-        "kauf": "buy (colloquial for kaufe)",
-        "ticket": "ticket"
+      ]
+     }
+    ],
+    "B": [
+     {
+      "topic": "At the pharmacy",
+      "situation": "Asking for something for a sore throat at an Apotheke in Regensburg",
+      "region": "Bayern",
+      "lines": [
+       {
+        "who": "Pharmacist",
+        "text": "Grüß Gott, was darf's sein?",
+        "en": "Hello, what can I get you?",
+        "gloss": {
+         "grüß": "greet",
+         "gott": "God (Grüß Gott = hello)",
+         "darf's": "may it (was darf's sein = what can I get you)",
+         "was": "what"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Grüß Gott. Ich hab seit gestern so ein Kratzen im Hals, und schlucken tut echt weh.",
+        "en": "Hello. Since yesterday I've had this scratchy throat, and swallowing really hurts.",
+        "gloss": {
+         "grüß": "greet",
+         "gott": "God",
+         "hab": "have (spoken for habe)",
+         "gestern": "yesterday",
+         "kratzen": "scratching",
+         "hals": "throat",
+         "schlucken": "swallowing",
+         "tut": "does (weh tun = to hurt)",
+         "echt": "really",
+         "weh": "sore, painful"
+        }
+       },
+       {
+        "who": "Pharmacist",
+        "text": "Haben Sie auch Fieber?",
+        "en": "Do you have a temperature too?",
+        "gloss": {
+         "fieber": "fever, temperature"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Nee, eigentlich nicht. Nur halt die Halsschmerzen.",
+        "en": "Nah, not really. Just the sore throat, you know.",
+        "gloss": {
+         "nee": "nah, no (colloquial)",
+         "eigentlich": "actually, really",
+         "nur": "only, just",
+         "halt": "just, you know (filler)",
+         "halsschmerzen": "sore throat"
+        }
+       },
+       {
+        "who": "Pharmacist",
+        "text": "Dann nehmen S' diese Lutschtabletten, alle drei Stunden eine.",
+        "en": "Then take these lozenges, one every three hours.",
+        "gloss": {
+         "nehmen": "take",
+         "s'": "you (Bavarian for Sie)",
+         "lutschtabletten": "lozenges",
+         "alle": "every (alle drei Stunden = every three hours)",
+         "stunden": "hours",
+         "s": "you (Bavarian S' for Sie)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Passt, die nehm ich. Was kriegen Sie?",
+        "en": "Fine, I'll take those. What do I owe you?",
+        "gloss": {
+         "passt": "fine, that works",
+         "nehm": "take (spoken for nehme)",
+         "kriegen": "get (was kriegen Sie = what do I owe you)",
+         "was": "what"
+        }
        }
-      },
-      {
-       "who": "Local",
-       "text": "Am Automaten, da vorne. Oder in der App.",
-       "en": "At the machine, up there. Or in the app.",
-       "gloss": {
-        "automaten": "ticket machine",
-        "vorne": "in front, ahead",
-        "app": "app"
+      ]
+     },
+     {
+      "topic": "Telling a short story about your weekend",
+      "situation": "Monday morning at the coffee machine with a colleague in Munich",
+      "region": "Bayern",
+      "lines": [
+       {
+        "who": "Colleague",
+        "text": "Morgen! Na, wie war dein Wochenende?",
+        "en": "Morning! So, how was your weekend?",
+        "gloss": {
+         "morgen": "morning (greeting)",
+         "na": "well, so",
+         "war": "was",
+         "dein": "your",
+         "wochenende": "weekend"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Super! Am Samstag sind wir mit dem Radl an den Starnberger See gefahren.",
+        "en": "Great! On Saturday we cycled to Lake Starnberg.",
+        "gloss": {
+         "super": "great",
+         "samstag": "Saturday",
+         "radl": "bike (Bavarian for Fahrrad)",
+         "starnberger": "Starnberg (adj.)",
+         "see": "lake",
+         "gefahren": "gone, ridden"
+        }
+       },
+       {
+        "who": "Colleague",
+        "text": "Echt? Bei dem Wetter?",
+        "en": "Really? In that weather?",
+        "gloss": {
+         "echt": "really",
+         "wetter": "weather"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Ja, in der Früh hat's geregnet, aber dann war's total schön.",
+        "en": "Yes, it rained first thing in the morning, but then it was really lovely.",
+        "gloss": {
+         "ja": "yes",
+         "früh": "morning (in der Früh = in the morning, southern)",
+         "hat's": "has it",
+         "geregnet": "rained",
+         "war's": "was it",
+         "total": "totally, really",
+         "schön": "lovely, nice"
+        }
+       },
+       {
+        "who": "Colleague",
+        "text": "Und am Sonntag? Habt ihr euch ausgeruht?",
+        "en": "And on Sunday? Did you have a rest?",
+        "gloss": {
+         "sonntag": "Sunday",
+         "habt": "have (you all)",
+         "euch": "yourselves",
+         "ausgeruht": "rested"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Schön wär's! Wir sind in die Pinakothek gegangen. Aber war pfundig.",
+        "en": "I wish! We went to the Pinakothek. But it was great.",
+        "gloss": {
+         "schön": "nice (schön wär's = I wish)",
+         "wär's": "would be it",
+         "pinakothek": "Pinakothek (art gallery)",
+         "gegangen": "gone",
+         "pfundig": "great (Bavarian)"
+        }
        }
-      },
-      {
-       "who": "You",
-       "text": "Danke! Und wo steig ich aus?",
-       "en": "Thanks! And where do I get off?",
-       "gloss": {
-        "danke": "thanks",
-        "wo": "where",
-        "steig": "get (colloquial for steige)",
-        "aus": "off, out"
-       }
-      },
-      {
-       "who": "Local",
-       "text": "Nach drei Stationen. Gute Fahrt!",
-       "en": "After three stops. Have a good trip!",
-       "gloss": {
-        "stationen": "stops, stations",
-        "gute": "good",
-        "fahrt": "trip, ride"
-       }
-      }
-     ]
-    },
-    {
-     "topic": "Shopping for clothes",
-     "situation": "You are buying a jacket in a shop in Vienna.",
-     "region": "Österreich",
-     "lines": [
-      {
-       "who": "Shop assistant",
-       "text": "Grüß Gott! Kann ich Ihnen helfen?",
-       "en": "Hello! Can I help you?",
-       "gloss": {
-        "grüß": "greet",
-        "gott": "God",
-        "ihnen": "you (formal)",
-        "helfen": "help"
-       }
-      },
-      {
-       "who": "You",
-       "text": "Ja, gern. Haben Sie die Jacke auch in Blau?",
-       "en": "Yes, please. Do you have the jacket in blue too?",
-       "gloss": {
-        "ja": "yes",
-        "gern": "gladly, please",
-        "jacke": "jacket",
-        "blau": "blue"
-       }
-      },
-      {
-       "who": "Shop assistant",
-       "text": "Ja, in Größe M und L.",
-       "en": "Yes, in size M and L.",
-       "gloss": {
-        "ja": "yes",
-        "größe": "size",
-        "m": "M (medium)",
-        "l": "L (large)"
-       }
-      },
-      {
-       "who": "You",
-       "text": "M, bitte. Kann ich sie probieren?",
-       "en": "M, please. Can I try it on?",
-       "gloss": {
-        "m": "M (medium)",
-        "bitte": "please",
-        "probieren": "try (on)"
-       }
-      },
-      {
-       "who": "Shop assistant",
-       "text": "Natürlich, die Kabine ist dort hinten.",
-       "en": "Of course, the changing room is back there.",
-       "gloss": {
-        "natürlich": "of course",
-        "kabine": "changing room",
-        "dort": "there",
-        "hinten": "at the back"
-       }
-      },
-      {
-       "who": "You",
-       "text": "Passt super! Was kostet sie?",
-       "en": "It fits great! How much is it?",
-       "gloss": {
-        "passt": "fits",
-        "super": "great",
-        "was": "what",
-        "kostet": "costs"
-       }
-      }
-     ]
-    }
-   ],
+      ]
+     }
+    ]
+   },
    "vocab": [
     {
-     "word": "Tram",
-     "article": "die",
-     "pos": "noun",
-     "region": "Süddeutschland · Österreich · Schweiz",
+     "word": "pfundig",
+     "pos": "adjective · slang",
+     "region": "Bayern",
      "ties": 1,
-     "meaning": "tram, streetcar",
-     "note": "Plural: die Trams. Standard German: die Straßenbahn. In Munich people also say die Trambahn, in Vienna die Bim, and in Switzerland it is neuter: das Tram.",
-     "example": "Am Samstag fahren alte Trams durch die Innenstadt.",
-     "exampleEn": "On Saturday old trams drive through the city centre.",
+     "meaning": "great, terrific",
+     "note": "Bavarian and Austrian colloquial, from Pfund (pound): weighty, solid. Standard: toll, super, klasse.",
+     "example": "Die Bilder von Fritz Winter sind echt pfundig!",
+     "exampleEn": "Fritz Winter's paintings are really great!",
      "exGloss": {
-      "samstag": "Saturday",
-      "fahren": "drive, run",
-      "alte": "old",
-      "trams": "trams",
-      "innenstadt": "city centre"
+      "bilder": "pictures, paintings",
+      "echt": "really",
+      "pfundig": "great (Bavarian)"
      }
     },
     {
-     "word": "heuer",
-     "pos": "adverb",
-     "region": "Bayern · Österreich",
+     "word": "sich anschauen",
+     "pos": "verb · separable",
+     "region": "Süddeutschland",
      "ties": 2,
-     "meaning": "this year",
-     "note": "Standard German: dieses Jahr. From the same root comes the adjective heurig (this year's) and, in Austria, der Heurige: this year's new wine and the tavern that serves it.",
-     "example": "Heuer bekommt auch ein Verein für Kinder einen Preis.",
-     "exampleEn": "This year a club for children gets a prize too.",
+     "meaning": "to have a look at, to go and see",
+     "note": "Separable: ich schaue mir … an; Perfekt: ich habe mir … angeschaut. Northern Germany prefers sich ansehen or, casually, sich angucken.",
+     "example": "Schauen wir uns am Sonntag die Ausstellung über Barcelona an?",
+     "exampleEn": "Shall we go and see the Barcelona exhibition on Sunday?",
      "exGloss": {
-      "heuer": "this year",
-      "bekommt": "gets",
-      "verein": "club, association",
-      "kinder": "children",
-      "preis": "prize"
+      "schauen": "look (sich anschauen = to look at)",
+      "sonntag": "Sunday",
+      "ausstellung": "exhibition",
+      "an": "at (separable prefix of anschauen)"
      }
     },
     {
-     "word": "Gwand",
-     "article": "das",
-     "pos": "noun · dialect",
-     "region": "Österreich",
+     "word": "Kohle",
+     "article": "die",
+     "pos": "noun · slang",
+     "region": "general",
      "ties": 3,
-     "meaning": "clothes, outfit",
-     "note": "Austrian (and Bavarian) dialect, from das Gewand. Standard German: die Kleidung or die Kleider. Usually used without a plural, like a mass noun: 'Zieh dir a gscheits Gwand an!' (Put on some decent clothes!)",
-     "example": "Im Wien Museum hängt Gwand aus vier Jahrhunderten.",
-     "exampleEn": "In the Wien Museum hang clothes from four centuries.",
+     "meaning": "money, cash (literally coal)",
+     "note": "Used without a plural: Ich hab keine Kohle. Other slang: die Knete, das Moos; Bavarian also das Gerstl.",
+     "example": "Wenn ich so einen Schatz finde, hab ich endlich Kohle!",
+     "exampleEn": "If I find a treasure like that, I'll finally have some cash!",
      "exGloss": {
-      "wien": "Vienna",
-      "museum": "museum",
-      "hängt": "hangs",
-      "gwand": "clothes (Austrian)",
-      "jahrhunderten": "centuries"
+      "wenn": "if, when",
+      "einen": "a",
+      "schatz": "treasure",
+      "finde": "find",
+      "hab": "have (spoken for habe)",
+      "endlich": "finally",
+      "kohle": "cash (slang)"
      }
     }
    ],
@@ -5233,849 +5440,1123 @@ var LINGUA_DAILY = {
     {
      "level": "A1",
      "ref": "phrase1",
-     "q": "At the tram stop, the local says \"Nach drei Stationen.\" What does that tell you?",
+     "q": "Your Munich neighbour says «Pfiat di!» as you leave. What does it mean?",
      "options": [
-      "Get off after three stops",
-      "The tram comes in three minutes",
-      "The ticket costs three euros",
-      "Take tram number three"
+      "Hurry up!",
+      "Good morning!",
+      "Bye!",
+      "Be careful!"
      ],
-     "answer": 0,
-     "why": "\"Nach\" here means \"after\" and \"Stationen\" are stops: it answers your question \"Wo steig ich aus?\" (Where do I get off?).",
-     "lesson": "\"Drei\" jumps out and the brain grabs the nearest number-shaped thing, like minutes or a price; but \"Stationen\" is the noun the number counts."
+     "answer": 2,
+     "why": "«Pfiat di» is the Bavarian goodbye, short for «behüte dich Gott», God protect you.",
+     "lesson": "Because «Servus» works for both hello and goodbye, learners expect every Bavarian greeting to do both; «Pfiat di» is only ever said when parting."
     },
     {
      "level": "A2",
      "ref": "news3",
-     "q": "\"Ein Museum in Wien zeigt Mode, nach Farben geordnet.\" How is the fashion arranged?",
+     "q": "In «Ein Mann findet 934 alte Silbermünzen auf einem Feld», what did the man find?",
      "options": [
-      "By date",
-      "By colour",
-      "By country",
-      "By size"
+      "Silver coins",
+      "Old gold rings",
+      "Silver plates",
+      "Roman weapons"
      ],
-     "answer": 1,
-     "why": "\"Farben\" means colours, and \"nach Farben geordnet\" means sorted by colour.",
-     "lesson": "Museums usually go in date order, so \"by date\" feels natural; and \"nach\" often means \"after\" in time, which nudges you towards a timeline."
+     "answer": 0,
+     "why": "Silbermünzen = Silber (silver) + Münzen (coins): silver coins.",
+     "lesson": "In a German compound the last part names the thing and the first part describes it, so Silbermünzen are coins made of silver, not silver of some kind."
     },
     {
      "level": "B1",
-     "ref": "vocab2",
-     "q": "„Heuer bekommen Paula Dischinger, Vincent Pollak und der Verein subsTanz die Kulturförderpreise …“ – Was bedeutet „heuer“?",
+     "ref": "phrase2",
+     "q": "Die Kollegin fragt: «Habt ihr euch ausgeruht?» Du antwortest «Schön wär's!». Was meinst du?",
      "options": [
-      "wieder",
-      "früher",
-      "dieses Jahr",
-      "teuer"
+      "Ja, es war sehr schön.",
+      "Leider nein, das hätte ich gern gehabt.",
+      "Das Wetter war schön.",
+      "Ich weiß es nicht mehr."
      ],
-     "answer": 2,
-     "why": "„Heuer“ ist bairisch-österreichisch für „dieses Jahr“.",
-     "lesson": "„Heuer“ reimt sich auf „teuer“, und weil es um 2.500 Euro geht, denkt man schnell an Geld; mit dem Preis hat das Wort aber nichts zu tun."
+     "answer": 1,
+     "why": "«Schön wär's» ist Konjunktiv II: es wäre schön, ist aber nicht passiert, also ‚schön wäre es gewesen‘.",
+     "lesson": "Das Wort «schön» klingt positiv und lockt zu ‚ja, es war schön‘; entscheidend ist aber «wär's», der Konjunktiv, der einen unerfüllten Wunsch ausdrückt."
     },
     {
      "level": "B2",
-     "ref": "news1",
-     "q": "„1876 fuhr in München die erste Pferde-Tram vom Promenadeplatz zur Maillingerstraße …“ – Welche Form ist „fuhr“?",
+     "ref": "vocab2",
+     "q": "Welcher Satz ist richtig?",
      "options": [
-      "Präsens von „führen“",
-      "Konjunktiv II von „fahren“",
-      "Partizip II von „fahren“",
-      "Präteritum von „fahren“"
+      "Wir haben uns die Ausstellung angeschaut.",
+      "Wir haben uns die Ausstellung geanschaut.",
+      "Wir haben die Ausstellung uns anschaut.",
+      "Wir sind uns die Ausstellung angeschaut."
      ],
-     "answer": 3,
-     "why": "„Fahren“ ist stark: fahren – fuhr – gefahren. „Fuhr“ ist also das Präteritum.",
-     "lesson": "„Führen“ sieht fast gleich aus, aber sein Präsens lautet „führt“; und der Konjunktiv II von „fahren“ hat einen Umlaut und ein -e: „führe“."
+     "answer": 0,
+     "why": "Bei trennbaren Verben steht das ge- zwischen Präfix und Stamm: an-ge-schaut; anschauen bildet das Perfekt mit haben.",
+     "lesson": "Viele setzen ge- automatisch an den Anfang, weil das bei einfachen Verben so ist; bei trennbaren Verben rutscht es hinter das Präfix."
     },
     {
      "level": "C1",
-     "ref": "vocab1",
-     "q": "In der Schlagzeile heißt es „der Münchner Tram“ (Genitiv von „die Tram“). Wie sagt man in Zürich üblicherweise?",
+     "ref": "news1",
+     "q": "Im Titel steht, Winters Kunst «galt» ab 1937 als „entartet“. Was bedeutet hier «galt»?",
      "options": [
-      "das Tram",
-      "der Tram",
-      "die Bim",
-      "die Trambahn"
+      "kostete",
+      "wurde gezeigt",
+      "wurde angesehen als",
+      "war gültig"
      ],
-     "answer": 0,
-     "why": "Im Schweizer Hochdeutsch ist „Tram“ ein Neutrum: „das Tram“.",
-     "lesson": "„Der Münchner Tram“ klingt wie ein Maskulinum, ist aber nur der Genitiv des Femininums; und „die Bim“ ist zwar auch regional, gehört aber nach Wien."
+     "answer": 2,
+     "why": "«gelten als» heißt ‚angesehen werden als‘: Die Nationalsozialisten stuften seine Kunst als „entartet“ ein.",
+     "lesson": "«gelten» kennt man oft als ‚gültig sein‘ (der Fahrschein gilt); erst die Verbindung mit «als» macht daraus ein Urteil darüber, wie etwas gesehen wird."
     },
     {
      "level": "C2",
-     "ref": "news3",
-     "q": "„… dass Gelb … im Mittelalter als Farbe der Außenseiter galt.“ – Was drückt „als … galt“ hier aus?",
+     "ref": "vocab3",
+     "q": "Ein Freund sagt: «Ich hab grad keine Kohle.» Was ist die passende Antwort?",
      "options": [
-      "dass Gelb so viel kostete wie andere Farben",
-      "dass Gelb so angesehen wurde",
-      "dass Gelb nur bis zum Mittelalter gültig war",
-      "dass Gelb durch eine andere Farbe ersetzt wurde"
+      "Dann heizen wir eben mit Holz.",
+      "Kein Problem, ich lad dich ein.",
+      "Die Kohle ist im Keller.",
+      "Dann kauf doch einen Ofen."
      ],
      "answer": 1,
-     "why": "„Als etwas gelten“ heißt „als etwas angesehen werden“: Man betrachtete Gelb damals als Farbe der Außenseiter.",
-     "lesson": "„Gelten“ steckt auch in „gültig“ (valid) und erinnert an Fahrkarten oder Preise; mit „als“ geht es aber um Ansehen, nicht um Gültigkeit oder Wert."
+     "why": "«Kohle» ist umgangssprachlich Geld; wer keine hat, wird am besten eingeladen.",
+     "lesson": "Die wörtliche Bedeutung Brennstoff liegt nahe, besonders mit Wörtern wie heizen oder Keller; im Alltag ist «keine Kohle haben» aber fast immer ‚pleite sein‘."
     }
    ],
    "tip": {
-    "title": "Separable verbs: the prefix goes last",
-    "text": "In \"Wo steig ich aus?\" the verb is aussteigen (to get off). In a main clause or question the conjugated part \"steig\" takes the verb slot and the prefix \"aus\" moves to the very end. In a subordinate clause they join again: \"Ich weiß nicht, wo ich aussteige.\" The stress always stays on the prefix: AUS-steigen. (Dropping the -e, \"steig\" for \"steige\", is normal in speech.)"
+    "title": "Perfekt with sein for getting somewhere",
+    "text": "Verbs of moving from A to B take sein in the Perfekt: «wir sind an den See gefahren», «wir sind in die Pinakothek gegangen». The same verb takes haben when it has a direct object: «ich habe das Auto gefahren». And «sich anschauen» stays with haben, because looking isn't travelling."
    },
    "fun": {
-    "kind": "saying",
-    "region": "Österreich",
-    "text": "Schau ma mal, dann seh ma scho.",
+    "kind": "idiom",
+    "region": "Bayern",
+    "text": "Da legst di nieder!",
     "gloss": {
-     "schau": "look",
-     "ma": "we (dialect for wir)",
-     "mal": "just, for a moment",
-     "seh": "see",
-     "scho": "surely, already (dialect for schon)"
+     "legst": "lay (you lay)",
+     "di": "yourself (Bavarian for dich)",
+     "nieder": "down"
     },
-    "literal": "Let's just have a look, then we'll surely see.",
-    "meaning": "Let's wait and see; no need to decide or worry yet.",
-    "culture": "This is a very Austrian, especially Viennese, way of putting off a decision with a shrug. Note the dialect: \"ma\" replaces \"wir\" and \"scho\" replaces \"schon\". People often quote it with a wink as a summary of the relaxed Austrian attitude to problems."
+    "literal": "There you lie yourself down!",
+    "meaning": "Wow, unbelievable! I'm floored.",
+    "culture": "A Bavarian exclamation of amazement, good or bad: so astonishing that you'd have to lie down. You'll hear it over a huge Schweinsbraten or a shocking bill, often stretched out as «Ja, da legst di nieder!»."
    }
   },
   "it": {
    "news": [
     {
-     "topic": "Archeologia · Ciociaria",
-     "source": "https://www.ansa.it/sito/notizie/cultura/arte/2026/10/04/due-nuovi-reperti-archeologici-dallantica-citta-romana-di-aquinum_0ec29e70-8d77-4469-aaf6-33bb379e97a2.html",
+     "topic": "Arte · Milano",
+     "source": "https://www.finestresullarte.info/en/exhibitions/francis-picabia-over-170-works-at-palazzo-reale-for-the-most-comprehensive-exhibition-in-italy",
      "levels": {
       "A": {
-       "text": "Ad Aquinum gli archeologi trovano un altare romano di marmo.",
-       "en": "At Aquinum, archaeologists find a Roman marble altar.",
+       "text": "A Milano c'è una grande mostra sul pittore Francis Picabia.",
+       "en": "In Milan there is a big exhibition about the painter Francis Picabia.",
        "gloss": {
-        "ad": "at / to",
-        "archeologi": "archaeologists",
-        "trovano": "they find",
-        "altare": "altar",
-        "romano": "Roman",
-        "marmo": "marble"
-       }
-      },
-      "B": {
-       "text": "Gli scavi dell'Università del Salento ad Aquinum hanno riportato alla luce un altare dedicato al Genio di Augusto.",
-       "en": "Excavations by the University of Salento at Aquinum brought to light an altar dedicated to the Genius of Augustus.",
-       "gloss": {
-        "scavi": "excavations",
-        "dell'università": "of the university",
-        "università": "university",
-        "ad": "at",
-        "riportato": "brought back",
-        "hanno riportato alla luce": "brought to light, uncovered",
-        "luce": "light",
-        "altare": "altar",
-        "dedicato": "dedicated",
-        "genio": "Genius (guardian spirit)"
-       }
-      },
-      "C": {
-       "text": "Ad Aquinum, nel Frusinate, la diciottesima campagna di scavo dell'Università del Salento ha restituito un altare votivo in marmo, dedicato al Genio di Augusto da un ricco liberto, e un cippo su cui sono scolpiti un bue, un ariete e un maiale.",
-       "en": "At Aquinum, in the province of Frosinone, the University of Salento's eighteenth excavation campaign has yielded a marble votive altar, dedicated to the Genius of Augustus by a wealthy freedman, and a stone marker carved with an ox, a ram and a pig.",
-       "gloss": {
-        "ad": "at",
-        "frusinate": "Frosinone area",
-        "diciottesima": "eighteenth",
-        "campagna": "campaign",
-        "scavo": "excavation",
-        "dell'università": "of the university",
-        "università": "university",
-        "restituito": "given back, yielded",
-        "altare": "altar",
-        "votivo": "votive",
-        "marmo": "marble",
-        "dedicato": "dedicated",
-        "genio": "Genius (guardian spirit)",
-        "ricco": "rich",
-        "liberto": "freedman",
-        "cippo": "stone marker (cippus)",
-        "cui": "which",
-        "scolpiti": "carved",
-        "bue": "ox",
-        "ariete": "ram",
-        "maiale": "pig"
-       }
-      }
-     }
-    },
-    {
-     "topic": "Gastronomia · Piemonte",
-     "source": "https://www.ansa.it/piemonte/notizie/2026/10/10/apre-la-96a-edizione-della-fiera-del-tartufo-bianco-di-alba_33fa9435-6377-40da-a9f4-2807a188bbc6.html",
-     "levels": {
-      "A": {
-       "text": "Ad Alba apre la grande fiera del tartufo bianco.",
-       "en": "In Alba, the big white truffle fair opens.",
-       "gloss": {
-        "ad": "in / at",
-        "apre": "opens",
         "grande": "big",
-        "fiera": "fair",
-        "tartufo": "truffle",
-        "bianco": "white"
+        "mostra": "exhibition",
+        "pittore": "painter"
        }
       },
       "B": {
-       "text": "Venerdì ad Alba è stata inaugurata la 96ª Fiera del Tartufo Bianco, che durerà fino al 6 dicembre.",
-       "en": "On Friday the 96th White Truffle Fair was opened in Alba, and it will run until 6 December.",
+       "text": "Il 9 ottobre il Palazzo Reale di Milano ha aperto la più grande mostra mai dedicata in Italia a Francis Picabia.",
+       "en": "On 9 October Milan's Palazzo Reale opened the biggest exhibition ever devoted to Francis Picabia in Italy.",
        "gloss": {
-        "venerdì": "Friday",
-        "ad": "in",
-        "stata": "been",
-        "è stata inaugurata": "was opened",
-        "inaugurata": "opened, inaugurated",
-        "ª": "-th",
-        "fiera": "fair",
-        "tartufo": "truffle",
-        "bianco": "white",
-        "durerà": "will last",
-        "fino": "until",
-        "fino al": "until",
-        "dicembre": "December"
+        "ottobre": "October",
+        "palazzo": "palace",
+        "reale": "royal",
+        "aperto": "opened",
+        "grande": "big (la più grande = the biggest)",
+        "mostra": "exhibition",
+        "mai": "ever",
+        "dedicata": "devoted, dedicated"
        }
       },
       "C": {
-       "text": "Con la cerimonia di venerdì al Teatro Sociale si è aperta ad Alba la 96ª Fiera internazionale del tartufo bianco, il cui Mercato mondiale accoglierà i visitatori ogni sabato e domenica fino al 6 dicembre.",
-       "en": "With Friday's ceremony at the Teatro Sociale, the 96th International White Truffle Fair opened in Alba, and its World Market will welcome visitors every Saturday and Sunday until 6 December.",
+       "text": "Curata dalla pronipote Anne Berest Picabia, la mostra di Palazzo Reale, la più ampia mai dedicata in Italia all'artista, rinuncia alla cronologia e fa della notte il suo filo conduttore.",
+       "en": "Curated by his great-granddaughter Anne Berest Picabia, the Palazzo Reale show, the most comprehensive ever devoted to the artist in Italy, gives up chronology and makes the night its connecting thread.",
        "gloss": {
-        "cerimonia": "ceremony",
-        "venerdì": "Friday",
-        "teatro": "theatre",
-        "sociale": "Sociale (name)",
-        "aperta": "opened",
-        "si è aperta": "opened",
-        "ad": "in",
-        "ª": "-th",
-        "fiera": "fair",
-        "internazionale": "international",
-        "tartufo": "truffle",
-        "bianco": "white",
-        "cui": "whose",
-        "mercato": "market",
-        "mondiale": "world",
-        "accoglierà": "will welcome",
-        "visitatori": "visitors",
-        "ogni": "every",
-        "sabato": "Saturday",
-        "domenica": "Sunday",
-        "fino": "until",
-        "dicembre": "December"
+        "curata": "curated",
+        "dalla": "by the",
+        "pronipote": "great-granddaughter",
+        "mostra": "exhibition",
+        "palazzo": "palace",
+        "reale": "royal",
+        "ampia": "broad, comprehensive",
+        "mai": "ever",
+        "dedicata": "devoted",
+        "artista": "artist",
+        "rinuncia": "gives up",
+        "alla": "to the",
+        "cronologia": "chronology",
+        "fa": "makes",
+        "della": "of the (fare di X Y = make X into Y)",
+        "notte": "night",
+        "suo": "its",
+        "filo": "thread",
+        "conduttore": "guiding (filo conduttore = common thread)"
+       }
+      }
+     }
+    },
+    {
+     "topic": "Archeologia · Puglia",
+     "source": "https://www.foggiatoday.it/cronaca/scoperta-chiese-scavi-siponto.html",
+     "levels": {
+      "A": {
+       "text": "A Siponto gli archeologi trovano una chiesa molto antica.",
+       "en": "At Siponto archaeologists find a very old church.",
+       "gloss": {
+        "archeologi": "archaeologists",
+        "trovano": "find",
+        "chiesa": "church",
+        "antica": "ancient, old"
+       }
+      },
+      "B": {
+       "text": "Gli archeologi delle università di Bari e Foggia hanno scoperto a Siponto una chiesa che potrebbe risalire al quinto o sesto secolo.",
+       "en": "Archaeologists from the universities of Bari and Foggia have discovered a church at Siponto that may date back to the fifth or sixth century.",
+       "gloss": {
+        "archeologi": "archaeologists",
+        "università": "universities",
+        "scoperto": "discovered",
+        "chiesa": "church",
+        "potrebbe": "could, may",
+        "risalire": "to date back",
+        "quinto": "fifth",
+        "sesto": "sixth",
+        "secolo": "century"
+       }
+      },
+      "C": {
+       "text": "Negli scavi di Siponto, presso Manfredonia, è emersa una chiesa paleocristiana che gli studiosi collegano a quella dei santi Agata e Stefano, ricordata vicino al porto dalla Vita di Lorenzo.",
+       "en": "In the Siponto excavations, near Manfredonia, an early Christian church has emerged that scholars link to that of Saints Agatha and Stephen, recorded near the port by the Life of Lawrence.",
+       "gloss": {
+        "negli": "in the",
+        "scavi": "excavations",
+        "presso": "near",
+        "emersa": "emerged",
+        "chiesa": "church",
+        "paleocristiana": "early Christian",
+        "studiosi": "scholars",
+        "collegano": "link, connect",
+        "quella": "that (one)",
+        "santi": "saints",
+        "ricordata": "recorded, mentioned",
+        "vicino": "near",
+        "porto": "port",
+        "dalla": "by the",
+        "vita": "Life (title of a biography)"
        }
       }
      }
     }
    ],
-   "phrases": [
-    {
-     "topic": "Ordering at a café",
-     "situation": "You walk up to the counter of an Italian bar in the morning.",
-     "lines": [
-      {
-       "who": "Barista",
-       "text": "Buongiorno! Cosa prende?",
-       "en": "Good morning! What will you have?",
-       "gloss": {
-        "buongiorno": "good morning",
-        "cosa": "what",
-        "prende": "you take (formal)"
+   "phrases": {
+    "A": [
+     {
+      "topic": "Introducing yourself",
+      "situation": "Meeting someone at a language exchange in Bologna",
+      "lines": [
+       {
+        "who": "Giulia",
+        "text": "Ciao! Come ti chiami?",
+        "en": "Hi! What's your name?",
+        "gloss": {
+         "ciao": "hi",
+         "come": "how",
+         "chiami": "you call (ti chiami = you are called)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Mi chiamo Alex. E tu?",
+        "en": "My name is Alex. And you?",
+        "gloss": {
+         "chiamo": "I call (mi chiamo = my name is)"
+        }
+       },
+       {
+        "who": "Giulia",
+        "text": "Io sono Giulia. Di dove sei?",
+        "en": "I'm Giulia. Where are you from?",
+        "gloss": {
+         "dove": "where",
+         "sei": "you are"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Sono americano, ma abito qui da un mese.",
+        "en": "I'm American, but I've been living here for a month.",
+        "gloss": {
+         "americano": "American",
+         "abito": "I live",
+         "qui": "here",
+         "mese": "month"
+        }
+       },
+       {
+        "who": "Giulia",
+        "text": "Piacere! Parli già bene l'italiano.",
+        "en": "Nice to meet you! You already speak Italian well.",
+        "gloss": {
+         "piacere": "nice to meet you (literally pleasure)",
+         "parli": "you speak",
+         "già": "already",
+         "bene": "well",
+         "l'italiano": "Italian",
+         "italiano": "Italian"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Grazie, piano piano!",
+        "en": "Thanks, little by little!",
+        "gloss": {
+         "grazie": "thanks",
+         "piano": "slowly (piano piano = bit by bit)"
+        }
        }
-      },
-      {
-       "who": "You",
-       "text": "Un cappuccino e un cornetto, per favore.",
-       "en": "A cappuccino and a croissant, please.",
-       "gloss": {
-        "cappuccino": "cappuccino",
-        "cornetto": "croissant",
-        "favore": "favour",
-        "per favore": "please"
+      ]
+     },
+     {
+      "topic": "Shopping at the market",
+      "situation": "Buying tomatoes at a street market in Naples",
+      "lines": [
+       {
+        "who": "Seller",
+        "text": "Buongiorno! Cosa le do?",
+        "en": "Good morning! What can I get you?",
+        "gloss": {
+         "buongiorno": "good morning",
+         "cosa": "what",
+         "le": "to you (polite)",
+         "do": "I give"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Mezzo chilo di pomodori, per favore.",
+        "en": "Half a kilo of tomatoes, please.",
+        "gloss": {
+         "mezzo": "half",
+         "chilo": "kilo",
+         "pomodori": "tomatoes",
+         "favore": "favour (per favore = please)"
+        }
+       },
+       {
+        "who": "Seller",
+        "text": "Ecco qua. Altro?",
+        "en": "Here you go. Anything else?",
+        "gloss": {
+         "ecco": "here is",
+         "qua": "here",
+         "altro": "else, other"
+        }
+       },
+       {
+        "who": "You",
+        "text": "No, basta così. Quanto le devo?",
+        "en": "No, that's all. How much do I owe you?",
+        "gloss": {
+         "basta": "enough",
+         "così": "like this (basta così = that's all)",
+         "quanto": "how much",
+         "devo": "I owe, I must",
+         "no": "no"
+        }
+       },
+       {
+        "who": "Seller",
+        "text": "Due euro, grazie.",
+        "en": "Two euros, thanks.",
+        "gloss": {
+         "due": "two",
+         "euro": "euros",
+         "grazie": "thanks"
+        }
        }
-      },
-      {
-       "who": "Barista",
-       "text": "Il cornetto vuoto o alla crema?",
-       "en": "Plain croissant or with custard?",
-       "gloss": {
-        "cornetto": "croissant",
-        "vuoto": "empty, plain",
-        "crema": "custard"
+      ]
+     }
+    ],
+    "B": [
+     {
+      "topic": "Booking and cancelling",
+      "situation": "Phoning a trattoria in Milan to move a booking",
+      "lines": [
+       {
+        "who": "Waiter",
+        "text": "Trattoria da Mario, buonasera!",
+        "en": "Trattoria da Mario, good evening!",
+        "gloss": {
+         "trattoria": "trattoria (simple restaurant)",
+         "da": "at (da Mario = Mario's)",
+         "buonasera": "good evening"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Buonasera, senta, avevo prenotato per stasera alle otto, a nome Rossi.",
+        "en": "Good evening, listen, I'd booked for tonight at eight, under the name Rossi.",
+        "gloss": {
+         "buonasera": "good evening",
+         "senta": "listen (polite)",
+         "avevo": "I had",
+         "prenotato": "booked",
+         "stasera": "tonight",
+         "alle": "at (time)",
+         "otto": "eight",
+         "nome": "name"
+        }
+       },
+       {
+        "who": "Waiter",
+        "text": "Sì, quattro persone. Mi dica.",
+        "en": "Yes, four people. Go ahead.",
+        "gloss": {
+         "sì": "yes",
+         "quattro": "four",
+         "persone": "people",
+         "dica": "say (mi dica = go ahead, how can I help)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Eh, purtroppo non ce la facciamo. Si può spostare a domani?",
+        "en": "Well, unfortunately we can't make it. Can we move it to tomorrow?",
+        "gloss": {
+         "eh": "well",
+         "purtroppo": "unfortunately",
+         "ce": "it (farcela = to manage)",
+         "facciamo": "we make (non ce la facciamo = we can't make it)",
+         "può": "can (si può = is it possible)",
+         "spostare": "to move",
+         "domani": "tomorrow"
+        }
+       },
+       {
+        "who": "Waiter",
+        "text": "Allora, domani alle otto è pieno, alle nove e mezza però va bene.",
+        "en": "So, tomorrow at eight is full, but half past nine is fine.",
+        "gloss": {
+         "allora": "so, well",
+         "domani": "tomorrow",
+         "alle": "at",
+         "otto": "eight",
+         "pieno": "full",
+         "nove": "nine",
+         "mezza": "half",
+         "però": "but, though",
+         "va": "goes (va bene = it's fine)",
+         "bene": "well"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Perfetto, va benissimo. Grazie mille!",
+        "en": "Perfect, that's great. Thanks a lot!",
+        "gloss": {
+         "perfetto": "perfect",
+         "va": "goes",
+         "benissimo": "very well",
+         "grazie": "thanks",
+         "mille": "a thousand (grazie mille = thanks a lot)"
+        }
        }
-      },
-      {
-       "who": "You",
-       "text": "Alla crema. Quanto pago?",
-       "en": "With custard. How much do I owe?",
-       "gloss": {
-        "crema": "custard",
-        "quanto": "how much",
-        "pago": "I pay"
+      ]
+     },
+     {
+      "topic": "Chatting with a neighbour",
+      "situation": "On the landing of a condominio in Turin",
+      "lines": [
+       {
+        "who": "Neighbour",
+        "text": "Oh, buongiorno! Tutto bene? Ieri sera ho sentito un gran rumore da voi.",
+        "en": "Oh, good morning! All well? Last night I heard a big noise from your place.",
+        "gloss": {
+         "oh": "oh",
+         "buongiorno": "good morning",
+         "tutto": "all, everything",
+         "bene": "well",
+         "ieri": "yesterday (ieri sera = last night)",
+         "sera": "evening",
+         "sentito": "heard",
+         "gran": "big",
+         "rumore": "noise",
+         "voi": "you (plural), your place",
+         "ho": "I have (ho sentito = I heard)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Ah, scusi! Mi è caduta la libreria, un disastro.",
+        "en": "Ah, sorry! My bookcase fell over, a disaster.",
+        "gloss": {
+         "ah": "ah",
+         "scusi": "sorry (polite)",
+         "caduta": "fallen",
+         "libreria": "bookcase",
+         "disastro": "disaster"
+        }
+       },
+       {
+        "who": "Neighbour",
+        "text": "Mamma mia! Si è fatto male?",
+        "en": "Goodness! Did you hurt yourself?",
+        "gloss": {
+         "mamma": "mum (mamma mia = goodness)",
+         "mia": "my",
+         "fatto": "done, made (farsi male = to get hurt)",
+         "male": "badly"
+        }
+       },
+       {
+        "who": "You",
+        "text": "No, no, per fortuna niente. Solo un po' di libri per terra.",
+        "en": "No, no, luckily nothing. Just a few books on the floor.",
+        "gloss": {
+         "fortuna": "luck (per fortuna = luckily)",
+         "niente": "nothing",
+         "solo": "only, just",
+         "po'": "bit (un po' di = some)",
+         "libri": "books",
+         "terra": "ground, floor",
+         "no": "no",
+         "po": "bit (un po' = a bit)"
+        }
+       },
+       {
+        "who": "Neighbour",
+        "text": "Meno male. Se le serve un trapano, ce l'ho io, eh.",
+        "en": "Thank goodness. If you need a drill, I've got one, you know.",
+        "gloss": {
+         "meno": "less (meno male = thank goodness)",
+         "male": "bad",
+         "se": "if",
+         "serve": "is needed (le serve = you need)",
+         "trapano": "drill",
+         "l'ho": "I have it",
+         "ho": "I have",
+         "eh": "you know",
+         "ce": "it (ce l'ho = I've got it)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Magari! Gentilissima, grazie.",
+        "en": "That would be great! Very kind of you, thanks.",
+        "gloss": {
+         "magari": "I'd love that, if only",
+         "gentilissima": "very kind",
+         "grazie": "thanks"
+        }
        }
-      },
-      {
-       "who": "Barista",
-       "text": "Tre euro. Grazie, buona giornata!",
-       "en": "Three euros. Thanks, have a nice day!",
-       "gloss": {
-        "tre": "three",
-        "euro": "euros",
-        "grazie": "thank you",
-        "buona": "good",
-        "giornata": "day"
-       }
-      }
-     ]
-    },
-    {
-     "topic": "Asking for directions",
-     "situation": "You stop someone in the street to find the train station.",
-     "lines": [
-      {
-       "who": "You",
-       "text": "Scusi, sa dov'è la stazione?",
-       "en": "Excuse me, do you know where the station is?",
-       "gloss": {
-        "scusi": "excuse me (formal)",
-        "sa": "you know (formal)",
-        "dov'è": "where is",
-        "dove": "where",
-        "stazione": "station"
-       }
-      },
-      {
-       "who": "Passer-by",
-       "text": "Sì, è vicino. Vada sempre dritto.",
-       "en": "Yes, it's close. Keep going straight on.",
-       "gloss": {
-        "sì": "yes",
-        "vicino": "near",
-        "vada": "go (formal)",
-        "sempre": "always",
-        "dritto": "straight",
-        "sempre dritto": "straight on"
-       }
-      },
-      {
-       "who": "Passer-by",
-       "text": "Poi, al semaforo, giri a destra.",
-       "en": "Then, at the traffic light, turn right.",
-       "gloss": {
-        "poi": "then",
-        "semaforo": "traffic light",
-        "giri": "turn (formal)",
-        "destra": "right"
-       }
-      },
-      {
-       "who": "You",
-       "text": "È lontano a piedi?",
-       "en": "Is it far on foot?",
-       "gloss": {
-        "lontano": "far",
-        "piedi": "feet",
-        "a piedi": "on foot"
-       }
-      },
-      {
-       "who": "Passer-by",
-       "text": "No, cinque minuti.",
-       "en": "No, five minutes.",
-       "gloss": {
-        "no": "no",
-        "cinque": "five",
-        "minuti": "minutes"
-       }
-      },
-      {
-       "who": "You",
-       "text": "Perfetto, grazie mille!",
-       "en": "Perfect, thanks a lot!",
-       "gloss": {
-        "perfetto": "perfect",
-        "grazie": "thanks",
-        "mille": "a thousand",
-        "grazie mille": "thanks a lot"
-       }
-      }
-     ]
-    }
-   ],
+      ]
+     }
+    ]
+   },
    "vocab": [
     {
-     "word": "assaggiare",
-     "pos": "verb",
+     "word": "allora",
+     "pos": "adverb · filler",
      "region": "general",
-     "ties": 2,
-     "meaning": "to taste, to try (a bit of food)",
-     "note": "Regular -are verb: assaggio, assaggi, assaggia. Very common offer: «Vuoi assaggiare?» (Want a taste?). The noun is l'assaggio (a taste).",
-     "example": "Alla fiera di Alba voglio assaggiare il tartufo bianco.",
-     "exampleEn": "At the Alba fair I want to taste the white truffle.",
+     "ties": 1,
+     "meaning": "so, well, then (to start or move a conversation along)",
+     "note": "Also means 'at that time' (allora c'era…). As a filler it buys time, like English 'so…' or 'well…'.",
+     "example": "Allora, andiamo a vedere la mostra di Picabia?",
+     "exampleEn": "So, shall we go and see the Picabia exhibition?",
      "exGloss": {
-      "fiera": "fair",
-      "voglio": "I want",
-      "assaggiare": "to taste",
-      "tartufo": "truffle",
-      "bianco": "white"
+      "allora": "so, well",
+      "andiamo": "we go, let's go",
+      "vedere": "to see",
+      "mostra": "exhibition"
      }
     },
     {
-     "word": "che figata!",
-     "pos": "interjection · slang",
+     "word": "ecco",
+     "pos": "adverb · interjection",
      "region": "general",
-     "ties": 1,
-     "meaning": "how cool! / that's awesome!",
-     "note": "Informal, very common among young people; fine with friends, not in formal settings. Milder alternatives: «che bello!», «fantastico!». The noun una figata = something really cool.",
-     "example": "Che figata! Sul cippo romano ci sono un bue, un ariete e un maiale.",
-     "exampleEn": "How cool! On the Roman stone there's an ox, a ram and a pig.",
+     "ties": 2,
+     "meaning": "here is, there it is, there you go",
+     "note": "Joins pronouns: eccolo (here it is), eccola, eccomi (here I am). «Ecco!» alone also means 'exactly!'.",
+     "example": "Ecco la chiesa antica che hanno trovato a Siponto!",
+     "exampleEn": "There's the old church they found at Siponto!",
      "exGloss": {
-      "che figata": "how cool",
-      "figata": "cool thing",
-      "cippo": "stone marker",
-      "romano": "Roman",
-      "bue": "ox",
-      "ariete": "ram",
-      "maiale": "pig"
+      "ecco": "here is, there is",
+      "chiesa": "church",
+      "antica": "ancient",
+      "trovato": "found"
      }
     }
    ],
    "quiz": [
     {
      "level": "A1",
-     "ref": "phrase1",
-     "q": "At the café, the barista asks «Cosa prende?». What is she asking?",
+     "ref": "phrase2",
+     "q": "At the market you say «Mezzo chilo di pomodori». How much are you asking for?",
      "options": [
-      "Where are you from?",
-      "What will you have?",
-      "How much is it?",
-      "Are you sitting down?"
+      "Half a kilo",
+      "One kilo",
+      "Two kilos",
+      "A few tomatoes"
      ],
-     "answer": 1,
-     "why": "«Cosa?» means 'what?' and «prende» is the polite form of prendere, 'to take / have' — so: what will you have?",
-     "lesson": "«Quanto?» is the 'how much' word; seeing a question at a counter, learners jump to price, but «cosa» always asks 'what'."
+     "answer": 0,
+     "why": "Mezzo means half, so mezzo chilo is half a kilo.",
+     "lesson": "Mezzo sounds like English 'middle' or 'medium', so it's tempting to read it as 'a medium amount'; in quantities and times (mezzogiorno, le nove e mezza) it is always a half."
     },
     {
      "level": "A2",
      "ref": "news2",
-     "q": "«Ad Alba apre la grande fiera del tartufo bianco.» What is happening in Alba?",
+     "q": "In «gli archeologi trovano una chiesa molto antica», what did the archaeologists find?",
      "options": [
-      "A white wine shop closes",
-      "A big bakery opens",
-      "A truffle market moves to Rome",
-      "The big white truffle fair opens"
+      "A very old castle",
+      "A very old church",
+      "An old cemetery",
+      "A new museum"
      ],
-     "answer": 3,
-     "why": "«Apre» = opens, «fiera» = fair, «tartufo bianco» = white truffle.",
-     "lesson": "«Bianco» calls up 'vino bianco', the phrase most learners meet first, so 'white wine' feels familiar — but here the white thing is the tartufo."
+     "answer": 1,
+     "why": "Chiesa means church and antica means ancient or old.",
+     "lesson": "Antica looks like 'antique' and can suggest small objects; in Italian it is the everyday word for anything old or ancient, including whole buildings."
     },
     {
      "level": "B1",
-     "ref": "vocab1",
-     "q": "«Alla fiera di Alba voglio assaggiare il tartufo bianco.» Che cosa significa «assaggiare»?",
+     "ref": "phrase1",
+     "q": "Al telefono dici «purtroppo non ce la facciamo». Che cosa vuoi dire?",
      "options": [
-      "provare un po' di un cibo",
-      "comprare in grande quantità",
-      "cercare sotto terra",
-      "cucinare a lungo"
+      "Non lo facciamo apposta.",
+      "Non riusciamo a venire.",
+      "Non ci piace il ristorante.",
+      "Non abbiamo fame."
      ],
-     "answer": 0,
-     "why": "«Assaggiare» vuol dire mangiare un pezzetto per sentire il sapore: provare un po' di un cibo.",
-     "lesson": "Al tartufo si associa la ricerca nel bosco con il cane, quindi «cercare sotto terra» sembra logico; ma quello è «cercare», non «assaggiare»."
+     "answer": 1,
+     "why": "Farcela vuol dire riuscire a fare qualcosa; «non ce la facciamo» = non riusciamo, non possiamo venire.",
+     "lesson": "Chi traduce parola per parola vede solo «fare» e pensa a ‘non lo facciamo’; ma ce e la insieme formano il verbo farcela, con un senso tutto suo."
     },
     {
      "level": "B2",
-     "ref": "news1",
-     "q": "«Gli scavi dell'Università del Salento ad Aquinum hanno riportato alla luce un altare...» Che cosa significa «riportare alla luce»?",
+     "ref": "vocab2",
+     "q": "Un amico cerca le chiavi e dice «Eccole!». Che cosa significa?",
      "options": [
-      "illuminare con le lampade",
-      "dissotterrare, scoprire",
-      "riportare in museo",
-      "pulire il marmo"
+      "Eccole è un saluto.",
+      "Ecco i libri!",
+      "Eccole: le ha trovate.",
+      "Le chiavi non ci sono."
      ],
-     "answer": 1,
-     "why": "«Riportare alla luce» è l'espressione fissa per un oggetto sepolto che viene scoperto durante uno scavo.",
-     "lesson": "«Luce» fa pensare a lampade e illuminazione, ma qui la luce è quella del giorno: l'oggetto esce dal buio della terra."
+     "answer": 2,
+     "why": "Ecco + le (pronome femminile plurale) = eccole, ‘eccole qui’: si riferisce alle chiavi appena trovate.",
+     "lesson": "Il pronome attaccato a ecco deve concordare con la cosa: chiavi è femminile plurale, quindi le; eccoli andrebbe con libri, eccola con una cosa sola."
     },
     {
      "level": "C1",
-     "ref": "news2",
-     "q": "«...la 96ª Fiera internazionale del tartufo bianco, il cui Mercato mondiale accoglierà i visitatori...» A che cosa si riferisce «il cui»?",
+     "ref": "news1",
+     "q": "La mostra «fa della notte il suo filo conduttore». Che cosa vuol dire?",
      "options": [
-      "al Teatro Sociale",
-      "ai visitatori",
-      "alla Fiera",
-      "al tartufo bianco"
+      "La mostra apre solo di notte.",
+      "La notte è il tema che lega tutte le opere.",
+      "La mostra racconta la vita notturna di Milano.",
+      "Le opere sono esposte al buio."
      ],
-     "answer": 2,
-     "why": "«Il cui Mercato» = il Mercato della Fiera: «cui» rimanda al soggetto della frase principale, la Fiera, che possiede il mercato.",
-     "lesson": "Il nome più vicino è «tartufo bianco», e si tende ad agganciare il relativo all'ultima parola letta; ma il senso (un mercato «del tartufo»?) mostra che il possessore è la Fiera."
+     "answer": 1,
+     "why": "Il «filo conduttore» è il tema che collega le parti di un racconto: qui la notte sostituisce la cronologia come principio d'ordine.",
+     "lesson": "Leggere «notte» in senso pratico, come orario o buio, è la trappola: la costruzione «fare di X il filo conduttore» parla di idea guida, non di quando o come si visita."
     },
     {
      "level": "C2",
-     "ref": "vocab2",
-     "q": "Davanti al «cippo su cui sono scolpiti un bue, un ariete e un maiale», un ragazzo esclama «Che figata!». In quale registro si colloca l'espressione?",
+     "ref": "vocab1",
+     "q": "In quale frase «allora» NON fa da riempitivo per avviare il discorso?",
      "options": [
-      "formale, da relazione scientifica",
-      "letterario e arcaico",
-      "colloquiale e giovanile",
-      "dialettale, solo piemontese"
+      "Allora, che facciamo stasera?",
+      "Allora, dove eravamo rimasti?",
+      "Allora l'Italia era molto più povera.",
+      "Allora, ragazzi, cominciamo!"
      ],
      "answer": 2,
-     "why": "«Che figata!» è un'esclamazione gergale diffusa in tutta Italia, soprattutto tra i giovani, per dire «che cosa fantastica».",
-     "lesson": "Chi la sente spesso in una zona pensa a un regionalismo; in realtà è slang nazionale, informale ma non dialettale."
+     "why": "In «Allora l'Italia era molto più povera» allora significa ‘a quel tempo’, è un avverbio di tempo, non un riempitivo.",
+     "lesson": "Siccome «allora» in testa alla frase è quasi sempre il ‘so…’ della conversazione, si tende a leggerlo così; il verbo all'imperfetto e l'assenza della virgola rivelano il valore temporale."
     }
    ],
    "tip": {
-    "title": "Scusi or scusa: polite Lei",
-    "text": "Italian has a polite 'you', Lei, and it takes the same verb form as 'she'. So to a stranger you say «Scusi, sa dov'è la stazione?» and hear «Vada sempre dritto» and «giri a destra», while to a friend it's «Scusa, sai...?», «vai», «gira». The barista's «Cosa prende?» is Lei too."
+    "title": "C'è and ci sono: there is, there are",
+    "text": "Italian says 'there is' with c'è and 'there are' with ci sono: «A Milano c'è una grande mostra», «ci sono molti quadri». The ci means 'there'. In the neighbour chat, ci also turns up in «ce l'ho io», 'I've got it', where ci changes to ce before lo or la."
    },
    "fun": {
-    "kind": "saying",
-    "region": "general",
-    "text": "A tavola non s'invecchia.",
+    "kind": "joke",
+    "region": "Italia",
+    "text": "Perché il libro di matematica è triste? Perché ha troppi problemi!",
     "gloss": {
-     "tavola": "table",
-     "a tavola": "at the table",
-     "s'invecchia": "one grows old",
-     "invecchia": "grows old"
+     "perché": "why / because",
+     "libro": "book",
+     "matematica": "maths",
+     "triste": "sad",
+     "troppi": "too many",
+     "problemi": "problems"
     },
-    "literal": "At the table, one doesn't grow old.",
-    "meaning": "Time spent eating together doesn't count — so take it slow and enjoy the meal.",
-    "culture": "Italians say it to justify a long lunch or one more course, often with a smile. Meals, especially on Sundays and holidays, are social events that can last for hours, and rushing away from the table can seem almost rude."
+    "literal": "Why is the maths book sad? Because it has too many problems!",
+    "meaning": "A pun: problemi are both troubles and maths exercises.",
+    "culture": "Italian schoolchildren spend years doing «problemi» for homework, so this is one of the first jokes kids learn and tell each other. It works in English too, which makes it a nice one to try on Italian friends."
    }
   },
   "ar": {
    "news": [
     {
-     "topic": "Turath · al-Su'uudiyya",
-     "source": "https://www.spa.gov.sa/en/N2690955",
+     "topic": "Athar · Lubnaan",
+     "source": "https://english.aawsat.com/node/5312435",
      "levels": {
       "A": {
-       "text": "Ma'rad kabiir lil-suquur yantahii al-yawm qurb al-Riyaad.",
-       "script": "معرض كبير للصقور ينتهي اليوم قرب الرياض.",
-       "en": "A big falcon exhibition ends today near Riyadh.",
+       "text": "Ma'bad ruumaanii qadiim fi jibaal Lubnaan.",
+       "script": "معبد روماني قديم في جبال لبنان.",
+       "en": "An old Roman temple in the mountains of Lebanon.",
        "gloss": {
-        "ma'rad": "exhibition",
-        "kabiir": "big",
-        "lil-suquur": "for falcons",
-        "yantahii": "ends",
-        "al-yawm": "today",
-        "qurb": "near",
-        "al-riyaad": "Riyadh"
+        "ma'bad": "temple",
+        "ruumaanii": "Roman",
+        "qadiim": "old, ancient",
+        "jibaal": "mountains"
        }
       },
       "B": {
-       "text": "Fi ma'rad al-suquur wa-al-sayd shamaal al-Riyaad, shaaraka 254 aaridan min 20 dawla, wa-yantahii al-yawm.",
-       "script": "في معرض الصقور والصيد شمال الرياض، شارك 254 عارضًا من 20 دولة، وينتهي اليوم.",
-       "en": "At the falcon and hunting exhibition north of Riyadh, 254 exhibitors from 20 countries took part, and it ends today.",
+       "text": "Kashafa al-baahithuun an a'midat ma'bad ruumaanii fi Ma'aasir al-Shuuf qurba ghaabat al-arz.",
+       "script": "كشف الباحثون عن أعمدة معبد روماني في معاصر الشوف قرب غابة الأرز.",
+       "en": "Researchers uncovered the columns of a Roman temple in Maasser al-Shouf, near the cedar forest.",
        "gloss": {
-        "ma'rad": "exhibition (of)",
-        "al-suquur": "the falcons",
-        "wa-al-sayd": "and hunting",
-        "shamaal": "north (of)",
-        "al-riyaad": "Riyadh",
-        "shaaraka": "took part",
-        "aaridan": "exhibitor(s)",
-        "dawla": "country",
-        "wa-yantahii": "and it ends",
-        "al-yawm": "today"
+        "kashafa": "uncovered (kashafa an = revealed)",
+        "al-baahithuun": "the researchers",
+        "baahithuun": "researchers",
+        "a'midat": "columns of",
+        "ma'bad": "temple",
+        "ruumaanii": "Roman",
+        "qurba": "near",
+        "ghaabat": "forest of",
+        "al-arz": "the cedars",
+        "arz": "cedars"
        }
       },
       "C": {
-       "text": "Yukhtatamu al-yawm al-Ma'rad al-Su'uudii al-Duwalii lil-Suquur wa-al-Sayd, alladhii nazzamahu al-Markaz al-Watanii lil-Suquur alaa mada asharat ayyaam fi Malham shamaal al-Riyaad, bi-mushaarakat 254 aaridan wa-alaama tijaariyya min 20 dawla.",
-       "script": "يُختتم اليوم المعرض السعودي الدولي للصقور والصيد، الذي نظّمه المركز الوطني للصقور على مدى عشرة أيام في ملهم شمال الرياض، بمشاركة 254 عارضًا وعلامة تجارية من 20 دولة.",
-       "en": "The International Saudi Falcons and Hunting Exhibition, staged by the National Center for Falcons over ten days in Malham, north of Riyadh, closes today, with 254 exhibitors and brands from 20 countries taking part.",
+       "text": "Yarji'u ma'bad Ma'aasir al-Shuuf ila al-qarn al-awwal qabla al-miilaad, wa qad tahawwala laahiqan ila hisn saliibii.",
+       "script": "يرجع معبد معاصر الشوف إلى القرن الأول قبل الميلاد، وقد تحوّل لاحقاً إلى حصن صليبي.",
+       "en": "The Maasser al-Shouf temple dates back to the first century BC, and it later became a Crusader fortress.",
        "gloss": {
-        "yukhtatamu": "is concluded, closes",
-        "al-yawm": "today",
-        "al-ma'rad": "the exhibition",
-        "al-su'uudii": "the Saudi",
-        "al-duwalii": "the international",
-        "lil-suquur": "for falcons",
-        "wa-al-sayd": "and hunting",
-        "alladhii": "which",
-        "nazzamahu": "organised it",
-        "al-markaz": "the centre",
-        "al-watanii": "the national",
-        "alaa": "over",
-        "mada": "span (alaa mada = over the course of)",
-        "asharat": "ten",
-        "ayyaam": "days",
-        "shamaal": "north (of)",
-        "al-riyaad": "Riyadh",
-        "bi-mushaarakat": "with the participation of",
-        "aaridan": "exhibitor(s)",
-        "wa-alaama": "and brand (mark)",
-        "tijaariyya": "commercial (alaama tijaariyya = brand)",
-        "dawla": "country"
+        "yarji'u": "dates back, returns",
+        "ma'bad": "temple",
+        "al-qarn": "the century",
+        "qarn": "century",
+        "al-awwal": "the first",
+        "awwal": "first",
+        "qabla": "before",
+        "al-miilaad": "the birth (of Christ) (qabla al-miilaad = BC)",
+        "miilaad": "birth",
+        "tahawwala": "turned into",
+        "laahiqan": "later",
+        "hisn": "fortress",
+        "saliibii": "Crusader"
        }
       }
      }
     },
     {
-     "topic": "Uluum · Misr",
-     "source": "https://www.livescience.com/animals/sharks/an-exciting-surprise-ancient-shark-graveyard-uncovered-in-egyptian-desert",
+     "topic": "Athar · Saqqaara",
+     "source": "https://archaeologymag.com/2026/08/egyptian-officials-tomb-and-ushabti-figures-at-saqqara/",
      "levels": {
       "A": {
-       "text": "Ulamaa min Misr yajiduuna asnaan qirsh fi al-sahraa.",
-       "script": "علماء من مصر يجدون أسنان قرش في الصحراء.",
-       "en": "Scientists from Egypt find shark teeth in the desert.",
+       "text": "Ba'tha misriyya tajidu maqbara qadiima fi Saqqaara.",
+       "script": "بعثة مصرية تجد مقبرة قديمة في سقارة.",
+       "en": "An Egyptian mission finds an ancient tomb at Saqqara.",
        "gloss": {
-        "ulamaa": "scientists",
-        "yajiduuna": "find (they)",
-        "asnaan": "teeth",
-        "qirsh": "shark",
-        "al-sahraa": "the desert"
+        "ba'tha": "mission, expedition",
+        "misriyya": "Egyptian",
+        "tajidu": "finds",
+        "maqbara": "tomb",
+        "qadiima": "ancient, old"
        }
       },
       "B": {
-       "text": "Wajada ulamaa min Jaami'at al-Qaahira asnaan sab'at anwaa min samak al-qirsh fi al-Sahraa al-Gharbiyya.",
-       "script": "وجد علماء من جامعة القاهرة أسنان سبعة أنواع من سمك القرش في الصحراء الغربية.",
-       "en": "Cairo University scientists found the teeth of seven kinds of shark in the Western Desert.",
+       "text": "Wajadat ba'tha misriyya fi Saqqaara maqbarat mas'uul kabiir min al-dawla al-qadiima, wa bi-qurbihaa thalaathat tawaabiit hajariyya mughlaqa.",
+       "script": "وجدت بعثة مصرية في سقارة مقبرة مسؤول كبير من الدولة القديمة، وبقربها ثلاثة توابيت حجرية مغلقة.",
+       "en": "An Egyptian mission found the tomb of a senior official from the Old Kingdom at Saqqara, and near it three sealed stone sarcophagi.",
        "gloss": {
-        "wajada": "found",
-        "ulamaa": "scientists",
-        "jaami'at": "university (of)",
-        "al-qaahira": "Cairo",
-        "asnaan": "teeth (of)",
-        "sab'at": "seven",
-        "anwaa": "kinds, species",
-        "samak": "fish",
-        "al-qirsh": "the shark",
-        "al-sahraa": "the desert",
-        "al-gharbiyya": "the western"
+        "wajadat": "found",
+        "ba'tha": "mission",
+        "misriyya": "Egyptian",
+        "maqbarat": "tomb of",
+        "mas'uul": "official",
+        "kabiir": "senior, big",
+        "al-dawla": "the state (al-dawla al-qadiima = the Old Kingdom)",
+        "dawla": "state",
+        "al-qadiima": "the old",
+        "qadiima": "old",
+        "bi-qurbihaa": "near it",
+        "qurbihaa": "its vicinity",
+        "thalaathat": "three",
+        "tawaabiit": "sarcophagi, coffins",
+        "hajariyya": "stone (adj.)",
+        "mughlaqa": "sealed, closed"
        }
       },
       "C": {
-       "text": "Kashafa fariiq bahthii min Jaami'at al-Qaahira an asnaan mutahajjira li-sab'at anwaa alaa al-aqall min asmaak al-qirsh fi hadbat Abu Tartur bi-al-Sahraa al-Gharbiyya, fi daliil alaa anna al-mintaqa kaanat qaa'a bahr daafi fi al-asr al-tabaashiirii.",
-       "script": "كشف فريق بحثي من جامعة القاهرة عن أسنان متحجرة لسبعة أنواع على الأقل من أسماك القرش في هضبة أبو طرطور بالصحراء الغربية، في دليل على أن المنطقة كانت قاع بحر دافئ في العصر الطباشيري.",
-       "en": "A Cairo University research team has uncovered fossilised teeth from at least seven shark species on the Abu Tartur plateau in the Western Desert, evidence that the area was once the bed of a warm sea in the Cretaceous period.",
+       "text": "Tadummu maqbarat Sekhentiu-Ptah fi Saqqaara baaban wahmiyyan fi makaanihi al-aslii, wa tadhkuru nuquushuhaa annahu ashrafa ala a'maal al-malik.",
+       "script": "تضم مقبرة سخنتيو-بتاح في سقارة باباً وهمياً في مكانه الأصلي، وتذكر نقوشها أنه أشرف على أعمال الملك.",
+       "en": "The tomb of Sekhentiu-Ptah at Saqqara contains a false door in its original place, and its inscriptions say he supervised the king's works.",
        "gloss": {
-        "kashafa": "uncovered",
-        "fariiq": "team",
-        "bahthii": "research (adj.)",
-        "jaami'at": "university (of)",
-        "al-qaahira": "Cairo",
-        "asnaan": "teeth",
-        "mutahajjira": "fossilised, turned to stone",
-        "li-sab'at": "of seven",
-        "anwaa": "kinds, species",
-        "alaa": "on",
-        "al-aqall": "the least (alaa al-aqall = at least)",
-        "asmaak": "fish (pl.)",
-        "al-qirsh": "the shark",
-        "hadbat": "plateau (of)",
-        "bi-al-sahraa": "in the desert",
-        "al-gharbiyya": "the western",
-        "daliil": "evidence, sign",
-        "anna": "that",
-        "al-mintaqa": "the area",
-        "qaa'a": "bed, bottom (of)",
-        "bahr": "sea",
-        "daafi": "warm",
-        "al-asr": "the era",
-        "al-tabaashiirii": "the Cretaceous"
+        "tadummu": "contains, includes",
+        "maqbarat": "tomb of",
+        "baaban": "a door",
+        "wahmiyyan": "false, illusory",
+        "makaanihi": "its place",
+        "al-aslii": "the original",
+        "aslii": "original",
+        "tadhkuru": "mentions, says",
+        "nuquushuhaa": "its inscriptions",
+        "annahu": "that he",
+        "ashrafa": "supervised",
+        "a'maal": "works",
+        "al-malik": "the king",
+        "malik": "king"
        }
       }
      }
     }
    ],
-   "phrases": [
-    {
-     "topic": "Ordering at a café",
-     "situation": "You order coffee at a café in Riyadh.",
-     "region": "Saudi",
-     "lines": [
-      {
-       "who": "You",
-       "text": "As-salaamu alaykum. Abgha gahwa, law samaht.",
-       "script": "السلام عليكم. أبغى قهوة لو سمحت.",
-       "en": "Hello. I'd like a coffee, please.",
-       "gloss": {
-        "as-salaamu": "peace",
-        "alaykum": "upon you",
-        "abgha": "I want (Saudi)",
-        "gahwa": "coffee (Saudi g for q)",
-        "law": "if",
-        "samaht": "you allow (law samaht = please)"
+   "phrases": {
+    "A": [
+     {
+      "topic": "Introducing yourself",
+      "situation": "Meeting a new colleague in Cairo",
+      "region": "Egypt",
+      "lines": [
+       {
+        "who": "Colleague",
+        "text": "Ahlan! Ismak eih?",
+        "script": "أهلاً! اسمك إيه؟",
+        "en": "Hi! What's your name?",
+        "gloss": {
+         "ahlan": "hi, welcome",
+         "ismak": "your name",
+         "eih": "what (Egypt)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Ismi Sam. W inta?",
+        "script": "اسمي سام. وانت؟",
+        "en": "My name's Sam. And you?",
+        "gloss": {
+         "ismi": "my name",
+         "w": "and",
+         "inta": "you (to a man)"
+        }
+       },
+       {
+        "who": "Colleague",
+        "text": "Ana Kariim. Inta mineen?",
+        "script": "أنا كريم. انت منين؟",
+        "en": "I'm Karim. Where are you from?",
+        "gloss": {
+         "inta": "you",
+         "mineen": "from where (Egypt)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Ana min Amriika, w ba-shtaghal hina.",
+        "script": "أنا من أمريكا، وبشتغل هنا.",
+        "en": "I'm from America, and I work here.",
+        "gloss": {
+         "w": "and",
+         "ba-shtaghal": "I work (Egypt)",
+         "shtaghal": "work",
+         "hina": "here"
+        }
+       },
+       {
+        "who": "Colleague",
+        "text": "Tsharrafna!",
+        "script": "تشرفنا!",
+        "en": "Nice to meet you!",
+        "gloss": {
+         "tsharrafna": "we are honoured, nice to meet you"
+        }
        }
-      },
-      {
-       "who": "Waiter",
-       "text": "Wa alaykum as-salaam. Gahwa sa'uudiyya walla turkiyya?",
-       "script": "وعليكم السلام. قهوة سعودية ولا تركية؟",
-       "en": "Hello to you too. Saudi coffee or Turkish?",
-       "gloss": {
-        "alaykum": "upon you",
-        "as-salaam": "peace",
-        "gahwa": "coffee",
-        "sa'uudiyya": "Saudi",
-        "walla": "or",
-        "turkiyya": "Turkish"
+      ]
+     },
+     {
+      "topic": "Shopping at the market",
+      "situation": "Buying fruit from a stall in Beirut",
+      "region": "Lebanon",
+      "lines": [
+       {
+        "who": "You",
+        "text": "Marhaba, addeish kiilo l-tiffaah?",
+        "script": "مرحبا، أديش كيلو التفاح؟",
+        "en": "Hello, how much is a kilo of apples?",
+        "gloss": {
+         "marhaba": "hello",
+         "addeish": "how much (Lebanon)",
+         "kiilo": "kilo",
+         "l-tiffaah": "the apples",
+         "tiffaah": "apples"
+        }
+       },
+       {
+        "who": "Seller",
+        "text": "Mitteen alf lira.",
+        "script": "ميتين ألف ليرة.",
+        "en": "Two hundred thousand lira.",
+        "gloss": {
+         "mitteen": "two hundred",
+         "alf": "thousand",
+         "lira": "lira (Lebanese pound)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Tayyib, a'tiini kiilo, iza bitriid.",
+        "script": "طيب، أعطيني كيلو، إذا بتريد.",
+        "en": "OK, give me a kilo, please.",
+        "gloss": {
+         "tayyib": "OK, fine",
+         "a'tiini": "give me",
+         "kiilo": "kilo",
+         "iza": "if",
+         "bitriid": "you want (iza bitriid = please)"
+        }
+       },
+       {
+        "who": "Seller",
+        "text": "Tikram! Shi taani?",
+        "script": "تكرم! شي تاني؟",
+        "en": "With pleasure! Anything else?",
+        "gloss": {
+         "tikram": "with pleasure (Lebanon, 'be honoured')",
+         "shi": "something, anything",
+         "taani": "other, else"
+        }
+       },
+       {
+        "who": "You",
+        "text": "La, merci.",
+        "script": "لا، مرسي.",
+        "en": "No, thanks.",
+        "gloss": {
+         "merci": "thanks (Lebanon, from French)"
+        }
        }
-      },
-      {
-       "who": "You",
-       "text": "Sa'uudiyya, ma'a tamr.",
-       "script": "سعودية، مع تمر.",
-       "en": "Saudi, with dates.",
-       "gloss": {
-        "sa'uudiyya": "Saudi",
-        "tamr": "dates"
+      ]
+     }
+    ],
+    "B": [
+     {
+      "topic": "Booking and cancelling",
+      "situation": "Calling a restaurant in Riyadh to cancel and rebook",
+      "region": "Saudi",
+      "lines": [
+       {
+        "who": "Restaurant",
+        "text": "Hala, ma'ak al-mat'am, tafaddal.",
+        "script": "هلا، معك المطعم، تفضل.",
+        "en": "Hi, this is the restaurant, go ahead.",
+        "gloss": {
+         "hala": "hi (Gulf)",
+         "ma'ak": "with you (ma'ak X = this is X speaking)",
+         "al-mat'am": "the restaurant",
+         "mat'am": "restaurant",
+         "tafaddal": "go ahead, please"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Hala walla. Kaan andi hajz al-leila as-saa'a tisa', bas maa raah agdar aji.",
+        "script": "هلا والله. كان عندي حجز الليلة الساعة تسع، بس ما راح أقدر أجي.",
+        "en": "Hey there. I had a booking tonight at nine, but I won't be able to come.",
+        "gloss": {
+         "hala": "hi",
+         "walla": "by God (hala walla = warm hello)",
+         "andi": "I have",
+         "hajz": "booking",
+         "al-leila": "tonight",
+         "leila": "night",
+         "as-saa'a": "the hour, o'clock",
+         "saa'a": "hour",
+         "tisa'": "nine",
+         "bas": "but",
+         "maa": "not",
+         "raah": "will (future)",
+         "agdar": "I can (Saudi g for q)",
+         "aji": "I come",
+         "kaan": "was (kaan andi = I had)",
+         "tisa": "nine"
+        }
+       },
+       {
+        "who": "Restaurant",
+        "text": "Wala yihimmak. Tibgha nghayyirah li-bukra?",
+        "script": "ولا يهمك. تبغى نغيره لبكرة؟",
+        "en": "No worries. Do you want us to change it to tomorrow?",
+        "gloss": {
+         "wala": "nor (wala yihimmak = don't worry)",
+         "yihimmak": "it concerns you",
+         "tibgha": "you want (Saudi)",
+         "nghayyirah": "we change it",
+         "li-bukra": "to tomorrow",
+         "bukra": "tomorrow"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Ee, zain. Nafs al-wagt, khamsa ashkhaas.",
+        "script": "إي، زين. نفس الوقت، خمسة أشخاص.",
+        "en": "Yes, good. Same time, five people.",
+        "gloss": {
+         "ee": "yes",
+         "zain": "good (Gulf)",
+         "nafs": "same",
+         "al-wagt": "the time (Saudi g)",
+         "wagt": "time",
+         "khamsa": "five",
+         "ashkhaas": "people, persons"
+        }
+       },
+       {
+        "who": "Restaurant",
+        "text": "Tamaam, sajjaltah. Hayyaak!",
+        "script": "تمام، سجلته. حيّاك!",
+        "en": "Perfect, I've noted it. You're welcome any time!",
+        "gloss": {
+         "tamaam": "perfect, fine",
+         "sajjaltah": "I registered it",
+         "hayyaak": "welcome (Saudi)"
+        }
        }
-      },
-      {
-       "who": "Waiter",
-       "text": "Abshir! Tabgha shay thaani?",
-       "script": "أبشر! تبغى شي ثاني؟",
-       "en": "Right away! Do you want anything else?",
-       "gloss": {
-        "abshir": "right away, sure (Saudi)",
-        "tabgha": "you want",
-        "shay": "thing",
-        "thaani": "other, second"
+      ]
+     },
+     {
+      "topic": "Haggling at a market",
+      "situation": "Buying a scarf at Khan el-Khalili in Cairo",
+      "region": "Egypt",
+      "lines": [
+       {
+        "who": "Seller",
+        "text": "Itfaddal ya basha, il-shaal da harir.",
+        "script": "اتفضل يا باشا، الشال ده حرير.",
+        "en": "Come in, sir, this scarf is silk.",
+        "gloss": {
+         "itfaddal": "please, come in",
+         "ya": "O (calling someone)",
+         "basha": "sir (Egypt, from pasha)",
+         "il-shaal": "the scarf",
+         "shaal": "scarf",
+         "da": "this (Egypt, after the noun)",
+         "harir": "silk"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Bikaam da?",
+        "script": "بكام ده؟",
+        "en": "How much is this?",
+        "gloss": {
+         "bikaam": "for how much (Egypt)",
+         "da": "this"
+        }
+       },
+       {
+        "who": "Seller",
+        "text": "Alashaanak, khamsumiit gineeh bas.",
+        "script": "علشانك، خمسمية جنيه بس.",
+        "en": "For you, just five hundred pounds.",
+        "gloss": {
+         "alashaanak": "for you, for your sake",
+         "khamsumiit": "five hundred",
+         "gineeh": "Egyptian pound",
+         "bas": "only"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Laa, da ghaali awi! Miteen w khamsiin.",
+        "script": "لا، ده غالي قوي! ميتين وخمسين.",
+        "en": "No, that's really expensive! Two hundred and fifty.",
+        "gloss": {
+         "laa": "no",
+         "da": "this",
+         "ghaali": "expensive",
+         "awi": "very (Egypt)",
+         "miteen": "two hundred",
+         "w": "and",
+         "khamsiin": "fifty"
+        }
+       },
+       {
+        "who": "Seller",
+        "text": "Ya basha, ana kida bakhsar! Arba'umiyya, aakhir kalaam.",
+        "script": "يا باشا، أنا كده بخسر! أربعمية، آخر كلام.",
+        "en": "Sir, I'm losing money like this! Four hundred, final offer.",
+        "gloss": {
+         "ya": "O",
+         "basha": "sir",
+         "kida": "like this (Egypt)",
+         "bakhsar": "I lose",
+         "arba'umiyya": "four hundred",
+         "aakhir": "last",
+         "kalaam": "word, talk (aakhir kalaam = final offer)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Tayyib, talattumiyya w nib'a ashaab.",
+        "script": "طيب، تلتمية ونبقى أصحاب.",
+        "en": "OK, three hundred and we're still friends.",
+        "gloss": {
+         "tayyib": "OK",
+         "talattumiyya": "three hundred",
+         "w": "and",
+         "nib'a": "we stay, we become",
+         "ashaab": "friends"
+        }
        }
-      },
-      {
-       "who": "You",
-       "text": "Laa, bas. Kam al-hisaab?",
-       "script": "لا، بس. كم الحساب؟",
-       "en": "No, that's all. How much is the bill?",
-       "gloss": {
-        "laa": "no",
-        "bas": "that's all, only",
-        "kam": "how much",
-        "al-hisaab": "the bill"
-       }
-      },
-      {
-       "who": "Waiter",
-       "text": "Ishriin riyaal.",
-       "script": "عشرين ريال.",
-       "en": "Twenty riyals.",
-       "gloss": {
-        "ishriin": "twenty",
-        "riyaal": "riyals"
-       }
-      }
-     ]
-    },
-    {
-     "topic": "Asking for directions",
-     "situation": "You ask a passer-by in Beirut how to get to the seafront.",
-     "region": "Lebanon",
-     "lines": [
-      {
-       "who": "You",
-       "text": "Ba'd iznak, wayn il-Kurniish?",
-       "script": "بعد إذنك، وين الكورنيش؟",
-       "en": "Excuse me, where's the Corniche?",
-       "gloss": {
-        "ba'd": "after (ba'd iznak = excuse me)",
-        "iznak": "your permission",
-        "wayn": "where",
-        "il-kurniish": "the Corniche (seafront)"
-       }
-      },
-      {
-       "who": "Passer-by",
-       "text": "Mish b'iid. Kammil dighri, w ba'dayn liff shmaal.",
-       "script": "مش بعيد. كمّل دغري، وبعدين لفّ شمال.",
-       "en": "It's not far. Keep going straight, then turn left.",
-       "gloss": {
-        "mish": "not",
-        "b'iid": "far",
-        "kammil": "keep going",
-        "dighri": "straight on",
-        "w": "and",
-        "ba'dayn": "then, afterwards",
-        "liff": "turn",
-        "shmaal": "left"
-       }
-      },
-      {
-       "who": "You",
-       "text": "Fiyyi ruuh mashi?",
-       "script": "فيي روح مشي؟",
-       "en": "Can I walk there?",
-       "gloss": {
-        "fiyyi": "I can",
-        "ruuh": "go",
-        "mashi": "on foot, walking"
-       }
-      },
-      {
-       "who": "Passer-by",
-       "text": "Ee, aktar shi ashr da'aayi.",
-       "script": "إي، أكتر شي عشر دقايق.",
-       "en": "Yes, ten minutes at most.",
-       "gloss": {
-        "ee": "yes",
-        "aktar": "most, more",
-        "shi": "thing (aktar shi = at most)",
-        "ashr": "ten",
-        "da'aayi": "minutes"
-       }
-      },
-      {
-       "who": "You",
-       "text": "Merci ktiir!",
-       "script": "مرسي كتير!",
-       "en": "Thanks a lot!",
-       "gloss": {
-        "merci": "thanks (from French)",
-        "ktiir": "a lot"
-       }
-      },
-      {
-       "who": "Passer-by",
-       "text": "Ahla w sahla!",
-       "script": "أهلا وسهلا!",
-       "en": "You're welcome!",
-       "gloss": {
-        "ahla": "welcome",
-        "w": "and",
-        "sahla": "(be at) ease"
-       }
-      }
-     ]
-    }
-   ],
+      ]
+     }
+    ]
+   },
    "vocab": [
     {
-     "word": "waajid",
-     "wordScript": "واجد",
-     "pos": "adverb",
-     "region": "Saudi",
+     "word": "ya'ni",
+     "wordScript": "يعني",
+     "pos": "filler",
+     "region": "Lebanon",
      "ties": 1,
-     "meaning": "a lot, lots of, very",
-     "note": "Saudi (Najdi), used after a noun or an adjective. In Kuwait and the UAE it's «waayid»; Egyptians say «kitiir», Lebanese «ktiir», Standard Arabic «kathiir». In the example Saudis also say «suguur» (falcons) with a g where Standard Arabic has q (suquur).",
-     "example": "Al-ma'rad fiih suguur waajid!",
-     "exScript": "المعرض فيه صقور واجد!",
-     "exampleEn": "There are loads of falcons at the exhibition!",
+     "meaning": "I mean, like, so",
+     "note": "Used across the Arab world; Egyptians and Saudis say it just the same. Literally 'it means'. «Ya'ni?» alone means 'meaning what?'.",
+     "example": "Hal-ma'bad ktiir adiim, ya'ni min alfeen sene.",
+     "exScript": "هالمعبد كتير قديم، يعني من ألفين سنة.",
+     "exampleEn": "This temple is really old, I mean from two thousand years ago.",
      "exGloss": {
-      "al-ma'rad": "the exhibition",
-      "fiih": "there is / there are (in it)",
-      "suguur": "falcons (Saudi pronunciation)",
-      "waajid": "a lot, loads"
+      "hal-ma'bad": "this temple",
+      "ma'bad": "temple",
+      "ktiir": "very (Lebanon)",
+      "adiim": "old (Lebanese drops q)",
+      "ya'ni": "I mean",
+      "alfeen": "two thousand",
+      "sene": "year (Lebanon)"
      }
     },
     {
-     "word": "gamda",
-     "wordScript": "جامدة",
-     "pos": "adjective · slang",
+     "word": "awi",
+     "wordScript": "قوي",
+     "pos": "adverb",
      "region": "Egypt",
      "ties": 2,
-     "meaning": "awesome, really cool (literally 'hard, solid')",
-     "note": "Egyptian slang; feminine «gamda», masculine «gaamid» (Egyptian g for jiim; elsewhere jaamid). Lebanese say «btijannin» (it's amazing), Saudis «rahiib», Standard Arabic «raa'i'». The example also has Egyptian «awi» (very, from qawi) and «irsh» (shark, MSA qirsh).",
-     "example": "Asnaan irsh fi is-sahraa? Di haaga gamda awi!",
-     "exScript": "أسنان قرش في الصحرا؟ دي حاجة جامدة قوي!",
-     "exampleEn": "Shark teeth in the desert? That's really awesome!",
+     "meaning": "very, really",
+     "note": "Comes after the adjective: hilwa awi. Lebanon: ktiir (before or after); Saudi: marra or waajid; MSA: jiddan.",
+     "example": "Il-maqbara di adiima awi, min ayyaam il-fara'na!",
+     "exScript": "المقبرة دي قديمة قوي، من أيام الفراعنة!",
+     "exampleEn": "This tomb is really old, from the days of the pharaohs!",
      "exGloss": {
-      "asnaan": "teeth",
-      "irsh": "shark (Egyptian)",
-      "is-sahraa": "the desert",
-      "di": "this (f.)",
-      "haaga": "thing",
-      "gamda": "awesome",
-      "awi": "very"
+      "il-maqbara": "the tomb",
+      "maqbara": "tomb",
+      "di": "this (fem., Egypt)",
+      "adiima": "old (Egyptian drops q)",
+      "awi": "very",
+      "ayyaam": "days",
+      "il-fara'na": "the pharaohs",
+      "fara'na": "pharaohs"
      }
     }
    ],
@@ -6083,114 +6564,105 @@ var LINGUA_DAILY = {
     {
      "level": "A1",
      "ref": "phrase1",
-     "q": "In the café scene you say: “Abgha gahwa, law samaht.” What does “abgha” mean?",
+     "q": "Your Cairo colleague asks «Ismak eih?». What are they asking?",
      "options": [
-      "I drink",
-      "I want",
-      "I pay for",
-      "I'm looking for"
+      "Where are you from?",
+      "What's your name?",
+      "How are you?",
+      "What's your job?"
      ],
      "answer": 1,
-     "why": "Saudi «abgha» = I want; «tabgha» = you want. «Abgha gahwa» = I'd like a coffee.",
-     "lesson": "Next to «gahwa» (coffee), 'I drink' feels natural, but you are ordering, not drinking yet. 'I drink' would be «ashrab»."
+     "why": "Ism is 'name', -ak is 'your', and eih is Egyptian for 'what': 'your name, what?'.",
+     "lesson": "Eih comes at the end, so learners used to English word order may hear 'Ismak' and guess from tone alone; in Egyptian the question word usually sits at the end of the sentence."
     },
     {
      "level": "A2",
-     "ref": "news1",
-     "q": "“Ma'rad kabiir lil-suquur yantahii al-yawm qurb al-Riyaad.” When does the exhibition end?",
+     "ref": "vocab2",
+     "q": "In Egyptian Arabic, «ghaali awi» means…",
      "options": [
-      "Tomorrow",
-      "Next week",
-      "Today",
-      "Yesterday"
+      "a bit expensive",
+      "not expensive",
+      "really expensive",
+      "too cheap"
      ],
      "answer": 2,
-     "why": "«Al-yawm» = today; «yantahii» = ends.",
-     "lesson": "«Yawm» alone is just 'day', and a present-tense verb like «yantahii» can point to the future, so 'tomorrow' feels plausible. But 'the day' (al-yawm) is today; tomorrow would be «ghadan»."
+     "why": "Awi intensifies the adjective before it: ghaali awi = very expensive.",
+     "lesson": "Awi comes from qawi, 'strong', and some learners take it for a separate word about strength; in Cairo speech it is simply 'very', always after the adjective."
     },
     {
      "level": "B1",
-     "ref": "vocab1",
-     "q": "Fi jumlat «Al-ma'rad fiih suguur waajid!», maa ma'naa «waajid»?",
+     "ref": "phrase1",
+     "q": "Fi al-mukaalama yaquulu al-mat'am «Wala yihimmak». Maa ma'naahaa?",
      "options": [
-      "a lot, many",
-      "only one",
-      "small",
-      "found"
+      "Laa nastatii' musaa'adatak",
+      "Laa tahtamm, laa mushkila",
+      "Al-mat'am mughlaq al-yawm",
+      "Yajibu an tadfa' al-aan"
      ],
-     "answer": 0,
-     "why": "Saudi «waajid» = a lot, many; there are loads of falcons.",
-     "lesson": "«Waajid» looks like MSA «waajid» / «wajada» (to find), from the root w-j-d, so 'found' tempts. In Saudi speech it simply means 'plenty'."
+     "answer": 1,
+     "why": "«Wala yihimmak» ta'biir sha'bii ma'naahu: laa taqlaq, laa mushkila.",
+     "lesson": "Tabda'u al-ibaara bi-«wala», fa-yazunnu al-muta'allim annahaa rafd; laakinnahaa kulluhaa li-tatmiin al-zubuun."
     },
     {
      "level": "B2",
      "ref": "news2",
-     "q": "Fi jumlat «Wajada ulamaa min Jaami'at al-Qaahira asnaan sab'at anwaa min samak al-qirsh…», maa ma'naa «asnaan»?",
+     "q": "Limaadha naquulu «thalaathat tawaabiit» wa laysa «thalaath tawaabiit»?",
      "options": [
-      "bones",
-      "eggs",
-      "fins",
-      "teeth"
+      "Li-anna «tawaabiit» jam' mu'annath",
+      "Li-anna al-'adad ya'tii qabla al-ism",
+      "Li-anna al-mufrad «taabuut» mudhakkar",
+      "Li-anna al-fi'l fi al-maadi"
      ],
-     "answer": 3,
-     "why": "«Asnaan» = teeth (singular «sinn»); the scientists found shark teeth.",
-     "lesson": "Fossils make most people think of bones, so 'bones' pulls hard. But sharks have cartilage skeletons that rarely survive; their teeth do. Bones are «izaam»."
+     "answer": 2,
+     "why": "Al-a'daad min thalaatha ila ashara tukhaalifu jins al-mufrad: «taabuut» mudhakkar, fa-ya'khudhu al-'adad taa' marbuuta.",
+     "lesson": "Shakl al-jam' laa yuhaddidu al-jins; al-muhimm huwa al-mufrad, wa hadha maa yansaahu kathiiruun."
     },
     {
      "level": "C1",
      "ref": "news1",
-     "q": "«…alladhii nazzamahu al-Markaz al-Watanii lil-Suquur alaa mada asharat ayyaam fi Malham…» Kam yawman istamarra al-ma'rad?",
+     "q": "«Wa qad tahawwala laahiqan ila hisn saliibii»: maadha hadatha li-l-ma'bad?",
      "options": [
-      "sab'at ayyaam",
-      "ishriin yawman",
-      "asharat ayyaam",
-      "khamsat ayyaam"
+      "Hudima tamaaman",
+      "Buniya min jadiid fi al-'asr al-hadiith",
+      "Nuqila ila Bayruut",
+      "Saara qal'a fi zaman al-saliibiyyiin"
      ],
-     "answer": 2,
-     "why": "«Asharat ayyaam» = ten days (1 to 10 October).",
-     "lesson": "The number 20 also sits in the sentence («min 20 dawla»), so «ishriin yawman» looks right at a glance; but twenty counts the countries, not the days."
+     "answer": 3,
+     "why": "Tahawwala ila ya'ni saara: al-ma'bad al-ruumaanii saara hisnan fi zaman al-saliibiyyiin, fi al-qarnayn al-thaanii ashar wa al-thaalith ashar.",
+     "lesson": "Qad tuuhii kalimat «laahiqan» bi-hadath qariib; laakinnahaa hunaa tadullu ala marhala ta'tii ba'da quruun fi taariikh al-mawqi'."
     },
     {
      "level": "C2",
-     "ref": "vocab2",
-     "q": "Qara'a sadiiq misrii: «Kashafa fariiq bahthii… an asnaan mutahajjira…», fa-qaala: «Di haaga gamda awi!» Maadha ya'nii?",
+     "ref": "vocab1",
+     "q": "Fi al-lahja al-lubnaaniyya, fi ayy jumla tashrahu «ya'ni» kalaaman saabiqan?",
      "options": [
-      "That's really awesome!",
-      "That's frozen solid!",
-      "That's very hard to understand!",
-      "That's really boring!"
+      "Ya'ni bukra?",
+      "Hal-ma'bad ktiir adiim, ya'ni min alfeen sene.",
+      "Ya'ni shu baddak?",
+      "Ma ba'rif, ya'ni..."
      ],
-     "answer": 0,
-     "why": "Egyptian slang «gamda» = awesome; «awi» = very. He's impressed.",
-     "lesson": "«Gaamid» literally means hard or solid, and «mutahajjira» (turned to stone) sits right before it, so a literal 'solid' or 'hard' reading tempts. As slang it's pure praise."
+     "answer": 1,
+     "why": "Hunaa «ya'ni» li-l-tawdiih: ba'da «ktiir adiim» ya'tii al-sharh «min alfeen sene».",
+     "lesson": "Li-anna «ya'ni» tusta'malu kathiiran hashwan aw su'aalan, yakhtaaru al-muta'allim ihdaa tilka al-jumal; laakin ma'naahaa al-aslii huwa «ay», sharh maa qablahaa."
     }
    ],
    "tip": {
-    "title": "Numbers 3–10 flip gender",
-    "text": "From 3 to 10, Arabic numbers take the 'opposite' gender: with a masculine noun the number gets the feminine ending -a(t). So today's headlines say «asharat ayyaam» (ten days; yawm is masculine) and «sab'at anwaa» (seven kinds). After 3–10 the noun is plural; from 11 up it switches back to singular, as in «254 aaridan» (254 exhibitors)."
+    "title": "Egyptian 'this' comes after the noun",
+    "text": "In Cairo, 'this' follows the noun, which keeps its il-: «il-shaal da» (this scarf), «il-maqbara di» (this tomb). Use da for masculine nouns and di for feminine ones. Standard Arabic puts it first: hadha al-shaal. Lebanese uses a short hal- in front: «hal-ma'bad», this temple."
    },
    "fun": {
-    "kind": "joke",
+    "kind": "saying",
     "region": "Egypt",
-    "text": "Umrak kaam ya Guha? Arba'iin. Bas inta ult arba'iin min ashar siniin! Ana raagil kilmiti waahda.",
-    "script": "عمرك كام يا جحا؟ أربعين. بس إنت قلت أربعين من عشر سنين! أنا راجل كلمتي واحدة.",
+    "text": "Illi faat maat.",
+    "script": "اللي فات مات.",
     "gloss": {
-     "umrak": "your age",
-     "kaam": "how much",
-     "ya": "O (addressing someone)",
-     "arba'iin": "forty",
-     "bas": "but",
-     "inta": "you",
-     "ult": "said",
-     "ashar": "ten",
-     "siniin": "years",
-     "raagil": "man",
-     "kilmiti": "my word",
-     "waahda": "one"
+     "illi": "what, that which",
+     "faat": "passed",
+     "maat": "died"
     },
-    "literal": "'How old are you, Guha?' 'Forty.' 'But you said forty ten years ago!' 'I'm a man whose word is one.'",
-    "meaning": "Guha 'keeps his word' so faithfully that he refuses to get any older.",
-    "culture": "Guha (Juha in Standard Arabic) is the wise fool of Arab folk tales, cousin of Turkey's Nasreddin Hodja. Egyptians tell his stories to children and adults alike, and «kilmiti waahda» (my word is one) is a real Egyptian boast about being a man of his word."
+    "literal": "What has passed has died.",
+    "meaning": "Let bygones be bygones; the past is over, move on.",
+    "culture": "Egyptians say it to end an argument or to comfort someone after a mistake: no point dwelling on it. The rhyme of faat and maat makes it stick, and it's as common at the family dinner table as in the office."
    }
   },
   "zh": {
