@@ -288,3 +288,4 @@ footer{max-width:1260px;margin:0 auto 46px;padding:0 24px;color:var(--dim);
 .abcreview{margin-top:10px;font:600 12px/1 ui-sans-serif,system-ui,sans-serif;color:var(--dim);display:flex;flex-wrap:wrap;gap:6px;align-items:center}
 .abcreview .chip{font:400 16px/1 ui-sans-serif,system-ui,sans-serif;padding:5px 9px;border:1px solid var(--line);
   border-radius:999px;background:var(--panel);color:var(--ink);cursor:pointer}
+.about{font-family:ui-sans-serif,system-ui,sans-serif;font-size:14.5px;line-height:1.55;color:var(--dim);margin-top:6px}

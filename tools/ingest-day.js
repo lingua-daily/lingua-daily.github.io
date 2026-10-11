@@ -5,7 +5,8 @@
 
    day.json shape:
    { "date": "2026-09-30",
-     "es": { "news":[3], "vocab":[3], "quiz":[6] },
+     "es": { "news":[1], "phrases":{A,B}, "quote":{}, "lit":{},
+             "vocab":{A,B,C}, "quiz":[6], "tip":{}, "fun":{} },
      "de": { ... }, "it": { ... }, ... }
 
    Counts follow each language's `perDay` (default LINGUA_PER_DAY). A language
@@ -27,6 +28,10 @@ const LANGS = sb.window.LANGUAGES, PER_DAY = sb.window.PER_DAY || 3;
 LANGS.forEach(c => load('content/' + c + '.js'));
 load('content/daily.js');
 const DAILY = sb.window.DAILY || {};
+// every quote and literature line ever shown, so none repeats
+const USED_FILE = path.join(ROOT, 'tools/used.json');
+const USED = fs.existsSync(USED_FILE) ? JSON.parse(fs.readFileSync(USED_FILE, 'utf8')) : [];
+const normText = t => String(t || '').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 
 const file = process.argv[2];
 if (!file) { console.error('usage: ingest-day.js day.json'); process.exit(1); }
@@ -65,9 +70,10 @@ for (const lang of present){
   const d = day[lang], L = lang.toUpperCase();
   const N = C(lang).perDay || PER_DAY, SCRIPT = !!C(lang).script;
 
-  if (!Array.isArray(d.news) || d.news.length !== N) err(`${L}: news needs exactly ${N} items`);
+  // one headline: the day's top story for that culture, written at three levels
+  if (!Array.isArray(d.news) || d.news.length !== 1) err(`${L}: news needs exactly 1 headline (the day's top story)`);
   (d.news || []).forEach((n, i) => {
-    const w = `${L} news ${i + 1}`;
+    const w = `${L} headline`;
     ['topic', 'source'].forEach(k => str(n[k], `${w}.${k}`));
     if (n.source && !/^https?:\/\//.test(n.source)) err(`${w}.source must be a URL`);
     if (!n.levels || typeof n.levels !== 'object') { err(`${w}: needs levels { A, B, C }, the headline written three ways`); return; }
@@ -87,15 +93,36 @@ for (const lang of present){
     if (a && c && a.trim() === c.trim()) err(`${w}: the A and C versions are identical; write one for each level`);
   });
 
-  if (!Array.isArray(d.vocab) || d.vocab.length !== N) err(`${L}: vocab needs exactly ${N} items`);
-  (d.vocab || []).forEach((v, i) => {
-    const w = `${L} vocab ${i + 1}`;
-    ['word', 'pos', 'region', 'meaning', 'note', 'example', 'exampleEn'].forEach(k => str(v[k], `${w}.${k}`));
-    obj(v.exGloss, `${w}.exGloss`);
-    if (!Number.isInteger(v.ties) || v.ties < 1 || v.ties > N) err(`${w}.ties must be the headline number it belongs to (1–${N})`);
-    if (SCRIPT){ str(v.wordScript, `${w}.wordScript`); str(v.exScript, `${w}.exScript`); }
-    coverage(lang, v.example, v.exGloss, w + ' example');
-  });
+  // C levels: a famous quote and a line of literature from the culture, never reused
+  for (const [k, fields] of [['quote', ['who', 'when', 'about']], ['lit', ['author', 'work', 'when', 'about']]]){
+    const x = d[k], w = `${L} ${k}`;
+    if (!x || typeof x !== 'object') { err(`${w}: missing — C levels show a ${k === 'quote' ? 'famous quote' : 'line of literature'}`); continue; }
+    ['text', 'en', ...fields].forEach(f => str(x[f], `${w}.${f}`));
+    obj(x.gloss, `${w}.gloss`);
+    if (SCRIPT) str(x.script, `${w}.script`);
+    if (String(x.text).split(/\s+/).length > 45) warn(`${w}: keep it to a line or two`);
+    coverage(lang, x.text, x.gloss, w);
+    const key = normText(x.text);
+    const prev = USED.find(u => u.lang === lang && u.date !== day.date && u.key === key);
+    if (prev) err(`${w}: already used on ${prev.date} — pick another`);
+  }
+
+  // vocab per level band, each word tied to something that band actually shows
+  const TIES = { A: ['news', 'phrase1', 'phrase2'], B: ['news', 'phrase1', 'phrase2'], C: ['news', 'quote', 'lit'] };
+  const V = d.vocab;
+  if (!V || typeof V !== 'object' || Array.isArray(V)) err(`${L}: vocab must be { "A": [${N}], "B": [${N}], "C": [${N}] }, one set per level band`);
+  else for (const band of ['A', 'B', 'C']){
+    const list = V[band];
+    if (!Array.isArray(list) || list.length !== N) { err(`${L}: vocab.${band} needs exactly ${N} words`); continue; }
+    list.forEach((v, i) => {
+      const w = `${L} vocab.${band} ${i + 1}`;
+      ['word', 'pos', 'region', 'meaning', 'note', 'example', 'exampleEn'].forEach(k => str(v[k], `${w}.${k}`));
+      obj(v.exGloss, `${w}.exGloss`);
+      if (!TIES[band].includes(v.ties)) err(`${w}.ties must be one of ${TIES[band].join(', ')} — what the ${band} level shows`);
+      if (SCRIPT){ str(v.wordScript, `${w}.wordScript`); str(v.exScript, `${w}.exScript`); }
+      coverage(lang, v.example, v.exGloss, w + ' example');
+    });
+  }
 
   if (!d.tip || typeof d.tip !== 'object') err(`${L}: needs a tip { title, text } about how the language works`);
   else {
@@ -133,16 +160,13 @@ for (const lang of present){
     coverage(lang, f.text, f.gloss, `${L} fun`);
   }
 
+  // quiz: two per band, each testing only what that band shows
   const q = d.quiz || [];
-  for (const [lv, band] of [[['A1', 'A2'], 'A'], [['B1', 'B2'], 'B']]){
-    const refs = q.filter(x => lv.includes(x.level)).map(x => x.ref || '');
-    if (!refs.some(r => r.startsWith('phrase'))) err(`${L}: the ${lv.join(' or ')} quiz question must reinforce a ${band}-level phrase scene (ref phrase1 or phrase2)`);
-  }
   if (q.length !== 6) err(`${L}: quiz needs exactly 6 questions`);
   const lv = q.map(x => x.level).sort().join(',');
   if (lv !== LEVELS.join(',')) err(`${L}: quiz needs one question at each level ${LEVELS.join(' ')}, got ${lv}`);
   q.forEach((x, i) => {
-    const w = `${L} quiz ${x.level || i + 1}`;
+    const w = `${L} quiz ${x.level || i + 1}`, band = String(x.level || '')[0];
     ['q', 'why', 'lesson'].forEach(k => str(x[k], `${w}.${k}`));
     if (!Array.isArray(x.options) || x.options.length !== 4) err(`${w}: needs 4 options`);
     else {
@@ -153,15 +177,14 @@ for (const lang of present){
     if (String(x.q || '').trim().length < 12) err(`${w}: question is too short to be real`);
     if (x.why && x.lesson && x.why.trim() === x.lesson.trim()) err(`${w}: lesson just repeats why`);
     if (!Number.isInteger(x.answer) || x.answer < 0 || x.answer > 3) err(`${w}: answer must be 0–3`);
-    const m = /^(news|vocab|phrase)([1-9])$/.exec(x.ref || '');
-    if (!m || +m[2] > (m[1] === 'phrase' ? 2 : N)) err(`${w}.ref must name what it reinforces: news1–news${N}, vocab1–vocab${N} or phrase1–phrase2`);
+    const ok = TIES[band] ? [...TIES[band], ...Array.from({ length: N }, (_, k) => 'vocab' + (k + 1))] : [];
+    if (!ok.includes(x.ref)) err(`${w}.ref must name something the ${band || '?'} level shows: ${ok.join(', ')}`);
   });
-  const refs = q.map(x => x.ref || '');
-  if (refs.filter(r => r.startsWith('news')).length < 2) err(`${L}: at least 2 quiz questions must reinforce a headline`);
-  if (refs.filter(r => r.startsWith('vocab')).length < 2) err(`${L}: at least 2 quiz questions must reinforce a vocab word`);
+  for (const band of ['A', 'B', 'C']){
+    const refs = q.filter(x => String(x.level)[0] === band).map(x => x.ref || '');
+    if (refs.length && refs.every(r => r.startsWith('vocab'))) err(`${L}: the ${band} questions can't both be vocab — test the headline${band === 'C' ? ', quote or literature' : ' or a scene'} too`);
+  }
   if (new Set(q.map(x => x.answer)).size < 2) warn(`${L}: every answer is in the same position`);
-  const tied = new Set((d.vocab || []).map(v => v.ties));
-  if (N > 1 && tied.size < 2) warn(`${L}: all vocab ties to one headline — spread it out`);
 }
 
 warnings.forEach(w => console.log('warning: ' + w));
@@ -183,6 +206,13 @@ var LINGUA_DAILY = ${JSON.stringify(out, null, 1)};
 if (typeof window !== "undefined") window.DAILY = LINGUA_DAILY;
 if (typeof module !== "undefined") module.exports = LINGUA_DAILY;
 `, 'utf8');
+const kept = USED.filter(u => !(u.date === day.date && present.includes(u.lang)));
+for (const lang of present) for (const k of ['quote', 'lit']){
+  const x = day[lang][k];
+  kept.push({ date: day.date, lang, kind: k, by: x.who || x.author, key: normText(x.text) });
+}
+fs.mkdirSync(path.dirname(USED_FILE), { recursive: true });
+fs.writeFileSync(USED_FILE, JSON.stringify(kept, null, 1) + '\n');
 // On the website repo, bump version.json so every browser loads the new lesson at once.
 const ver = path.join(ROOT, 'version.json');
 if (fs.existsSync(ver)) fs.writeFileSync(ver, JSON.stringify({ v: new Date().toISOString().replace(/\D/g, '').slice(0, 14) }) + '\n');

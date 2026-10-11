@@ -264,11 +264,21 @@ function render(){
   /* A and B levels get one headline plus two everyday-conversation scenes,
      a two-thirds split towards usable speech; C gets the full headlines.
      Older days stored a plain array of beginner scenes. */
+  const band = level[0];
   const P = Array.isArray(day.phrases) ? { A: day.phrases } : (day.phrases || {});
-  const scenes = level[0] === 'C' ? null : P[level[0]];
+  const scenes = band === 'C' ? null : P[band];
   const conversational = Array.isArray(scenes) && scenes.length > 0;
-  if (conversational) renderPhrases(scenes, lang, level[0]);
-  day.news.slice(0, conversational ? 1 : n).map(it => variant(it, level)).forEach(item => {
+  if (conversational) renderPhrases(scenes, lang, band);
+  /* Newer days carry one headline, and C levels add a famous quote and a line
+     of literature, so the three daily pieces sit in one numbered list. */
+  const pieces = day.news.slice(0, conversational ? 1 : n).map(it => variant(it, level));
+  if (band === 'C'){
+    if (day.quote) pieces.push(Object.assign({}, day.quote, {
+      topic: 'Quote · ' + day.quote.who + (day.quote.when ? ', ' + day.quote.when : '') }));
+    if (day.lit) pieces.push(Object.assign({}, day.lit, {
+      topic: 'Literature · ' + day.lit.author + ', ' + day.lit.work + (day.lit.when ? ' (' + day.lit.when + ')' : '') }));
+  }
+  pieces.forEach(item => {
     const li = document.createElement('li');
 
     if (item.topic){
@@ -283,6 +293,12 @@ function render(){
     renderGlossed(item.text, item.gloss, p, wordSay(lang, regionOf(item.topic)));
     li.append(p);
     if (showScript && item.script) li.append(scriptLine(item.script, lang, 'script'));
+    if (item.about){
+      const ab = document.createElement('div');
+      ab.className = 'about';
+      ab.textContent = item.about;
+      li.append(ab);
+    }
 
     const row = document.createElement('div');
     row.className = 'fullrow';
@@ -358,7 +374,8 @@ function render(){
   }
 
   // vocab
-  day.vocab.slice(0, n).forEach(v => {
+  const vocab = Array.isArray(day.vocab) ? day.vocab.slice(0, n) : ((day.vocab || {})[band] || []);
+  vocab.forEach(v => {
     const card = document.createElement('div');
     card.className = 'card';
 
@@ -377,7 +394,7 @@ function render(){
     if (v.ties){
       const t = document.createElement('span');
       t.className = 'ties';
-      t.textContent = '↔ headline ' + v.ties;
+      t.textContent = '↔ ' + ({ news: 'headline', phrase1: 'scene 1', phrase2: 'scene 2', quote: 'quote', lit: 'literature' }[v.ties] || 'headline ' + v.ties);
       top.append(t);
     }
     if (v.region && v.region !== 'general'){
@@ -612,7 +629,9 @@ function renderQuiz(day, lang, count){
   const box = document.getElementById('quiz');
   box.innerHTML = '';
 
-  pickQuiz(day, level, count).forEach((q, qi) => {
+  const own = day.quiz.filter(q => q.level[0] === level[0]);
+  const qs = Array.isArray(day.vocab) ? pickQuiz(day, level, count) : own;   // older days mixed levels
+  qs.forEach((q, qi) => {
     const item = document.createElement('div');
     item.className = 'q';
 
