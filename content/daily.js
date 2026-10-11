@@ -10994,6 +10994,1768 @@ var LINGUA_DAILY = {
     "meaning": "The pupil takes a road sign meant for drivers as an order for himself.",
     "culture": "Egyptian humour loves the cheeky pupil who outwits the teacher with a literal reading; jokes like this are swapped in classrooms and family WhatsApp groups. Note the Egyptian sounds: gayy with a hard g, and 'tarii'' and 'bit'uul' where other dialects keep the q."
    }
+  },
+  "zh": {
+   "news": [
+    {
+     "topic": "Kǎogǔ · Āijí",
+     "source": "https://www.chinanews.com.cn/cul/2026/09-24/10703109.shtml",
+     "levels": {
+      "A": {
+       "text": "Zhōngguó hé Āijí kǎogǔ rényuán fāxiàn liǎng gè gǔdài shèng hú.",
+       "script": "中国和埃及考古人员发现两个古代圣湖。",
+       "en": "Chinese and Egyptian archaeologists find two ancient sacred lakes.",
+       "gloss": {
+        "āijí": "Egypt",
+        "kǎogǔ": "archaeology",
+        "rényuán": "staff, people",
+        "fāxiàn": "discover",
+        "liǎng": "two",
+        "gǔdài": "ancient",
+        "shèng": "sacred",
+        "hú": "lake"
+       }
+      },
+      "B": {
+       "text": "Zhōngguó hé Āijí de kǎogǔduì zài Mèngtú shénmiào yízhǐ fāxiànle nán běi liǎng gè shèng hú.",
+       "script": "中国和埃及的考古队在孟图神庙遗址发现了南北两个圣湖。",
+       "en": "A Chinese-Egyptian archaeology team found two sacred lakes, one south and one north, at the Temple of Montu site.",
+       "gloss": {
+        "āijí": "Egypt",
+        "kǎogǔduì": "archaeology team",
+        "mèngtú": "Montu (Egyptian god)",
+        "shénmiào": "temple",
+        "yízhǐ": "site, ruins",
+        "fāxiànle": "discovered",
+        "nán": "south",
+        "běi": "north",
+        "liǎng": "two",
+        "shèng": "sacred",
+        "hú": "lake"
+       }
+      },
+      "C": {
+       "text": "Guójiā Wénwùjú jiǔ yuè fābù de chéngguǒ xiǎnshì, Zhōng-Āi liánhé kǎogǔduì shǒucì zài gǔ Āijí tóng yí shénmiào qū nèi fāxiàn shuāng shèng hú yíjì.",
+       "script": "国家文物局九月发布的成果显示，中埃联合考古队首次在古埃及同一神庙区内发现双圣湖遗迹。",
+       "en": "Results released in September by the National Cultural Heritage Administration show that a joint Chinese-Egyptian team has, for the first time, found the remains of twin sacred lakes within a single ancient Egyptian temple precinct.",
+       "gloss": {
+        "guójiā": "national",
+        "wénwùjú": "cultural heritage administration",
+        "jiǔ": "nine",
+        "yuè": "month (jiǔ yuè: September)",
+        "fābù": "release, publish",
+        "chéngguǒ": "results",
+        "xiǎnshì": "show",
+        "zhōng-āi": "Chinese-Egyptian",
+        "liánhé": "joint",
+        "kǎogǔduì": "archaeology team",
+        "shǒucì": "for the first time",
+        "gǔ": "ancient",
+        "āijí": "Egypt",
+        "tóng": "same",
+        "shénmiào": "temple",
+        "qū": "area, precinct",
+        "nèi": "inside",
+        "fāxiàn": "discover",
+        "shuāng": "twin, pair",
+        "shèng": "sacred",
+        "hú": "lake",
+        "yíjì": "remains, traces"
+       }
+      }
+     }
+    },
+    {
+     "topic": "Shūhuà · Běijīng",
+     "source": "https://english.beijing.gov.cn/latest/news/202608/t20260830_4842877.html",
+     "levels": {
+      "A": {
+       "text": "Gùgōng yǒu yí gè Táng Sòng shūhuà zhǎnlǎn.",
+       "script": "故宫有一个唐宋书画展览。",
+       "en": "The Palace Museum has an exhibition of Tang and Song calligraphy and painting.",
+       "gloss": {
+        "gùgōng": "the Palace Museum (Forbidden City)",
+        "táng": "Tang dynasty",
+        "sòng": "Song dynasty",
+        "shūhuà": "calligraphy and painting",
+        "zhǎnlǎn": "exhibition"
+       }
+      },
+      "B": {
+       "text": "Gùgōng Wénhuà Diàn de Táng Sòng shūhuà zhǎn zhǎnchū yìbǎi líng qī jiàn zuòpǐn, yào xiān yùyuē.",
+       "script": "故宫文华殿的唐宋书画展展出一百零七件作品，要先预约。",
+       "en": "The Tang and Song painting and calligraphy show in the Palace Museum's Hall of Literary Brilliance displays 107 works, and you have to book first.",
+       "gloss": {
+        "gùgōng": "the Palace Museum",
+        "wénhuà": "literary brilliance (hall name)",
+        "diàn": "hall",
+        "táng": "Tang dynasty",
+        "sòng": "Song dynasty",
+        "shūhuà": "calligraphy and painting",
+        "zhǎn": "exhibition",
+        "zhǎnchū": "put on display",
+        "yìbǎi": "one hundred",
+        "líng": "zero",
+        "qī": "seven",
+        "jiàn": "(measure word for items)",
+        "zuòpǐn": "works",
+        "yào": "need to",
+        "xiān": "first",
+        "yùyuē": "book, reserve"
+       }
+      },
+      "C": {
+       "text": "Gùgōng Bówùyuàn Wénhuà Diàn jǔbàn de Táng Sòng shūhuà tèzhǎn jiāng chíxù dào shíyī yuè yī rì, dì-èr qī yǐ Sòngdài zuòpǐn wéi zhǔ.",
+       "script": "故宫博物院文华殿举办的唐宋书画特展将持续到十一月一日，第二期以宋代作品为主。",
+       "en": "The special Tang and Song calligraphy and painting exhibition at the Palace Museum's Hall of Literary Brilliance runs until 1 November, with its second phase devoted mainly to Song works.",
+       "gloss": {
+        "gùgōng": "Palace (Gùgōng Bówùyuàn: the Palace Museum)",
+        "bówùyuàn": "museum",
+        "wénhuà": "literary brilliance (hall name)",
+        "diàn": "hall",
+        "jǔbàn": "hold, host",
+        "táng": "Tang dynasty",
+        "sòng": "Song dynasty",
+        "shūhuà": "calligraphy and painting",
+        "tèzhǎn": "special exhibition",
+        "jiāng": "will",
+        "chíxù": "last, continue",
+        "dào": "until",
+        "shíyī": "eleven",
+        "yuè": "month (shíyī yuè: November)",
+        "rì": "day (of the month)",
+        "dì-èr": "second",
+        "qī": "phase, period",
+        "yǐ": "take ... (yǐ ... wéi zhǔ: mainly ...)",
+        "sòngdài": "Song dynasty",
+        "zuòpǐn": "works",
+        "wéi": "as",
+        "zhǔ": "main"
+       }
+      }
+     }
+    }
+   ],
+   "phrases": {
+    "A": [
+     {
+      "topic": "Hotel check-in",
+      "situation": "Arriving at the front desk of a hotel in Beijing.",
+      "lines": [
+       {
+        "who": "Receptionist",
+        "text": "Nín hǎo! Yǒu yùdìng ma?",
+        "script": "您好！有预订吗？",
+        "en": "Hello! Do you have a booking?",
+        "gloss": {
+         "nín": "you (polite)",
+         "hǎo": "good (nín hǎo: hello)",
+         "yùdìng": "booking, reservation"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Yǒu, wǒ jiào Ānnà.",
+        "script": "有，我叫安娜。",
+        "en": "Yes, my name's Anna.",
+        "gloss": {
+         "jiào": "be called"
+        }
+       },
+       {
+        "who": "Receptionist",
+        "text": "Hǎo de, qǐng gěi wǒ nín de hùzhào.",
+        "script": "好的，请给我您的护照。",
+        "en": "OK, may I have your passport, please?",
+        "gloss": {
+         "hǎo": "good (hǎo de: OK)",
+         "qǐng": "please",
+         "gěi": "give",
+         "nín": "you (polite)",
+         "hùzhào": "passport"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Gěi nín. Zǎocān jǐ diǎn?",
+        "script": "给您。早餐几点？",
+        "en": "Here you are. What time is breakfast?",
+        "gloss": {
+         "gěi": "give (gěi nín: here you are)",
+         "nín": "you (polite)",
+         "zǎocān": "breakfast",
+         "jǐ": "how many, what",
+         "diǎn": "o'clock"
+        }
+       },
+       {
+        "who": "Receptionist",
+        "text": "Qī diǎn dào shí diǎn. Zhè shì nín de fángkǎ.",
+        "script": "七点到十点。这是您的房卡。",
+        "en": "Seven to ten. Here's your room card.",
+        "gloss": {
+         "qī": "seven",
+         "diǎn": "o'clock",
+         "dào": "to, until",
+         "shí": "ten",
+         "nín": "you (polite)",
+         "fángkǎ": "room key card"
+        }
+       }
+      ]
+     },
+     {
+      "topic": "The weather",
+      "situation": "Chatting with a friend on a chilly autumn day.",
+      "lines": [
+       {
+        "who": "Friend",
+        "text": "Jīntiān tài lěng le!",
+        "script": "今天太冷了！",
+        "en": "It's so cold today!",
+        "gloss": {
+         "tài": "too, so",
+         "lěng": "cold"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Shì a. Míngtiān ne?",
+        "script": "是啊。明天呢？",
+        "en": "It is. What about tomorrow?",
+        "gloss": {
+         "a": "(softening particle)"
+        }
+       },
+       {
+        "who": "Friend",
+        "text": "Tīngshuō míngtiān xià yǔ.",
+        "script": "听说明天下雨。",
+        "en": "I heard it's going to rain tomorrow.",
+        "gloss": {
+         "tīngshuō": "I heard, they say",
+         "xià": "fall, come down",
+         "yǔ": "rain"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Nà wǒ dài sǎn.",
+        "script": "那我带伞。",
+        "en": "Then I'll bring an umbrella.",
+        "gloss": {
+         "dài": "bring, take",
+         "sǎn": "umbrella"
+        }
+       },
+       {
+        "who": "Friend",
+        "text": "Duì, hái yào duō chuān diǎnr.",
+        "script": "对，还要多穿点儿。",
+        "en": "Right, and wear a bit more too.",
+        "gloss": {
+         "duì": "right",
+         "yào": "should",
+         "duō": "more",
+         "chuān": "wear",
+         "diǎnr": "a bit"
+        }
+       }
+      ]
+     }
+    ],
+    "B": [
+     {
+      "topic": "Returning a jacket",
+      "situation": "Taking a jacket back to a clothes shop the day after buying it.",
+      "lines": [
+       {
+        "who": "You",
+        "text": "Nín hǎo, zhè jiàn wàitào wǒ zuótiān mǎi de, néng tuì ma?",
+        "script": "您好，这件外套我昨天买的，能退吗？",
+        "en": "Hi, I bought this jacket yesterday. Can I return it?",
+        "gloss": {
+         "nín": "you (polite)",
+         "hǎo": "good (nín hǎo: hello)",
+         "jiàn": "(measure word for clothes)",
+         "wàitào": "jacket",
+         "zuótiān": "yesterday",
+         "mǎi": "buy",
+         "néng": "can",
+         "tuì": "return (for a refund)"
+        }
+       },
+       {
+        "who": "Assistant",
+        "text": "Zěnme le? Yǒu shénme wèntí ma?",
+        "script": "怎么了？有什么问题吗？",
+        "en": "What's up? Is something wrong with it?",
+        "gloss": {
+         "zěnme": "how (zěnme le: what's up)",
+         "shénme": "what, any",
+         "wèntí": "problem"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Chǐcùn bú duì, chuān zhe yǒudiǎnr xiǎo.",
+        "script": "尺寸不对，穿着有点儿小。",
+        "en": "The size is wrong. It's a bit small on me.",
+        "gloss": {
+         "chǐcùn": "size",
+         "duì": "right",
+         "chuān": "wear",
+         "zhe": "(while ...-ing)",
+         "yǒudiǎnr": "a bit (for something unwanted)",
+         "xiǎo": "small"
+        }
+       },
+       {
+        "who": "Assistant",
+        "text": "Xiǎopiào dài le ma?",
+        "script": "小票带了吗？",
+        "en": "Did you bring the receipt?",
+        "gloss": {
+         "xiǎopiào": "receipt",
+         "dài": "bring"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Dài le, gěi nín. Nà néng huàn dà yí hào de ma?",
+        "script": "带了，给您。那能换大一号的吗？",
+        "en": "Yep, here. So can I swap it for one size up?",
+        "gloss": {
+         "dài": "bring",
+         "gěi": "give (gěi nín: here you are)",
+         "nín": "you (polite)",
+         "néng": "can",
+         "huàn": "exchange",
+         "dà": "big",
+         "hào": "size number"
+        }
+       },
+       {
+        "who": "Assistant",
+        "text": "Kěyǐ, wǒ gěi nín zhǎozhao. Qī tiān nèi dōu néng huàn.",
+        "script": "可以，我给您找找。七天内都能换。",
+        "en": "Sure, let me have a look for you. You can exchange anything within seven days.",
+        "gloss": {
+         "gěi": "for",
+         "nín": "you (polite)",
+         "zhǎozhao": "have a look",
+         "qī": "seven",
+         "tiān": "days",
+         "nèi": "within",
+         "néng": "can",
+         "huàn": "exchange"
+        }
+       }
+      ]
+     },
+     {
+      "topic": "Booking and cancelling a table",
+      "situation": "Phoning a restaurant to book for Saturday, then calling back to cancel.",
+      "lines": [
+       {
+        "who": "You",
+        "text": "Wèi, nín hǎo, wǒ xiǎng dìng ge zhuōzi, zhōuliù wǎnshang qī diǎn, sì gè rén.",
+        "script": "喂，您好，我想订个桌子，周六晚上七点，四个人。",
+        "en": "Hello, I'd like to book a table: Saturday evening at seven, four people.",
+        "gloss": {
+         "wèi": "hello (on the phone)",
+         "nín": "you (polite)",
+         "hǎo": "good (nín hǎo: hello)",
+         "xiǎng": "would like",
+         "dìng": "book",
+         "zhuōzi": "table",
+         "zhōuliù": "Saturday",
+         "wǎnshang": "evening",
+         "qī": "seven",
+         "diǎn": "o'clock",
+         "sì": "four"
+        }
+       },
+       {
+        "who": "Staff",
+        "text": "Méi wèntí. Nín guì xìng?",
+        "script": "没问题。您贵姓？",
+        "en": "No problem. And your surname, please?",
+        "gloss": {
+         "méi": "no, not have",
+         "wèntí": "problem",
+         "nín": "you (polite)",
+         "guì": "honourable (polite)",
+         "xìng": "surname"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Xìng Lǐ. Duì le, yǒu bāoxiāng ma?",
+        "script": "姓李。对了，有包厢吗？",
+        "en": "Li. Oh, by the way, do you have a private room?",
+        "gloss": {
+         "xìng": "be surnamed",
+         "duì": "right (duì le: oh, by the way)",
+         "bāoxiāng": "private dining room"
+        }
+       },
+       {
+        "who": "Staff",
+        "text": "Bāoxiāng mǎn le, dàtīng kào chuāng de xíng ma?",
+        "script": "包厢满了，大厅靠窗的行吗？",
+        "en": "The private rooms are full. Would a window table in the main hall be OK?",
+        "gloss": {
+         "bāoxiāng": "private dining room",
+         "mǎn": "full",
+         "dàtīng": "main hall",
+         "kào": "next to",
+         "chuāng": "window",
+         "xíng": "OK"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Xíng, nà jiù zhèyàng.",
+        "script": "行，那就这样。",
+        "en": "Fine, let's do that.",
+        "gloss": {
+         "xíng": "OK",
+         "zhèyàng": "like this (nà jiù zhèyàng: let's do that)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Bù hǎoyìsi, zhōuliù de yùdìng wǒ děi qǔxiāo yíxià.",
+        "script": "不好意思，周六的预订我得取消一下。",
+        "en": "Sorry, I'm going to have to cancel Saturday's booking.",
+        "gloss": {
+         "hǎoyìsi": "feel at ease (bù hǎoyìsi: sorry)",
+         "zhōuliù": "Saturday",
+         "yùdìng": "booking",
+         "děi": "have to",
+         "qǔxiāo": "cancel",
+         "yíxià": "(softens the verb)"
+        }
+       },
+       {
+        "who": "Staff",
+        "text": "Hǎo de, méi guānxi, xiàcì zài lái!",
+        "script": "好的，没关系，下次再来！",
+        "en": "OK, no worries, come another time!",
+        "gloss": {
+         "hǎo": "good (hǎo de: OK)",
+         "méi": "not",
+         "guānxi": "matter (méi guānxi: no worries)",
+         "xiàcì": "next time",
+         "zài": "again"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "vocab": [
+    {
+     "word": "dǎkǎ",
+     "wordScript": "打卡",
+     "pos": "slang",
+     "region": "general",
+     "ties": 1,
+     "meaning": "to visit a famous spot and post a photo of it online",
+     "note": "Literally 'punch the card', as at work when you clock in. Now everyone uses it for ticking off sights: wǎnghóng dǎkǎ dì is an 'internet-famous check-in spot'.",
+     "example": "Hěn duō rén xiǎng qù Āijí de shénmiào dǎkǎ.",
+     "exScript": "很多人想去埃及的神庙打卡。",
+     "exampleEn": "Lots of people want to go and snap a photo at Egypt's temples.",
+     "exGloss": {
+      "duō": "many",
+      "xiǎng": "want",
+      "āijí": "Egypt",
+      "shénmiào": "temple",
+      "dǎkǎ": "check in, snap and post"
+     }
+    },
+    {
+     "word": "yùyuē",
+     "wordScript": "预约",
+     "pos": "verb",
+     "region": "general",
+     "ties": 2,
+     "meaning": "to book ahead, make an appointment",
+     "note": "Used for museums, doctors, haircuts and many sights, nearly always on a phone app. For a restaurant table or hotel people often say dìng or yùdìng.",
+     "example": "Qù Gùgōng kàn zhǎnlǎn, yào xiān zài shǒujī shang yùyuē.",
+     "exScript": "去故宫看展览，要先在手机上预约。",
+     "exampleEn": "To see an exhibition at the Palace Museum, you have to book on your phone first.",
+     "exGloss": {
+      "gùgōng": "the Palace Museum",
+      "kàn": "see",
+      "zhǎnlǎn": "exhibition",
+      "yào": "need to",
+      "xiān": "first",
+      "shǒujī": "mobile phone",
+      "shang": "on",
+      "yùyuē": "book ahead"
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "level": "A1",
+     "ref": "phrase1",
+     "q": "In the hotel scene the receptionist says «Qī diǎn dào shí diǎn». When is breakfast?",
+     "options": [
+      "6 to 9",
+      "7 to 10",
+      "8 to 11",
+      "7 to 9"
+     ],
+     "answer": 1,
+     "why": "Qī is seven, shí is ten, and dào means 'to', so breakfast runs from seven to ten.",
+     "lesson": "Qī (seven) and shí (ten) start with similar hissing sounds and get mixed up with sì (four). Learn the numbers one to ten as a chant; prices, times and room numbers all build on them."
+    },
+    {
+     "level": "A2",
+     "ref": "news1",
+     "q": "What do the archaeologists find in headline 1, «liǎng gè gǔdài shèng hú»?",
+     "options": [
+      "Two ancient sacred lakes",
+      "Two gold statues",
+      "Two old boats",
+      "Two city walls"
+     ],
+     "answer": 0,
+     "why": "Liǎng gè means 'two', gǔdài 'ancient', shèng 'sacred' and hú 'lake'.",
+     "lesson": "Egypt calls statues and boats to mind, but hú is lake, as in Xī Hú, Hangzhou's West Lake. Temples in ancient Egypt had sacred pools for rituals."
+    },
+    {
+     "level": "B1",
+     "ref": "phrase1",
+     "q": "Gùkè wèishénme yào tuì wàitào?",
+     "options": [
+      "Yánsè bù hǎokàn",
+      "Chǐcùn yǒudiǎnr xiǎo",
+      "Tài guì le",
+      "Wàitào huài le"
+     ],
+     "answer": 1,
+     "why": "She says «Chǐcùn bú duì, chuān zhe yǒudiǎnr xiǎo»: the size is wrong and it's a bit small.",
+     "lesson": "Tuì (return for a refund) makes people expect a broken item. Here it's just the size; that's why she then asks to huàn (exchange) for dà yí hào, one size up."
+    },
+    {
+     "level": "B2",
+     "ref": "vocab2",
+     "q": "«Qù Gùgōng kàn zhǎnlǎn, yào xiān yùyuē.» «Yùyuē» shì shénme yìsi?",
+     "options": [
+      "Mǎi jìniànpǐn",
+      "Pái hěn cháng de duì",
+      "Tíqián dìng hǎo shíjiān",
+      "Dài hùzhào"
+     ],
+     "answer": 2,
+     "why": "Yùyuē is to book ahead: yù 'in advance' plus yuē 'arrange'.",
+     "lesson": "Queuing feels like the obvious museum chore, but booking ahead is exactly what saves you the queue. The yù in yùyuē is the same as in yùdìng (reservation) and yùbào (forecast): it always means 'beforehand'."
+    },
+    {
+     "level": "C1",
+     "ref": "news2",
+     "q": "Táng Sòng shūhuà tèzhǎn de dì-èr qī yǐ shénme wéi zhǔ?",
+     "options": [
+      "Tángdài zuòpǐn",
+      "Míngdài zuòpǐn",
+      "Qīngdài zuòpǐn",
+      "Sòngdài zuòpǐn"
+     ],
+     "answer": 3,
+     "why": "The headline says «dì-èr qī yǐ Sòngdài zuòpǐn wéi zhǔ»: the second phase is mainly Song works.",
+     "lesson": "Táng comes first in the title, so it's tempting to pick it. The pattern yǐ X wéi zhǔ, 'take X as the main thing', names the focus, and here X is Sòngdài."
+    },
+    {
+     "level": "C2",
+     "ref": "vocab1",
+     "q": "Péngyou shuō «Wǒ yào qù shénmiào dǎkǎ». Tā yào zuò shénme?",
+     "options": [
+      "Qù shàngbān",
+      "Qù nàli pāizhào fā dào wǎngshàng",
+      "Qù mǎi yì zhāng yínháng kǎ",
+      "Qù dǎ yóuxì"
+     ],
+     "answer": 1,
+     "why": "Dǎkǎ in today's slang means visiting a well-known place and posting proof online.",
+     "lesson": "The literal sense, clocking in at work, is still alive, so 'going to work' pulls people in. When the place is a sight, not an office, dǎkǎ is the social-media check-in."
+    }
+   ],
+   "tip": {
+    "title": "Measure words between number and noun",
+    "text": "Chinese can't put a number straight before a noun; a measure word goes in between: liǎng gè shèng hú, zhè jiàn wàitào, yìbǎi líng qī jiàn zuòpǐn. Gè is the all-purpose one, while jiàn covers clothes and individual items. When unsure, gè is rarely wrong in speech."
+   },
+   "fun": {
+    "kind": "idiom",
+    "region": "general",
+    "text": "Huà lóng diǎn jīng.",
+    "script": "画龙点睛。",
+    "gloss": {
+     "huà": "paint",
+     "lóng": "dragon",
+     "diǎn": "dot in",
+     "jīng": "eyes (pupils)"
+    },
+    "literal": "Paint a dragon, dot in the eyes.",
+    "meaning": "Add the finishing touch that brings the whole thing to life.",
+    "culture": "The story goes that the painter Zhang Sengyou painted dragons on a temple wall without eyes; when he dotted in the pupils of two, they flew off into the sky. It's praise for the key line of an essay or the one detail that makes a design."
+   }
+  },
+  "ru": {
+   "news": [
+    {
+     "topic": "Muzei · Moskva",
+     "source": "https://rg.ru/2026/10/11/reg-cfo/v-moskve-12-oktiabria-startuet-muzejnaia-nedelia.html",
+     "levels": {
+      "A": {
+       "text": "V Moskve nachinayetsya muzeynaya nedelya: tridtsat tri muzeya zhdut gostey.",
+       "script": "В Москве начинается музейная неделя: тридцать три музея ждут гостей.",
+       "en": "Museum week starts in Moscow: thirty-three museums are waiting for visitors.",
+       "gloss": {
+        "nachinayetsya": "begins",
+        "muzeynaya": "museum (adj.)",
+        "nedelya": "week",
+        "tridtsat": "thirty",
+        "tri": "three",
+        "muzeya": "museums",
+        "zhdut": "wait for",
+        "gostey": "guests, visitors"
+       }
+      },
+      "B": {
+       "text": "S dvenadtsatogo po vosemnadtsatoye oktyabrya kazhdyy iz tridtsati tryokh muzeyev odin den budet rabotat besplatno.",
+       "script": "С двенадцатого по восемнадцатое октября каждый из тридцати трёх музеев один день будет работать бесплатно.",
+       "en": "From 12 to 18 October, each of the thirty-three museums will be free for one day.",
+       "gloss": {
+        "dvenadtsatogo": "twelfth",
+        "vosemnadtsatoye": "eighteenth",
+        "oktyabrya": "of October",
+        "kazhdyy": "each",
+        "tridtsati": "thirty",
+        "tryokh": "three",
+        "muzeyev": "museums",
+        "odin": "one",
+        "den": "day",
+        "budet": "will",
+        "rabotat": "work, be open",
+        "besplatno": "free of charge"
+       }
+      },
+      "C": {
+       "text": "Muzei Moskovskoy muzeynoy nedeli, kotoraya startuyet dvenadtsatogo oktyabrya, mozhno posetit besplatno, no elektronnyy bilet nuzhno zaraneye oformit cherez «Mosbilet».",
+       "script": "Музеи Московской музейной недели, которая стартует двенадцатого октября, можно посетить бесплатно, но электронный билет нужно заранее оформить через «Мосбилет».",
+       "en": "The museums of Moscow Museum Week, which starts on 12 October, can be visited free, but an e-ticket must be booked in advance through Mosbilet.",
+       "gloss": {
+        "muzei": "museums",
+        "moskovskoy": "Moscow (adj.)",
+        "muzeynoy": "museum (adj.)",
+        "nedeli": "week (of the)",
+        "kotoraya": "which",
+        "startuyet": "starts",
+        "dvenadtsatogo": "on the twelfth",
+        "oktyabrya": "of October",
+        "mozhno": "one can",
+        "posetit": "visit",
+        "besplatno": "free of charge",
+        "elektronnyy": "electronic",
+        "bilet": "ticket",
+        "nuzhno": "must, need to",
+        "zaraneye": "in advance",
+        "oformit": "get, arrange (paperwork)",
+        "cherez": "through"
+       }
+      }
+     }
+    },
+    {
+     "topic": "Zhivopis · Peterburg",
+     "source": "https://rusmuseum.ru/news/v-korpuse-benua-russkogo-muzeya-otkrylas-vystavka-ivana-shishkina/",
+     "levels": {
+      "A": {
+       "text": "V Russkom muzeye idyot vystavka Shishkina «Russkiy les».",
+       "script": "В Русском музее идёт выставка Шишкина «Русский лес».",
+       "en": "The Russian Museum has a Shishkin exhibition on: 'Russian Forest'.",
+       "gloss": {
+        "russkom": "Russian",
+        "muzeye": "museum (in the)",
+        "idyot": "is on (lit. goes)",
+        "vystavka": "exhibition",
+        "russkiy": "Russian",
+        "les": "forest"
+       }
+      },
+      "B": {
+       "text": "Vystavku Ivana Shishkina «Russkiy les» otkryli v korpuse Benua v den rozhdeniya Russkogo muzeya, i ona prodlitsya do devyatogo noyabrya.",
+       "script": "Выставку Ивана Шишкина «Русский лес» открыли в корпусе Бенуа в день рождения Русского музея, и она продлится до девятого ноября.",
+       "en": "Ivan Shishkin's 'Russian Forest' exhibition opened in the Benois Wing on the Russian Museum's birthday and runs until 9 November.",
+       "gloss": {
+        "vystavku": "exhibition",
+        "russkiy": "Russian",
+        "les": "forest",
+        "otkryli": "(they) opened",
+        "korpuse": "wing, building (in the)",
+        "den": "day",
+        "rozhdeniya": "birth (den rozhdeniya: birthday)",
+        "russkogo": "Russian",
+        "muzeya": "museum (of the)",
+        "prodlitsya": "will last",
+        "devyatogo": "ninth",
+        "noyabrya": "of November"
+       }
+      },
+      "C": {
+       "text": "Vystavka Ivana Shishkina «Russkiy les», otkryvshayasya v aprele k sto tridtsat pervoy godovshchine Russkogo muzeya, sobrala lesnyye peyzazhi khudozhnika ot monumentalnykh poloten do kamernykh etyudov.",
+       "script": "Выставка Ивана Шишкина «Русский лес», открывшаяся в апреле к сто тридцать первой годовщине Русского музея, собрала лесные пейзажи художника от монументальных полотен до камерных этюдов.",
+       "en": "Ivan Shishkin's exhibition 'Russian Forest', which opened in April for the Russian Museum's 131st anniversary, gathers the artist's forest landscapes, from monumental canvases to intimate studies.",
+       "gloss": {
+        "vystavka": "exhibition",
+        "russkiy": "Russian",
+        "les": "forest",
+        "otkryvshayasya": "which opened",
+        "aprele": "April (in)",
+        "sto": "hundred",
+        "tridtsat": "thirty",
+        "pervoy": "first",
+        "godovshchine": "anniversary (to the)",
+        "russkogo": "Russian",
+        "muzeya": "museum (of the)",
+        "sobrala": "gathered",
+        "lesnyye": "forest (adj.)",
+        "peyzazhi": "landscapes",
+        "khudozhnika": "artist (of the)",
+        "monumentalnykh": "monumental",
+        "poloten": "canvases",
+        "kamernykh": "intimate, small-scale",
+        "etyudov": "studies, sketches"
+       }
+      }
+     }
+    }
+   ],
+   "phrases": {
+    "A": [
+     {
+      "topic": "Buying a metro ticket",
+      "situation": "At the ticket window in a Moscow metro station.",
+      "lines": [
+       {
+        "who": "You",
+        "text": "Zdravstvuyte, odin bilet, pozhaluysta.",
+        "script": "Здравствуйте, один билет, пожалуйста.",
+        "en": "Hello, one ticket, please.",
+        "gloss": {
+         "zdravstvuyte": "hello (polite)",
+         "odin": "one",
+         "bilet": "ticket",
+         "pozhaluysta": "please"
+        }
+       },
+       {
+        "who": "Cashier",
+        "text": "Na odnu poyezdku?",
+        "script": "На одну поездку?",
+        "en": "For one journey?",
+        "gloss": {
+         "odnu": "one",
+         "poyezdku": "trip, journey"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Da. Skolko stoit?",
+        "script": "Да. Сколько стоит?",
+        "en": "Yes. How much is it?",
+        "gloss": {
+         "skolko": "how much",
+         "stoit": "costs"
+        }
+       },
+       {
+        "who": "Cashier",
+        "text": "Luchshe kupite kartu «Troyka», tak deshevle.",
+        "script": "Лучше купите карту «Тройка», так дешевле.",
+        "en": "Better buy a Troika card, it's cheaper that way.",
+        "gloss": {
+         "luchshe": "better",
+         "kupite": "buy",
+         "kartu": "card",
+         "deshevle": "cheaper"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Khorosho, davayte «Troyku».",
+        "script": "Хорошо, давайте «Тройку».",
+        "en": "OK, a Troika then.",
+        "gloss": {
+         "khorosho": "good, OK",
+         "davayte": "let's have, give me"
+        }
+       }
+      ]
+     },
+     {
+      "topic": "Talking about family",
+      "situation": "A new friend asks about your family.",
+      "lines": [
+       {
+        "who": "Friend",
+        "text": "U tebya bolshaya semya?",
+        "script": "У тебя большая семья?",
+        "en": "Have you got a big family?",
+        "gloss": {
+         "bolshaya": "big",
+         "semya": "family"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Net, ne ochen. Mama, papa i mladshiy brat.",
+        "script": "Нет, не очень. Мама, папа и младший брат.",
+        "en": "No, not very. Mum, Dad and a younger brother.",
+        "gloss": {
+         "mama": "mum",
+         "papa": "dad",
+         "mladshiy": "younger",
+         "brat": "brother"
+        }
+       },
+       {
+        "who": "Friend",
+        "text": "A skolko let bratu?",
+        "script": "А сколько лет брату?",
+        "en": "And how old is your brother?",
+        "gloss": {
+         "skolko": "how many",
+         "bratu": "brother (to the)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Yemu dvadtsat. A u tebya yest bratya ili syostry?",
+        "script": "Ему двадцать. А у тебя есть братья или сёстры?",
+        "en": "He's twenty. And have you got brothers or sisters?",
+        "gloss": {
+         "yemu": "to him (here: he is)",
+         "dvadtsat": "twenty",
+         "yest": "there is (u tebya yest: you have)",
+         "bratya": "brothers",
+         "syostry": "sisters"
+        }
+       },
+       {
+        "who": "Friend",
+        "text": "Odna sestra, ona zhivyot v Kazani.",
+        "script": "Одна сестра, она живёт в Казани.",
+        "en": "One sister, she lives in Kazan.",
+        "gloss": {
+         "odna": "one",
+         "sestra": "sister",
+         "zhivyot": "lives"
+        }
+       }
+      ]
+     }
+    ],
+    "B": [
+     {
+      "topic": "Returning trainers",
+      "situation": "Taking a pair of trainers back to a shop.",
+      "lines": [
+       {
+        "who": "You",
+        "text": "Dobryy den, ya u vas v subbotu krossovki brala, khochu vernut.",
+        "script": "Добрый день, я у вас в субботу кроссовки брала, хочу вернуть.",
+        "en": "Hi, I bought some trainers here on Saturday and I'd like to return them.",
+        "gloss": {
+         "dobryy": "good",
+         "den": "day",
+         "subbotu": "Saturday",
+         "krossovki": "trainers, sneakers",
+         "brala": "took (here: bought)",
+         "khochu": "I want",
+         "vernut": "return"
+        }
+       },
+       {
+        "who": "Assistant",
+        "text": "A chto s nimi ne tak?",
+        "script": "А что с ними не так?",
+        "en": "And what's wrong with them?",
+        "gloss": {
+         "nimi": "them"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Da malovaty, zhmut, ponimayete.",
+        "script": "Да маловаты, жмут, понимаете.",
+        "en": "They're just a bit small, they pinch, you know.",
+        "gloss": {
+         "malovaty": "a bit too small",
+         "zhmut": "pinch, are tight",
+         "ponimayete": "you know (lit. you understand)"
+        }
+       },
+       {
+        "who": "Assistant",
+        "text": "Chek sokhranili?",
+        "script": "Чек сохранили?",
+        "en": "Did you keep the receipt?",
+        "gloss": {
+         "chek": "receipt",
+         "sokhranili": "kept"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Aga, vot on.",
+        "script": "Ага, вот он.",
+        "en": "Yep, here it is.",
+        "gloss": {
+         "aga": "yep, uh-huh"
+        }
+       },
+       {
+        "who": "Assistant",
+        "text": "Togda mozhem obmenyat na razmer pobolshe ili vernut dengi na kartu.",
+        "script": "Тогда можем обменять на размер побольше или вернуть деньги на карту.",
+        "en": "Then we can swap them for a bigger size or refund the money to your card.",
+        "gloss": {
+         "togda": "then",
+         "mozhem": "we can",
+         "obmenyat": "exchange",
+         "razmer": "size",
+         "pobolshe": "a bit bigger",
+         "vernut": "return",
+         "dengi": "money",
+         "kartu": "card"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Davayte luchshe obmen.",
+        "script": "Давайте лучше обмен.",
+        "en": "I'll go for the exchange.",
+        "gloss": {
+         "davayte": "let's",
+         "luchshe": "rather, better",
+         "obmen": "exchange"
+        }
+       }
+      ]
+     },
+     {
+      "topic": "Telling a colleague about your weekend",
+      "situation": "Monday morning by the coffee machine.",
+      "lines": [
+       {
+        "who": "Colleague",
+        "text": "Nu kak vykhodnyye?",
+        "script": "Ну как выходные?",
+        "en": "So, how was the weekend?",
+        "gloss": {
+         "nu": "well, so",
+         "vykhodnyye": "weekend"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Slushay, klassno! V subbotu khodili v Tretyakovku.",
+        "script": "Слушай, классно! В субботу ходили в Третьяковку.",
+        "en": "Honestly, great! On Saturday we went to the Tretyakov.",
+        "gloss": {
+         "slushay": "listen (filler: honestly)",
+         "klassno": "great, cool",
+         "subbotu": "Saturday",
+         "khodili": "went (on foot)",
+         "tretyakovku": "the Tretyakov Gallery (colloquial)"
+        }
+       },
+       {
+        "who": "Colleague",
+        "text": "O, i kak? Narodu mnogo?",
+        "script": "О, и как? Народу много?",
+        "en": "Oh, and how was it? Busy?",
+        "gloss": {
+         "o": "oh",
+         "narodu": "people",
+         "mnogo": "a lot"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Ne to slovo! No ono togo stoilo.",
+        "script": "Не то слово! Но оно того стоило.",
+        "en": "You can say that again! But it was worth it.",
+        "gloss": {
+         "to": "that",
+         "slovo": "word (ne to slovo: and how!)",
+         "togo": "it (togo stoilo: was worth it)",
+         "stoilo": "was worth"
+        }
+       },
+       {
+        "who": "Colleague",
+        "text": "A ya vse vykhodnyye na dache prosidel.",
+        "script": "А я все выходные на даче просидел.",
+        "en": "I spent the whole weekend at the dacha.",
+        "gloss": {
+         "vse": "all, whole",
+         "vykhodnyye": "weekend",
+         "dache": "dacha, country cottage (at the)",
+         "prosidel": "spent (sitting)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Tozhe neplokho. Shashlyki zharili?",
+        "script": "Тоже неплохо. Шашлыки жарили?",
+        "en": "Not bad either. Did you grill shashlik?",
+        "gloss": {
+         "neplokho": "not bad",
+         "shashlyki": "shashlik, kebabs",
+         "zharili": "grilled"
+        }
+       },
+       {
+        "who": "Colleague",
+        "text": "Nu a kak zhe!",
+        "script": "Ну а как же!",
+        "en": "Well, of course!",
+        "gloss": {
+         "nu": "well",
+         "zhe": "(emphasis; a kak zhe: of course)"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "vocab": [
+    {
+     "word": "khalyava",
+     "wordScript": "халява",
+     "pos": "slang",
+     "region": "general",
+     "ties": 1,
+     "meaning": "a freebie, something you get for nothing",
+     "note": "Very common, slightly cheeky. Na khalyavu means 'for free'; students joke about calling the 'spirit of khalyava' before exams. Neutral: besplatno.",
+     "example": "Bilet v muzey za nol rubley — vot eto khalyava!",
+     "exScript": "Билет в музей за ноль рублей — вот это халява!",
+     "exampleEn": "A museum ticket for zero roubles: now that's a freebie!",
+     "exGloss": {
+      "bilet": "ticket",
+      "muzey": "museum",
+      "nol": "zero",
+      "rubley": "roubles",
+      "khalyava": "freebie"
+     }
+    },
+    {
+     "word": "poyekhat za gribami",
+     "wordScript": "поехать за грибами",
+     "pos": "idiom",
+     "region": "general",
+     "ties": 2,
+     "meaning": "to go mushroom picking",
+     "note": "Za plus the instrumental after a verb of motion means 'to go and get': skhodit za khlebom, 'pop out for bread'. Autumn mushroom hunting is a national pastime.",
+     "example": "Posle vystavki Shishkina srazu khochetsya poyekhat v les za gribami.",
+     "exScript": "После выставки Шишкина сразу хочется поехать в лес за грибами.",
+     "exampleEn": "After the Shishkin exhibition you immediately want to go to the forest for mushrooms.",
+     "exGloss": {
+      "posle": "after",
+      "vystavki": "exhibition",
+      "srazu": "straight away",
+      "khochetsya": "one feels like",
+      "poyekhat": "go (by transport)",
+      "les": "forest",
+      "gribami": "mushrooms"
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "level": "A1",
+     "ref": "phrase1",
+     "q": "In the metro scene, what does the cashier suggest buying?",
+     "options": [
+      "A paper map",
+      "Two tickets",
+      "A Troika card",
+      "A bus pass"
+     ],
+     "answer": 2,
+     "why": "«Luchshe kupite kartu «Troyka»» means 'better buy a Troika card'.",
+     "lesson": "You asked for odin bilet, so 'two tickets' or a pass sounds plausible. Kartu is just karta (card) in object form, and Troyka is the name of Moscow's top-up transport card."
+    },
+    {
+     "level": "A2",
+     "ref": "news1",
+     "q": "How many museums take part in Moscow's museum week, «tridtsat tri muzeya»?",
+     "options": [
+      "33",
+      "13",
+      "30",
+      "Three"
+     ],
+     "answer": 0,
+     "why": "Tridtsat is thirty and tri is three: thirty-three.",
+     "lesson": "Tri alone is three and tridtsat sounds like 'three' plus something, so learners pick 3 or 30. Russian builds tens like English: tridtsat tri is 'thirty three'."
+    },
+    {
+     "level": "B1",
+     "ref": "phrase1",
+     "q": "Pochemu pokupatelnitsa khochet vernut krossovki?",
+     "options": [
+      "Oni gryaznyye",
+      "Oni malovaty",
+      "Oni ne togo tsveta",
+      "Oni slishkom dorogiye"
+     ],
+     "answer": 1,
+     "why": "She says «malovaty, zhmut»: a bit small, they pinch.",
+     "lesson": "Malo looks like 'little' and could suggest 'not enough value'. The ending -ovat- softens an adjective to 'a bit too': malovaty is 'on the small side', velikovaty 'a bit big'."
+    },
+    {
+     "level": "B2",
+     "ref": "vocab1",
+     "q": "Drug govorit pro muzeynuyu nedelyu: «Vot eto khalyava!» Chto on imeyet v vidu?",
+     "options": [
+      "Eto ochen dorogo",
+      "Eto ochen skuchno",
+      "Eto ochen vkusno",
+      "Eto besplatno"
+     ],
+     "answer": 3,
+     "why": "Khalyava is slang for a freebie, something you get for nothing.",
+     "lesson": "The exclamation «vot eto ...!» sounds like a complaint or wonder at a price. Khalyava is always about getting something free; na khalyavu means 'for nothing'."
+    },
+    {
+     "level": "C1",
+     "ref": "news2",
+     "q": "Kogda otkrylas vystavka «Russkiy les»?",
+     "options": [
+      "V den rozhdeniya Russkogo muzeya",
+      "V den goroda",
+      "Na Novyy god",
+      "V den rozhdeniya Shishkina"
+     ],
+     "answer": 0,
+     "why": "The headline says it opened «v den rozhdeniya Russkogo muzeya», for its 131st anniversary.",
+     "lesson": "An exhibition of one painter makes the artist's birthday a natural guess. Here den rozhdeniya belongs to Russkogo muzeya: the genitive after it names whose birthday it is."
+    },
+    {
+     "level": "C2",
+     "ref": "vocab2",
+     "q": "V fraze «poyekhat za gribami» predlog «za» znachit…",
+     "options": [
+      "pozadi gribov",
+      "chtoby sobrat i prinesti griby",
+      "vmesto gribov",
+      "blagodarya gribam"
+     ],
+     "answer": 1,
+     "why": "After a verb of motion, za with the instrumental means 'to go and fetch': poyekhat za gribami is 'go for mushrooms'.",
+     "lesson": "Za with the instrumental also means 'behind' (za domom), so 'behind the mushrooms' tempts. With idti, yekhat or skhodit it marks the thing you're going to get."
+    }
+   ],
+   "tip": {
+    "title": "Going on foot or by transport",
+    "text": "Russian picks its 'go' verb by how you travel: khodit and idti on foot, yezdit and yekhat by transport. So «khodili v Tretyakovku» means you walked there and back, while «poyekhat v les» implies a car or train. Pick the wrong one and it sounds as if you walked to another city."
+   },
+   "fun": {
+    "kind": "joke",
+    "region": "general",
+    "text": "— Doktor, menya vse ignoriruyut. — Sleduyushchiy!",
+    "script": "— Доктор, меня все игнорируют. — Следующий!",
+    "gloss": {
+     "doktor": "doctor",
+     "vse": "everyone",
+     "ignoriruyut": "ignore",
+     "sleduyushchiy": "next (patient)!"
+    },
+    "literal": "'Doctor, everyone ignores me.' 'Next!'",
+    "meaning": "The doctor proves the patient's point by ignoring him too.",
+    "culture": "Short jokes called anekdoty are a Russian social ritual: «Znayesh anekdot?» ('Know a joke?') opens many a dinner-table round. Doctor jokes are a staple genre, told in two lines with a dash for each speaker."
+   }
+  },
+  "fa": {
+   "news": [
+    {
+     "topic": "Baastaanshenaasi · Sistaan",
+     "source": "https://www.tehrantimes.com/news/529622/4-600-year-old-board-game-decorated-bone-comb-unearthed-at-Burnt",
+     "levels": {
+      "A": {
+       "text": "Baastaanshenaasaan dar Shahr-e Sukhte yek baazi-ye ghadimi peydaa mikonand.",
+       "script": "باستان‌شناسان در شهر سوخته یک بازی قدیمی پیدا می‌کنند.",
+       "en": "Archaeologists find an old game in the Burnt City.",
+       "gloss": {
+        "baastaanshenaasaan": "archaeologists",
+        "shahr-e": "city (of)",
+        "sukhte": "burnt (Shahr-e Sukhte: the Burnt City)",
+        "baazi-ye": "game",
+        "ghadimi": "old, ancient",
+        "peydaa": "found (peydaa kardan: to find)",
+        "mikonand": "(they) do"
+       }
+      },
+      "B": {
+       "text": "Baastaanshenaasaan dar Shahr-e Sukhte yek safhe-ye baazi-ye chahaar hezaar o sheshsad saale va yek shaane-ye estekhaani-ye naghshdaar peydaa kardand.",
+       "script": "باستان‌شناسان در شهر سوخته یک صفحه‌ی بازی چهار هزار و ششصد ساله و یک شانه‌ی استخوانی نقش‌دار پیدا کردند.",
+       "en": "Archaeologists in the Burnt City found a 4,600-year-old game board and a decorated bone comb.",
+       "gloss": {
+        "baastaanshenaasaan": "archaeologists",
+        "shahr-e": "city (of)",
+        "sukhte": "burnt",
+        "safhe-ye": "board (of)",
+        "baazi-ye": "game",
+        "chahaar": "four",
+        "hezaar": "thousand",
+        "o": "and",
+        "sheshsad": "six hundred",
+        "saale": "years old",
+        "shaane-ye": "comb",
+        "estekhaani-ye": "bone (adj.)",
+        "naghshdaar": "decorated, patterned",
+        "peydaa": "found",
+        "kardand": "(they) did (peydaa kardand: found)"
+       }
+      },
+      "C": {
+       "text": "Be gofte-ye Ruhollaah Shiraazi, sarparast-e kaavosh, in safhe-ye baazi az now'i taaze ast ke taa konun dar Shahr-e Sukhte dide nashode bud.",
+       "script": "به گفته‌ی روح‌الله شیرازی، سرپرست کاوش، این صفحه‌ی بازی از نوعی تازه است که تا کنون در شهر سوخته دیده نشده بود.",
+       "en": "According to Rouhollah Shirazi, head of the excavation, the game board is of a new type never before seen at the Burnt City.",
+       "gloss": {
+        "gofte-ye": "words of (be gofte-ye: according to)",
+        "sarparast-e": "head, director (of)",
+        "kaavosh": "excavation",
+        "safhe-ye": "board (of)",
+        "baazi": "game",
+        "now'i": "a type",
+        "taaze": "new",
+        "konun": "now (taa konun: until now)",
+        "shahr-e": "city (of)",
+        "sukhte": "burnt",
+        "dide": "seen",
+        "nashode": "not been",
+        "bud": "was (had)"
+       }
+      }
+     }
+    },
+    {
+     "topic": "Felezkaari · Maasule",
+     "source": "https://kayhan.ir/en/news/154416/archaeologists-uncover-evidence-of-iron-production-at-masuleh",
+     "levels": {
+      "A": {
+       "text": "Dar nazdiki-ye Maasule, baastaanshenaasaan aasaar-e aahan peydaa mikonand.",
+       "script": "در نزدیکی ماسوله، باستان‌شناسان آثار آهن پیدا می‌کنند.",
+       "en": "Near Masuleh, archaeologists find traces of ironworking.",
+       "gloss": {
+        "nazdiki-ye": "near (in the vicinity of)",
+        "baastaanshenaasaan": "archaeologists",
+        "aasaar-e": "traces, remains (of)",
+        "aahan": "iron",
+        "peydaa": "found (peydaa kardan: to find)",
+        "mikonand": "(they) do"
+       }
+      },
+      "B": {
+       "text": "Dar kaavosh-e Maalmun, nazdik-e Maasule, sarbaare-ye aahan va mikh-e na'l-e asb peydaa shod.",
+       "script": "در کاوش مالمون، نزدیک ماسوله، سرباره‌ی آهن و میخ نعل اسب پیدا شد.",
+       "en": "At the Malmun dig near Masuleh, iron slag and horseshoe nails were found.",
+       "gloss": {
+        "kaavosh-e": "excavation (of)",
+        "nazdik-e": "near",
+        "sarbaare-ye": "slag (of)",
+        "aahan": "iron",
+        "mikh-e": "nail (of)",
+        "na'l-e": "shoe (of) (na'l: horseshoe)",
+        "asb": "horse",
+        "peydaa": "found",
+        "shod": "became (peydaa shod: was found)"
+       }
+      },
+      "C": {
+       "text": "Kaavosh be sarparasti-ye Aliakbar Vahdati neshaan midahad ke fa'aaliyat-e felezkaari dar Maalmun be-vizhe dar avaakher-e dowre-ye Safavi afzaayesh yaafte ast.",
+       "script": "کاوش به سرپرستی علی‌اکبر وحدتی نشان می‌دهد که فعالیت فلزکاری در مالمون به‌ویژه در اواخر دوره‌ی صفوی افزایش یافته است.",
+       "en": "The excavation led by Ali Akbar Vahdati shows that metalworking at Malmun grew especially in the late Safavid period.",
+       "gloss": {
+        "kaavosh": "excavation",
+        "sarparasti-ye": "direction, leadership (of)",
+        "neshaan": "sign (neshaan dadan: to show)",
+        "midahad": "gives (neshaan midahad: shows)",
+        "fa'aaliyat-e": "activity (of)",
+        "felezkaari": "metalworking",
+        "be-vizhe": "especially",
+        "avaakher-e": "the late part (of)",
+        "dowre-ye": "period (of)",
+        "safavi": "Safavid",
+        "afzaayesh": "increase",
+        "yaafte": "found (afzaayesh yaaftan: to increase)"
+       }
+      }
+     }
+    }
+   ],
+   "phrases": {
+    "A": [
+     {
+      "topic": "Ordering at a café",
+      "situation": "Ordering tea and cake at a café in Tehran.",
+      "lines": [
+       {
+        "who": "Waiter",
+        "text": "Salaam, befarmaayin. Chi meyl daarin?",
+        "script": "سلام، بفرمایین. چی میل دارین؟",
+        "en": "Hello, welcome. What would you like?",
+        "gloss": {
+         "salaam": "hello",
+         "befarmaayin": "please, go ahead (spoken for befarmaayid)",
+         "meyl": "desire (meyl daashtan: to want, have)",
+         "daarin": "you have (spoken for daarid)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Ye chaay va ye tike keyk lotfan.",
+        "script": "یه چای و یه تیکه کیک لطفاً.",
+        "en": "A tea and a slice of cake, please.",
+        "gloss": {
+         "ye": "a, one (spoken for yek)",
+         "chaay": "tea",
+         "tike": "piece, slice",
+         "keyk": "cake",
+         "lotfan": "please"
+        }
+       },
+       {
+        "who": "Waiter",
+        "text": "Chaay-e siyaah yaa sabz?",
+        "script": "چای سیاه یا سبز؟",
+        "en": "Black tea or green?",
+        "gloss": {
+         "chaay-e": "tea",
+         "siyaah": "black",
+         "sabz": "green"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Siyaah, mersi.",
+        "script": "سیاه، مرسی.",
+        "en": "Black, thanks.",
+        "gloss": {
+         "siyaah": "black",
+         "mersi": "thanks"
+        }
+       },
+       {
+        "who": "Waiter",
+        "text": "Chashm, alaan miyaaram.",
+        "script": "چشم، الان میارم.",
+        "en": "Sure, I'll bring it right away.",
+        "gloss": {
+         "chashm": "certainly (lit. eye)",
+         "alaan": "now",
+         "miyaaram": "I'll bring (spoken for mi-aavaram)"
+        }
+       }
+      ]
+     },
+     {
+      "topic": "Asking for directions",
+      "situation": "Looking for the metro on a Tehran street.",
+      "lines": [
+       {
+        "who": "You",
+        "text": "Bebakhshid, metro kojaast?",
+        "script": "ببخشید، مترو کجاست؟",
+        "en": "Excuse me, where's the metro?",
+        "gloss": {
+         "bebakhshid": "excuse me",
+         "metro": "metro",
+         "kojaast": "where is"
+        }
+       },
+       {
+        "who": "Passer-by",
+        "text": "Mostaghim beri, dast-e chap.",
+        "script": "مستقیم بری، دست چپ.",
+        "en": "Go straight on, it's on the left.",
+        "gloss": {
+         "mostaghim": "straight",
+         "beri": "you go (spoken for beravi)",
+         "dast-e": "hand, side",
+         "chap": "left"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Dure?",
+        "script": "دوره؟",
+        "en": "Is it far?",
+        "gloss": {
+         "dure": "is it far (spoken for dur ast)"
+        }
+       },
+       {
+        "who": "Passer-by",
+        "text": "Na, panj daghighe piyaade.",
+        "script": "نه، پنج دقیقه پیاده.",
+        "en": "No, five minutes on foot.",
+        "gloss": {
+         "panj": "five",
+         "daghighe": "minute(s)",
+         "piyaade": "on foot"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Khayli mamnun!",
+        "script": "خیلی ممنون!",
+        "en": "Thanks a lot!",
+        "gloss": {
+         "mamnun": "grateful, thanks"
+        }
+       }
+      ]
+     }
+    ],
+    "B": [
+     {
+      "topic": "Changing plans with a friend",
+      "situation": "A friend messages about going to the cinema.",
+      "lines": [
+       {
+        "who": "Friend",
+        "text": "Salaam! Fardaa shab paaye-ye sinamaa hasti?",
+        "script": "سلام! فردا شب پایه‌ی سینما هستی؟",
+        "en": "Hi! Up for the cinema tomorrow night?",
+        "gloss": {
+         "salaam": "hi",
+         "fardaa": "tomorrow",
+         "shab": "night",
+         "paaye-ye": "up for (slang, lit. base, leg)",
+         "sinamaa": "cinema",
+         "hasti": "you are"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Vaay, fardaa nemitunam, kaar daaram. Pas-fardaa chetore?",
+        "script": "وای، فردا نمی‌تونم، کار دارم. پس‌فردا چطوره؟",
+        "en": "Oh no, I can't tomorrow, I've got stuff on. How about the day after?",
+        "gloss": {
+         "vaay": "oh no",
+         "fardaa": "tomorrow",
+         "nemitunam": "I can't (spoken for nemitavaanam)",
+         "kaar": "work, things to do",
+         "daaram": "I have",
+         "pas-fardaa": "the day after tomorrow",
+         "chetore": "how is it (spoken for chetor ast)"
+        }
+       },
+       {
+        "who": "Friend",
+        "text": "Pas-fardaa ham khube. Saa'at-e chand?",
+        "script": "پس‌فردا هم خوبه. ساعت چند؟",
+        "en": "The day after works too. What time?",
+        "gloss": {
+         "pas-fardaa": "the day after tomorrow",
+         "khube": "is good (spoken for khub ast)",
+         "saa'at-e": "hour, o'clock",
+         "chand": "how many, what"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Haft khube? Ghablesh ye chizi bokhorim.",
+        "script": "هفت خوبه؟ قبلش یه چیزی بخوریم.",
+        "en": "Is seven OK? Let's grab a bite before.",
+        "gloss": {
+         "haft": "seven",
+         "khube": "is good",
+         "ghablesh": "before it",
+         "ye": "a (spoken for yek)",
+         "chizi": "something",
+         "bokhorim": "let's eat"
+        }
+       },
+       {
+        "who": "Friend",
+        "text": "Ghorbunet beram, pas haft dam-e sinamaa.",
+        "script": "قربونت برم، پس هفت دم سینما.",
+        "en": "You're a star. Seven outside the cinema, then.",
+        "gloss": {
+         "ghorbunet": "for your sake (spoken for ghorbaanat)",
+         "beram": "may I go (ghorbunet beram: affectionate thanks)",
+         "pas": "so, then",
+         "haft": "seven",
+         "dam-e": "at the door of",
+         "sinamaa": "cinema"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Baashe, mibinamet!",
+        "script": "باشه، می‌بینمت!",
+        "en": "OK, see you!",
+        "gloss": {
+         "baashe": "OK",
+         "mibinamet": "I'll see you (spoken)"
+        }
+       }
+      ]
+     },
+     {
+      "topic": "At the doctor's",
+      "situation": "Describing a cold to a GP.",
+      "lines": [
+       {
+        "who": "Doctor",
+        "text": "Khob, che moshkeli daarin?",
+        "script": "خب، چه مشکلی دارین؟",
+        "en": "So, what seems to be the problem?",
+        "gloss": {
+         "khob": "well, so",
+         "che": "what",
+         "moshkeli": "problem",
+         "daarin": "you have (spoken for daarid)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Aaghaa-ye doktor, do ruze sardard o tab daaram.",
+        "script": "آقای دکتر، دو روزه سردرد و تب دارم.",
+        "en": "Doctor, I've had a headache and a fever for two days.",
+        "gloss": {
+         "aaghaa-ye": "Mr",
+         "doktor": "doctor",
+         "do": "two",
+         "ruze": "days now (spoken: do ruze)",
+         "sardard": "headache",
+         "o": "and",
+         "tab": "fever",
+         "daaram": "I have"
+        }
+       },
+       {
+        "who": "Doctor",
+        "text": "Sorfe ham mikonin?",
+        "script": "سرفه هم می‌کنین؟",
+        "en": "Are you coughing as well?",
+        "gloss": {
+         "sorfe": "cough",
+         "mikonin": "you do (spoken for mikonid)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Ye kam, shabaa bishtar.",
+        "script": "یه کم، شبا بیشتر.",
+        "en": "A bit, more at night.",
+        "gloss": {
+         "ye": "a",
+         "kam": "little",
+         "shabaa": "at night (spoken for shab-haa)",
+         "bishtar": "more"
+        }
+       },
+       {
+        "who": "Doctor",
+        "text": "Sarmaa khordin. Esterhaat konin, aab ziyaad bokhorin.",
+        "script": "سرما خوردین. استراحت کنین، آب زیاد بخورین.",
+        "en": "You've caught a cold. Rest and drink plenty of water.",
+        "gloss": {
+         "sarmaa": "cold",
+         "khordin": "you ate (sarmaa khordan: catch a cold)",
+         "esterhaat": "rest",
+         "konin": "do (spoken for konid)",
+         "aab": "water",
+         "ziyaad": "a lot",
+         "bokhorin": "drink (spoken for bokhorid)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Chashm, khayli mamnun.",
+        "script": "چشم، خیلی ممنون.",
+        "en": "Will do, thank you very much.",
+        "gloss": {
+         "chashm": "certainly (lit. eye)",
+         "mamnun": "grateful, thanks"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "vocab": [
+    {
+     "word": "sargarmi",
+     "wordScript": "سرگرمی",
+     "pos": "noun",
+     "region": "general",
+     "ties": 1,
+     "meaning": "a pastime, hobby, entertainment",
+     "note": "From sargarm, 'busy, absorbed'. Sargarmi-yet chiye? is 'What's your hobby?'. Takhte-nard (backgammon) is a classic Iranian sargarmi.",
+     "example": "Chahaar hezaar saal pish ham mardom baraaye sargarmi baazi mikardand.",
+     "exScript": "چهار هزار سال پیش هم مردم برای سرگرمی بازی می‌کردند.",
+     "exampleEn": "Four thousand years ago, people also played games for fun.",
+     "exGloss": {
+      "chahaar": "four",
+      "hezaar": "thousand",
+      "pish": "ago",
+      "mardom": "people",
+      "sargarmi": "pastime, fun",
+      "baazi": "game, play",
+      "mikardand": "(they) used to do"
+     }
+    },
+    {
+     "word": "na'l-e vaarune zadan",
+     "wordScript": "نعل وارونه زدن",
+     "pos": "idiom",
+     "region": "general",
+     "ties": 2,
+     "meaning": "to throw people off the scent, mislead",
+     "note": "Literally 'to fit a horseshoe backwards', so the tracks point the wrong way. Said of a tricky seller or a sly move: «na'l-e vaarune mizane».",
+     "example": "Aahangar-e Maasule na'l-e asb misaakht, na na'l-e vaarune!",
+     "exScript": "آهنگر ماسوله نعل اسب می‌ساخت، نه نعل وارونه!",
+     "exampleEn": "The Masuleh blacksmith made horseshoes, not backwards ones!",
+     "exGloss": {
+      "aahangar-e": "blacksmith (of)",
+      "na'l-e": "shoe (of)",
+      "asb": "horse",
+      "misaakht": "used to make",
+      "vaarune": "backwards, upside down"
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "level": "A1",
+     "ref": "phrase1",
+     "q": "In the café scene, the waiter asks «Chaay-e siyaah yaa sabz?» What do you choose?",
+     "options": [
+      "Green tea",
+      "Black tea",
+      "Saffron tea",
+      "Mint tea"
+     ],
+     "answer": 1,
+     "why": "You answer «Siyaah, mersi»: siyaah is black.",
+     "lesson": "Sabz (green) is the last word you hear, so it sticks. In Iran plain chaay almost always means strong black tea, often served with a sugar cube."
+    },
+    {
+     "level": "A2",
+     "ref": "news1",
+     "q": "What do archaeologists find in the Burnt City, «yek baazi-ye ghadimi»?",
+     "options": [
+      "A gold crown",
+      "An old ship",
+      "An old library",
+      "An old game"
+     ],
+     "answer": 3,
+     "why": "Baazi is game and ghadimi means old.",
+     "lesson": "The -ye ending makes baazi-ye look unfamiliar, but it's only the ezafe linking 'game' to 'old'. Baazi is the everyday word for game and play, as in baazi kardan."
+    },
+    {
+     "level": "B1",
+     "ref": "phrase2",
+     "q": "Doktor mige «Sarmaa khordin». Yani chi?",
+     "options": [
+      "Bastani khordin",
+      "Sarmaa-khordegi daarin",
+      "Ghazaa-ye sard khordin",
+      "Birun sard bud"
+     ],
+     "answer": 1,
+     "why": "Sarmaa khordan, literally 'eat cold', is the normal way to say 'catch a cold'.",
+     "lesson": "Khordan means eat, so 'you ate something cold' tempts. Persian uses khordan for many things that happen to you: zamin khordan 'fall over', ghosse khordan 'worry'."
+    },
+    {
+     "level": "B2",
+     "ref": "vocab1",
+     "q": "«Sargarmi-ye to chiye?» Kalame-ye «sargarmi» yani chi?",
+     "options": [
+      "Kaari ke baraaye lezzat dar vaght-e aazaad mikonim",
+      "Kaar-e ruzaane",
+      "Dars-e madrese",
+      "Ghazaa-ye garm"
+     ],
+     "answer": 0,
+     "why": "Sargarmi is a hobby or pastime, what you do for fun in your free time.",
+     "lesson": "Garm means warm, so 'hot food' looks like a match. Sargarm, 'warm-headed', means absorbed in something; sargarmi is what keeps you absorbed."
+    },
+    {
+     "level": "C1",
+     "ref": "news2",
+     "q": "Dar kaavosh-e Maalmun che chizi peydaa shod?",
+     "options": [
+      "Sekke-ye talaa",
+      "Kaashi-ye aabi",
+      "Sarbaare-ye aahan va mikh-e na'l",
+      "Ketaab-e khatti"
+     ],
+     "answer": 2,
+     "why": "The headline names «sarbaare-ye aahan va mikh-e na'l-e asb»: iron slag and horseshoe nails.",
+     "lesson": "Safavid Iran is famous for blue tiles, so kaashi tempts. Malmun was a working iron site, and sarbaare (slag) is the waste left after smelting ore."
+    },
+    {
+     "level": "C2",
+     "ref": "vocab2",
+     "q": "Agar kasi «na'l-e vaarune bezane», che kaar mikone?",
+     "options": [
+      "Asb raa na'l mikone",
+      "Digaraan raa gomraah mikone",
+      "Aahangari mikone",
+      "Az asb miofte"
+     ],
+     "answer": 1,
+     "why": "Na'l-e vaarune zadan means to mislead people, as a backwards horseshoe leaves tracks pointing the wrong way.",
+     "lesson": "Na'l zadan on its own really is 'to shoe a horse', so the literal option pulls. Vaarune (backwards) turns it into deliberate misdirection."
+    }
+   ],
+   "tip": {
+    "title": "Noun plus light verb",
+    "text": "Many Persian verbs are a noun plus a small 'light' verb: peydaa kardan 'find', esterhaat kardan 'rest', sarmaa khordan 'catch a cold', na'l zadan 'shoe a horse'. The noun carries the meaning; the light verb carries tense and person: peydaa kardand, sarmaa khordin. Learn them as pairs."
+   },
+   "fun": {
+    "kind": "joke",
+    "region": "general",
+    "text": "Mollaa tu kuche donbaal-e angoshtarash migasht. Porsidan: Kojaa gomesh kardi? Goft: Tu khune. Goftan: Pas cheraa injaa migardi? Goft: Chun injaa roshantare!",
+    "script": "ملا تو کوچه دنبال انگشترش می‌گشت. پرسیدن: کجا گمش کردی؟ گفت: تو خونه. گفتن: پس چرا اینجا می‌گردی؟ گفت: چون اینجا روشن‌تره!",
+    "gloss": {
+     "mollaa": "Mulla (Nasreddin)",
+     "tu": "in (spoken for too/dar)",
+     "kuche": "street, alley",
+     "donbaal-e": "after, looking for",
+     "angoshtarash": "his ring",
+     "migasht": "was searching",
+     "porsidan": "they asked (spoken for porsidand)",
+     "gomesh": "it lost",
+     "kardi": "you did (gom kardan: lose)",
+     "goft": "he said",
+     "khune": "house (spoken for khaane)",
+     "goftan": "they said",
+     "pas": "so, then",
+     "cheraa": "why",
+     "injaa": "here",
+     "migardi": "you search",
+     "chun": "because",
+     "roshantare": "it's brighter (spoken)"
+    },
+    "literal": "The Mulla was looking for his ring in the street. They asked, 'Where did you lose it?' He said, 'In the house.' They said, 'Then why are you looking here?' He said, 'Because it's lighter here!'",
+    "meaning": "Searching where it's easy rather than where the answer is.",
+    "culture": "Mollaa Nasreddin is the wise fool of Persian, Turkish and Central Asian folk humour; Iranian children grow up on his stories. His jokes poke fun at everyday reasoning, and this one is quoted whenever someone tackles a problem from the convenient end."
+   }
   }
  }
 };
