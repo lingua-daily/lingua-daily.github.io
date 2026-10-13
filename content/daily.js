@@ -19945,6 +19945,1876 @@ var LINGUA_DAILY = {
     "meaning": "Love makes everyone beautiful to their own family; parents never see their children's flaws.",
     "culture": "The gazelle is the classic Arabic image of grace and beauty in poetry and song, so Egyptians tease proud parents and grandparents with this saying when they show off a baby photo."
    }
+  },
+  "zh": {
+   "news": [
+    {
+     "topic": "Kējì · Zhōngguó",
+     "source": "https://english.news.cn/20261012/1bd12fd59c5c4902befbd7e75eee38b1/c.html",
+     "levels": {
+      "A": {
+       "text": "Zhōngguó zài jiàn hěn duō “cíyuán gōngchǎng”.",
+       "script": "中国在建很多“词元工厂”。",
+       "en": "China is building lots of “token factories”.",
+       "gloss": {
+        "zài": "(is doing) / in",
+        "jiàn": "build",
+        "duō": "many",
+        "cíyuán": "token (unit of AI text)",
+        "gōngchǎng": "factory"
+       }
+      },
+      "B": {
+       "text": "Xīnhuáshè shuō, Zhōngguó zhèngzài jiàn “cíyuán gōngchǎng”, ràng réngōng zhìnéng jīngjì fāzhǎn de gèng kuài.",
+       "script": "新华社说，中国正在建“词元工厂”，让人工智能经济发展得更快。",
+       "en": "Xinhua said China is building “token factories” to make the AI economy grow faster.",
+       "gloss": {
+        "xīnhuáshè": "Xinhua (state news agency)",
+        "shuō": "said",
+        "zhèngzài": "in the middle of (doing)",
+        "jiàn": "build",
+        "cíyuán": "token (unit of AI text)",
+        "gōngchǎng": "factory",
+        "ràng": "make / let",
+        "réngōng": "artificial",
+        "zhìnéng": "intelligence",
+        "jīngjì": "economy",
+        "fāzhǎn": "develop / grow",
+        "gèng": "even more",
+        "kuài": "fast"
+       }
+      },
+      "C": {
+       "text": "Jù Xīnhuáshè bàodào, Zhōngguó zhèng tuīchū “cíyuán gōngchǎng”, Běijīng yě fābù le quánguó shǒu ge shěngjí cíyuán jīngjì zhuānxiàng xíngdòng fāng'àn.",
+       "script": "据新华社报道，中国正推出“词元工厂”，北京也发布了全国首个省级词元经济专项行动方案。",
+       "en": "According to Xinhua, China is rolling out “token factories”, and Beijing has issued the country's first provincial-level action plan dedicated to the token economy.",
+       "gloss": {
+        "jù": "according to",
+        "xīnhuáshè": "Xinhua (state news agency)",
+        "bàodào": "report",
+        "zhèng": "in the process of",
+        "tuīchū": "roll out / launch",
+        "cíyuán": "token (unit of AI text)",
+        "gōngchǎng": "factory",
+        "fābù": "issue / publish",
+        "quánguó": "the whole country",
+        "shǒu": "first",
+        "shěngjí": "provincial-level",
+        "jīngjì": "economy",
+        "zhuānxiàng": "dedicated / special",
+        "xíngdòng": "action",
+        "fāng'àn": "plan"
+       }
+      }
+     }
+    }
+   ],
+   "phrases": {
+    "A": [
+     {
+      "topic": "Introducing yourself",
+      "situation": "Meeting someone at a language exchange",
+      "lines": [
+       {
+        "who": "You",
+        "text": "Nǐ hǎo, wǒ jiào Ānnà.",
+        "script": "你好，我叫安娜。",
+        "en": "Hi, I'm Anna.",
+        "gloss": {
+         "hǎo": "good (nǐ hǎo = hello)",
+         "jiào": "am called",
+         "ānnà": "Anna (name)"
+        }
+       },
+       {
+        "who": "Friend",
+        "text": "Nǐ hǎo! Wǒ jiào Lǐ Míng. Nǐ shì nǎ guó rén?",
+        "script": "你好！我叫李明。你是哪国人？",
+        "en": "Hi! I'm Li Ming. Where are you from?",
+        "gloss": {
+         "hǎo": "good (nǐ hǎo = hello)",
+         "jiào": "am called",
+         "lǐ": "Li (surname)",
+         "míng": "Ming (given name)",
+         "nǎ": "which",
+         "guó": "country"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Wǒ shì Yīngguó rén. Hěn gāoxìng rènshi nǐ.",
+        "script": "我是英国人。很高兴认识你。",
+        "en": "I'm British. Nice to meet you.",
+        "gloss": {
+         "yīngguó": "Britain",
+         "gāoxìng": "glad",
+         "rènshi": "meet / get to know"
+        }
+       },
+       {
+        "who": "Friend",
+        "text": "Wǒ yě hěn gāoxìng! Nǐ de Zhōngwén hěn hǎo.",
+        "script": "我也很高兴！你的中文很好。",
+        "en": "Me too! Your Chinese is very good.",
+        "gloss": {
+         "gāoxìng": "glad",
+         "zhōngwén": "Chinese (language)",
+         "hǎo": "good"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Nǎlǐ nǎlǐ, wǒ hái zài xué.",
+        "script": "哪里哪里，我还在学。",
+        "en": "Oh, not at all, I'm still learning.",
+        "gloss": {
+         "nǎlǐ": "where (doubled: “oh, not at all”, a modest reply to praise)",
+         "zài": "(is doing)",
+         "xué": "learn"
+        }
+       }
+      ]
+     },
+     {
+      "topic": "Ordering bubble tea",
+      "situation": "At a milk-tea shop counter",
+      "lines": [
+       {
+        "who": "Staff",
+        "text": "Nǐ hǎo, hē diǎnr shénme?",
+        "script": "你好，喝点儿什么？",
+        "en": "Hi, what would you like to drink?",
+        "gloss": {
+         "hǎo": "good (nǐ hǎo = hello)",
+         "hē": "drink",
+         "diǎnr": "a little (Beijing-style -r)",
+         "shénme": "what"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Yì bēi nǎichá, shǎo bīng.",
+        "script": "一杯奶茶，少冰。",
+        "en": "A milk tea, less ice.",
+        "gloss": {
+         "bēi": "cup",
+         "nǎichá": "milk tea",
+         "shǎo": "less / little",
+         "bīng": "ice"
+        }
+       },
+       {
+        "who": "Staff",
+        "text": "Yào dà bēi háishi zhōng bēi?",
+        "script": "要大杯还是中杯？",
+        "en": "Large or medium?",
+        "gloss": {
+         "yào": "want",
+         "dà": "big",
+         "bēi": "cup",
+         "háishi": "or (in questions)",
+         "zhōng": "medium / middle"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Dà bēi, xièxie.",
+        "script": "大杯，谢谢。",
+        "en": "Large, thanks.",
+        "gloss": {
+         "dà": "big",
+         "bēi": "cup",
+         "xièxie": "thank you"
+        }
+       },
+       {
+        "who": "Staff",
+        "text": "Shíwǔ kuài. Sǎo zhèlǐ jiù xíng.",
+        "script": "十五块。扫这里就行。",
+        "en": "Fifteen yuan. Just scan here.",
+        "gloss": {
+         "shíwǔ": "fifteen",
+         "kuài": "yuan (spoken)",
+         "sǎo": "scan",
+         "zhèlǐ": "here",
+         "xíng": "OK / will do"
+        }
+       }
+      ]
+     }
+    ],
+    "B": [
+     {
+      "topic": "Workplace small talk",
+      "situation": "Morning chat with a colleague by the coffee machine",
+      "lines": [
+       {
+        "who": "Colleague",
+        "text": "Zǎo a! Zuótiān jiābān dào jǐ diǎn?",
+        "script": "早啊！昨天加班到几点？",
+        "en": "Morning! How late did you work last night?",
+        "gloss": {
+         "zǎo": "morning! (greeting)",
+         "a": "(friendly particle)",
+         "zuótiān": "yesterday",
+         "jiābān": "work overtime",
+         "dào": "until",
+         "jǐ": "how many",
+         "diǎn": "o'clock"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Bié tí le, shí diǎn duō cái zǒu.",
+        "script": "别提了，十点多才走。",
+        "en": "Don't ask, I didn't leave till after ten.",
+        "gloss": {
+         "bié": "don't",
+         "tí": "mention (bié tí le = don't even ask)",
+         "shí": "ten",
+         "diǎn": "o'clock",
+         "duō": "past / more",
+         "cái": "not until",
+         "zǒu": "leave"
+        }
+       },
+       {
+        "who": "Colleague",
+        "text": "Āiyā, xīnkǔ le. Lái, qǐng nǐ hē kāfēi.",
+        "script": "哎呀，辛苦了。来，请你喝咖啡。",
+        "en": "Oh no, poor you. Here, coffee's on me.",
+        "gloss": {
+         "āiyā": "oh dear",
+         "xīnkǔ": "hard work (xīnkǔ le = you've worked hard)",
+         "qǐng": "treat / invite",
+         "hē": "drink",
+         "kāfēi": "coffee"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Tài hǎo le! Nǐ zuìjìn máng bu máng?",
+        "script": "太好了！你最近忙不忙？",
+        "en": "Great! Have you been busy lately?",
+        "gloss": {
+         "tài": "so / too",
+         "hǎo": "good",
+         "zuìjìn": "lately",
+         "máng": "busy",
+         "bu": "not (light tone in a busy–not–busy question)"
+        }
+       },
+       {
+        "who": "Colleague",
+        "text": "Hái xíng, jiùshì huì tài duō, kāi de wǒ dōu xiǎng mōyú le.",
+        "script": "还行，就是会太多，开得我都想摸鱼了。",
+        "en": "Not bad, just too many meetings. They make me want to slack off.",
+        "gloss": {
+         "xíng": "OK (hái xíng = not bad)",
+         "jiùshì": "it's just that",
+         "huì": "meeting(s)",
+         "tài": "too",
+         "duō": "many",
+         "kāi": "hold (a meeting)",
+         "xiǎng": "feel like",
+         "mōyú": "slack off (slang, lit. “feel for fish”)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Hāhā, xiǎoxīn lǎobǎn tīngjiàn!",
+        "script": "哈哈，小心老板听见！",
+        "en": "Haha, careful the boss doesn't hear you!",
+        "gloss": {
+         "hāhā": "haha",
+         "xiǎoxīn": "careful",
+         "lǎobǎn": "boss",
+         "tīngjiàn": "hear"
+        }
+       }
+      ]
+     },
+     {
+      "topic": "Returning something",
+      "situation": "Taking a jumper back to a clothes shop",
+      "lines": [
+       {
+        "who": "You",
+        "text": "Nǐ hǎo, zhè jiàn yīfu wǒ zuótiān mǎi de, xiǎng tuì yíxià.",
+        "script": "你好，这件衣服我昨天买的，想退一下。",
+        "en": "Hi, I bought this top yesterday and I'd like to return it.",
+        "gloss": {
+         "hǎo": "good (nǐ hǎo = hello)",
+         "jiàn": "(measure word for clothes)",
+         "yīfu": "clothes / top",
+         "zuótiān": "yesterday",
+         "mǎi": "buy",
+         "xiǎng": "would like",
+         "tuì": "return",
+         "yíxià": "(softens the request)"
+        }
+       },
+       {
+        "who": "Clerk",
+        "text": "Zěnme le? Shì chǐcùn bù héshì ma?",
+        "script": "怎么了？是尺寸不合适吗？",
+        "en": "What's wrong? Doesn't the size fit?",
+        "gloss": {
+         "zěnme": "how (zěnme le = what's up)",
+         "chǐcùn": "size",
+         "héshì": "fit / suitable"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Duì, tài xiǎo le. Biāoqiān hái zài, méi chuānguo.",
+        "script": "对，太小了。标签还在，没穿过。",
+        "en": "Yes, it's too small. The tag's still on, I haven't worn it.",
+        "gloss": {
+         "duì": "right",
+         "tài": "too",
+         "xiǎo": "small",
+         "biāoqiān": "tag / label",
+         "zài": "be there",
+         "méi": "haven't",
+         "chuānguo": "worn (ever)"
+        }
+       },
+       {
+        "who": "Clerk",
+        "text": "Xiǎopiào dài le ma?",
+        "script": "小票带了吗？",
+        "en": "Did you bring the receipt?",
+        "gloss": {
+         "xiǎopiào": "receipt",
+         "dài": "bring"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Dài le, gěi nǐ. Néng tuì qián ma, háishi zhǐ néng huàn?",
+        "script": "带了，给你。能退钱吗，还是只能换？",
+        "en": "Yes, here. Can I get a refund, or can I only exchange it?",
+        "gloss": {
+         "dài": "bring",
+         "gěi": "give",
+         "néng": "can",
+         "tuì": "give back",
+         "qián": "money",
+         "háishi": "or (in questions)",
+         "zhǐ": "only",
+         "huàn": "exchange"
+        }
+       },
+       {
+        "who": "Clerk",
+        "text": "Méi wèntí, qī tiān nèi dōu néng tuì, qián yuán lù tuìhuí.",
+        "script": "没问题，七天内都能退，钱原路退回。",
+        "en": "No problem, returns are fine within seven days, and the money goes back the way you paid.",
+        "gloss": {
+         "méi": "no",
+         "wèntí": "problem",
+         "qī": "seven",
+         "tiān": "day",
+         "nèi": "within",
+         "néng": "can",
+         "tuì": "return",
+         "qián": "money",
+         "yuán": "original",
+         "lù": "route",
+         "tuìhuí": "is refunded"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "quote": {
+    "text": "Lǎo wú lǎo, yǐ jí rén zhī lǎo; yòu wú yòu, yǐ jí rén zhī yòu.",
+    "script": "老吾老，以及人之老；幼吾幼，以及人之幼。",
+    "en": "Respect your own elders, and extend it to other people's elders; care for your own young, and extend it to other people's young.",
+    "gloss": {
+     "lǎo": "elders; to treat as elders",
+     "wú": "my / our (classical)",
+     "yǐ": "and so",
+     "jí": "reach / extend to",
+     "zhī": "of (classical)",
+     "yòu": "the young; to care for as the young"
+    },
+    "who": "Mèngzǐ (Mencius)",
+    "when": "4th century BC",
+    "about": "Mencius, the great follower of Confucius, argued that kindness starts at home and should widen outward; this line is still quoted whenever Chinese people talk about caring for the old and the young."
+   },
+   "lit": {
+    "text": "Qíshí dì shang běn méiyǒu lù, zǒu de rén duō le, yě biàn chéng le lù.",
+    "script": "其实地上本没有路，走的人多了，也便成了路。",
+    "en": "In fact there were no roads on the earth to begin with; when many people walk one way, it becomes a road.",
+    "gloss": {
+     "qíshí": "actually / in fact",
+     "dì": "earth / ground",
+     "shang": "on",
+     "běn": "originally",
+     "lù": "road / path",
+     "zǒu": "walk",
+     "duō": "many",
+     "biàn": "then (literary)",
+     "chéng": "become"
+    },
+    "author": "Lǔ Xùn",
+    "work": "Gùxiāng (My Old Home)",
+    "when": "1921",
+    "about": "The closing line of Lu Xun's story about returning to his home village and finding his childhood friend changed; he ends on this image of hope as a path that only exists once people walk it, and it is one of the most quoted lines in modern Chinese."
+   },
+   "vocab": {
+    "A": [
+     {
+      "word": "rènshi",
+      "wordScript": "认识",
+      "pos": "verb",
+      "region": "general",
+      "ties": "phrase1",
+      "meaning": "to meet, to get to know, to know (a person)",
+      "note": "Hěn gāoxìng rènshi nǐ is the standard “nice to meet you”.",
+      "example": "Hěn gāoxìng rènshi nǐ, wǒ jiào Xiǎo Wáng.",
+      "exScript": "很高兴认识你，我叫小王。",
+      "exampleEn": "Nice to meet you, I'm Xiao Wang.",
+      "exGloss": {
+       "gāoxìng": "glad",
+       "rènshi": "meet",
+       "jiào": "am called",
+       "xiǎo": "little (friendly prefix)",
+       "wáng": "Wang (surname)"
+      }
+     },
+     {
+      "word": "shǎo bīng",
+      "wordScript": "少冰",
+      "pos": "phrase",
+      "region": "general",
+      "ties": "phrase2",
+      "meaning": "less ice",
+      "note": "Also qù bīng (no ice) and shǎo táng (less sugar); every tea shop asks.",
+      "example": "Yì bēi nǎichá, shǎo bīng, xièxie.",
+      "exScript": "一杯奶茶，少冰，谢谢。",
+      "exampleEn": "One milk tea, less ice, thanks.",
+      "exGloss": {
+       "bēi": "cup",
+       "nǎichá": "milk tea",
+       "shǎo": "less",
+       "bīng": "ice",
+       "xièxie": "thank you"
+      }
+     }
+    ],
+    "B": [
+     {
+      "word": "mōyú",
+      "wordScript": "摸鱼",
+      "pos": "slang",
+      "region": "general",
+      "ties": "phrase1",
+      "meaning": "to slack off at work",
+      "note": "From the idiom hún shuǐ mō yú, “groping for fish in muddy water”; office workers use it jokingly about themselves.",
+      "example": "Kāihuì de shíhou, tā zǒngshì zài mōyú.",
+      "exScript": "开会的时候，他总是在摸鱼。",
+      "exampleEn": "He's always slacking off in meetings.",
+      "exGloss": {
+       "kāihuì": "have a meeting",
+       "shíhou": "time (de shíhou = when)",
+       "zǒngshì": "always",
+       "zài": "(is doing)",
+       "mōyú": "slack off"
+      }
+     },
+     {
+      "word": "xiǎopiào",
+      "wordScript": "小票",
+      "pos": "noun",
+      "region": "general",
+      "ties": "phrase2",
+      "meaning": "receipt (from a shop or till)",
+      "note": "Fāpiào is the official invoice for expenses; xiǎopiào is the everyday till slip.",
+      "example": "Tuì yīfu yào dài xiǎopiào.",
+      "exScript": "退衣服要带小票。",
+      "exampleEn": "You need the receipt to return clothes.",
+      "exGloss": {
+       "tuì": "return",
+       "yīfu": "clothes",
+       "yào": "need",
+       "dài": "bring",
+       "xiǎopiào": "receipt"
+      }
+     }
+    ],
+    "C": [
+     {
+      "word": "zūnlǎo àiyòu",
+      "wordScript": "尊老爱幼",
+      "pos": "idiom",
+      "region": "general",
+      "ties": "quote",
+      "meaning": "respect the old and care for the young",
+      "note": "A four-character set phrase that sums up Mencius's line; seen on school walls and in everyday talk.",
+      "example": "Zūnlǎo àiyòu shì Zhōngguó rén hěn zhòngshì de chuántǒng.",
+      "exScript": "尊老爱幼是中国人很重视的传统。",
+      "exampleEn": "Respecting the old and caring for the young is a tradition Chinese people value highly.",
+      "exGloss": {
+       "zūnlǎo": "respect the old",
+       "àiyòu": "care for the young",
+       "zhòngshì": "value",
+       "chuántǒng": "tradition"
+      }
+     },
+     {
+      "word": "běnlái",
+      "wordScript": "本来",
+      "pos": "adverb",
+      "region": "general",
+      "ties": "lit",
+      "meaning": "originally, at first; it should have been",
+      "note": "Lu Xun writes just běn, the bookish form; in speech people say běnlái.",
+      "example": "Zhèlǐ běnlái méiyǒu lù, hòulái zǒu de rén duō le.",
+      "exScript": "这里本来没有路，后来走的人多了。",
+      "exampleEn": "There was no path here at first; later more and more people walked this way.",
+      "exGloss": {
+       "zhèlǐ": "here",
+       "běnlái": "originally",
+       "lù": "path",
+       "hòulái": "later",
+       "zǒu": "walk",
+       "duō": "many"
+      }
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "level": "A1",
+     "ref": "phrase1",
+     "q": "At the language exchange, what does “Hěn gāoxìng rènshi nǐ” mean?",
+     "options": [
+      "See you tomorrow",
+      "Where are you from?",
+      "Nice to meet you",
+      "Your Chinese is good"
+     ],
+     "answer": 2,
+     "why": "Gāoxìng is “glad” and rènshi is “meet / get to know”: “very glad to meet you”.",
+     "lesson": "Nǐ hǎo at the start of the line pulls people towards a greeting like “see you”, but rènshi is about getting to know someone, not leaving."
+    },
+    {
+     "level": "A2",
+     "ref": "news",
+     "q": "According to the headline, what is China building lots of?",
+     "options": [
+      "Tea houses",
+      "“Token factories”",
+      "Airports",
+      "Schools"
+     ],
+     "answer": 1,
+     "why": "Cíyuán gōngchǎng: cíyuán is a token (a unit of AI text) and gōngchǎng is a factory.",
+     "lesson": "Gōngchǎng looks like a building word, so learners guess a place people visit; it always means a factory."
+    },
+    {
+     "level": "B1",
+     "ref": "news",
+     "q": "Xīnwén shuō, Zhōngguó jiàn “cíyuán gōngchǎng” shì wèile shénme?",
+     "options": [
+      "ràng kāfēi gèng piányi",
+      "bāngzhù wàimài qíshǒu",
+      "jiàn gèng duō xuéxiào",
+      "ràng réngōng zhìnéng jīngjì fāzhǎn de gèng kuài"
+     ],
+     "answer": 3,
+     "why": "The headline says ràng réngōng zhìnéng jīngjì fāzhǎn de gèng kuài: to make the AI economy grow faster.",
+     "lesson": "Ràng often means “let”, but here it means “make (something happen)”; reading it as “let” makes the purpose of the sentence harder to spot."
+    },
+    {
+     "level": "B2",
+     "ref": "vocab1",
+     "q": "“Tā zǒngshì zài mōyú” shì shénme yìsi?",
+     "options": [
+      "tā zǒngshì qù diàoyú",
+      "tā gōngzuò de shíhou tōulǎn",
+      "tā hěn xǐhuan chī yú",
+      "tā měitiān jiābān"
+     ],
+     "answer": 1,
+     "why": "Mōyú is office slang for slacking off on the job.",
+     "lesson": "Yú means fish, so the literal reading points to fishing or eating fish; the slang comes from “groping for fish in muddy water”, taking advantage of a messy situation."
+    },
+    {
+     "level": "C1",
+     "ref": "quote",
+     "q": "“Lǎo wú lǎo” zhōng de “wú”, yòng xiàndài Hànyǔ shuō shì shénme?",
+     "options": [
+      "wú, jiùshì “méiyǒu”",
+      "nǐ de",
+      "wǒ de",
+      "tā de"
+     ],
+     "answer": 2,
+     "why": "In classical Chinese 吾 wú means “I / my”, so lǎo wú lǎo is “respect my own elders”.",
+     "lesson": "Wú is also the sound of 无 “without”, the classical word everyone meets first; the character 吾 is a different word that only sounds the same."
+    },
+    {
+     "level": "C2",
+     "ref": "lit",
+     "q": "Lǔ Xùn shuō, dì shang de lù shì zěnme lái de?",
+     "options": [
+      "zhèngfǔ xiū de",
+      "zǒu de rén duō le, jiù chéng le lù",
+      "dì shang běnlái jiù yǒu",
+      "yǔ chōng chūlái de"
+     ],
+     "answer": 1,
+     "why": "Qíshí dì shang běn méiyǒu lù, zǒu de rén duō le, yě biàn chéng le lù: paths appear because many people walk them.",
+     "lesson": "The line opens with dì shang běn méiyǒu lù; skimming catches dì shang … lù and misses méiyǒu, flipping the meaning to “there were always roads”."
+    }
+   ],
+   "tip": {
+    "title": "Time words go up front",
+    "text": "In Mandarin, when something happens comes before the verb, usually just after the subject: Wǒ zhōumò qù gōngyuán, literally “I weekend go park”. English puts the time at the end; Mandarin sets the scene first and saves the action for last. Place works the same way: Wǒ zài jiā chī fàn, “I at home eat”."
+   },
+   "fun": {
+    "kind": "saying",
+    "region": "general",
+    "text": "Huó dào lǎo, xué dào lǎo.",
+    "script": "活到老，学到老。",
+    "gloss": {
+     "huó": "live",
+     "dào": "until",
+     "lǎo": "old",
+     "xué": "learn"
+    },
+    "literal": "Live until old, learn until old.",
+    "meaning": "You're never too old to learn.",
+    "culture": "Grandparents taking up calligraphy or smartphone classes say it with a grin, and it's a favourite encouragement for adult learners of any language, Chinese included."
+   }
+  },
+  "ru": {
+   "news": [
+    {
+     "topic": "Tekhnologii · Rossiya",
+     "source": "https://telecomdaily.ru/news/2026/10/13/yandeks-pey-chastichno-vosstanovil-rabotu",
+     "levels": {
+      "A": {
+       "text": "«Yandeks Pey» snova rabotayet, no ne dlya vsekh.",
+       "script": "«Яндекс Пэй» снова работает, но не для всех.",
+       "en": "Yandex Pay is working again, but not for everyone.",
+       "gloss": {
+        "yandeks": "Yandex (company)",
+        "pey": "Pay",
+        "snova": "again",
+        "rabotayet": "works",
+        "vsekh": "everyone"
+       }
+      },
+      "B": {
+       "text": "Servis «Yandeks Pey» vernul chasti polzovateley perevody i platezhi, no poka rabotayet nestabilno.",
+       "script": "Сервис «Яндекс Пэй» вернул части пользователей переводы и платежи, но пока работает нестабильно.",
+       "en": "The Yandex Pay service gave some users their transfers and payments back, but for now it isn't running smoothly.",
+       "gloss": {
+        "servis": "service",
+        "yandeks": "Yandex (company)",
+        "pey": "Pay",
+        "vernul": "gave back",
+        "chasti": "(to) part",
+        "polzovateley": "of users",
+        "perevody": "transfers",
+        "platezhi": "payments",
+        "poka": "for now",
+        "rabotayet": "works",
+        "nestabilno": "unreliably"
+       }
+      },
+      "C": {
+       "text": "«Yandeks Pey» poetapno vosstanavlivayet dostup k perevodam i platezham, chtoby ne peregruzit servis, a oplata kartami i platezhnymi stikerami uzhe rabotayet v polnom obyome.",
+       "script": "«Яндекс Пэй» поэтапно восстанавливает доступ к переводам и платежам, чтобы не перегрузить сервис, а оплата картами и платёжными стикерами уже работает в полном объёме.",
+       "en": "Yandex Pay is restoring access to transfers and payments step by step so as not to overload the service, while paying by card or payment sticker already works in full.",
+       "gloss": {
+        "yandeks": "Yandex (company)",
+        "pey": "Pay",
+        "poetapno": "in stages",
+        "vosstanavlivayet": "is restoring",
+        "dostup": "access",
+        "perevodam": "transfers",
+        "platezham": "payments",
+        "chtoby": "so that / in order to",
+        "peregruzit": "overload",
+        "servis": "service",
+        "oplata": "paying",
+        "kartami": "by cards",
+        "platezhnymi": "payment (adj.)",
+        "stikerami": "stickers",
+        "rabotayet": "works",
+        "polnom": "full",
+        "obyome": "volume (v polnom obyome = in full)"
+       }
+      }
+     }
+    }
+   ],
+   "phrases": {
+    "A": [
+     {
+      "topic": "Getting around",
+      "situation": "At a metro ticket window",
+      "region": "Moskva",
+      "lines": [
+       {
+        "who": "You",
+        "text": "Zdravstvuyte! Odin bilet na metro, pozhaluysta.",
+        "script": "Здравствуйте! Один билет на метро, пожалуйста.",
+        "en": "Hello! One metro ticket, please.",
+        "gloss": {
+         "zdravstvuyte": "hello (polite)",
+         "odin": "one",
+         "bilet": "ticket",
+         "metro": "metro",
+         "pozhaluysta": "please"
+        }
+       },
+       {
+        "who": "Cashier",
+        "text": "Mozhno prosto oplatit kartoy u turniketa.",
+        "script": "Можно просто оплатить картой у турникета.",
+        "en": "You can just pay by card at the turnstile.",
+        "gloss": {
+         "mozhno": "you can",
+         "prosto": "just / simply",
+         "oplatit": "pay",
+         "kartoy": "by card",
+         "turniketa": "turnstile"
+        }
+       },
+       {
+        "who": "You",
+        "text": "A skolko stoit?",
+        "script": "А сколько стоит?",
+        "en": "And how much is it?",
+        "gloss": {
+         "skolko": "how much",
+         "stoit": "costs"
+        }
+       },
+       {
+        "who": "Cashier",
+        "text": "Po karte deshevle, chem bilet.",
+        "script": "По карте дешевле, чем билет.",
+        "en": "By card it's cheaper than a ticket.",
+        "gloss": {
+         "karte": "card",
+         "deshevle": "cheaper",
+         "chem": "than",
+         "bilet": "ticket"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Ponyatno, spasibo!",
+        "script": "Понятно, спасибо!",
+        "en": "Got it, thanks!",
+        "gloss": {
+         "ponyatno": "got it / understood",
+         "spasibo": "thank you"
+        }
+       }
+      ]
+     },
+     {
+      "topic": "The weather",
+      "situation": "Leaving a café with a friend",
+      "lines": [
+       {
+        "who": "Friend",
+        "text": "Brr, segodnya kholodno!",
+        "script": "Брр, сегодня холодно!",
+        "en": "Brr, it's cold today!",
+        "gloss": {
+         "brr": "brr",
+         "kholodno": "cold (it is)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Da, i dozhd idyot.",
+        "script": "Да, и дождь идёт.",
+        "en": "Yes, and it's raining.",
+        "gloss": {
+         "dozhd": "rain",
+         "idyot": "is going (dozhd idyot = it's raining)"
+        }
+       },
+       {
+        "who": "Friend",
+        "text": "U tebya yest zontik?",
+        "script": "У тебя есть зонтик?",
+        "en": "Do you have an umbrella?",
+        "gloss": {
+         "yest": "there is (u tebya yest = you have)",
+         "zontik": "umbrella"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Net, ya zabyl ego doma.",
+        "script": "Нет, я забыл его дома.",
+        "en": "No, I left it at home.",
+        "gloss": {
+         "zabyl": "forgot",
+         "doma": "at home"
+        }
+       },
+       {
+        "who": "Friend",
+        "text": "Nichego, poydyom vmeste pod moim.",
+        "script": "Ничего, пойдём вместе под моим.",
+        "en": "Never mind, let's go together under mine.",
+        "gloss": {
+         "nichego": "never mind",
+         "poydyom": "let's go",
+         "vmeste": "together",
+         "pod": "under",
+         "moim": "mine"
+        }
+       }
+      ]
+     }
+    ],
+    "B": [
+     {
+      "topic": "Returning something",
+      "situation": "Bringing faulty headphones back to an electronics shop",
+      "lines": [
+       {
+        "who": "You",
+        "text": "Dobryy den. Ya vchera kupila u vas naushniki, a oni ne rabotayut.",
+        "script": "Добрый день. Я вчера купила у вас наушники, а они не работают.",
+        "en": "Good afternoon. I bought headphones here yesterday, and they don't work.",
+        "gloss": {
+         "dobryy": "good",
+         "den": "day",
+         "vchera": "yesterday",
+         "kupila": "bought (said by a woman)",
+         "naushniki": "headphones",
+         "rabotayut": "work"
+        }
+       },
+       {
+        "who": "Clerk",
+        "text": "Tak, chek sokhranili?",
+        "script": "Так, чек сохранили?",
+        "en": "Right, did you keep the receipt?",
+        "gloss": {
+         "chek": "receipt",
+         "sokhranili": "kept"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Da, vot. Levyy voobshche ne zvuchit.",
+        "script": "Да, вот. Левый вообще не звучит.",
+        "en": "Yes, here. The left one makes no sound at all.",
+        "gloss": {
+         "levyy": "the left one",
+         "voobshche": "at all",
+         "zvuchit": "makes a sound"
+        }
+       },
+       {
+        "who": "Clerk",
+        "text": "Mmm, ponyatno. Mozhem pomenyat ili vernut dengi.",
+        "script": "Ммм, понятно. Можем поменять или вернуть деньги.",
+        "en": "Mm, I see. We can swap them or give you your money back.",
+        "gloss": {
+         "mmm": "mm",
+         "ponyatno": "I see",
+         "mozhem": "we can",
+         "pomenyat": "swap",
+         "vernut": "give back",
+         "dengi": "money"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Luchshe dengi, a to ya uzhe drugiye prismotrela.",
+        "script": "Лучше деньги, а то я уже другие присмотрела.",
+        "en": "Money's better, I've already got my eye on another pair.",
+        "gloss": {
+         "luchshe": "better",
+         "dengi": "money",
+         "to": "(a to = since / or else, colloquial)",
+         "drugiye": "other ones",
+         "prismotrela": "had my eye on"
+        }
+       },
+       {
+        "who": "Clerk",
+        "text": "Bez problem, minutku.",
+        "script": "Без проблем, минутку.",
+        "en": "No problem, just a minute.",
+        "gloss": {
+         "problem": "problems",
+         "minutku": "just a minute"
+        }
+       }
+      ]
+     },
+     {
+      "topic": "Haggling at a market",
+      "situation": "Buying tomatoes at a Moscow food market",
+      "region": "Moskva",
+      "lines": [
+       {
+        "who": "You",
+        "text": "Pochem pomidory?",
+        "script": "Почём помидоры?",
+        "en": "How much are the tomatoes?",
+        "gloss": {
+         "pochem": "how much (market talk)",
+         "pomidory": "tomatoes"
+        }
+       },
+       {
+        "who": "Seller",
+        "text": "Dvesti za kilo, devushka, svezhiye, sami vyrastili!",
+        "script": "Двести за кило, девушка, свежие, сами вырастили!",
+        "en": "Two hundred a kilo, miss, fresh, we grew them ourselves!",
+        "gloss": {
+         "dvesti": "two hundred",
+         "kilo": "kilo",
+         "devushka": "miss (lit. girl)",
+         "svezhiye": "fresh",
+         "sami": "ourselves",
+         "vyrastili": "grew"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Oy, dorogovato. A yesli dva kilo vozmu, ustupite?",
+        "script": "Ой, дороговато. А если два кило возьму, уступите?",
+        "en": "Oh, that's a bit pricey. If I take two kilos, will you knock it down?",
+        "gloss": {
+         "oy": "oh",
+         "dorogovato": "a bit pricey",
+         "yesli": "if",
+         "dva": "two",
+         "kilo": "kilos",
+         "vozmu": "I'll take",
+         "ustupite": "will you knock the price down"
+        }
+       },
+       {
+        "who": "Seller",
+        "text": "Nu ladno, za dva kilo trista semdesyat.",
+        "script": "Ну ладно, за два кило триста семьдесят.",
+        "en": "Well, all right, three hundred seventy for two kilos.",
+        "gloss": {
+         "nu": "well",
+         "ladno": "all right",
+         "dva": "two",
+         "kilo": "kilos",
+         "trista": "three hundred",
+         "semdesyat": "seventy"
+        }
+       },
+       {
+        "who": "You",
+        "text": "A za trista pyatdesyat?",
+        "script": "А за триста пятьдесят?",
+        "en": "How about three fifty?",
+        "gloss": {
+         "trista": "three hundred",
+         "pyatdesyat": "fifty"
+        }
+       },
+       {
+        "who": "Seller",
+        "text": "Ekh, ladno, berite, dlya vas trista pyatdesyat!",
+        "script": "Эх, ладно, берите, для вас триста пятьдесят!",
+        "en": "Oh, fine, take them, three fifty for you!",
+        "gloss": {
+         "ekh": "oh (resigned sigh)",
+         "ladno": "fine",
+         "berite": "take (them)",
+         "trista": "three hundred",
+         "pyatdesyat": "fifty"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "quote": {
+    "text": "Lyubite iskusstvo v sebe, a ne sebya v iskusstve.",
+    "script": "Любите искусство в себе, а не себя в искусстве.",
+    "en": "Love the art in yourself, not yourself in the art.",
+    "gloss": {
+     "lyubite": "love (imperative)",
+     "iskusstvo": "art",
+     "sebe": "yourself",
+     "sebya": "yourself",
+     "iskusstve": "art"
+    },
+    "who": "Konstantin Stanislavskiy",
+    "when": "early 20th century",
+    "about": "Stanislavsky, co-founder of the Moscow Art Theatre and creator of the acting 'system', used this line to warn actors against vanity, and it is still repeated in Russian drama schools and beyond."
+   },
+   "lit": {
+    "text": "Rukopisi ne goryat.",
+    "script": "Рукописи не горят.",
+    "en": "Manuscripts don't burn.",
+    "gloss": {
+     "rukopisi": "manuscripts",
+     "goryat": "burn"
+    },
+    "author": "Mikhail Bulgakov",
+    "work": "Master i Margarita",
+    "when": "written 1928-1940, published 1966-1967",
+    "about": "Woland says it as he hands the Master back the novel the writer had burned in despair; Bulgakov himself burned an early draft, and the line has become a Russian byword for the survival of true art."
+   },
+   "vocab": {
+    "A": [
+     {
+      "word": "snova",
+      "wordScript": "снова",
+      "pos": "adverb",
+      "region": "general",
+      "ties": "news",
+      "meaning": "again",
+      "note": "Opyat also means again, often with a hint of “not again!”; snova is neutral.",
+      "example": "Prilozheniye snova rabotayet, mozhno platit.",
+      "exScript": "Приложение снова работает, можно платить.",
+      "exampleEn": "The app works again, you can pay.",
+      "exGloss": {
+       "prilozheniye": "app",
+       "snova": "again",
+       "rabotayet": "works",
+       "mozhno": "you can",
+       "platit": "pay"
+      }
+     },
+     {
+      "word": "zontik",
+      "wordScript": "зонтик",
+      "pos": "noun",
+      "region": "general",
+      "ties": "phrase2",
+      "meaning": "umbrella",
+      "note": "Zont is the full word; zontik, the little form, is what people usually say.",
+      "example": "Vozmi zontik, na ulitse dozhd.",
+      "exScript": "Возьми зонтик, на улице дождь.",
+      "exampleEn": "Take an umbrella, it's raining outside.",
+      "exGloss": {
+       "vozmi": "take",
+       "zontik": "umbrella",
+       "ulitse": "street (na ulitse = outside)",
+       "dozhd": "rain"
+      }
+     }
+    ],
+    "B": [
+     {
+      "word": "voobshche",
+      "wordScript": "вообще",
+      "pos": "adverb",
+      "region": "general",
+      "ties": "phrase1",
+      "meaning": "at all; in general; totally",
+      "note": "With ne it means “not at all”; on its own in speech it's a filler like “honestly” or “totally”, and is often clipped to “vashche”.",
+      "example": "Naushniki voobshche ne rabotayut!",
+      "exScript": "Наушники вообще не работают!",
+      "exampleEn": "The headphones don't work at all!",
+      "exGloss": {
+       "naushniki": "headphones",
+       "voobshche": "at all",
+       "rabotayut": "work"
+      }
+     },
+     {
+      "word": "ustupit",
+      "wordScript": "уступить",
+      "pos": "verb",
+      "region": "general",
+      "ties": "phrase2",
+      "meaning": "to knock the price down; to give way",
+      "note": "At markets Ustupite? is the polite way to ask for a discount; on the bus ustupit mesto is to give up your seat.",
+      "example": "Ustupite nemnogo? Ya vozmu tri kilo.",
+      "exScript": "Уступите немного? Я возьму три кило.",
+      "exampleEn": "Can you knock it down a bit? I'll take three kilos.",
+      "exGloss": {
+       "ustupite": "knock the price down",
+       "nemnogo": "a little",
+       "vozmu": "will take",
+       "tri": "three",
+       "kilo": "kilos"
+      }
+     }
+    ],
+    "C": [
+     {
+      "word": "perevod",
+      "wordScript": "перевод",
+      "pos": "noun",
+      "region": "general",
+      "ties": "news",
+      "meaning": "money transfer (also: translation)",
+      "note": "Kinut perevodom, “to throw by transfer”, is everyday slang for paying someone through a banking app.",
+      "example": "Ya kinu tebe perevodom, khorosho?",
+      "exScript": "Я кину тебе переводом, хорошо?",
+      "exampleEn": "I'll send it to you by transfer, OK?",
+      "exGloss": {
+       "kinu": "I'll send (lit. throw)",
+       "tebe": "to you",
+       "perevodom": "by transfer",
+       "khorosho": "OK"
+      }
+     },
+     {
+      "word": "rukopisi ne goryat",
+      "wordScript": "рукописи не горят",
+      "pos": "idiom",
+      "region": "general",
+      "ties": "lit",
+      "meaning": "true work survives; what is written can't be destroyed",
+      "note": "Used today, often with a smile, whenever a lost file, text or idea turns up again.",
+      "example": "Ne perezhivay, rukopisi ne goryat: ya nashla tvoy tekst v pochte.",
+      "exScript": "Не переживай, рукописи не горят: я нашла твой текст в почте.",
+      "exampleEn": "Don't worry, manuscripts don't burn: I found your text in my email.",
+      "exGloss": {
+       "perezhivay": "worry",
+       "rukopisi": "manuscripts",
+       "goryat": "burn",
+       "nashla": "found (said by a woman)",
+       "tvoy": "your",
+       "tekst": "text",
+       "pochte": "email / post"
+      }
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "level": "A1",
+     "ref": "phrase1",
+     "q": "At the metro window, how does the cashier say you can pay?",
+     "options": [
+      "Only in cash",
+      "By card at the turnstile",
+      "To the driver",
+      "Online the day before"
+     ],
+     "answer": 1,
+     "why": "Mozhno prosto oplatit kartoy u turniketa: you can just pay by card at the turnstile.",
+     "lesson": "You asked for a bilet, so it's tempting to expect a paper ticket and cash; kartoy, “by card”, is the word that changes the plan."
+    },
+    {
+     "level": "A2",
+     "ref": "news",
+     "q": "What does the headline say about Yandex Pay?",
+     "options": [
+      "It is closing for good",
+      "It is new in Moscow",
+      "It works again, but not for everyone",
+      "It is free today"
+     ],
+     "answer": 2,
+     "why": "Snova rabotayet, no ne dlya vsekh: it works again, but not for everyone.",
+     "lesson": "Ne dlya vsekh contains ne, so learners think the service isn't working; the ne only limits who can use it."
+    },
+    {
+     "level": "B1",
+     "ref": "phrase2",
+     "q": "Na rynke vy sprashivayete «Pochem pomidory?». Chto eto znachit?",
+     "options": [
+      "Skolko stoyat pomidory?",
+      "Pochemu pomidory krasnye?",
+      "Gde pomidory?",
+      "Svezhiye li pomidory?"
+     ],
+     "answer": 0,
+     "why": "Pochem is the market word for “how much (per unit)”, the same as skolko stoit.",
+     "lesson": "Pochem looks almost like pochemu (“why”), so the eye fills in the longer, more familiar word."
+    },
+    {
+     "level": "B2",
+     "ref": "vocab1",
+     "q": "«Levyy voobshche ne zvuchit». Chto znachit «voobshche» zdes?",
+     "options": [
+      "inogda",
+      "nemnogo",
+      "obychno",
+      "sovsem"
+     ],
+     "answer": 3,
+     "why": "Voobshche with ne means “not at all”: the left earphone is completely silent.",
+     "lesson": "Dictionaries give “in general” first, which points to obychno; next to a negative it intensifies instead."
+    },
+    {
+     "level": "C1",
+     "ref": "news",
+     "q": "Pochemu «Yandeks Pey» vosstanavlivayet dostup poetapno?",
+     "options": [
+      "potomu chto prishlo mnogo novykh polzovateley",
+      "chtoby podnyat tseny",
+      "chtoby ne peregruzit servis",
+      "potomu chto ne rabotayut karty"
+     ],
+     "answer": 2,
+     "why": "The headline says poetapno … chtoby ne peregruzit servis: in stages so the service isn't overloaded.",
+     "lesson": "Karty appears in the sentence, so a reader may pick the card option; the sentence actually says card payment already works in full."
+    },
+    {
+     "level": "C2",
+     "ref": "lit",
+     "q": "V kakom smysle segodnya govoryat «Rukopisi ne goryat»?",
+     "options": [
+      "nastoyashcheye iskusstvo nelzya unichtozhit",
+      "bumaga plokho gorit",
+      "nado khranit kopii v oblake",
+      "pisateli boyatsya ognya"
+     ],
+     "answer": 0,
+     "why": "In Bulgakov's novel the burned manuscript comes back whole; the phrase now means true work cannot be destroyed.",
+     "lesson": "Read literally it sounds like a fact about paper, but Woland is speaking figuratively, and that is how Russians use it."
+    }
+   ],
+   "tip": {
+    "title": "Two verbs for one action",
+    "text": "Most Russian verbs come in pairs. One describes a process or a habit (chitat, to read or be reading), the other one finished result (prochitat, to read to the end). Ya chital knigu: I was reading the book. Ya prochital knigu: I finished it. Learn verbs in pairs from day one."
+   },
+   "fun": {
+    "kind": "joke",
+    "region": "general",
+    "text": "— Doktor, u menya provaly v pamyati. — S kakikh por? — S kakikh por chto?",
+    "script": "— Доктор, у меня провалы в памяти. — С каких пор? — С каких пор что?",
+    "gloss": {
+     "doktor": "doctor",
+     "provaly": "lapses / gaps",
+     "pamyati": "memory",
+     "kakikh": "which",
+     "por": "time(s) (s kakikh por = since when)"
+    },
+    "literal": "“Doctor, I have gaps in my memory.” “Since when?” “Since when what?”",
+    "meaning": "The patient has already forgotten what he just said.",
+    "culture": "Doctor jokes (anekdoty pro vrachey) are a classic Russian joke genre, told across the kitchen table and retold endlessly with new twists."
+   }
+  },
+  "fa": {
+   "news": [
+    {
+     "topic": "Bours · Tehraan",
+     "source": "https://www.imna.ir/news/1011547/",
+     "levels": {
+      "A": {
+       "text": "Bours-e Tehraan emruz baalaa raft.",
+       "script": "بورس تهران امروز بالا رفت.",
+       "en": "The Tehran stock exchange went up today.",
+       "gloss": {
+        "bours-e": "stock exchange (of)",
+        "baalaa": "up",
+        "raft": "went"
+       }
+      },
+      "B": {
+       "text": "Shaakhes-e kol-e bours-e Tehraan emruz sobh nazdik-e do darsad baalaa raft.",
+       "script": "شاخص کل بورس تهران امروز صبح نزدیک دو درصد بالا رفت.",
+       "en": "The Tehran stock exchange's main index rose almost two percent this morning.",
+       "gloss": {
+        "shaakhes-e": "index (of)",
+        "kol-e": "overall / total",
+        "bours-e": "stock exchange (of)",
+        "sobh": "morning",
+        "nazdik-e": "close to",
+        "do": "two",
+        "darsad": "percent",
+        "baalaa": "up",
+        "raft": "went"
+       }
+      },
+      "C": {
+       "text": "Shaakhes-e kol-e bours-e Tehraan dar mo'aamelaat-e sobh-e emruz baa roshd-e 1.99 darsadi be 8 milyun va 500 hezaar vaahed resid.",
+       "script": "شاخص کل بورس تهران در معاملات صبح امروز با رشد ۱.۹۹ درصدی به ۸ میلیون و ۵۰۰ هزار واحد رسید.",
+       "en": "The Tehran stock exchange's main index climbed 1.99 percent in this morning's trading to reach 8.5 million points.",
+       "gloss": {
+        "shaakhes-e": "index (of)",
+        "kol-e": "overall / total",
+        "bours-e": "stock exchange (of)",
+        "mo'aamelaat-e": "trading (of)",
+        "sobh-e": "morning (of)",
+        "roshd-e": "growth (of)",
+        "darsadi": "percent (adj.)",
+        "milyun": "million",
+        "hezaar": "thousand",
+        "vaahed": "units / points",
+        "resid": "reached"
+       }
+      }
+     }
+    }
+   ],
+   "phrases": {
+    "A": [
+     {
+      "topic": "Shopping: buying bread",
+      "situation": "At a neighbourhood bakery (naanvaayi)",
+      "region": "Tehraan",
+      "lines": [
+       {
+        "who": "You",
+        "text": "Salaam aaghaa. Do taa nun barbari mikhaam.",
+        "script": "سلام آقا. دو تا نون بربری می‌خوام.",
+        "en": "Hello, sir. I'd like two barbari breads.",
+        "gloss": {
+         "salaam": "hello",
+         "aaghaa": "sir",
+         "do": "two",
+         "taa": "(counting word)",
+         "nun": "bread (spoken for naan)",
+         "barbari": "barbari (thick flatbread)",
+         "mikhaam": "I want (spoken for mikhaaham)"
+        }
+       },
+       {
+        "who": "Baker",
+        "text": "Chashm. Konjed mikhaay?",
+        "script": "چشم. کنجد می‌خوای؟",
+        "en": "Sure. Do you want sesame?",
+        "gloss": {
+         "chashm": "sure, right away (lit. eye)",
+         "konjed": "sesame",
+         "mikhaay": "you want (spoken for mikhaahi)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Bale, lotfan. Chand mishe?",
+        "script": "بله، لطفاً. چند می‌شه؟",
+        "en": "Yes, please. How much is it?",
+        "gloss": {
+         "lotfan": "please",
+         "chand": "how much",
+         "mishe": "does it come to (spoken for mishavad)"
+        }
+       },
+       {
+        "who": "Baker",
+        "text": "Befarmaa, daagh-e daagh!",
+        "script": "بفرما، داغِ داغ!",
+        "en": "Here you go, piping hot!",
+        "gloss": {
+         "befarmaa": "here you go",
+         "daagh-e": "hot",
+         "daagh": "hot (daagh-e daagh = piping hot)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Mersi, khaste nabaashi!",
+        "script": "مرسی، خسته نباشی!",
+        "en": "Thanks, keep up the good work!",
+        "gloss": {
+         "mersi": "thanks",
+         "khaste": "tired",
+         "nabaashi": "may you not be (spoken for nabaashid)"
+        }
+       }
+      ]
+     },
+     {
+      "topic": "Saying sorry",
+      "situation": "Bumping into someone on a crowded metro",
+      "region": "Tehraan",
+      "lines": [
+       {
+        "who": "You",
+        "text": "Vaay, bebakhshid! Paatun dard gereft?",
+        "script": "وای، ببخشید! پاتون درد گرفت؟",
+        "en": "Oh, sorry! Did I hurt your foot?",
+        "gloss": {
+         "vaay": "oh",
+         "bebakhshid": "sorry / excuse me",
+         "paatun": "your foot (spoken for paayetaan)",
+         "dard": "pain",
+         "gereft": "took (dard gereft = hurt)"
+        }
+       },
+       {
+        "who": "Woman",
+        "text": "Na, chizi nist, khaahesh mikonam.",
+        "script": "نه، چیزی نیست، خواهش می‌کنم.",
+        "en": "No, it's nothing, don't worry.",
+        "gloss": {
+         "chizi": "anything / nothing",
+         "khaahesh": "request (khaahesh mikonam = you're welcome / don't mention it)",
+         "mikonam": "I do"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Metro khayli sholugh-e.",
+        "script": "مترو خیلی شلوغه.",
+        "en": "The metro is really crowded.",
+        "gloss": {
+         "metro": "metro",
+         "sholugh-e": "is crowded (spoken for sholugh ast)"
+        }
+       },
+       {
+        "who": "Woman",
+        "text": "Aare, sobh-haa hamishe hamintore.",
+        "script": "آره، صبح‌ها همیشه همینطوره.",
+        "en": "Yeah, mornings are always like this.",
+        "gloss": {
+         "aare": "yeah",
+         "sobh-haa": "mornings",
+         "hamishe": "always",
+         "hamintore": "it's just like this (spoken)"
+        }
+       }
+      ]
+     }
+    ],
+    "B": [
+     {
+      "topic": "Telling a story about your weekend",
+      "situation": "A friend asks about your Friday",
+      "region": "Tehraan",
+      "lines": [
+       {
+        "who": "Friend",
+        "text": "Che khabar? Aakhar-e hafte chi kaar kardi?",
+        "script": "چه خبر؟ آخر هفته چی کار کردی؟",
+        "en": "What's new? What did you do at the weekend?",
+        "gloss": {
+         "che": "what",
+         "khabar": "news",
+         "aakhar-e": "end (of)",
+         "hafte": "week",
+         "kaar": "work / thing",
+         "kardi": "you did"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Baa bachche-haa raftim Darband, kuh.",
+        "script": "با بچه‌ها رفتیم دربند، کوه.",
+        "en": "I went up to Darband with the gang, to the mountains.",
+        "gloss": {
+         "bachche-haa": "the gang / friends (lit. kids)",
+         "raftim": "we went",
+         "darband": "Darband (hiking spot in north Tehran)",
+         "kuh": "mountain"
+        }
+       },
+       {
+        "who": "Friend",
+        "text": "Che khub! Khosh gozasht?",
+        "script": "چه خوب! خوش گذشت؟",
+        "en": "How nice! Did you have fun?",
+        "gloss": {
+         "che": "how (che khub = how nice)",
+         "khub": "good",
+         "khosh": "pleasant",
+         "gozasht": "passed (khosh gozasht = had a good time)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Aare baabaa, aali bud! Faghat bargashtani terafik-e vahshatnaaki bud.",
+        "script": "آره بابا، عالی بود! فقط برگشتنی ترافیکِ وحشتناکی بود.",
+        "en": "Oh yeah, it was great! Just the traffic on the way back was awful.",
+        "gloss": {
+         "aare": "yeah",
+         "baabaa": "(filler, lit. dad)",
+         "aali": "great",
+         "faghat": "only / just",
+         "bargashtani": "on the way back",
+         "terafik-e": "traffic",
+         "vahshatnaaki": "a terrible (one)"
+        }
+       },
+       {
+        "who": "Friend",
+        "text": "Dafe-ye ba'd manam bebarin!",
+        "script": "دفعه‌ی بعد منم ببرین!",
+        "en": "Take me with you next time!",
+        "gloss": {
+         "dafe-ye": "time (of)",
+         "ba'd": "next / after",
+         "manam": "me too (spoken for man ham)",
+         "bebarin": "take (spoken for bebarid)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Hatman! Jom'e-ye ba'd chetore?",
+        "script": "حتماً! جمعه‌ی بعد چطوره؟",
+        "en": "Definitely! How about next Friday?",
+        "gloss": {
+         "hatman": "definitely",
+         "jom'e-ye": "Friday (of)",
+         "ba'd": "next",
+         "chetore": "how is it (spoken for chetor ast)"
+        }
+       }
+      ]
+     },
+     {
+      "topic": "Chatting with a neighbour",
+      "situation": "Meeting the downstairs neighbour on the stairs",
+      "region": "Tehraan",
+      "lines": [
+       {
+        "who": "Neighbour",
+        "text": "Salaam khaanum Ahmadi! Khubin? Kam-peydaa shodin.",
+        "script": "سلام خانم احمدی! خوبین؟ کم‌پیدا شدین.",
+        "en": "Hello Mrs Ahmadi! How are you? We haven't seen you around.",
+        "gloss": {
+         "salaam": "hello",
+         "khaanum": "Mrs (spoken for khaanom)",
+         "ahmadi": "Ahmadi (surname)",
+         "khubin": "are you well (spoken for khub hastid)",
+         "kam-peydaa": "rarely seen",
+         "shodin": "you've become (spoken for shodid)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Salaam, mersi. Saram khayli sholugh-e, kaar-e jadid gereftam.",
+        "script": "سلام، مرسی. سرم خیلی شلوغه، کار جدید گرفتم.",
+        "en": "Hi, thanks. I've been swamped, I started a new job.",
+        "gloss": {
+         "salaam": "hello",
+         "mersi": "thanks",
+         "saram": "my head",
+         "sholugh-e": "is crowded (saram sholugh-e = I'm swamped)",
+         "kaar-e": "job / work",
+         "jadid": "new",
+         "gereftam": "I got"
+        }
+       },
+       {
+        "who": "Neighbour",
+        "text": "Mobaarak-e! Inshaallaah ke khub baashe.",
+        "script": "مبارکه! ان‌شاءالله که خوب باشه.",
+        "en": "Congratulations! Hope it goes well.",
+        "gloss": {
+         "mobaarak-e": "congratulations (lit. it's blessed)",
+         "inshaallaah": "hopefully, God willing",
+         "khub": "good",
+         "baashe": "be (spoken for baashad)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Mamnun. Raasti, shenidin farda aab ghat mishe?",
+        "script": "ممنون. راستی، شنیدین فردا آب قطع می‌شه؟",
+        "en": "Thanks. By the way, did you hear the water's being cut off tomorrow?",
+        "gloss": {
+         "mamnun": "thanks",
+         "raasti": "by the way",
+         "shenidin": "did you hear (spoken for shenidid)",
+         "aab": "water",
+         "ghat": "cut off",
+         "mishe": "becomes (spoken for mishavad)"
+        }
+       },
+       {
+        "who": "Neighbour",
+        "text": "Aare, az saa'at-e dah taa do. Ye kam aab zakhire konin.",
+        "script": "آره، از ساعت ده تا دو. یه کم آب ذخیره کنین.",
+        "en": "Yes, from ten till two. Store a bit of water.",
+        "gloss": {
+         "aare": "yes",
+         "saa'at-e": "hour / o'clock",
+         "dah": "ten",
+         "do": "two",
+         "ye": "a (spoken for yek)",
+         "kam": "little (ye kam = a bit)",
+         "aab": "water",
+         "zakhire": "store",
+         "konin": "do (spoken for konid)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Dastetun dard nakone ke khabar daadin!",
+        "script": "دستتون درد نکنه که خبر دادین!",
+        "en": "Thanks so much for letting me know!",
+        "gloss": {
+         "dastetun": "your hand (spoken)",
+         "dard": "pain",
+         "nakone": "may it not do (dast dard nakone = thank you)",
+         "khabar": "news",
+         "daadin": "you gave (khabar daadin = you let me know)"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "quote": {
+    "text": "Az mohabbat talkh-haa shirin shavad, az mohabbat mes-haa zarrin shavad.",
+    "script": "از محبت تلخ‌ها شیرین شود، از محبت مس‌ها زرین شود.",
+    "en": "Through love, bitter things turn sweet; through love, copper turns to gold.",
+    "gloss": {
+     "mohabbat": "love / kindness",
+     "talkh-haa": "bitter things",
+     "shirin": "sweet",
+     "shavad": "becomes",
+     "mes-haa": "coppers",
+     "zarrin": "golden"
+    },
+    "who": "Mowlaanaa Jalaal od-Din Rumi",
+    "when": "13th century",
+    "about": "Rumi, the Sufi poet of Konya whose Masnavi Iranians call the Persian Quran, wrote this couplet about love's power to transform, and it is still copied onto cards, walls and wedding invitations across Iran."
+   },
+   "lit": {
+    "text": "Tanhaa sedaast ke mimaanad.",
+    "script": "تنها صداست که می‌ماند.",
+    "en": "Only the voice remains.",
+    "gloss": {
+     "tanhaa": "only",
+     "sedaast": "it is the voice (sedaa + ast)",
+     "mimaanad": "remains"
+    },
+    "author": "Forugh Farrokhzaad",
+    "work": "Tanhaa sedaast ke mimaanad (in Imaan biaavarim be aaghaaz-e fasl-e sard)",
+    "when": "1960s, published 1974",
+    "about": "The refrain of one of Forugh Farrokhzad's last poems, published after her early death; it became a motto for the idea that a voice and a poem outlive the person, and is one of the most quoted lines of modern Persian poetry."
+   },
+   "vocab": {
+    "A": [
+     {
+      "word": "nun",
+      "wordScript": "نون",
+      "pos": "noun",
+      "region": "Tehraan",
+      "ties": "phrase1",
+      "meaning": "bread",
+      "note": "Written naan (نان); in Tehran speech the aa before n becomes u, so people say nun.",
+      "example": "Har sobh az naanvaayi nun-e taaze mikharam.",
+      "exScript": "هر صبح از نونوایی نون تازه می‌خرم.",
+      "exampleEn": "Every morning I buy fresh bread from the bakery.",
+      "exGloss": {
+       "sobh": "morning",
+       "naanvaayi": "bakery",
+       "nun-e": "bread",
+       "taaze": "fresh",
+       "mikharam": "I buy"
+      }
+     },
+     {
+      "word": "bebakhshid",
+      "wordScript": "ببخشید",
+      "pos": "phrase",
+      "region": "general",
+      "ties": "phrase2",
+      "meaning": "sorry; excuse me",
+      "note": "Used both to apologise and to get someone's attention; close friends say bebakhshi.",
+      "example": "Bebakhshid, in jaa khaali-e?",
+      "exScript": "ببخشید، این جا خالیه؟",
+      "exampleEn": "Excuse me, is this seat free?",
+      "exGloss": {
+       "bebakhshid": "excuse me",
+       "jaa": "place / seat",
+       "khaali-e": "is it free (spoken)"
+      }
+     }
+    ],
+    "B": [
+     {
+      "word": "khosh gozasht",
+      "wordScript": "خوش گذشت",
+      "pos": "idiom",
+      "region": "general",
+      "ties": "phrase1",
+      "meaning": "(it) was fun; had a good time",
+      "note": "Literally “(it) passed pleasantly”; the host's goodbye is “Khosh gozasht?”, and guests answer “Jaa-ye shomaa khaali!”, “we missed you”.",
+      "example": "Kuh khosh gozasht? Havaa chetor bud?",
+      "exScript": "کوه خوش گذشت؟ هوا چطور بود؟",
+      "exampleEn": "Was the mountain fun? How was the weather?",
+      "exGloss": {
+       "kuh": "mountain",
+       "khosh": "pleasant",
+       "gozasht": "passed",
+       "havaa": "weather",
+       "chetor": "how"
+      }
+     },
+     {
+      "word": "saram sholugh-e",
+      "wordScript": "سرم شلوغه",
+      "pos": "idiom",
+      "region": "general",
+      "ties": "phrase2",
+      "meaning": "I'm swamped, really busy",
+      "note": "Literally “my head is crowded”; change the ending for others: saret sholugh-e, “you're busy”.",
+      "example": "Bebakhshid dir javaab daadam, in hafte saram khayli sholugh-e.",
+      "exScript": "ببخشید دیر جواب دادم، این هفته سرم خیلی شلوغه.",
+      "exampleEn": "Sorry I replied late, I'm swamped this week.",
+      "exGloss": {
+       "bebakhshid": "sorry",
+       "dir": "late",
+       "javaab": "answer",
+       "daadam": "I gave",
+       "hafte": "week",
+       "saram": "my head",
+       "sholugh-e": "is crowded"
+      }
+     }
+    ],
+    "C": [
+     {
+      "word": "bours",
+      "wordScript": "بورس",
+      "pos": "noun",
+      "region": "general",
+      "ties": "news",
+      "meaning": "stock exchange; the stock market",
+      "note": "From French bourse. Dar bours budan, “to be in the bourse”, also means to be in fashion or in demand.",
+      "example": "Baabaam har ruz akhbaar-e bours ro donbaal mikone.",
+      "exScript": "بابام هر روز اخبار بورس رو دنبال می‌کنه.",
+      "exampleEn": "My dad follows the stock market news every day.",
+      "exGloss": {
+       "baabaam": "my dad",
+       "ruz": "day",
+       "akhbaar-e": "news (of)",
+       "bours": "stock exchange",
+       "ro": "(marks the object, spoken for raa)",
+       "donbaal": "following",
+       "mikone": "does (spoken for mikonad)"
+      }
+     },
+     {
+      "word": "talkh",
+      "wordScript": "تلخ",
+      "pos": "adjective",
+      "region": "general",
+      "ties": "quote",
+      "meaning": "bitter (taste, memory or mood)",
+      "note": "Ghahve-ye talkh is black coffee; harf-e talkh, “bitter words”, are hurtful remarks.",
+      "example": "Ghahve-ye talkh dust daari yaa baa shekar?",
+      "exScript": "قهوه‌ی تلخ دوست داری یا با شکر؟",
+      "exampleEn": "Do you like your coffee black, or with sugar?",
+      "exGloss": {
+       "ghahve-ye": "coffee",
+       "talkh": "bitter / black",
+       "dust": "friend (dust daari = you like)",
+       "daari": "you have",
+       "shekar": "sugar"
+      }
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "level": "A1",
+     "ref": "phrase1",
+     "q": "At the bakery, what does “Do taa nun barbari mikhaam” mean?",
+     "options": [
+      "Is the bread hot?",
+      "How much is the bread?",
+      "Thank you, baker",
+      "I'd like two barbari breads"
+     ],
+     "answer": 3,
+     "why": "Do taa is “two”, nun is bread and mikhaam is the spoken “I want”.",
+     "lesson": "Mikhaam is the casual form of mikhaaham; learners who only know the written verb miss that it means “I want” and guess a question."
+    },
+    {
+     "level": "A2",
+     "ref": "news",
+     "q": "What happened to the Tehran stock exchange today, according to the headline?",
+     "options": [
+      "It closed",
+      "It went up",
+      "It went down",
+      "It moved to Isfahan"
+     ],
+     "answer": 1,
+     "why": "Baalaa raft: it went up.",
+     "lesson": "Raft on its own just means “went”, which sounds like leaving or falling; baalaa, “up”, gives the direction."
+    },
+    {
+     "level": "B1",
+     "ref": "phrase1",
+     "q": "Dust-etun miporse «Khosh gozasht?». Yaani chi?",
+     "options": [
+      "Kojaa raftin?",
+      "Ruz-e khubi daashti?",
+      "Pul kharj kardi?",
+      "Khaste shodi?"
+     ],
+     "answer": 1,
+     "why": "Khosh gozasht? asks whether the time passed pleasantly: did you have a good time?",
+     "lesson": "Gozasht also means “passed by / went”, so it's tempting to read it as a question about where you went."
+    },
+    {
+     "level": "B2",
+     "ref": "phrase2",
+     "q": "Hamsaaye mige farda chi mishe?",
+     "options": [
+      "Aab az saa'at-e dah taa do ghat mishe",
+      "Bargh ghat mishe",
+      "Saakhtemun rang mishe",
+      "Hamsaaye mire safar"
+     ],
+     "answer": 0,
+     "why": "Farda aab ghat mishe, az saa'at-e dah taa do: the water will be cut off from ten to two.",
+     "lesson": "Ghat mishe is used for power cuts just as often, so bargh (electricity) feels natural; the word in the scene is aab, water."
+    },
+    {
+     "level": "C1",
+     "ref": "quote",
+     "q": "Dar sher-e Mowlaanaa, mohabbat baa mes chi kaar mikonad?",
+     "options": [
+      "mes raa talkh mikonad",
+      "mes raa zarrin mikonad",
+      "mes raa mishekanad",
+      "mes raa shirin mikonad"
+     ],
+     "answer": 1,
+     "why": "Az mohabbat mes-haa zarrin shavad: love turns copper golden.",
+     "lesson": "The first half pairs talkh with shirin, so readers carry “sweet” over; the second half has its own pair, copper and gold, as in alchemy."
+    },
+    {
+     "level": "C2",
+     "ref": "news",
+     "q": "Shaakhes-e kol-e bours dar mo'aamelaat-e sobh be chand vaahed resid?",
+     "options": [
+      "1 milyun va 990 hezaar",
+      "85 hezaar",
+      "8 milyun va 500 hezaar",
+      "5 milyun va 800 hezaar"
+     ],
+     "answer": 2,
+     "why": "The headline says be 8 milyun va 500 hezaar vaahed resid: it reached 8.5 million points.",
+     "lesson": "The 1.99 in the sentence is the percentage rise, not the level; mixing the growth figure with the index value is a classic mistake in reading market news."
+    }
+   ],
+   "tip": {
+    "title": "Plurals with -haa",
+    "text": "Farsi makes most plurals by adding -haa: ketaab (book) becomes ketaabhaa (books), khaane (house) becomes khaanehaa. In everyday speech the h drops: ketaabaa. After a number the noun stays singular, so it's se ketaab, literally “three book”."
+   },
+   "fun": {
+    "kind": "saying",
+    "region": "general",
+    "text": "Kaar az mohkam-kaari eyb nemikone.",
+    "script": "کار از محکم‌کاری عیب نمی‌کنه.",
+    "gloss": {
+     "kaar": "work / a job",
+     "mohkam-kaari": "doing things solidly",
+     "eyb": "fault / harm",
+     "nemikone": "doesn't do (spoken for nemikonad)"
+    },
+    "literal": "A job takes no harm from being done solidly.",
+    "meaning": "Better safe than sorry.",
+    "culture": "Iranians say it with a little shrug while double-locking the door, packing a spare charger or tying a second knot on the luggage on the car roof."
+   }
   }
  }
 };
