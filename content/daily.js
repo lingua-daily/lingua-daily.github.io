@@ -1,4442 +1,6 @@
 /* Written by bin/ingest-day.js — don't edit by hand.
    Freshly researched days, keyed by local date. Pruned to the last 14. */
 var LINGUA_DAILY = {
- "2026-11-01": {
-  "es": {
-   "news": [
-    {
-     "topic": "Elecciones · España",
-     "source": "https://infobae.com/espana/agencias/2026/11/01/el-psoe-mantiene-a-casi-la-mitad-de-los-cabezas-de-lista-al-congreso-incluidos-colaboradores-de-santos-cerdan",
-     "levels": {
-      "A": {
-       "text": "Sánchez vuelve a ser el número uno del PSOE en Madrid.",
-       "en": "Sánchez is once again the PSOE's number one in Madrid.",
-       "gloss": {
-        "vuelve": "returns (vuelve a ser = is again)",
-        "número": "number",
-        "uno": "one"
-       }
-      },
-      "B": {
-       "text": "El PSOE mantiene a casi la mitad de sus cabezas de lista de 2023, y Sánchez vuelve a encabezar la lista por Madrid.",
-       "en": "The PSOE is keeping almost half of its 2023 list leaders, and Sánchez is once again heading the list for Madrid.",
-       "gloss": {
-        "mantiene": "keeps",
-        "casi": "almost",
-        "mitad": "half",
-        "cabezas": "heads (cabeza de lista = list leader)",
-        "lista": "list",
-        "vuelve": "returns (vuelve a = again)",
-        "encabezar": "to head, to lead"
-       }
-      },
-      "C": {
-       "text": "De cara a las generales del 29 de noviembre, el PSOE mantiene a casi la mitad de los cabezas de lista al Congreso de 2023, incluidos colaboradores de Santos Cerdán, y Sánchez vuelve a encabezar la candidatura por Madrid.",
-       "en": "Ahead of the 29 November general election, the PSOE is keeping almost half of its 2023 heads of list for Congress, including associates of Santos Cerdán, and Sánchez again heads the ticket in Madrid.",
-       "gloss": {
-        "cara": "face (de cara a = ahead of)",
-        "generales": "general (elections)",
-        "mantiene": "keeps",
-        "casi": "almost",
-        "mitad": "half",
-        "cabezas": "heads (cabeza de lista = list leader)",
-        "lista": "list",
-        "congreso": "Congress",
-        "incluidos": "including",
-        "colaboradores": "associates, aides",
-        "vuelve": "returns (vuelve a = again)",
-        "encabezar": "to head",
-        "candidatura": "list of candidates, ticket"
-       }
-      }
-     }
-    }
-   ],
-   "phrases": {
-    "A": [
-     {
-      "topic": "At the bakery",
-      "situation": "Buying sweet bread at a panadería in Mexico City",
-      "region": "México",
-      "lines": [
-       {
-        "who": "You",
-        "text": "Buenos días. ¿Tiene conchas?",
-        "en": "Good morning. Do you have conchas?",
-        "gloss": {
-         "buenos": "good",
-         "días": "days (buenos días = good morning)",
-         "tiene": "do you have (formal)",
-         "conchas": "conchas (Mexican sweet buns)"
-        }
-       },
-       {
-        "who": "Baker",
-        "text": "Sí, de vainilla y de chocolate.",
-        "en": "Yes, vanilla and chocolate.",
-        "gloss": {
-         "vainilla": "vanilla",
-         "chocolate": "chocolate"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Dos de chocolate, por favor. ¿Cuánto es?",
-        "en": "Two chocolate ones, please. How much is it?",
-        "gloss": {
-         "chocolate": "chocolate",
-         "favor": "favour (por favor = please)",
-         "cuánto": "how much"
-        }
-       },
-       {
-        "who": "Baker",
-        "text": "Son veinticuatro pesos.",
-        "en": "That's twenty-four pesos.",
-        "gloss": {
-         "veinticuatro": "twenty-four",
-         "pesos": "pesos"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Aquí tiene. ¡Gracias!",
-        "en": "Here you are. Thanks!",
-        "gloss": {
-         "tiene": "you have (aquí tiene = here you are)",
-         "gracias": "thanks"
-        }
-       }
-      ]
-     },
-     {
-      "topic": "Buying fruit at the market",
-      "situation": "At a fruit stall in a Valencia market",
-      "region": "España",
-      "lines": [
-       {
-        "who": "Seller",
-        "text": "¡Hola, guapa! ¿Qué te pongo?",
-        "en": "Hi, love! What can I get you?",
-        "gloss": {
-         "hola": "hello",
-         "guapa": "love, dear (lit. pretty one)",
-         "qué": "what",
-         "pongo": "I put (¿qué te pongo? = what can I get you?)"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Un kilo de naranjas, por favor.",
-        "en": "A kilo of oranges, please.",
-        "gloss": {
-         "kilo": "kilo",
-         "naranjas": "oranges",
-         "favor": "favour (por favor = please)"
-        }
-       },
-       {
-        "who": "Seller",
-        "text": "¿Algo más? Los plátanos están muy maduros.",
-        "en": "Anything else? The bananas are nice and ripe.",
-        "gloss": {
-         "algo": "something",
-         "plátanos": "bananas",
-         "maduros": "ripe"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Vale, medio kilo de plátanos.",
-        "en": "OK, half a kilo of bananas.",
-        "gloss": {
-         "vale": "OK",
-         "medio": "half",
-         "kilo": "kilo",
-         "plátanos": "bananas"
-        }
-       },
-       {
-        "who": "Seller",
-        "text": "Son tres euros con cincuenta.",
-        "en": "That's three euros fifty.",
-        "gloss": {
-         "euros": "euros",
-         "cincuenta": "fifty"
-        }
-       }
-      ]
-     }
-    ],
-    "B": [
-     {
-      "topic": "A bank card swallowed by the ATM",
-      "situation": "At a bank branch in Guadalajara",
-      "region": "México",
-      "lines": [
-       {
-        "who": "You",
-        "text": "Buenas tardes. Oiga, el cajero de afuera se tragó mi tarjeta.",
-        "en": "Good afternoon. Excuse me, the cash machine outside swallowed my card.",
-        "gloss": {
-         "buenas": "good",
-         "tardes": "afternoons (buenas tardes = good afternoon)",
-         "oiga": "excuse me (lit. hear)",
-         "cajero": "cash machine",
-         "afuera": "outside",
-         "tragó": "swallowed",
-         "tarjeta": "card"
-        }
-       },
-       {
-        "who": "Clerk",
-        "text": "Ay, qué mala onda. ¿Me permite una identificación?",
-        "en": "Oh, what a pain. May I see some ID?",
-        "gloss": {
-         "ay": "oh",
-         "qué": "what",
-         "mala": "bad",
-         "onda": "vibe (mala onda = bummer)",
-         "permite": "allow (¿me permite…? = may I have…?)",
-         "identificación": "ID"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Sí, aquí está mi INE.",
-        "en": "Yes, here's my voter ID card.",
-        "gloss": {}
-       },
-       {
-        "who": "Clerk",
-        "text": "Gracias. Ahorita la bloqueamos y le damos una nueva en cinco días.",
-        "en": "Thanks. We'll block it right now and give you a new one in five days.",
-        "gloss": {
-         "gracias": "thanks",
-         "ahorita": "right now",
-         "bloqueamos": "we block",
-         "damos": "we give",
-         "nueva": "new"
-        }
-       },
-       {
-        "who": "You",
-        "text": "¿Cinco días? No manches… ¿y mientras qué hago?",
-        "en": "Five days? No way… and what do I do in the meantime?",
-        "gloss": {
-         "manches": "stain (¡no manches! = no way!)",
-         "mientras": "meanwhile",
-         "qué": "what",
-         "hago": "I do"
-        }
-       },
-       {
-        "who": "Clerk",
-        "text": "Puede sacar dinero aquí en ventanilla con su identificación.",
-        "en": "You can take out money here at the counter with your ID.",
-        "gloss": {
-         "puede": "you can",
-         "sacar": "to take out",
-         "dinero": "money",
-         "ventanilla": "counter, window",
-         "identificación": "ID"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Órale, va. Muchas gracias.",
-        "en": "Right, OK. Thanks a lot.",
-        "gloss": {
-         "órale": "right, OK (Mexico)",
-         "muchas": "many",
-         "gracias": "thanks"
-        }
-       }
-      ]
-     },
-     {
-      "topic": "Asking a colleague to cover for you",
-      "situation": "At the office coffee machine in Madrid",
-      "region": "España",
-      "lines": [
-       {
-        "who": "You",
-        "text": "Oye, Marta, ¿me haces un favor? El viernes no puedo currar por la tarde.",
-        "en": "Hey Marta, can you do me a favour? I can't work on Friday afternoon.",
-        "gloss": {
-         "oye": "hey (lit. hear)",
-         "haces": "you do",
-         "favor": "favour",
-         "viernes": "Friday",
-         "puedo": "I can",
-         "currar": "to work (Spain, slang)",
-         "tarde": "afternoon"
-        }
-       },
-       {
-        "who": "Marta",
-        "text": "Uf, a ver… ¿qué te pasa?",
-        "en": "Ugh, let's see… what's up?",
-        "gloss": {
-         "uf": "ugh",
-         "ver": "to see (a ver = let's see)",
-         "qué": "what",
-         "pasa": "happens (¿qué te pasa? = what's wrong?)"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Tengo médico a las cuatro y no me lo pueden cambiar.",
-        "en": "I've got a doctor's appointment at four and they can't change it.",
-        "gloss": {
-         "médico": "doctor",
-         "pueden": "they can",
-         "cambiar": "to change"
-        }
-       },
-       {
-        "who": "Marta",
-        "text": "Vale, vale, te cubro. Pero me debes una, ¿eh?",
-        "en": "OK, OK, I'll cover for you. But you owe me one, eh?",
-        "gloss": {
-         "vale": "OK",
-         "cubro": "I cover",
-         "debes": "you owe",
-         "eh": "eh"
-        }
-       },
-       {
-        "who": "You",
-        "text": "¡Eres la mejor! El lunes te invito a un café.",
-        "en": "You're the best! I'll buy you a coffee on Monday.",
-        "gloss": {
-         "eres": "you are",
-         "mejor": "best",
-         "lunes": "Monday",
-         "invito": "I treat, I buy (for you)",
-         "café": "coffee"
-        }
-       },
-       {
-        "who": "Marta",
-        "text": "Hecho. Y no se lo digas al jefe, que luego me pide más.",
-        "en": "Deal. And don't tell the boss, or he'll ask me for more.",
-        "gloss": {
-         "hecho": "done, deal",
-         "digas": "tell (don't tell)",
-         "jefe": "boss",
-         "luego": "later, then",
-         "pide": "asks for"
-        }
-       }
-      ]
-     }
-    ]
-   },
-   "quote": {
-    "text": "La libertad se aprende ejerciéndola.",
-    "en": "Freedom is learned by exercising it.",
-    "gloss": {
-     "libertad": "freedom",
-     "aprende": "is learned",
-     "ejerciéndola": "by exercising it"
-    },
-    "who": "Clara Campoamor",
-    "when": "1931",
-    "about": "Clara Campoamor, a lawyer and deputy in the Second Republic's Cortes, fought for women's right to vote in 1931, and this line from her defence of suffrage is still quoted whenever Spaniards talk about democracy."
-   },
-   "lit": {
-    "text": "Escrito está en mi alma vuestro gesto, / y cuanto yo escribir de vos deseo;",
-    "en": "Your face is written in my soul, / and all that I wish to write of you;",
-    "gloss": {
-     "escrito": "written",
-     "alma": "soul",
-     "vuestro": "your (old formal)",
-     "gesto": "face, expression (old sense)",
-     "cuanto": "all that",
-     "yo": "I",
-     "escribir": "to write",
-     "vos": "you (old formal)",
-     "deseo": "I wish"
-    },
-    "author": "Garcilaso de la Vega",
-    "work": "Soneto V",
-    "when": "c. 1530s",
-    "about": "The opening of Garcilaso's fifth sonnet, in which the beloved's face is written on the poet's soul; Garcilaso brought the Italian sonnet into Spanish and this poem is a school classic of the Renaissance."
-   },
-   "vocab": {
-    "A": [
-     {
-      "word": "la lista",
-      "article": "la",
-      "pos": "noun",
-      "region": "general",
-      "ties": "news",
-      "meaning": "list",
-      "note": "In elections, «el número uno de la lista» is the top candidate.",
-      "example": "Mi nombre está en la lista.",
-      "exampleEn": "My name is on the list.",
-      "exGloss": {
-       "nombre": "name",
-       "lista": "list"
-      }
-     },
-     {
-      "word": "la concha",
-      "article": "la",
-      "pos": "noun",
-      "region": "México",
-      "ties": "phrase1",
-      "meaning": "concha, a round sweet bun with a shell-patterned sugar top",
-      "note": "Mexico; in Spain «concha» is just a seashell, and a similar treat would be a «bollo».",
-      "example": "Por la mañana como una concha con café.",
-      "exampleEn": "In the morning I eat a concha with coffee.",
-      "exGloss": {
-       "como": "I eat",
-       "concha": "concha (sweet bun)",
-       "café": "coffee"
-      }
-     },
-     {
-      "word": "maduro",
-      "pos": "adjective",
-      "region": "general",
-      "ties": "phrase2",
-      "meaning": "ripe",
-      "note": "Feminine «madura». Also means 'mature' for people: «Es muy maduro para su edad».",
-      "example": "Este mango está maduro.",
-      "exampleEn": "This mango is ripe.",
-      "exGloss": {
-       "mango": "mango",
-       "maduro": "ripe"
-      }
-     }
-    ],
-    "B": [
-     {
-      "word": "encabezar",
-      "pos": "verb",
-      "region": "general",
-      "ties": "news",
-      "meaning": "to head, to lead (a list, a protest, a ranking)",
-      "note": "Regular -ar verb; z becomes c before e: «encabecé».",
-      "example": "Una profesora encabeza la lista del partido en mi provincia.",
-      "exampleEn": "A teacher heads the party list in my province.",
-      "exGloss": {
-       "profesora": "teacher",
-       "encabeza": "heads",
-       "lista": "list",
-       "partido": "party",
-       "provincia": "province"
-      }
-     },
-     {
-      "word": "el cajero",
-      "article": "el",
-      "pos": "noun",
-      "region": "general",
-      "ties": "phrase1",
-      "meaning": "cash machine, ATM (also: cashier)",
-      "note": "Full form «cajero automático». A person at the till is also «el cajero / la cajera».",
-      "example": "El cajero de la esquina no tiene billetes.",
-      "exampleEn": "The cash machine on the corner has no notes.",
-      "exGloss": {
-       "cajero": "cash machine",
-       "esquina": "corner",
-       "billetes": "banknotes"
-      }
-     },
-     {
-      "word": "currar",
-      "pos": "slang",
-      "region": "España",
-      "ties": "phrase2",
-      "meaning": "to work",
-      "note": "Spain, informal; «el curro» = job. Mexico says «chambear» / «la chamba».",
-      "example": "Este finde me toca currar el sábado.",
-      "exampleEn": "This weekend I have to work on Saturday.",
-      "exGloss": {
-       "finde": "weekend",
-       "toca": "it's my turn (me toca = I have to)",
-       "currar": "to work",
-       "sábado": "Saturday"
-      }
-     }
-    ],
-    "C": [
-     {
-      "word": "de cara a",
-      "pos": "idiom",
-      "region": "general",
-      "ties": "news",
-      "meaning": "ahead of, with a view to",
-      "note": "Very common in news and offices: «de cara al verano», «de cara a la reunión».",
-      "example": "De cara a las elecciones, los partidos ya preparan sus mítines.",
-      "exampleEn": "Ahead of the election, the parties are already preparing their rallies.",
-      "exGloss": {
-       "cara": "face (de cara a = ahead of)",
-       "elecciones": "elections",
-       "partidos": "parties",
-       "preparan": "prepare",
-       "mítines": "rallies"
-      }
-     },
-     {
-      "word": "ejercer",
-      "pos": "verb",
-      "region": "general",
-      "ties": "quote",
-      "meaning": "to exercise (a right), to practise (a profession)",
-      "note": "c becomes z before a/o: «ejerzo», «ejerza». «Ejercer el derecho al voto»; «ejerce de abogada».",
-      "example": "Mi abuela ejerció su derecho al voto por primera vez en 1933.",
-      "exampleEn": "My grandmother exercised her right to vote for the first time in 1933.",
-      "exGloss": {
-       "abuela": "grandmother",
-       "ejerció": "exercised",
-       "derecho": "right",
-       "voto": "vote"
-      }
-     },
-     {
-      "word": "el gesto",
-      "article": "el",
-      "pos": "noun",
-      "region": "general",
-      "ties": "lit",
-      "meaning": "gesture, facial expression; in old poetry, the face itself",
-      "note": "Today: «un gesto amable» (a kind gesture), «torcer el gesto» (to pull a face). The sense 'face' is literary and old-fashioned.",
-      "example": "Al leer el soneto, el profesor torció el gesto.",
-      "exampleEn": "Reading the sonnet, the teacher pulled a face.",
-      "exGloss": {
-       "leer": "reading",
-       "soneto": "sonnet",
-       "profesor": "teacher",
-       "torció": "twisted (torcer el gesto = to pull a face)",
-       "gesto": "expression"
-      }
-     }
-    ]
-   },
-   "quiz": [
-    {
-     "level": "A1",
-     "ref": "phrase1",
-     "q": "At the bakery the customer asks «¿Cuánto es?». What are they asking?",
-     "options": [
-      "What time is it?",
-      "How much is it?",
-      "Where is it?",
-      "How many are there?"
-     ],
-     "answer": 1,
-     "why": "«¿Cuánto es?» = 'How much is it?', the standard way to ask the total when paying.",
-     "lesson": "«Cuánto» looks like «cuántos» (how many), but with «es» it asks about a price, not a count."
-    },
-    {
-     "level": "A2",
-     "ref": "news",
-     "q": "The headline says Sánchez «vuelve a ser» the number one. What does «vuelve a ser» mean?",
-     "options": [
-      "is leaving",
-      "wants to be",
-      "was never",
-      "is again"
-     ],
-     "answer": 3,
-     "why": "«Volver a» + infinitive means doing something again: «vuelve a ser» = is again.",
-     "lesson": "«Volver» on its own means 'to come back', so learners read 'returns' or 'leaves'; with «a» + verb it simply adds 'again'."
-    },
-    {
-     "level": "B1",
-     "ref": "phrase1",
-     "q": "En la escena del banco, ¿qué le pasó a la tarjeta del cliente?",
-     "options": [
-      "Se la robaron en el metro",
-      "Caducó ayer",
-      "El cajero se la tragó",
-      "La dejó en casa"
-     ],
-     "answer": 2,
-     "why": "El cliente dice: «el cajero de afuera se tragó mi tarjeta».",
-     "lesson": "«Cajero» también es la persona que cobra, así que algunos piensan en un robo; aquí es la máquina de la calle."
-    },
-    {
-     "level": "B2",
-     "ref": "phrase2",
-     "q": "Cuando Marta dice «me debes una», ¿qué quiere decir?",
-     "options": [
-      "Que su compañero le debe un favor",
-      "Que su compañero le debe dinero",
-      "Que solo quiere una cosa",
-      "Que está enfadada"
-     ],
-     "answer": 0,
-     "why": "«Me debes una» es una frase hecha: «una» se refiere a un favor que habrá que devolver.",
-     "lesson": "«Deber» suele aparecer con dinero, pero en esta expresión el «una» femenino apunta a «una (deuda de favor)», no a un euro."
-    },
-    {
-     "level": "C1",
-     "ref": "quote",
-     "q": "En la frase de Clara Campoamor, ¿qué significa «ejerciéndola»?",
-     "options": [
-      "prohibiéndola",
-      "explicándola",
-      "practicándola, usándola",
-      "heredándola"
-     ],
-     "answer": 2,
-     "why": "Ejercer la libertad es usarla en la práctica, por ejemplo votando: así se aprende.",
-     "lesson": "«Ejercer» se parece a «ejercicio» y algunos piensan en un ejercicio escolar que se explica; aquí significa poner en práctica un derecho."
-    },
-    {
-     "level": "C2",
-     "ref": "lit",
-     "q": "En el soneto de Garcilaso, «vuestro gesto» significa sobre todo…",
-     "options": [
-      "un movimiento de la mano",
-      "vuestra cara, vuestro rostro",
-      "un detalle amable",
-      "una mueca de enfado"
-     ],
-     "answer": 1,
-     "why": "En el español del Siglo de Oro «gesto» podía significar el rostro; el poeta lleva la cara de la amada escrita en el alma.",
-     "lesson": "Hoy «gesto» es sobre todo un movimiento o un detalle, por eso tienta leerlo así; en la poesía clásica conviene pensar en su sentido antiguo."
-    }
-   ],
-   "tip": {
-    "title": "Soler: saying what you usually do",
-    "text": "Spanish often says 'usually' with soler + infinitive instead of an adverb: «Suelo cenar a las diez» (I usually have dinner at ten). It changes o→ue (suelo, sueles, suele), and in the past it lives almost only in the imperfect: «Solía ir en bici al colegio» (I used to cycle to school)."
-   },
-   "fun": {
-    "kind": "joke",
-    "region": "general",
-    "text": "—¿Qué le dice una iguana a su hermana gemela? —¡Somos iguanitas!",
-    "gloss": {
-     "qué": "what",
-     "dice": "says",
-     "iguana": "iguana",
-     "hermana": "sister",
-     "gemela": "twin",
-     "somos": "we are",
-     "iguanitas": "little iguanas (sounds like «igualitas», identical)"
-    },
-    "literal": "What does an iguana say to her twin sister? 'We're little iguanas!'",
-    "meaning": "A pun: «iguanitas» sounds almost exactly like «igualitas», 'just the same'.",
-    "culture": "«¿Qué le dice un… a otro…?» is the classic riddle-joke format children swap all over the Spanish-speaking world, and the diminutive -ita makes puns like this easy."
-   }
-  },
-  "de": {
-   "news": [
-    {
-     "topic": "Wirtschaft · Deutschland",
-     "source": "https://onvista.de/news/2026/10-30-roundup-3-deutsche-wirtschaft-waechst-ueberraschend-inflation-sinkt-deutlich-0-10-26570495",
-     "levels": {
-      "A": {
-       "text": "Die deutsche Wirtschaft wächst wieder, und die Preise steigen langsamer.",
-       "en": "The German economy is growing again, and prices are rising more slowly.",
-       "gloss": {
-        "wirtschaft": "economy",
-        "wächst": "grows",
-        "preise": "prices",
-        "steigen": "rise",
-        "langsamer": "more slowly"
-       }
-      },
-      "B": {
-       "text": "Die deutsche Wirtschaft ist im dritten Quartal überraschend um 0,2 Prozent gewachsen, und die Inflation ist im Oktober auf 2,8 Prozent gesunken.",
-       "en": "The German economy surprisingly grew by 0.2 per cent in the third quarter, and inflation fell to 2.8 per cent in October.",
-       "gloss": {
-        "wirtschaft": "economy",
-        "dritten": "third",
-        "quartal": "quarter",
-        "überraschend": "surprisingly",
-        "prozent": "per cent",
-        "gewachsen": "grown",
-        "inflation": "inflation",
-        "oktober": "October",
-        "gesunken": "fallen, sunk"
-       }
-      },
-      "C": {
-       "text": "Trotz hoher Belastungen ist die deutsche Wirtschaft im dritten Quartal überraschend um 0,2 Prozent gewachsen, während die Teuerungsrate im Oktober dank des neuen Tankrabatts deutlich auf 2,8 Prozent sank.",
-       "en": "Despite heavy strains, the German economy grew a surprising 0.2 per cent in the third quarter, while the inflation rate fell sharply to 2.8 per cent in October thanks to the new fuel discount.",
-       "gloss": {
-        "trotz": "despite",
-        "hoher": "high, heavy",
-        "belastungen": "burdens, strains",
-        "wirtschaft": "economy",
-        "dritten": "third",
-        "quartal": "quarter",
-        "überraschend": "surprisingly",
-        "prozent": "per cent",
-        "gewachsen": "grown",
-        "teuerungsrate": "inflation rate",
-        "oktober": "October",
-        "dank": "thanks to",
-        "neuen": "new",
-        "tankrabatts": "fuel discount's (Tankrabatt = fuel price cut)",
-        "deutlich": "clearly, sharply",
-        "sank": "fell"
-       }
-      }
-     }
-    }
-   ],
-   "phrases": {
-    "A": [
-     {
-      "topic": "Buying cheese at the market",
-      "situation": "At a cheese stall on Munich's Viktualienmarkt",
-      "region": "Bayern",
-      "lines": [
-       {
-        "who": "Seller",
-        "text": "Grüß Gott! Was darf's sein?",
-        "en": "Hello! What would you like?",
-        "gloss": {
-         "grüß": "greet (Grüß Gott = hello, southern German)",
-         "gott": "God",
-         "was": "what",
-         "darf's": "may it (Was darf's sein? = what would you like?)"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Ich hätte gern ein Stück Bergkäse, bitte.",
-        "en": "I'd like a piece of mountain cheese, please.",
-        "gloss": {
-         "hätte": "would have",
-         "gern": "gladly (hätte gern = would like)",
-         "stück": "piece",
-         "bergkäse": "mountain cheese",
-         "bitte": "please"
-        }
-       },
-       {
-        "who": "Seller",
-        "text": "Gern. So viel? Das sind zweihundert Gramm.",
-        "en": "Sure. This much? That's two hundred grams.",
-        "gloss": {
-         "gern": "sure, gladly",
-         "viel": "much",
-         "zweihundert": "two hundred",
-         "gramm": "grams"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Passt. Was kostet das?",
-        "en": "That's fine. How much is it?",
-        "gloss": {
-         "passt": "fits (= that's fine)",
-         "was": "what",
-         "kostet": "costs"
-        }
-       },
-       {
-        "who": "Seller",
-        "text": "Fünf Euro sechzig, bitte.",
-        "en": "Five euros sixty, please.",
-        "gloss": {
-         "euro": "euro",
-         "sechzig": "sixty",
-         "bitte": "please"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Bitte schön. Schönen Tag noch!",
-        "en": "Here you are. Have a nice day!",
-        "gloss": {
-         "bitte": "please (bitte schön = here you are)",
-         "schön": "nicely",
-         "schönen": "nice",
-         "tag": "day"
-        }
-       }
-      ]
-     },
-     {
-      "topic": "Taking the bus",
-      "situation": "At a bus stop in Graz",
-      "region": "Österreich",
-      "lines": [
-       {
-        "who": "You",
-        "text": "Entschuldigung, fährt dieser Bus zum Bahnhof?",
-        "en": "Excuse me, does this bus go to the station?",
-        "gloss": {
-         "entschuldigung": "excuse me",
-         "fährt": "goes, drives",
-         "bus": "bus",
-         "bahnhof": "train station"
-        }
-       },
-       {
-        "who": "Driver",
-        "text": "Na, der fährt ins Zentrum. Nehmen S' den Dreizehner.",
-        "en": "No, this one goes to the centre. Take the number 13.",
-        "gloss": {
-         "na": "no (Austrian)",
-         "fährt": "goes",
-         "ins": "into the",
-         "zentrum": "centre",
-         "nehmen": "take",
-         "dreizehner": "number thirteen (bus)",
-         "s": "you (short for Sie)"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Und wo hält der?",
-        "en": "And where does that one stop?",
-        "gloss": {
-         "wo": "where",
-         "hält": "stops"
-        }
-       },
-       {
-        "who": "Driver",
-        "text": "Gleich da drüben, auf der anderen Seite.",
-        "en": "Just over there, on the other side.",
-        "gloss": {
-         "gleich": "right, just",
-         "drüben": "over there",
-         "anderen": "other",
-         "seite": "side"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Danke vielmals!",
-        "en": "Thanks very much!",
-        "gloss": {
-         "danke": "thanks",
-         "vielmals": "many times (danke vielmals = thanks a lot)"
-        }
-       }
-      ]
-     }
-    ],
-    "B": [
-     {
-      "topic": "Inviting a colleague to your birthday",
-      "situation": "In the office kitchen in Munich",
-      "region": "Bayern",
-      "lines": [
-       {
-        "who": "You",
-        "text": "Du, Sepp, am Samstag feier ich meinen Geburtstag. Magst vorbeikommen?",
-        "en": "Hey Sepp, I'm celebrating my birthday on Saturday. Fancy coming by?",
-        "gloss": {
-         "samstag": "Saturday",
-         "feier": "celebrate (feiere)",
-         "meinen": "my",
-         "geburtstag": "birthday",
-         "magst": "do you want, fancy (Bavarian: without du)",
-         "vorbeikommen": "to come by"
-        }
-       },
-       {
-        "who": "Sepp",
-        "text": "Freilich! Wo denn?",
-        "en": "Of course! Where?",
-        "gloss": {
-         "freilich": "of course (southern German)",
-         "wo": "where",
-         "denn": "then (softens the question)"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Im Biergarten am Chinesischen Turm, so ab sechs.",
-        "en": "At the beer garden by the Chinese Tower, from about six.",
-        "gloss": {
-         "biergarten": "beer garden",
-         "chinesischen": "Chinese",
-         "turm": "tower",
-         "ab": "from"
-        }
-       },
-       {
-        "who": "Sepp",
-        "text": "Passt. Soll ich was mitbringen?",
-        "en": "Great. Shall I bring anything?",
-        "gloss": {
-         "passt": "fits (= great, fine)",
-         "soll": "shall",
-         "was": "something (short for etwas)",
-         "mitbringen": "to bring along"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Na, brauchst nix. Bring halt gute Laune mit.",
-        "en": "Nah, you don't need anything. Just bring a good mood.",
-        "gloss": {
-         "na": "nah",
-         "brauchst": "you need",
-         "nix": "nothing (nichts)",
-         "bring": "bring",
-         "halt": "just (filler)",
-         "gute": "good",
-         "laune": "mood",
-         "mit": "along (mitbringen)"
-        }
-       },
-       {
-        "who": "Sepp",
-        "text": "Des krieg i hin. Bis Samstag dann!",
-        "en": "I can manage that. See you Saturday, then!",
-        "gloss": {
-         "des": "that (Bavarian das)",
-         "krieg": "get (hinkriegen = to manage)",
-         "i": "I (Bavarian ich)",
-         "hin": "(part of hinkriegen)",
-         "bis": "until (bis Samstag = see you Saturday)",
-         "samstag": "Saturday"
-        }
-       }
-      ]
-     },
-     {
-      "topic": "At the hairdresser",
-      "situation": "Getting a trim at a salon in Vienna",
-      "region": "Österreich",
-      "lines": [
-       {
-        "who": "Hairdresser",
-        "text": "Griaß Gott! Was mach ma heut?",
-        "en": "Hello! What are we doing today?",
-        "gloss": {
-         "griaß": "greet (Grüß Gott = hello)",
-         "gott": "God",
-         "was": "what",
-         "mach": "do, make",
-         "ma": "we (Austrian wir)",
-         "heut": "today (heute)"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Nur ein bisserl kürzer, bitte, aber nicht zu viel.",
-        "en": "Just a little shorter, please, but not too much.",
-        "gloss": {
-         "bisserl": "little bit (Austrian bisschen)",
-         "kürzer": "shorter",
-         "bitte": "please",
-         "viel": "much"
-        }
-       },
-       {
-        "who": "Hairdresser",
-        "text": "Mit Stufen oder einfach gerade?",
-        "en": "Layered or just straight?",
-        "gloss": {
-         "stufen": "layers (lit. steps)",
-         "einfach": "simply, just",
-         "gerade": "straight"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Gerade. Und hinten vielleicht ein Eck weg.",
-        "en": "Straight. And maybe a bit off the back.",
-        "gloss": {
-         "gerade": "straight",
-         "hinten": "at the back",
-         "vielleicht": "maybe",
-         "eck": "corner (ein Eck = a bit, Austrian)",
-         "weg": "away, off"
-        }
-       },
-       {
-        "who": "Hairdresser",
-        "text": "Passt. Waschen auch?",
-        "en": "OK. A wash too?",
-        "gloss": {
-         "passt": "OK, fine",
-         "waschen": "washing"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Ja, gern. Wie lang dauert's ungefähr?",
-        "en": "Yes, please. Roughly how long will it take?",
-        "gloss": {
-         "ja": "yes",
-         "gern": "gladly",
-         "lang": "long",
-         "dauert's": "does it take",
-         "ungefähr": "roughly"
-        }
-       },
-       {
-        "who": "Hairdresser",
-        "text": "So eine halbe Stunde. Wollen S' einen Kaffee?",
-        "en": "About half an hour. Would you like a coffee?",
-        "gloss": {
-         "halbe": "half",
-         "stunde": "hour",
-         "wollen": "want",
-         "kaffee": "coffee",
-         "s": "you (short for Sie)"
-        }
-       }
-      ]
-     }
-    ]
-   },
-   "quote": {
-    "text": "Die Politik ist die Lehre vom Möglichen.",
-    "en": "Politics is the doctrine of the possible.",
-    "gloss": {
-     "politik": "politics",
-     "lehre": "doctrine, teaching",
-     "möglichen": "possible (das Mögliche)"
-    },
-    "who": "Otto von Bismarck",
-    "when": "1867",
-    "about": "Otto von Bismarck, Prussian prime minister and later the first chancellor of the German Empire, said this in an 1867 conversation; it became the classic German shorthand for pragmatic politics, usually retold as «die Kunst des Möglichen»."
-   },
-   "lit": {
-    "text": "Der Mond ist aufgegangen, / Die goldnen Sternlein prangen / Am Himmel hell und klar;",
-    "en": "The moon has risen, / the little golden stars are shining / in the sky, bright and clear;",
-    "gloss": {
-     "mond": "moon",
-     "aufgegangen": "risen",
-     "goldnen": "golden",
-     "sternlein": "little stars",
-     "prangen": "shine splendidly",
-     "himmel": "sky",
-     "hell": "bright",
-     "klar": "clear"
-    },
-    "author": "Matthias Claudius",
-    "work": "Abendlied",
-    "when": "1779",
-    "about": "The opening of Claudius's evening song, set to music by Johann Abraham Peter Schulz; generations of German children have fallen asleep to it, and it is still sung in churches and at bedtime."
-   },
-   "vocab": {
-    "A": [
-     {
-      "word": "wachsen",
-      "pos": "verb",
-      "region": "general",
-      "ties": "news",
-      "meaning": "to grow",
-      "note": "Irregular: du wächst, er wächst; wuchs; ist gewachsen (with sein).",
-      "example": "Mein Sohn wächst so schnell!",
-      "exampleEn": "My son is growing so fast!",
-      "exGloss": {
-       "sohn": "son",
-       "wächst": "grows",
-       "schnell": "fast"
-      }
-     },
-     {
-      "word": "der Käse",
-      "article": "der",
-      "pos": "noun",
-      "region": "general",
-      "ties": "phrase1",
-      "meaning": "cheese",
-      "note": "Plural die Käse (kinds). «Das ist doch Käse!» = that's nonsense.",
-      "example": "Zur Brotzeit gibt's Brot, Käse und Radi.",
-      "exampleEn": "For the snack there's bread, cheese and radish.",
-      "exGloss": {
-       "brotzeit": "snack (Bavarian)",
-       "gibt's": "there is",
-       "brot": "bread",
-       "käse": "cheese",
-       "radi": "white radish (Bavarian)"
-      }
-     },
-     {
-      "word": "die Haltestelle",
-      "article": "die",
-      "pos": "noun",
-      "region": "general",
-      "ties": "phrase2",
-      "meaning": "(bus or tram) stop",
-      "note": "Plural die Haltestellen. From «halten», to stop. In Austria people also just say «die Station».",
-      "example": "Die Haltestelle ist gleich um die Ecke.",
-      "exampleEn": "The stop is just round the corner.",
-      "exGloss": {
-       "haltestelle": "stop",
-       "gleich": "just, right",
-       "ecke": "corner"
-      }
-     }
-    ],
-    "B": [
-     {
-      "word": "sinken",
-      "pos": "verb",
-      "region": "general",
-      "ties": "news",
-      "meaning": "to fall, to sink, to go down",
-      "note": "Irregular: sank, ist gesunken. Opposite: «steigen» (stieg, ist gestiegen).",
-      "example": "Die Spritpreise sind diese Woche endlich gesunken.",
-      "exampleEn": "Fuel prices finally came down this week.",
-      "exGloss": {
-       "spritpreise": "fuel prices",
-       "woche": "week",
-       "endlich": "finally",
-       "gesunken": "fallen"
-      }
-     },
-     {
-      "word": "vorbeikommen",
-      "pos": "verb",
-      "region": "general",
-      "ties": "phrase1",
-      "meaning": "to drop by, to come round",
-      "note": "Separable and irregular: ich komme vorbei, kam vorbei, ist vorbeigekommen.",
-      "example": "Komm doch nach der Arbeit kurz vorbei!",
-      "exampleEn": "Do drop by after work!",
-      "exGloss": {
-       "komm": "come",
-       "doch": "do (softener)",
-       "arbeit": "work",
-       "kurz": "briefly",
-       "vorbei": "by (vorbeikommen)"
-      }
-     },
-     {
-      "word": "a bisserl",
-      "pos": "slang",
-      "region": "Österreich",
-      "ties": "phrase2",
-      "meaning": "a little, a bit",
-      "note": "Austria and Bavaria; standard German «ein bisschen». Swiss German says «es bitzeli».",
-      "example": "Geht's a bisserl leiser, bitte?",
-      "exampleEn": "Could you be a bit quieter, please?",
-      "exGloss": {
-       "geht's": "does it go (geht's … ? = could you …?)",
-       "a": "a (Austrian ein)",
-       "bisserl": "bit",
-       "leiser": "quieter",
-       "bitte": "please"
-      }
-     }
-    ],
-    "C": [
-     {
-      "word": "die Teuerung",
-      "article": "die",
-      "pos": "noun",
-      "region": "general",
-      "ties": "news",
-      "meaning": "rising prices, inflation",
-      "note": "Everyday word for inflation, especially in Austria and Switzerland; «die Teuerungsrate» = inflation rate. From «teuer», expensive.",
-      "example": "Wegen der Teuerung kaufen viele nur noch im Discounter ein.",
-      "exampleEn": "Because of rising prices, many people only shop at discount stores now.",
-      "exGloss": {
-       "wegen": "because of",
-       "teuerung": "rising prices",
-       "kaufen": "shop (einkaufen)",
-       "viele": "many",
-       "discounter": "discount store",
-       "ein": "(part of einkaufen)"
-      }
-     },
-     {
-      "word": "die Lehre",
-      "article": "die",
-      "pos": "noun",
-      "region": "general",
-      "ties": "quote",
-      "meaning": "teaching, doctrine; lesson; apprenticeship",
-      "note": "«Eine Lehre machen» = to do an apprenticeship; «Das ist mir eine Lehre» = that's taught me a lesson.",
-      "example": "Nach der Wahl war das Ergebnis für die Partei eine bittere Lehre.",
-      "exampleEn": "After the election, the result was a bitter lesson for the party.",
-      "exGloss": {
-       "wahl": "election",
-       "ergebnis": "result",
-       "partei": "party",
-       "bittere": "bitter",
-       "lehre": "lesson"
-      }
-     },
-     {
-      "word": "prangen",
-      "pos": "verb",
-      "region": "general",
-      "ties": "lit",
-      "meaning": "to shine, to be displayed prominently",
-      "note": "Poetic and old-fashioned for stars; today mostly ironic or in reports: «Auf dem Plakat prangt sein Gesicht» (his face is splashed across the poster).",
-      "example": "Über der Tür prangt ein riesiges Schild.",
-      "exampleEn": "A huge sign is emblazoned above the door.",
-      "exGloss": {
-       "tür": "door",
-       "prangt": "is displayed prominently",
-       "riesiges": "huge",
-       "schild": "sign"
-      }
-     }
-    ]
-   },
-   "quiz": [
-    {
-     "level": "A1",
-     "ref": "phrase1",
-     "q": "At the cheese stall the seller asks «Was darf's sein?». What does she mean?",
-     "options": [
-      "How much is it?",
-      "What would you like?",
-      "Where are you from?",
-      "Is that everything?"
-     ],
-     "answer": 1,
-     "why": "«Was darf's sein?» (What may it be?) is the standard shop greeting for 'What would you like?'.",
-     "lesson": "«Darf» (may) makes it sound like a permission question, so learners think of 'Is that all?'; in shops it simply opens the order."
-    },
-    {
-     "level": "A2",
-     "ref": "news",
-     "q": "The headline says «die Preise steigen langsamer». What is happening to prices?",
-     "options": [
-      "They are falling fast",
-      "They stay the same",
-      "They are rising faster",
-      "They are still rising, but more slowly"
-     ],
-     "answer": 3,
-     "why": "«Steigen» = rise, «langsamer» = more slowly: prices go up, just less quickly.",
-     "lesson": "Good news about prices tempts readers to think they are falling, but «steigen» still means going up."
-    },
-    {
-     "level": "B1",
-     "ref": "phrase1",
-     "q": "Was soll Sepp zur Geburtstagsfeier mitbringen?",
-     "options": [
-      "Ein Geschenk",
-      "Einen Kuchen",
-      "Nur gute Laune",
-      "Getränke"
-     ],
-     "answer": 2,
-     "why": "Die Antwort ist: «Na, brauchst nix. Bring halt gute Laune mit.»",
-     "lesson": "«Bring … mit» klingt nach einer Sache zum Mitnehmen, aber «gute Laune mitbringen» heißt nur: gut gelaunt kommen."
-    },
-    {
-     "level": "B2",
-     "ref": "phrase2",
-     "q": "Die Friseurin sagt «Wollen S' einen Kaffee?». Wofür steht «S'»?",
-     "options": [
-      "für «Sie», die höfliche Anrede",
-      "für «so»",
-      "für «sich»",
-      "für «schon»"
-     ],
-     "answer": 0,
-     "why": "In Österreich wird «Sie» nach dem Verb oft zu «S'» verkürzt: «Wollen S'», «Nehmen S'».",
-     "lesson": "Das Apostroph-S erinnert an «so» oder «'s» (= es), doch hier fehlt nur «-ie» von «Sie»; es ist eine höfliche Frage."
-    },
-    {
-     "level": "C1",
-     "ref": "news",
-     "q": "Warum sank die Teuerungsrate im Oktober laut der Meldung deutlich?",
-     "options": [
-      "wegen niedrigerer Mieten",
-      "dank des neuen Tankrabatts",
-      "wegen höherer Zinsen",
-      "dank billigerer Lebensmittel"
-     ],
-     "answer": 1,
-     "why": "Die Meldung nennt ausdrücklich den neuen Tankrabatt: die Rate sank «dank des neuen Tankrabatts».",
-     "lesson": "Höhere Zinsen sind das klassische Mittel gegen Inflation und wirken darum plausibel; hier war es aber der billigere Sprit."
-    },
-    {
-     "level": "C2",
-     "ref": "lit",
-     "q": "Was bedeutet «prangen» in Claudius' Abendlied?",
-     "options": [
-      "herunterfallen",
-      "sich verstecken",
-      "prächtig leuchten",
-      "schnell vorbeiziehen"
-     ],
-     "answer": 2,
-     "why": "Die Sterne «prangen am Himmel»: Sie leuchten prächtig und gut sichtbar.",
-     "lesson": "Wer «prangen» nicht kennt, denkt an Sternschnuppen, die vorbeiziehen; das Wort betont aber Glanz und Sichtbarkeit, nicht Bewegung."
-    }
-   ],
-   "tip": {
-    "title": "Hätte gern: ordering politely",
-    "text": "At a counter German prefers the subjunctive (Konjunktiv II) to a plain «ich will», which can sound blunt: «Ich hätte gern zwei Brezen», «Könnten Sie mir helfen?». For most other verbs use würde + infinitive: «Ich würde gern mit Karte zahlen.»"
-   },
-   "fun": {
-    "kind": "idiom",
-    "region": "Bayern",
-    "text": "A Hund is a scho!",
-    "gloss": {
-     "a": "a / he (Bavarian: ein, er)",
-     "hund": "dog",
-     "is": "is (ist)",
-     "scho": "really, though (schon)"
-    },
-    "literal": "A dog he is, though!",
-    "meaning": "He's a crafty one, a clever devil: said with grudging admiration.",
-    "culture": "In Bavaria calling someone «a Hund» is often a compliment for cunning or cheek, said of the friend who wangles the best table or the striker who scores a sly goal."
-   }
-  },
-  "it": {
-   "news": [
-    {
-     "topic": "Economia · Italia",
-     "source": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-dati-provvisori-ottobre-2026/",
-     "levels": {
-      "A": {
-       "text": "Inflazione al 5,4%: in Italia i prezzi salgono molto.",
-       "en": "Inflation at 5.4%: prices in Italy are rising a lot.",
-       "gloss": {
-        "inflazione": "inflation",
-        "prezzi": "prices",
-        "salgono": "go up, rise"
-       }
-      },
-      "B": {
-       "text": "A ottobre l'inflazione è salita al 5,4%, dal 4,2% di settembre, soprattutto per i prezzi dell'energia.",
-       "en": "In October inflation rose to 5.4%, from 4.2% in September, mainly because of energy prices.",
-       "gloss": {
-        "ottobre": "October",
-        "l'inflazione": "inflation",
-        "inflazione": "inflation",
-        "salita": "risen",
-        "settembre": "September",
-        "soprattutto": "above all, mainly",
-        "prezzi": "prices",
-        "dell'energia": "of energy",
-        "energia": "energy"
-       }
-      },
-      "C": {
-       "text": "Secondo la stima preliminare dell'Istat, a ottobre l'inflazione è balzata al 5,4% su base annua, trainata dai beni energetici, passati da +22,6% a +31,4%.",
-       "en": "According to Istat's preliminary estimate, inflation jumped to 5.4% year on year in October, driven by energy goods, which went from +22.6% to +31.4%.",
-       "gloss": {
-        "secondo": "according to",
-        "stima": "estimate",
-        "preliminare": "preliminary",
-        "dell'istat": "of Istat (national statistics office)",
-        "ottobre": "October",
-        "l'inflazione": "inflation",
-        "inflazione": "inflation",
-        "balzata": "jumped",
-        "base": "basis",
-        "annua": "annual (su base annua = year on year)",
-        "trainata": "driven, pulled",
-        "dai": "by the",
-        "beni": "goods",
-        "energetici": "energy (adj.)",
-        "passati": "gone, moved"
-       }
-      }
-     }
-    }
-   ],
-   "phrases": {
-    "A": [
-     {
-      "topic": "At the gelateria",
-      "situation": "Buying an ice cream on a summer evening",
-      "region": "Italia",
-      "lines": [
-       {
-        "who": "Server",
-        "text": "Ciao! Cono o coppetta?",
-        "en": "Hi! Cone or cup?",
-        "gloss": {
-         "ciao": "hi",
-         "cono": "cone",
-         "coppetta": "small cup"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Una coppetta piccola, per favore.",
-        "en": "A small cup, please.",
-        "gloss": {
-         "coppetta": "small cup",
-         "piccola": "small",
-         "favore": "favour (per favore = please)"
-        }
-       },
-       {
-        "who": "Server",
-        "text": "Quali gusti?",
-        "en": "Which flavours?",
-        "gloss": {
-         "quali": "which",
-         "gusti": "flavours"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Pistacchio e limone.",
-        "en": "Pistachio and lemon.",
-        "gloss": {
-         "pistacchio": "pistachio",
-         "limone": "lemon"
-        }
-       },
-       {
-        "who": "Server",
-        "text": "Ecco qua. Sono tre euro.",
-        "en": "Here you go. That's three euros.",
-        "gloss": {
-         "ecco": "here is",
-         "qua": "here",
-         "tre": "three",
-         "euro": "euros"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Grazie, buona serata!",
-        "en": "Thanks, have a nice evening!",
-        "gloss": {
-         "grazie": "thanks",
-         "buona": "good",
-         "serata": "evening"
-        }
-       }
-      ]
-     },
-     {
-      "topic": "Buying a bus ticket",
-      "situation": "At a tabaccheria near the bus stop",
-      "region": "Italia",
-      "lines": [
-       {
-        "who": "You",
-        "text": "Buongiorno, un biglietto dell'autobus, per favore.",
-        "en": "Good morning, a bus ticket, please.",
-        "gloss": {
-         "buongiorno": "good morning",
-         "biglietto": "ticket",
-         "dell'autobus": "of the bus",
-         "autobus": "bus",
-         "favore": "favour (per favore = please)"
-        }
-       },
-       {
-        "who": "Tobacconist",
-        "text": "Corsa singola?",
-        "en": "Single journey?",
-        "gloss": {
-         "corsa": "ride, journey",
-         "singola": "single"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Sì. Quanto costa?",
-        "en": "Yes. How much is it?",
-        "gloss": {
-         "sì": "yes",
-         "quanto": "how much",
-         "costa": "costs"
-        }
-       },
-       {
-        "who": "Tobacconist",
-        "text": "Un euro e cinquanta.",
-        "en": "One euro fifty.",
-        "gloss": {
-         "euro": "euro",
-         "cinquanta": "fifty"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Ecco. Dove si timbra?",
-        "en": "Here you are. Where do you stamp it?",
-        "gloss": {
-         "ecco": "here you are",
-         "dove": "where",
-         "timbra": "stamps (si timbra = one validates)"
-        }
-       },
-       {
-        "who": "Tobacconist",
-        "text": "Sull'autobus, nella macchinetta gialla.",
-        "en": "On the bus, in the little yellow machine.",
-        "gloss": {
-         "sull'autobus": "on the bus",
-         "autobus": "bus",
-         "macchinetta": "little machine",
-         "gialla": "yellow"
-        }
-       }
-      ]
-     }
-    ],
-    "B": [
-     {
-      "topic": "Swapping a shift with a colleague",
-      "situation": "In the staff room of a shop in Bologna",
-      "region": "Italia",
-      "lines": [
-       {
-        "who": "You",
-        "text": "Senti, Giulia, mi faresti un favore? Sabato ho il turno di mattina ma non posso.",
-        "en": "Listen, Giulia, would you do me a favour? I've got the morning shift on Saturday but I can't make it.",
-        "gloss": {
-         "senti": "listen",
-         "faresti": "would you do",
-         "favore": "favour",
-         "sabato": "Saturday",
-         "ho": "I have",
-         "turno": "shift",
-         "mattina": "morning",
-         "posso": "I can"
-        }
-       },
-       {
-        "who": "Giulia",
-        "text": "Mah, dipende. Cosa mi dai in cambio?",
-        "en": "Hmm, it depends. What do I get in return?",
-        "gloss": {
-         "mah": "hmm, well",
-         "dipende": "it depends",
-         "cosa": "what",
-         "dai": "you give",
-         "cambio": "exchange (in cambio = in return)"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Ti prendo io il turno di domenica sera, giuro.",
-        "en": "I'll take your Sunday evening shift, I swear.",
-        "gloss": {
-         "prendo": "I take",
-         "turno": "shift",
-         "domenica": "Sunday",
-         "sera": "evening",
-         "giuro": "I swear"
-        }
-       },
-       {
-        "who": "Giulia",
-        "text": "Dai, va bene. Però lo dici tu al capo.",
-        "en": "Go on then, OK. But you tell the boss.",
-        "gloss": {
-         "dai": "come on, go on",
-         "va": "goes (va bene = OK)",
-         "bene": "well",
-         "però": "but",
-         "lo": "it",
-         "dici": "you tell",
-         "capo": "boss"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Certo, glielo scrivo subito. Sei un tesoro!",
-        "en": "Of course, I'll write to him straight away. You're a treasure!",
-        "gloss": {
-         "certo": "of course",
-         "glielo": "it to him",
-         "scrivo": "I write",
-         "subito": "right away",
-         "sei": "you are",
-         "tesoro": "treasure, darling"
-        }
-       }
-      ]
-     },
-     {
-      "topic": "Choosing a present with a friend",
-      "situation": "Chatting over coffee about a friend's birthday",
-      "region": "Italia",
-      "lines": [
-       {
-        "who": "Luca",
-        "text": "Allora, cosa regaliamo a Marco per il compleanno?",
-        "en": "So, what shall we get Marco for his birthday?",
-        "gloss": {
-         "allora": "so, well then",
-         "cosa": "what",
-         "regaliamo": "do we give (as a present)",
-         "compleanno": "birthday"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Boh, non ne ho idea. Un libro?",
-        "en": "Dunno, no idea. A book?",
-        "gloss": {
-         "boh": "dunno",
-         "ne": "of it",
-         "ho": "I have",
-         "idea": "idea",
-         "libro": "book"
-        }
-       },
-       {
-        "who": "Luca",
-        "text": "Un libro? Ma se non legge mai!",
-        "en": "A book? But he never reads!",
-        "gloss": {
-         "libro": "book",
-         "se": "if (here: but he…!)",
-         "legge": "reads",
-         "mai": "never"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Vabbè, allora una maglietta della Roma?",
-        "en": "Fine, then a Roma shirt?",
-        "gloss": {
-         "vabbè": "OK, fine",
-         "allora": "then",
-         "maglietta": "T-shirt, shirt"
-        }
-       },
-       {
-        "who": "Luca",
-        "text": "Magari! Quella gli piace di sicuro.",
-        "en": "Now you're talking! He'll love that for sure.",
-        "gloss": {
-         "magari": "if only, I'd love that",
-         "quella": "that one",
-         "gli": "to him",
-         "piace": "pleases (gli piace = he likes)",
-         "sicuro": "sure (di sicuro = for sure)"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Perfetto, la prendiamo domani in centro.",
-        "en": "Perfect, we'll get it in town tomorrow.",
-        "gloss": {
-         "perfetto": "perfect",
-         "prendiamo": "we get, we take",
-         "domani": "tomorrow",
-         "centro": "centre, town"
-        }
-       }
-      ]
-     }
-    ]
-   },
-   "quote": {
-    "text": "Conoscere per deliberare.",
-    "en": "Know in order to decide.",
-    "gloss": {
-     "conoscere": "to know",
-     "deliberare": "to decide, to deliberate"
-    },
-    "who": "Luigi Einaudi",
-    "when": "1956",
-    "about": "Luigi Einaudi, economist and Italy's second president, made this the theme of his «Prediche inutili»: decisions must rest on knowing the facts, and the phrase is still a motto of Italian public life and statistics."
-   },
-   "lit": {
-    "text": "Taci. Su le soglie / del bosco non odo / parole che dici / umane;",
-    "en": "Hush. On the threshold / of the wood I do not hear / the human words / you speak;",
-    "gloss": {
-     "taci": "be quiet, hush",
-     "su": "on",
-     "soglie": "thresholds",
-     "bosco": "wood",
-     "odo": "I hear",
-     "parole": "words",
-     "dici": "you say",
-     "umane": "human"
-    },
-    "author": "Gabriele D'Annunzio",
-    "work": "La pioggia nel pineto (Alcyone)",
-    "when": "1903",
-    "about": "The opening of D'Annunzio's most famous poem, in which rain in a seaside pine wood drowns out human speech; Italian pupils learn it for its music, every line built from sound."
-   },
-   "vocab": {
-    "A": [
-     {
-      "word": "il prezzo",
-      "article": "il",
-      "pos": "noun",
-      "region": "general",
-      "ties": "news",
-      "meaning": "price",
-      "note": "Plural i prezzi. «Prezzo fisso» = fixed price; «a metà prezzo» = half price.",
-      "example": "Il prezzo del pane è salito.",
-      "exampleEn": "The price of bread has gone up.",
-      "exGloss": {
-       "prezzo": "price",
-       "pane": "bread",
-       "salito": "gone up"
-      }
-     },
-     {
-      "word": "la coppetta",
-      "article": "la",
-      "pos": "noun",
-      "region": "general",
-      "ties": "phrase1",
-      "meaning": "small cup (for ice cream)",
-      "note": "Diminutive of «coppa». At the gelateria the choice is «cono o coppetta?».",
-      "example": "Per i bambini prendo sempre la coppetta.",
-      "exampleEn": "For the kids I always get a cup.",
-      "exGloss": {
-       "bambini": "children",
-       "prendo": "I get",
-       "sempre": "always",
-       "coppetta": "small cup"
-      }
-     }
-    ],
-    "B": [
-     {
-      "word": "il turno",
-      "article": "il",
-      "pos": "noun",
-      "region": "general",
-      "ties": "phrase1",
-      "meaning": "shift; turn",
-      "note": "«Fare i turni» = to work shifts; «è il tuo turno» = it's your turn.",
-      "example": "Questa settimana faccio il turno di notte.",
-      "exampleEn": "This week I'm on the night shift.",
-      "exGloss": {
-       "settimana": "week",
-       "faccio": "I do",
-       "turno": "shift",
-       "notte": "night"
-      }
-     },
-     {
-      "word": "boh",
-      "pos": "slang",
-      "region": "general",
-      "ties": "phrase2",
-      "meaning": "dunno, who knows",
-      "note": "Said with a shrug; very common in speech and texts, a bit too casual for the office.",
-      "example": "— A che ora arriva Paolo? — Boh, non mi ha scritto.",
-      "exampleEn": "— What time is Paolo arriving? — Dunno, he hasn't texted me.",
-      "exGloss": {
-       "ora": "hour, time",
-       "arriva": "arrives",
-       "boh": "dunno",
-       "scritto": "written"
-      }
-     }
-    ],
-    "C": [
-     {
-      "word": "balzare",
-      "pos": "verb",
-      "region": "general",
-      "ties": "news",
-      "meaning": "to jump, to leap",
-      "note": "Takes essere: «è balzato». News favourite for sudden rises; also «balzare agli occhi» = to be obvious.",
-      "example": "Dopo l'estate le bollette sono balzate alle stelle.",
-      "exampleEn": "After the summer the bills shot sky-high.",
-      "exGloss": {
-       "dopo": "after",
-       "l'estate": "the summer",
-       "estate": "summer",
-       "bollette": "bills",
-       "balzate": "jumped",
-       "alle": "to the",
-       "stelle": "stars"
-      }
-     },
-     {
-      "word": "tacere",
-      "pos": "verb",
-      "region": "general",
-      "ties": "lit",
-      "meaning": "to be quiet, to keep silent",
-      "note": "Irregular: taccio, taci, tace; tacqui; taciuto. The imperative «taci!» is sharp; «stai zitto» is the everyday version.",
-      "example": "Su questo argomento preferisco tacere.",
-      "exampleEn": "On this subject I'd rather say nothing.",
-      "exGloss": {
-       "questo": "this",
-       "argomento": "subject",
-       "preferisco": "I prefer",
-       "tacere": "to keep silent"
-      }
-     }
-    ]
-   },
-   "quiz": [
-    {
-     "level": "A1",
-     "ref": "phrase1",
-     "q": "At the gelateria, «Cono o coppetta?» asks you to choose…",
-     "options": [
-      "the size of the ice cream",
-      "a cone or a cup",
-      "the flavour",
-      "to eat in or take away"
-     ],
-     "answer": 1,
-     "why": "«Cono» = cone, «coppetta» = small cup: it's how you want your gelato served.",
-     "lesson": "«Coppetta» ends in the diminutive -etta, which makes people think of a size; it is the cup itself."
-    },
-    {
-     "level": "A2",
-     "ref": "news",
-     "q": "The headline says «i prezzi salgono molto». What are prices doing?",
-     "options": [
-      "going down",
-      "staying the same",
-      "going up a lot",
-      "being fixed"
-     ],
-     "answer": 2,
-     "why": "«Salire» = to go up: «salgono molto» = they rise a lot.",
-     "lesson": "The irregular form «salgono» (from salire) doesn't look like its infinitive, so learners guess from context and may pick 'going down'."
-    },
-    {
-     "level": "B1",
-     "ref": "phrase1",
-     "q": "Che cosa offre il collega a Giulia in cambio del favore?",
-     "options": [
-      "Un caffè",
-      "Di parlare lui con il capo",
-      "Dei soldi",
-      "Il turno di domenica sera"
-     ],
-     "answer": 3,
-     "why": "Dice: «Ti prendo io il turno di domenica sera».",
-     "lesson": "Più avanti si parla del capo, quindi è facile confondere; ma è Giulia a chiedere che sia lui a dirlo, non è il cambio offerto."
-    },
-    {
-     "level": "B2",
-     "ref": "vocab2",
-     "q": "Quando l'amico risponde «Boh», che cosa vuol dire?",
-     "options": [
-      "Non lo so",
-      "Che bello",
-      "Sono d'accordo",
-      "Lascia perdere"
-     ],
-     "answer": 0,
-     "why": "«Boh» esprime incertezza: non lo so, chissà.",
-     "lesson": "Dopo «Boh» segue subito una proposta, e sembra un sì; in realtà la proposta nasce proprio dal non sapere cosa scegliere."
-    },
-    {
-     "level": "C1",
-     "ref": "news",
-     "q": "Secondo l'Istat, che cosa ha trainato l'inflazione a ottobre?",
-     "options": [
-      "i servizi turistici",
-      "i beni energetici",
-      "gli alimentari freschi",
-      "gli affitti"
-     ],
-     "answer": 1,
-     "why": "La notizia dice che l'inflazione è stata «trainata dai beni energetici», passati da +22,6% a +31,4%.",
-     "lesson": "Quando i prezzi salgono si pensa subito al carrello della spesa; qui però la spinta viene dall'energia."
-    },
-    {
-     "level": "C2",
-     "ref": "quote",
-     "q": "Nel motto di Einaudi «Conoscere per deliberare», che valore ha «per»?",
-     "options": [
-      "finale: allo scopo di deliberare",
-      "causale: perché si è deliberato",
-      "temporale: durante la delibera",
-      "di mezzo: attraverso la delibera"
-     ],
-     "answer": 0,
-     "why": "«Per» + infinito indica lo scopo: bisogna conoscere al fine di poter decidere.",
-     "lesson": "«Per» ha anche valore causale («premiato per aver vinto»), ma solo con l'infinito passato; con l'infinito presente indica quasi sempre il fine."
-    }
-   ],
-   "tip": {
-    "title": "A or in with places",
-    "text": "Italian uses «a» with towns and cities and «in» with countries, regions and many everyday places: «Vado a Napoli», «Vivo in Spagna», «Lavoro in banca», «Vado in farmacia». A handful take «a» instead: «a casa», «a scuola», «a teatro». Learn these as fixed pairs rather than by rule."
-   },
-   "fun": {
-    "kind": "saying",
-    "region": "Italia",
-    "text": "Chi trova un amico trova un tesoro.",
-    "gloss": {
-     "chi": "whoever",
-     "trova": "finds",
-     "amico": "friend",
-     "tesoro": "treasure"
-    },
-    "literal": "Whoever finds a friend finds a treasure.",
-    "meaning": "A true friend is worth more than riches.",
-    "culture": "Italians say it when a friend comes through for them; it is old enough to echo the Bible's Book of Sirach and gave its title to a 1981 Bud Spencer and Terence Hill comedy."
-   }
-  },
-  "ar": {
-   "news": [
-    {
-     "topic": "Taaqa · Misr",
-     "source": "https://www.egyin.com/article/157694/%D9%84%D9%85%D8%AF%D8%A9-6-%D8%A3%D8%B4%D9%87%D8%B1-%D9%81%D9%82%D8%B7-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1-%D8%AA%D8%A8%D8%AF%D8%A3-%D8%AA%D8%AE%D9%81%D9%8A%D8%B6",
-     "levels": {
-      "A": {
-       "text": "Misr tabda'u al-yawm khasman bi-nisbat 30% alaa al-kahrabaa'.",
-       "script": "مصر تبدأ اليوم خصمًا بنسبة 30% على الكهرباء.",
-       "en": "Egypt starts a 30% discount on electricity today.",
-       "gloss": {
-        "tabda'u": "starts",
-        "al-yawm": "today",
-        "khasman": "a discount",
-        "bi-nisbat": "at a rate of",
-        "alaa": "on",
-        "al-kahrabaa": "electricity"
-       }
-      },
-      "B": {
-       "text": "Qarrarat al-hukuuma khasm 30% min istihlaak al-kahrabaa' li-ashaab al-addaadaat al-koodiyya li-muddat sittat ashhur.",
-       "script": "قررت الحكومة خصم 30% من استهلاك الكهرباء لأصحاب العدادات الكودية لمدة ستة أشهر.",
-       "en": "The government decided on a 30% discount on electricity use for owners of 'coded' meters (homes with unresolved building violations) for six months.",
-       "gloss": {
-        "qarrarat": "decided",
-        "al-hukuuma": "the government",
-        "khasm": "discount",
-        "istihlaak": "consumption",
-        "al-kahrabaa": "electricity",
-        "li-ashaab": "for the owners of",
-        "al-addaadaat": "the meters",
-        "al-koodiyya": "coded",
-        "li-muddat": "for a period of",
-        "sittat": "six",
-        "ashhur": "months"
-       }
-      },
-      "C": {
-       "text": "Bada'at wizaarat al-kahrabaa' tatbiiq khasm bi-nisbat 30% alaa istihlaak al-addaadaat al-koodiyya al-murakkaba qabla 2024 li-muddat sittat ashhur, li-yankhafida si'r al-kiilowaat saa'a min 274 qirshan ilaa nahwi 192 qirshan.",
-       "script": "بدأت وزارة الكهرباء تطبيق خصم بنسبة 30% على استهلاك العدادات الكودية المركبة قبل 2024 لمدة ستة أشهر، لينخفض سعر الكيلووات ساعة من 274 قرشًا إلى نحو 192 قرشًا.",
-       "en": "The electricity ministry has begun applying a 30% discount on consumption for coded meters installed before 2024, for six months, bringing the price of a kilowatt-hour down from 274 piastres to about 192.",
-       "gloss": {
-        "bada'at": "began",
-        "wizaarat": "ministry of",
-        "al-kahrabaa": "electricity",
-        "tatbiiq": "applying",
-        "khasm": "discount",
-        "bi-nisbat": "at a rate of",
-        "alaa": "on",
-        "istihlaak": "consumption",
-        "al-addaadaat": "the meters",
-        "al-koodiyya": "coded",
-        "al-murakkaba": "installed",
-        "qabla": "before",
-        "li-muddat": "for a period of",
-        "sittat": "six",
-        "ashhur": "months",
-        "li-yankhafida": "so that it falls",
-        "si'r": "price",
-        "al-kiilowaat": "the kilowatt",
-        "saa'a": "hour",
-        "qirshan": "piastres",
-        "ilaa": "to",
-        "nahwi": "about"
-       }
-      }
-     }
-    }
-   ],
-   "phrases": {
-    "A": [
-     {
-      "topic": "Buying ful for breakfast",
-      "situation": "At a ful cart on a Cairo street",
-      "region": "Egypt",
-      "lines": [
-       {
-        "who": "You",
-        "text": "Sabaah il-kheer! Aayiz itneen sandawitsh fuul, law samaht.",
-        "script": "صباح الخير! عايز اتنين ساندوتش فول، لو سمحت.",
-        "en": "Good morning! I'd like two ful sandwiches, please.",
-        "gloss": {
-         "sabaah": "morning",
-         "il-kheer": "the good (sabaah il-kheer = good morning)",
-         "aayiz": "I want",
-         "itneen": "two",
-         "sandawitsh": "sandwich",
-         "fuul": "ful (fava beans)",
-         "law": "if",
-         "samaht": "you allow (law samaht = please)"
-        }
-       },
-       {
-        "who": "Seller",
-        "text": "Sabaah in-nuur. Wi ta'miyya kamaan?",
-        "script": "صباح النور. وطعمية كمان؟",
-        "en": "Good morning to you. And ta'miyya too?",
-        "gloss": {
-         "sabaah": "morning",
-         "in-nuur": "the light (reply to sabaah il-kheer)",
-         "wi": "and",
-         "ta'miyya": "ta'miyya (Egyptian falafel)",
-         "kamaan": "too, also"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Aywa, waahid ta'miyya.",
-        "script": "أيوه، واحد طعمية.",
-        "en": "Yes, one ta'miyya.",
-        "gloss": {
-         "aywa": "yes",
-         "waahid": "one",
-         "ta'miyya": "ta'miyya"
-        }
-       },
-       {
-        "who": "Seller",
-        "text": "Kida khamastaashar gineeh.",
-        "script": "كده خمستاشر جنيه.",
-        "en": "That's fifteen pounds.",
-        "gloss": {
-         "kida": "so, that makes",
-         "khamastaashar": "fifteen",
-         "gineeh": "Egyptian pound(s)"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Itfaddal. Shukran!",
-        "script": "اتفضل. شكراً!",
-        "en": "Here you are. Thanks!",
-        "gloss": {
-         "itfaddal": "here you are",
-         "shukran": "thanks"
-        }
-       }
-      ]
-     },
-     {
-      "topic": "Buying a phone top-up",
-      "situation": "At a corner shop in Jeddah",
-      "region": "Saudi",
-      "lines": [
-       {
-        "who": "You",
-        "text": "As-salaamu alaykum. Abgha kart shahn, law samaht.",
-        "script": "السلام عليكم. أبغى كرت شحن، لو سمحت.",
-        "en": "Peace be upon you. I'd like a top-up card, please.",
-        "gloss": {
-         "as-salaamu": "peace",
-         "alaykum": "upon you",
-         "abgha": "I want (Saudi)",
-         "kart": "card",
-         "shahn": "charging, top-up",
-         "law": "if",
-         "samaht": "you allow (law samaht = please)"
-        }
-       },
-       {
-        "who": "Shopkeeper",
-        "text": "Wa alaykum as-salaam. Bi-kam?",
-        "script": "وعليكم السلام. بكم؟",
-        "en": "And upon you peace. For how much?",
-        "gloss": {
-         "alaykum": "upon you",
-         "as-salaam": "peace",
-         "bi-kam": "for how much",
-         "kam": "how much"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Bi-khamsiin riyaal.",
-        "script": "بخمسين ريال.",
-        "en": "Fifty riyals.",
-        "gloss": {
-         "bi-khamsiin": "for fifty",
-         "khamsiin": "fifty",
-         "riyaal": "riyal(s)"
-        }
-       },
-       {
-        "who": "Shopkeeper",
-        "text": "Tfaddal. Tabgha shay thaani?",
-        "script": "تفضل. تبغى شي ثاني؟",
-        "en": "Here you go. Do you want anything else?",
-        "gloss": {
-         "tfaddal": "here you go",
-         "tabgha": "you want (Saudi)",
-         "shay": "something, a thing",
-         "thaani": "else, other"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Laa, shukran. Ma'a as-salaama.",
-        "script": "لا، شكراً. مع السلامة.",
-        "en": "No, thanks. Goodbye.",
-        "gloss": {
-         "laa": "no",
-         "shukran": "thanks",
-         "as-salaama": "safety (ma'a as-salaama = goodbye)"
-        }
-       }
-      ]
-     }
-    ],
-    "B": [
-     {
-      "topic": "Splitting the bill with friends",
-      "situation": "End of dinner at a restaurant in Beirut",
-      "region": "Lebanon",
-      "lines": [
-       {
-        "who": "Rami",
-        "text": "Yalla ya shabaab, ija il-hsaab.",
-        "script": "يلا يا شباب، إجا الحساب.",
-        "en": "Right, guys, the bill's here.",
-        "gloss": {
-         "yalla": "come on, right",
-         "ya": "O (used when addressing)",
-         "shabaab": "guys, young people",
-         "ija": "came, has come",
-         "il-hsaab": "the bill"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Addeesh? Khalliina n'assmo alaa kell waahad.",
-        "script": "قديش؟ خلّينا نقسمه على كل واحد.",
-        "en": "How much? Let's split it between everyone.",
-        "gloss": {
-         "addeesh": "how much",
-         "khalliina": "let us",
-         "n'assmo": "we split it",
-         "alaa": "on, between",
-         "kell": "every",
-         "waahad": "one (kell waahad = each person)"
-        }
-       },
-       {
-        "who": "Rami",
-        "text": "Ta'riiban tlaatiin dolaar al-waahad.",
-        "script": "تقريباً تلاتين دولار عالواحد.",
-        "en": "About thirty dollars each.",
-        "gloss": {
-         "ta'riiban": "about, roughly",
-         "tlaatiin": "thirty",
-         "dolaar": "dollar(s)",
-         "al-waahad": "per person"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Ma fii mushkle. Bass ana ma ma'i cash, fiyye idfa' bil-kart?",
-        "script": "ما في مشكلة. بس أنا ما معي كاش، فيّي إدفع بالكرت؟",
-        "en": "No problem. But I've got no cash on me, can I pay by card?",
-        "gloss": {
-         "ma": "not",
-         "fii": "there is",
-         "mushkle": "problem",
-         "bass": "but",
-         "ma'i": "with me",
-         "cash": "cash",
-         "fiyye": "can I",
-         "idfa'": "pay",
-         "idfa": "pay",
-         "bil-kart": "by card"
-        }
-       },
-       {
-        "who": "Rami",
-        "text": "Akiid, ma ta'tel hamm.",
-        "script": "أكيد، ما تعتل هم.",
-        "en": "Sure, don't worry about it.",
-        "gloss": {
-         "akiid": "sure, of course",
-         "ma": "don't",
-         "ta'tel": "carry",
-         "hamm": "worry"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Merci, il-marra il-jaaye alayyi.",
-        "script": "ميرسي، المرة الجاية عليّي.",
-        "en": "Thanks, next time's on me.",
-        "gloss": {
-         "merci": "thanks (from French)",
-         "il-marra": "the time",
-         "il-jaaye": "the coming, next",
-         "alayyi": "on me"
-        }
-       }
-      ]
-     },
-     {
-      "topic": "Asking the doorman for help",
-      "situation": "In the lobby of a Cairo apartment block, arms full of shopping",
-      "region": "Egypt",
-      "lines": [
-       {
-        "who": "You",
-        "text": "Ya Amm Saad, law samaht, il-asanseer atlaan taani?",
-        "script": "يا عم سعد، لو سمحت، الأسانسير عطلان تاني؟",
-        "en": "Uncle Saad, excuse me, is the lift broken again?",
-        "gloss": {
-         "ya": "O (used when addressing)",
-         "amm": "uncle (respectful for an older man)",
-         "law": "if",
-         "samaht": "you allow (law samaht = excuse me)",
-         "il-asanseer": "the lift",
-         "atlaan": "broken, out of order",
-         "taani": "again"
-        }
-       },
-       {
-        "who": "Doorman",
-        "text": "Aywa ya beeh, il-fanni gaay ba'd id-duhr in shaa' allaah.",
-        "script": "أيوه يا بيه، الفني جاي بعد الضهر إن شاء الله.",
-        "en": "Yes, sir, the technician is coming after midday, God willing.",
-        "gloss": {
-         "aywa": "yes",
-         "ya": "O",
-         "beeh": "sir (bey)",
-         "il-fanni": "the technician",
-         "gaay": "coming",
-         "id-duhr": "midday",
-         "in": "if",
-         "shaa": "wills (in shaa' allaah = God willing)",
-         "allaah": "God"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Ya nahaar abyad! Wana saakin fid-door it-taasi'.",
-        "script": "يا نهار أبيض! وأنا ساكن في الدور التاسع.",
-        "en": "Oh no! And I live on the ninth floor.",
-        "gloss": {
-         "ya": "O",
-         "nahaar": "day",
-         "abyad": "white (ya nahaar abyad = oh no!)",
-         "wana": "and I",
-         "saakin": "living",
-         "fid-door": "on the floor",
-         "it-taasi": "the ninth"
-        }
-       },
-       {
-        "who": "Doorman",
-        "text": "Ma'lesh, haat il-akyaas wana atalla'hum lak.",
-        "script": "معلش، هات الأكياس وأنا أطلعهم لك.",
-        "en": "Never mind, give me the bags and I'll take them up for you.",
-        "gloss": {
-         "ma'lesh": "never mind",
-         "haat": "give (me)",
-         "il-akyaas": "the bags",
-         "wana": "and I",
-         "atalla'hum": "I take them up",
-         "lak": "for you"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Rabbena yikhalliik, ya Amm Saad!",
-        "script": "ربنا يخليك يا عم سعد!",
-        "en": "God bless you, Uncle Saad!",
-        "gloss": {
-         "rabbena": "our Lord, God",
-         "yikhalliik": "keep you (rabbena yikhalliik = God bless you, thank you)",
-         "ya": "O",
-         "amm": "uncle"
-        }
-       },
-       {
-        "who": "Doorman",
-        "text": "Ala eeh bass, da waagibi.",
-        "script": "على إيه بس، ده واجبي.",
-        "en": "Don't mention it, it's my job.",
-        "gloss": {
-         "ala": "for (ala eeh = what for)",
-         "eeh": "what",
-         "bass": "just",
-         "da": "this, it",
-         "waagibi": "my duty"
-        }
-       }
-      ]
-     }
-    ]
-   },
-   "quote": {
-    "text": "Laa tanha an khuluqin wa-ta'tiya mithlahu, aarun alayka idhaa fa'alta aziimu.",
-    "script": "لا تَنْهَ عن خُلُقٍ وتأتيَ مثلَهُ ... عارٌ عليك إذا فعلتَ عظيمُ",
-    "en": "Do not forbid a habit while you do the same yourself: if you do, great is the shame on you.",
-    "gloss": {
-     "laa": "do not",
-     "tanha": "forbid",
-     "khuluqin": "a habit, a trait",
-     "wa-ta'tiya": "and (then) do",
-     "mithlahu": "the like of it",
-     "aarun": "a shame, a disgrace",
-     "alayka": "on you",
-     "idhaa": "if",
-     "fa'alta": "you did (it)",
-     "aziimu": "great"
-    },
-    "who": "Abu al-Aswad al-Du'ali (attributed)",
-    "when": "7th century",
-    "about": "Abu al-Aswad al-Du'ali, whom tradition credits with founding Arabic grammar, is the poet usually named for this line, which Arabs still quote to call out anyone who preaches what they don't practise."
-   },
-   "lit": {
-    "text": "Yaa qawmi udhnii li-ba'di al-hayyi aashiqatun, wa-al-udhnu ta'shaqu qabla al-ayni ahyaanaa.",
-    "script": "يا قومِ أُذْني لبعضِ الحيِّ عاشقةٌ ... والأُذْنُ تعشقُ قبلَ العينِ أحيانا",
-    "en": "O my people, my ear is in love with someone of the tribe: the ear sometimes loves before the eye.",
-    "gloss": {
-     "yaa": "O",
-     "qawmi": "my people",
-     "udhnii": "my ear",
-     "li-ba'di": "with one of",
-     "al-hayyi": "the tribe, the neighbourhood",
-     "aashiqatun": "in love",
-     "wa-al-udhnu": "and the ear",
-     "ta'shaqu": "falls in love",
-     "al-ayni": "the eye",
-     "ahyaanaa": "sometimes",
-     "qabla": "before"
-    },
-    "author": "Bashshar ibn Burd",
-    "work": "Diwan Bashshar ibn Burd",
-    "when": "8th century",
-    "about": "Bashshar, a poet of Basra who was born blind, wrote this of falling in love with a voice at the dawn of the Abbasid age; the second half has become a proverb about loving someone you have only heard."
-   },
-   "vocab": {
-    "A": [
-     {
-      "word": "khasm",
-      "wordScript": "خصم",
-      "pos": "noun",
-      "region": "Standard (MSA)",
-      "ties": "news",
-      "meaning": "discount",
-      "note": "Used in every dialect too: Egypt «khasm», Lebanon «hasm» or «tanziil», the Gulf «takhfiid». «Fii khasm?» = is there a discount?",
-      "example": "Fii khasm alaa al-malaabis al-yawm.",
-      "exScript": "في خصم على الملابس اليوم.",
-      "exampleEn": "There's a discount on clothes today.",
-      "exGloss": {
-       "fii": "there is",
-       "khasm": "discount",
-       "alaa": "on",
-       "al-malaabis": "the clothes",
-       "al-yawm": "today"
-      }
-     },
-     {
-      "word": "fuul",
-      "wordScript": "فول",
-      "pos": "noun",
-      "region": "Egypt",
-      "ties": "phrase1",
-      "meaning": "ful, slow-cooked fava beans",
-      "note": "Egypt's national breakfast, eaten with bread; «fuul midammis» is the full name. Also «fuul» in Lebanon and Saudi.",
-      "example": "Kull yoom baftar fuul wi ta'miyya.",
-      "exScript": "كل يوم بفطر فول وطعمية.",
-      "exampleEn": "Every day I have ful and ta'miyya for breakfast.",
-      "exGloss": {
-       "kull": "every",
-       "yoom": "day",
-       "baftar": "I have breakfast",
-       "fuul": "ful",
-       "wi": "and",
-       "ta'miyya": "ta'miyya (falafel)"
-      }
-     }
-    ],
-    "B": [
-     {
-      "word": "il-hsaab",
-      "wordScript": "الحساب",
-      "pos": "noun",
-      "region": "Lebanon",
-      "ties": "phrase1",
-      "meaning": "the bill (at a restaurant or shop)",
-      "note": "Lebanon drops the first vowel; Egypt says «il-hisaab», MSA «al-hisaab». «Il-hsaab law samaht» = the bill, please.",
-      "example": "Il-hsaab alayyi il-yoom!",
-      "exScript": "الحساب عليّي اليوم!",
-      "exampleEn": "The bill's on me today!",
-      "exGloss": {
-       "il-hsaab": "the bill",
-       "alayyi": "on me",
-       "il-yoom": "today"
-      }
-     },
-     {
-      "word": "il-bawwaab",
-      "wordScript": "البواب",
-      "pos": "noun",
-      "region": "Egypt",
-      "ties": "phrase2",
-      "meaning": "the doorman, the building caretaker",
-      "note": "A fixture of Egyptian apartment blocks, often called «Amm» + name. Lebanon: «in-naatuur»; Saudi: «il-haaris».",
-      "example": "Il-bawwaab biyshiil il-zbaala kull yoom.",
-      "exScript": "البواب بيشيل الزبالة كل يوم.",
-      "exampleEn": "The doorman takes the rubbish out every day.",
-      "exGloss": {
-       "il-bawwaab": "the doorman",
-       "biyshiil": "takes away",
-       "il-zbaala": "the rubbish",
-       "kull": "every",
-       "yoom": "day"
-      }
-     }
-    ],
-    "C": [
-     {
-      "word": "faatuura",
-      "wordScript": "فاتورة",
-      "pos": "noun",
-      "region": "Standard (MSA)",
-      "ties": "news",
-      "meaning": "bill, invoice",
-      "note": "Plural «fawaatiir». Used everywhere: «faatuurat il-kahraba» = the electricity bill; Egyptians also say «il-wasl» for a receipt.",
-      "example": "Faatuurat al-kahrabaa' haadhaa al-shahr akbar min al-maadii.",
-      "exScript": "فاتورة الكهرباء هذا الشهر أكبر من الماضي.",
-      "exampleEn": "This month's electricity bill is bigger than last month's.",
-      "exGloss": {
-       "faatuurat": "bill of",
-       "al-kahrabaa": "electricity",
-       "haadhaa": "this",
-       "al-shahr": "the month",
-       "akbar": "bigger",
-       "al-maadii": "the last (one)"
-      }
-     },
-     {
-      "word": "udhn",
-      "wordScript": "أذن",
-      "pos": "noun",
-      "region": "Standard (MSA)",
-      "ties": "lit",
-      "meaning": "ear",
-      "note": "Feminine. Dialects say «widn» (Egypt), «idn» or «dayne» (Lebanon), «idhn» (Saudi). «Min widn li-widn» = in one ear and out the other.",
-      "example": "Sami'tu al-ughniya fa-ahabbat-haa udhnii qabla an araa al-mughanniya.",
-      "exScript": "سمعت الأغنية فأحبتها أذني قبل أن أرى المغنية.",
-      "exampleEn": "I heard the song, and my ear loved it before I ever saw the singer.",
-      "exGloss": {
-       "sami'tu": "I heard",
-       "al-ughniya": "the song",
-       "fa-ahabbat-haa": "and it loved it",
-       "udhnii": "my ear",
-       "araa": "I see",
-       "al-mughanniya": "the singer (f.)",
-       "qabla": "before"
-      }
-     }
-    ]
-   },
-   "quiz": [
-    {
-     "level": "A1",
-     "ref": "phrase1",
-     "q": "At the ful cart the seller answers «Sabaah in-nuur». What is it?",
-     "options": [
-      "A kind of bread",
-      "The reply to 'good morning'",
-      "'How much?'",
-      "'Goodbye'"
-     ],
-     "answer": 1,
-     "why": "«Sabaah il-kheer» (morning of good) is answered with «sabaah in-nuur» (morning of light).",
-     "lesson": "Learners expect a reply to repeat the greeting, so «in-nuur» looks like a new word; Arabic greetings come with a fixed answer that changes one word."
-    },
-    {
-     "level": "A2",
-     "ref": "news",
-     "q": "The headline says «Misr tabda'u al-yawm khasman… alaa al-kahrabaa'». What starts today?",
-     "options": [
-      "A new electricity tax",
-      "A power cut",
-      "Free electricity for all",
-      "A discount on electricity"
-     ],
-     "answer": 3,
-     "why": "«Khasm» = discount and «al-kahrabaa'» = electricity: a 30% discount begins.",
-     "lesson": "With a percentage and the word for electricity, many guess a price rise or tax; «khasm» means the price comes down."
-    },
-    {
-     "level": "B1",
-     "ref": "phrase1",
-     "q": "Kayfa yuriidu al-sadiiq an yadfa'a fii al-mat'am?",
-     "options": [
-      "Naqdan",
-      "Bil-kart",
-      "Laa yadfa'u shay'an",
-      "Yadfa'u Rami annahu"
-     ],
-     "answer": 1,
-     "why": "Qaala: «ma ma'i cash, fiyye idfa' bil-kart?»: laysa ma'ahu naqd, fa-yadfa'u bil-kart.",
-     "lesson": "Kalimat «cash» tazharu fii al-jumla, fa-yazunnu al-qaari' annahu sa-yadfa'u naqdan; laakin «ma ma'i» ma'naahaa «laysa ma'ii»."
-    },
-    {
-     "level": "B2",
-     "ref": "phrase2",
-     "q": "Maadhaa ya'nii «Ya nahaar abyad!» fii kalaam al-saakin?",
-     "options": [
-      "Yawm jamiil!",
-      "Shukran jaziilan",
-      "Ta'biir an al-mufaaja'a wa-al-dayq",
-      "Sabaah al-khayr"
-     ],
-     "answer": 2,
-     "why": "Qaalahaa ba'da an arafa anna al-asanseer atlaan wa-huwa yaskunu fii al-door al-taasi': hiya «yaa lil-musiiba» bi-tariiqa mu'addaba.",
-     "lesson": "Kalimat «abyad» (abyad = white) wa-«nahaar» (day) tuuhiyaan bi-yawm jamiil; laakinna al-Misriyyiin yaquuluunahaa li-yatajannabuu «yaa nahaar iswid» (black day)."
-    },
-    {
-     "level": "C1",
-     "ref": "news",
-     "q": "Ilaa kam yankhafidu si'r al-kiilowaat saa'a hasaba al-khabar?",
-     "options": [
-      "Ilaa nahwi 192 qirshan",
-      "Ilaa 274 qirshan",
-      "Ilaa 30 qirshan",
-      "Ilaa 2024 qirshan"
-     ],
-     "answer": 0,
-     "why": "Al-khabar yaquul: «min 274 qirshan ilaa nahwi 192 qirshan».",
-     "lesson": "Al-raqm 274 yazharu awwalan fa-yalfitu al-nazar, laakinnahu al-si'r al-qadiim ba'da «min»; al-si'r al-jadiid ba'da «ilaa»."
-    },
-    {
-     "level": "C2",
-     "ref": "lit",
-     "q": "Maa ma'naa qawl Bashshar «al-udhnu ta'shaqu qabla al-ayni ahyaanaa»?",
-     "options": [
-      "Anna al-sam' ad'af min al-basar",
-      "Anna al-mar' qad yuhibbu man sami'a sawtahu qabla an yaraah",
-      "Anna al-udhn tu'limu sahibahaa",
-      "Anna al-hubb laa yakuunu illaa bil-nazar"
-     ],
-     "answer": 1,
-     "why": "Al-shaa'ir yaquul inna udhnahu ashiqat ahad al-hayy: al-hubb qad yabda'u bil-sawt qabla al-ru'ya.",
-     "lesson": "Al-qawl al-maa'luuf «al-hubb min awwal nazra» yadfa'u ilaa ikhtiyaar al-basar; laakin Bashshar, wa-qad wulida a'maa, ya'kisu haadhaa al-ma'naa."
-    }
-   ],
-   "tip": {
-    "title": "Counting nouns: plural to ten, singular after",
-    "text": "In Standard Arabic the noun after 3–10 is plural: «thalaathat kutub» (three books). From 11 to 99 it switches to the singular: «ahada ashara kitaaban» (eleven books), «ishruuna kitaaban» (twenty books). After 100 and 1,000 it is singular too: «mi'at kitaab». Dialects follow the same split."
-   },
-   "fun": {
-    "kind": "saying",
-    "region": "Egypt",
-    "text": "Il-ba'iid an il-een ba'iid an il-alb.",
-    "script": "البعيد عن العين بعيد عن القلب.",
-    "gloss": {
-     "il-ba'iid": "the one far away",
-     "il-een": "the eye",
-     "ba'iid": "far",
-     "il-alb": "the heart"
-    },
-    "literal": "Far from the eye, far from the heart.",
-    "meaning": "Out of sight, out of mind.",
-    "culture": "Egyptians say it, half-teasing, to a friend who hasn't called in months or a relative who moved to the Gulf; Egyptian «alb» is «qalb» (heart) with the q dropped, as Cairenes do."
-   }
-  },
-  "zh": {
-   "news": [
-    {
-     "topic": "Zhìzàoyè · Zhōngguó",
-     "source": "https://manilatimes.net/2026/11/01/business/top-business/chinas-factory-activity-contracts-in-october/2458703",
-     "levels": {
-      "A": {
-       "text": "Shí yuè, Zhōngguó gōngchǎng bù tài máng.",
-       "script": "十月，中国工厂不太忙。",
-       "en": "In October, Chinese factories are not very busy.",
-       "gloss": {
-        "shí": "ten",
-        "yuè": "month (shí yuè = October)",
-        "gōngchǎng": "factory",
-        "tài": "too (bù tài = not very)",
-        "máng": "busy"
-       }
-      },
-      "B": {
-       "text": "Shí yuè Zhōngguó zhìzàoyè PMI cóng 50.1 diào dào le 49.3, guónèi xūqiú bú gòu.",
-       "script": "十月中国制造业PMI从50.1掉到了49.3，国内需求不够。",
-       "en": "In October China's manufacturing PMI dropped from 50.1 to 49.3; demand at home isn't strong enough.",
-       "gloss": {
-        "shí": "ten",
-        "yuè": "month (shí yuè = October)",
-        "zhìzàoyè": "manufacturing",
-        "pmi": "purchasing managers' index (above 50 = growth)",
-        "cóng": "from",
-        "diào": "drop, fall",
-        "dào": "to",
-        "guónèi": "domestic",
-        "xūqiú": "demand",
-        "gòu": "enough"
-       }
-      },
-      "C": {
-       "text": "Guójiā Tǒngjìjú shùjù xiǎnshì, shòu nèixū bùzú hé chūkǒu fànghuǎn yǐngxiǎng, shí yuè zhìzàoyè PMI yóu 50.1 huíluò zhì 49.3, chóngfǎn shōusuō qūjiān.",
-       "script": "国家统计局数据显示，受内需不足和出口放缓影响，十月制造业PMI由50.1回落至49.3，重返收缩区间。",
-       "en": "National Bureau of Statistics data show that, hit by weak domestic demand and slowing exports, the manufacturing PMI fell back from 50.1 to 49.3 in October, returning to contraction territory.",
-       "gloss": {
-        "guójiā": "national, state",
-        "tǒngjìjú": "statistics bureau",
-        "shùjù": "data",
-        "xiǎnshì": "show",
-        "shòu": "be subject to (shòu … yǐngxiǎng = affected by)",
-        "nèixū": "domestic demand",
-        "bùzú": "insufficient",
-        "chūkǒu": "exports",
-        "fànghuǎn": "slow down",
-        "yǐngxiǎng": "influence, effect",
-        "shí": "ten",
-        "yuè": "month (shí yuè = October)",
-        "zhìzàoyè": "manufacturing",
-        "pmi": "purchasing managers' index",
-        "yóu": "from (formal)",
-        "huíluò": "fall back",
-        "zhì": "to (formal)",
-        "chóngfǎn": "return to",
-        "shōusuō": "contraction",
-        "qūjiān": "range, zone"
-       }
-      }
-     }
-    }
-   ],
-   "phrases": {
-    "A": [
-     {
-      "topic": "Ordering a coffee",
-      "situation": "At a café counter",
-      "lines": [
-       {
-        "who": "Barista",
-        "text": "Nǐ hǎo, hē diǎnr shénme?",
-        "script": "你好，喝点儿什么？",
-        "en": "Hi, what would you like to drink?",
-        "gloss": {
-         "hǎo": "good (nǐ hǎo = hello)",
-         "hē": "drink",
-         "diǎnr": "a little, some",
-         "shénme": "what"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Yì bēi nátiě, yào rè de.",
-        "script": "一杯拿铁，要热的。",
-        "en": "A latte, a hot one.",
-        "gloss": {
-         "bēi": "cup",
-         "nátiě": "latte",
-         "yào": "want",
-         "rè": "hot"
-        }
-       },
-       {
-        "who": "Barista",
-        "text": "Dà bēi háishi zhōng bēi?",
-        "script": "大杯还是中杯？",
-        "en": "Large or medium?",
-        "gloss": {
-         "dà": "big",
-         "bēi": "cup",
-         "háishi": "or (in questions)",
-         "zhōng": "medium, middle"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Zhōng bēi. Duōshao qián?",
-        "script": "中杯。多少钱？",
-        "en": "Medium. How much is it?",
-        "gloss": {
-         "zhōng": "medium",
-         "bēi": "cup",
-         "duōshao": "how much",
-         "qián": "money"
-        }
-       },
-       {
-        "who": "Barista",
-        "text": "Sānshí kuài. Sǎo zhèr jiù xíng.",
-        "script": "三十块。扫这儿就行。",
-        "en": "Thirty yuan. Just scan here.",
-        "gloss": {
-         "sānshí": "thirty",
-         "kuài": "yuan (spoken)",
-         "sǎo": "scan",
-         "zhèr": "here",
-         "xíng": "OK (jiù xíng = that's all it takes)"
-        }
-       }
-      ]
-     },
-     {
-      "topic": "Asking about opening hours",
-      "situation": "At the ticket desk of a museum",
-      "lines": [
-       {
-        "who": "You",
-        "text": "Qǐngwèn, bówùguǎn jǐ diǎn kāi mén?",
-        "script": "请问，博物馆几点开门？",
-        "en": "Excuse me, what time does the museum open?",
-        "gloss": {
-         "qǐngwèn": "excuse me (may I ask)",
-         "bówùguǎn": "museum",
-         "jǐ": "how many",
-         "diǎn": "o'clock",
-         "kāi": "open",
-         "mén": "door (kāi mén = open)"
-        }
-       },
-       {
-        "who": "Staff",
-        "text": "Zǎoshang jiǔ diǎn kāi, xiàwǔ wǔ diǎn guān.",
-        "script": "早上九点开，下午五点关。",
-        "en": "It opens at nine in the morning and closes at five in the afternoon.",
-        "gloss": {
-         "zǎoshang": "morning",
-         "jiǔ": "nine",
-         "diǎn": "o'clock",
-         "kāi": "open",
-         "xiàwǔ": "afternoon",
-         "wǔ": "five",
-         "guān": "close"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Xīngqīyī kāi ma?",
-        "script": "星期一开吗？",
-        "en": "Is it open on Monday?",
-        "gloss": {
-         "xīngqīyī": "Monday",
-         "kāi": "open"
-        }
-       },
-       {
-        "who": "Staff",
-        "text": "Xīngqīyī bù kāi. Miǎnfèi, dàn yào yùyuē.",
-        "script": "星期一不开。免费，但要预约。",
-        "en": "It's closed on Mondays. It's free, but you need to book.",
-        "gloss": {
-         "xīngqīyī": "Monday",
-         "kāi": "open",
-         "miǎnfèi": "free of charge",
-         "dàn": "but",
-         "yào": "need to",
-         "yùyuē": "book ahead"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Hǎo de, xièxie!",
-        "script": "好的，谢谢！",
-        "en": "OK, thanks!",
-        "gloss": {
-         "hǎo": "good (hǎo de = OK)",
-         "xièxie": "thank you"
-        }
-       }
-      ]
-     }
-    ],
-    "B": [
-     {
-      "topic": "Viewing a flat with an agent",
-      "situation": "An estate agent shows you a one-bedroom flat",
-      "region": "Běijīng",
-      "lines": [
-       {
-        "who": "Agent",
-        "text": "Zhè tào fángzi cǎiguāng tèbié hǎo, nín kànkan.",
-        "script": "这套房子采光特别好，您看看。",
-        "en": "This flat gets really good light, have a look.",
-        "gloss": {
-         "tào": "measure word for flats",
-         "fángzi": "flat, house",
-         "cǎiguāng": "natural light",
-         "tèbié": "especially",
-         "hǎo": "good",
-         "nín": "you (polite)",
-         "kànkan": "have a look"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Hái xíng. Fángzū yí ge yuè duōshao?",
-        "script": "还行。房租一个月多少？",
-        "en": "Not bad. How much is the rent a month?",
-        "gloss": {
-         "xíng": "OK (hái xíng = not bad)",
-         "fángzū": "rent",
-         "yuè": "month",
-         "duōshao": "how much"
-        }
-       },
-       {
-        "who": "Agent",
-        "text": "Wǔqiān'èr, yā yī fù sān.",
-        "script": "五千二，押一付三。",
-        "en": "Five thousand two hundred: one month's deposit, three months paid up front.",
-        "gloss": {
-         "wǔqiān'èr": "5,200 (five thousand two)",
-         "yā": "deposit",
-         "fù": "pay",
-         "sān": "three"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Āiyā, yǒudiǎnr guì a. Néng piányi diǎnr bù?",
-        "script": "哎呀，有点儿贵啊。能便宜点儿不？",
-        "en": "Oof, that's a bit pricey. Could you go a bit lower?",
-        "gloss": {
-         "āiyā": "oh dear",
-         "yǒudiǎnr": "a bit",
-         "guì": "expensive",
-         "a": "softening particle",
-         "néng": "can",
-         "piányi": "cheap",
-         "diǎnr": "a little"
-        }
-       },
-       {
-        "who": "Agent",
-        "text": "Fángdōng shuō le, zuì dī wǔqiān. Zhēn de, zhège jiàr hěn huásuàn.",
-        "script": "房东说了，最低五千。真的，这个价儿很划算。",
-        "en": "The landlord said five thousand is the lowest. Honestly, it's a good deal at that price.",
-        "gloss": {
-         "fángdōng": "landlord",
-         "shuō": "say",
-         "zuì": "most",
-         "dī": "low",
-         "wǔqiān": "five thousand",
-         "zhēn": "real (zhēn de = honestly)",
-         "jiàr": "price (Beijing speech)",
-         "huásuàn": "good value"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Xíng ba, wǒ zài xiǎngxiang, wǎnshang gěi nín huí ge huà.",
-        "script": "行吧，我再想想，晚上给您回个话。",
-        "en": "Alright, let me think it over; I'll get back to you tonight.",
-        "gloss": {
-         "xíng": "OK (xíng ba = alright then)",
-         "zài": "again, further",
-         "xiǎngxiang": "think it over",
-         "wǎnshang": "evening",
-         "gěi": "to, for",
-         "nín": "you (polite)",
-         "huí": "reply",
-         "huà": "word (huí ge huà = get back to someone)"
-        }
-       }
-      ]
-     },
-     {
-      "topic": "Planning a weekend trip",
-      "situation": "A friend suggests a weekend outside the city",
-      "region": "Běijīng",
-      "lines": [
-       {
-        "who": "Friend",
-        "text": "Zhōumò yǒu kòng méi? Zánmen qù Gùběikǒu pá chángchéng ba.",
-        "script": "周末有空没？咱们去古北口爬长城吧。",
-        "en": "Free this weekend? Let's go climb the Great Wall at Gubeikou.",
-        "gloss": {
-         "zhōumò": "weekend",
-         "kòng": "free time",
-         "méi": "not (yǒu kòng méi = free or not?)",
-         "zánmen": "we, you and I (northern)",
-         "pá": "climb",
-         "chángchéng": "the Great Wall"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Xíng a! Búguò wǒ xīngqīliù shàngwǔ děi jiābān, xiàwǔ zǒu chéng ma?",
-        "script": "行啊！不过我星期六上午得加班，下午走成吗？",
-        "en": "Sure! But I have to work Saturday morning; can we leave in the afternoon?",
-        "gloss": {
-         "xíng": "OK",
-         "a": "particle (warm tone)",
-         "búguò": "but",
-         "xīngqīliù": "Saturday",
-         "shàngwǔ": "morning",
-         "děi": "have to",
-         "jiābān": "work overtime",
-         "xiàwǔ": "afternoon",
-         "zǒu": "leave",
-         "chéng": "OK (northern colloquial)"
-        }
-       },
-       {
-        "who": "Friend",
-        "text": "Chéng. Nà wǒmen zhù yì wǎn, xīngqītiān zǎoshang kàn rìchū.",
-        "script": "成。那我们住一晚，星期天早上看日出。",
-        "en": "Fine. Then we'll stay a night and watch the sunrise on Sunday morning.",
-        "gloss": {
-         "chéng": "OK (northern colloquial)",
-         "nà": "then",
-         "zhù": "stay",
-         "wǎn": "night",
-         "xīngqītiān": "Sunday",
-         "zǎoshang": "morning",
-         "kàn": "watch",
-         "rìchū": "sunrise"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Hǎo zhǔyi! Mínsù wǒ lái dìng, nǐ guǎn chē, zěnmeyàng?",
-        "script": "好主意！民宿我来订，你管车，怎么样？",
-        "en": "Good idea! I'll book the guesthouse, you sort out the car, OK?",
-        "gloss": {
-         "hǎo": "good",
-         "zhǔyi": "idea",
-         "mínsù": "guesthouse, B&B",
-         "dìng": "book",
-         "guǎn": "take care of",
-         "chē": "car",
-         "zěnmeyàng": "how about it"
-        }
-       },
-       {
-        "who": "Friend",
-        "text": "Méi wèntí. Nà jiù zhème dìng le!",
-        "script": "没问题。那就这么定了！",
-        "en": "No problem. It's a deal, then!",
-        "gloss": {
-         "méi": "not",
-         "wèntí": "problem",
-         "nà": "then",
-         "zhème": "like this",
-         "dìng": "settle (jiù zhème dìng le = it's a deal)"
-        }
-       }
-      ]
-     }
-    ]
-   },
-   "quote": {
-    "text": "Zhī shì xíng zhī shǐ, xíng shì zhī zhī chéng.",
-    "script": "知是行之始，行是知之成。",
-    "en": "Knowing is the beginning of doing; doing is the completion of knowing.",
-    "gloss": {
-     "zhī": "knowing (知); also 之, classical 'of'",
-     "xíng": "doing, action",
-     "shǐ": "beginning",
-     "chéng": "completion"
-    },
-    "who": "Wáng Yángmíng",
-    "when": "early 16th century",
-    "about": "The Ming-dynasty philosopher Wang Yangming taught the 'unity of knowing and doing' (zhī xíng hé yī); this line from his Chuánxí lù sums the idea up and is still quoted in schools and boardrooms across China."
-   },
-   "lit": {
-    "text": "Shān bú zài gāo, yǒu xiān zé míng. Shuǐ bú zài shēn, yǒu lóng zé líng.",
-    "script": "山不在高，有仙则名。水不在深，有龙则灵。",
-    "en": "A mountain need not be high: if an immortal lives there, it is famous. Water need not be deep: if a dragon lives there, it has magic.",
-    "gloss": {
-     "shān": "mountain",
-     "gāo": "high",
-     "xiān": "immortal",
-     "zé": "then (classical)",
-     "míng": "famous",
-     "shuǐ": "water",
-     "shēn": "deep",
-     "lóng": "dragon",
-     "líng": "magical, full of spirit"
-    },
-    "author": "Liú Yǔxī",
-    "work": "Lòushì míng (Inscription on a Humble Room)",
-    "when": "9th century (Tang dynasty)",
-    "about": "In this tiny prose-poem Liu praises his plain little house: what makes a place matter is who lives there, not its size; generations of Chinese pupils learn it by heart."
-   },
-   "vocab": {
-    "A": [
-     {
-      "word": "máng",
-      "wordScript": "忙",
-      "pos": "adjective",
-      "region": "general",
-      "ties": "news",
-      "meaning": "busy",
-      "note": "Also a friendly greeting: Zuìjìn máng ma? 'Been busy lately?' The answer is often just: Hái xíng.",
-      "example": "Zhè jiā gōngchǎng zuìjìn hěn máng.",
-      "exScript": "这家工厂最近很忙。",
-      "exampleEn": "This factory has been busy lately.",
-      "exGloss": {
-       "jiā": "measure word for businesses",
-       "gōngchǎng": "factory",
-       "zuìjìn": "lately",
-       "máng": "busy"
-      }
-     },
-     {
-      "word": "yùyuē",
-      "wordScript": "预约",
-      "pos": "verb",
-      "region": "general",
-      "ties": "phrase2",
-      "meaning": "to book ahead, make an appointment",
-      "note": "Museums, hospitals and many attractions in China ask you to yùyuē online first, often in a WeChat mini-app. For a restaurant table people usually say dìng zuò.",
-      "example": "Wǒ yào yùyuē míngtiān shàngwǔ de piào.",
-      "exScript": "我要预约明天上午的票。",
-      "exampleEn": "I'd like to book a ticket for tomorrow morning.",
-      "exGloss": {
-       "yào": "want",
-       "yùyuē": "book ahead",
-       "shàngwǔ": "morning",
-       "piào": "ticket"
-      }
-     }
-    ],
-    "B": [
-     {
-      "word": "huásuàn",
-      "wordScript": "划算",
-      "pos": "adjective",
-      "region": "general",
-      "ties": "phrase1",
-      "meaning": "worth it, good value",
-      "note": "The everyday way to say a price is fair; the opposite is bù huásuàn. A close cousin: zhí, 'worth it'.",
-      "example": "Zhè tào fángzi lí dìtiě jìn, wǔqiān kuài hěn huásuàn.",
-      "exScript": "这套房子离地铁近，五千块很划算。",
-      "exampleEn": "This flat is close to the subway; five thousand is a good deal.",
-      "exGloss": {
-       "tào": "measure word for flats",
-       "fángzi": "flat",
-       "lí": "from",
-       "dìtiě": "subway",
-       "jìn": "close",
-       "wǔqiān": "five thousand",
-       "kuài": "yuan (spoken)",
-       "huásuàn": "good value"
-      }
-     },
-     {
-      "word": "jiù zhème dìng le",
-      "wordScript": "就这么定了",
-      "pos": "idiom",
-      "region": "general",
-      "ties": "phrase2",
-      "meaning": "it's settled, it's a deal",
-      "note": "Said to close a plan. Shorter and very casual: Dìng le! In the south you'll also hear Jiù zhèyàng ba.",
-      "example": "Xīngqīliù xiàwǔ sān diǎn chūfā, jiù zhème dìng le!",
-      "exScript": "星期六下午三点出发，就这么定了！",
-      "exampleEn": "We set off at three on Saturday afternoon. It's settled!",
-      "exGloss": {
-       "xīngqīliù": "Saturday",
-       "xiàwǔ": "afternoon",
-       "sān": "three",
-       "diǎn": "o'clock",
-       "chūfā": "set off",
-       "zhème": "like this",
-       "dìng": "settle"
-      }
-     }
-    ],
-    "C": [
-     {
-      "word": "huíluò",
-      "wordScript": "回落",
-      "pos": "verb",
-      "region": "general",
-      "ties": "news",
-      "meaning": "to fall back, ease off (prices, figures)",
-      "note": "News and money talk, but people use it about house prices, temperatures, even a fever: shāo huíluò le.",
-      "example": "Jiérì guò hòu, xiāofèi hěn kuài jiù huíluò le.",
-      "exScript": "节日过后，消费很快就回落了。",
-      "exampleEn": "After the holiday, consumer spending soon fell back.",
-      "exGloss": {
-       "jiérì": "holiday",
-       "guò": "pass",
-       "hòu": "after",
-       "xiāofèi": "spending",
-       "kuài": "fast",
-       "huíluò": "fall back"
-      }
-     },
-     {
-      "word": "líng",
-      "wordScript": "灵",
-      "pos": "adjective",
-      "region": "general",
-      "ties": "lit",
-      "meaning": "magical; today usually 'works well, effective' or 'quick, clever'",
-      "note": "In the old text it means 'filled with spirit'. Now: Zhè yào hěn líng (this medicine really works), nǎozi líng (sharp-witted).",
-      "example": "Zhè zuò xiǎo miào hěn líng, hěn duō rén lái xǔyuàn.",
-      "exScript": "这座小庙很灵，很多人来许愿。",
-      "exampleEn": "People say this little temple really works; lots of people come to make wishes.",
-      "exGloss": {
-       "zuò": "measure word for buildings",
-       "xiǎo": "small",
-       "miào": "temple",
-       "líng": "effective, magical",
-       "duō": "many",
-       "xǔyuàn": "make a wish"
-      }
-     }
-    ]
-   },
-   "quiz": [
-    {
-     "level": "A1",
-     "ref": "phrase1",
-     "q": "At the café, the barista asks «Dà bēi háishi zhōng bēi?». What are they asking?",
-     "options": [
-      "Hot or iced?",
-      "Large or medium?",
-      "To drink here or take away?",
-      "Cash or phone?"
-     ],
-     "answer": 1,
-     "why": "Dà = big, zhōng = medium, bēi = cup; háishi = 'or' in a question.",
-     "lesson": "Temperature would need rè (hot); learners pick the first café question they know instead of decoding dà and zhōng."
-    },
-    {
-     "level": "A2",
-     "ref": "news",
-     "q": "The headline says «Shí yuè, Zhōngguó gōngchǎng bù tài máng.» What does it say about Chinese factories?",
-     "options": [
-      "They are closed in October",
-      "They are too busy in October",
-      "They are not very busy in October",
-      "They open ten new factories"
-     ],
-     "answer": 2,
-     "why": "Shí yuè = October, bù tài = not very, máng = busy.",
-     "lesson": "Tài alone means 'too' (tài máng = too busy), but with bù in front it softens into 'not very', a mild, polite negative."
-    },
-    {
-     "level": "B1",
-     "ref": "phrase1",
-     "q": "Kàn fángzi de shíhou, zhōngjiè shuō «yā yī fù sān». Zhè shì shénme yìsi?",
-     "options": [
-      "Yā yí ge yuè, xiān fù sān ge yuè fángzū",
-      "Fángzū yí ge yuè sānqiān kuài",
-      "Zhù yì nián, fù sān nián",
-      "Dì yī ge yuè miǎnfèi"
-     ],
-     "answer": 0,
-     "why": "Yā = deposit, fù = pay: one month's deposit plus three months' rent up front, the usual deal for rentals in China.",
-     "lesson": "Here yī and sān count months, not thousands or years; seeing sān, learners jump to sānqiān (3,000)."
-    },
-    {
-     "level": "B2",
-     "ref": "news",
-     "q": "Xīnwén li shuō, shí yuè zhìzàoyè PMI zěnme le?",
-     "options": [
-      "Cóng 49.3 shàngshēng dào 50.1",
-      "Cóng 50.1 diào dào le 49.3",
-      "Méiyǒu biànhuà",
-      "Diào dào le 43.9"
-     ],
-     "answer": 1,
-     "why": "Cóng … diào dào … = dropped from … to …: from 50.1 to 49.3.",
-     "lesson": "Cóng marks the starting point and dào the end point; swap them in your head and the fall turns into a rise."
-    },
-    {
-     "level": "C1",
-     "ref": "lit",
-     "q": "Liú Yǔxī xiě «Shān bú zài gāo, yǒu xiān zé míng». Zhè jù huà de yìsi shì?",
-     "options": [
-      "Shān yuè gāo yuè yǒumíng",
-      "Shénxiān bù xǐhuan gāo shān",
-      "Shuǐ shēn de dìfang cái yǒu lóng",
-      "Yí ge dìfang yǒumíng, bú kào dàxiǎo, ér kào lǐmiàn de rén"
-     ],
-     "answer": 3,
-     "why": "Bú zài = doesn't depend on; zé = then: a place is famous because of who lives there, not its height.",
-     "lesson": "Zài here isn't 'at' but 'lie in, depend on'; read as 'at', the line seems to complain the mountain isn't high."
-    },
-    {
-     "level": "C2",
-     "ref": "quote",
-     "q": "Wáng Yángmíng shuō «Zhī shì xíng zhī shǐ». Zhè lǐ dì èr ge «zhī» shì shénme yìsi?",
-     "options": [
-      "zhīdao (to know)",
-      "de (of)",
-      "tā (him, it)",
-      "zhǐ (only)"
-     ],
-     "answer": 1,
-     "why": "The second zhī is 之, the classical linking word that modern Chinese replaces with de: 'the beginning OF doing'.",
-     "lesson": "The first zhī is 知, 'knowing', with the same sound and tone; pinyin hides the different characters, so 'know' feels right twice."
-    }
-   ],
-   "tip": {
-    "title": "Say a verb twice to soften it",
-    "text": "Doubling a verb makes it brief and casual: 'have a quick try', 'take a little rest'. Shì (try) → shìshi; cháng (taste) → chángchang: Nǐ chángchang! 'Have a taste!' Two-syllable verbs double as ABAB: xiūxi → xiūxi xiūxi. It turns requests and offers gentle and friendly."
-   },
-   "fun": {
-    "kind": "idiom",
-    "region": "general",
-    "text": "Duì niú tán qín",
-    "script": "对牛弹琴",
-    "gloss": {
-     "duì": "to, facing",
-     "niú": "cow, ox",
-     "tán": "play (a string instrument)",
-     "qín": "zither"
-    },
-    "literal": "Playing the zither to a cow.",
-    "meaning": "Wasting your words on someone who can't or won't understand.",
-    "culture": "From an old tale of a musician whose refined tune left an ox calmly grazing. Today it's a teasing remark between friends after explaining something in vain; said to your boss it would sound rude."
-   }
-  },
-  "ru": {
-   "news": [
-    {
-     "topic": "Toplivo · Rossiya",
-     "source": "https://www.interfax.ru/russia/1126322",
-     "levels": {
-      "A": {
-       "text": "Pravitelstvo snova zapreshchayet prodavat dizel za granitsu.",
-       "script": "Правительство снова запрещает продавать дизель за границу.",
-       "en": "The government again bans selling diesel abroad.",
-       "gloss": {
-        "pravitelstvo": "government",
-        "snova": "again",
-        "zapreshchayet": "bans",
-        "prodavat": "to sell",
-        "dizel": "diesel",
-        "granitsu": "border (za granitsu = abroad)"
-       }
-      },
-      "B": {
-       "text": "Pravitelstvo prodlilo zapret na eksport dizelnogo topliva dlya proizvoditeley do 31 yanvarya.",
-       "script": "Правительство продлило запрет на экспорт дизельного топлива для производителей до 31 января.",
-       "en": "The government extended the ban on diesel fuel exports by producers until 31 January.",
-       "gloss": {
-        "pravitelstvo": "government",
-        "prodlilo": "extended",
-        "zapret": "ban",
-        "eksport": "export",
-        "dizelnogo": "diesel (adj.)",
-        "topliva": "fuel (of)",
-        "proizvoditeley": "producers",
-        "yanvarya": "of January"
-       }
-      },
-      "C": {
-       "text": "Pravitelstvo Rossii prodlilo vremennyy zapret na vyvoz dizelnogo topliva iz strany proizvoditelyami do 31 yanvarya 2027 goda.",
-       "script": "Правительство России продлило временный запрет на вывоз дизельного топлива из страны производителями до 31 января 2027 года.",
-       "en": "The Russian government has extended the temporary ban on producers exporting diesel fuel from the country until 31 January 2027.",
-       "gloss": {
-        "pravitelstvo": "government",
-        "prodlilo": "extended",
-        "vremennyy": "temporary",
-        "zapret": "ban",
-        "vyvoz": "export, taking out",
-        "dizelnogo": "diesel (adj.)",
-        "topliva": "fuel (of)",
-        "strany": "the country (of)",
-        "proizvoditelyami": "by producers",
-        "yanvarya": "of January"
-       }
-      }
-     }
-    }
-   ],
-   "phrases": {
-    "A": [
-     {
-      "topic": "Buying bread at a bakery",
-      "situation": "At the counter of a neighbourhood bakery",
-      "region": "Moskva",
-      "lines": [
-       {
-        "who": "You",
-        "text": "Zdravstvuyte! Odin baton, pozhaluysta.",
-        "script": "Здравствуйте! Один батон, пожалуйста.",
-        "en": "Hello! One white loaf, please.",
-        "gloss": {
-         "zdravstvuyte": "hello (polite)",
-         "odin": "one",
-         "baton": "long white loaf",
-         "pozhaluysta": "please"
-        }
-       },
-       {
-        "who": "Seller",
-        "text": "Vam narezat?",
-        "script": "Вам нарезать?",
-        "en": "Shall I slice it for you?",
-        "gloss": {
-         "vam": "for you",
-         "narezat": "to slice"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Da, spasibo. I dve bulochki s makom.",
-        "script": "Да, спасибо. И две булочки с маком.",
-        "en": "Yes, thanks. And two poppy-seed buns.",
-        "gloss": {
-         "spasibo": "thank you",
-         "dve": "two",
-         "bulochki": "buns",
-         "makom": "poppy seed (s makom = with poppy seed)"
-        }
-       },
-       {
-        "who": "Seller",
-        "text": "Sto dvadtsat rubley.",
-        "script": "Сто двадцать рублей.",
-        "en": "A hundred and twenty roubles.",
-        "gloss": {
-         "sto": "hundred",
-         "dvadtsat": "twenty",
-         "rubley": "roubles"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Kartoy mozhno?",
-        "script": "Картой можно?",
-        "en": "Can I pay by card?",
-        "gloss": {
-         "kartoy": "by card",
-         "mozhno": "is it possible, may I"
-        }
-       },
-       {
-        "who": "Seller",
-        "text": "Konechno, prikladyvayte.",
-        "script": "Конечно, прикладывайте.",
-        "en": "Of course, tap it.",
-        "gloss": {
-         "konechno": "of course",
-         "prikladyvayte": "tap (lit. hold it against)"
-        }
-       }
-      ]
-     },
-     {
-      "topic": "Taking a taxi",
-      "situation": "Getting into a taxi you ordered on an app",
-      "region": "Moskva",
-      "lines": [
-       {
-        "who": "Driver",
-        "text": "Dobryy den! Vy zakazyvali taksi?",
-        "script": "Добрый день! Вы заказывали такси?",
-        "en": "Good afternoon! Did you order a taxi?",
-        "gloss": {
-         "dobryy": "good",
-         "den": "day",
-         "zakazyvali": "ordered",
-         "taksi": "taxi"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Da, na Tverskuyu ulitsu, dom desyat.",
-        "script": "Да, на Тверскую улицу, дом десять.",
-        "en": "Yes, to Tverskaya Street, number ten.",
-        "gloss": {
-         "ulitsu": "street",
-         "dom": "building number (lit. house)",
-         "desyat": "ten"
-        }
-       },
-       {
-        "who": "Driver",
-        "text": "Khorosho. Pristegnites, pozhaluysta.",
-        "script": "Хорошо. Пристегнитесь, пожалуйста.",
-        "en": "OK. Please buckle up.",
-        "gloss": {
-         "khorosho": "good, OK",
-         "pristegnites": "buckle up",
-         "pozhaluysta": "please"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Skolko ekhat?",
-        "script": "Сколько ехать?",
-        "en": "How long's the drive?",
-        "gloss": {
-         "skolko": "how much, how long",
-         "ekhat": "to drive, ride"
-        }
-       },
-       {
-        "who": "Driver",
-        "text": "Minut pyatnadtsat, yesli ne budet probok.",
-        "script": "Минут пятнадцать, если не будет пробок.",
-        "en": "About fifteen minutes, if there's no traffic.",
-        "gloss": {
-         "minut": "minutes (number after it = 'about')",
-         "pyatnadtsat": "fifteen",
-         "yesli": "if",
-         "budet": "will be",
-         "probok": "traffic jams"
-        }
-       }
-      ]
-     }
-    ],
-    "B": [
-     {
-      "topic": "Changing plans with a friend",
-      "situation": "A friend calls about Saturday's film",
-      "lines": [
-       {
-        "who": "Friend",
-        "text": "Privet! Nu chto, v subbotu v kino idyom?",
-        "script": "Привет! Ну что, в субботу в кино идём?",
-        "en": "Hi! So, are we going to the cinema on Saturday?",
-        "gloss": {
-         "privet": "hi",
-         "nu": "well, so",
-         "subbotu": "Saturday",
-         "kino": "cinema",
-         "idyom": "we're going"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Slushay, tut takoye delo… Menya na rabote zavalili, v subbotu ne poluchitsya.",
-        "script": "Слушай, тут такое дело… Меня на работе завалили, в субботу не получится.",
-        "en": "Listen, here's the thing… I'm swamped at work, Saturday won't work.",
-        "gloss": {
-         "slushay": "listen",
-         "tut": "here",
-         "takoye": "such",
-         "delo": "matter (tut takoye delo = here's the thing)",
-         "rabote": "work",
-         "zavalili": "swamped (slang, lit. buried)",
-         "subbotu": "Saturday",
-         "poluchitsya": "work out (ne poluchitsya = won't work)"
-        }
-       },
-       {
-        "who": "Friend",
-        "text": "Da ladno! A v voskresenye?",
-        "script": "Да ладно! А в воскресенье?",
-        "en": "Oh, come on! What about Sunday?",
-        "gloss": {
-         "ladno": "fine (da ladno = come on, no way)",
-         "voskresenye": "Sunday"
-        }
-       },
-       {
-        "who": "You",
-        "text": "V voskresenye — davay. Tolko ne s utra, ya otosplyus.",
-        "script": "В воскресенье — давай. Только не с утра, я отосплюсь.",
-        "en": "Sunday, let's do it. Just not in the morning, I'm going to sleep in.",
-        "gloss": {
-         "voskresenye": "Sunday",
-         "davay": "let's (do it)",
-         "tolko": "only, just",
-         "utra": "morning (s utra = in the morning)",
-         "otosplyus": "I'll catch up on sleep"
-        }
-       },
-       {
-        "who": "Friend",
-        "text": "Okey, togda na shest vechera. Bilety ya perenesu.",
-        "script": "Окей, тогда на шесть вечера. Билеты я перенесу.",
-        "en": "OK, then six in the evening. I'll move the tickets.",
-        "gloss": {
-         "okey": "OK",
-         "togda": "then",
-         "shest": "six",
-         "vechera": "in the evening",
-         "bilety": "tickets",
-         "perenesu": "I'll move, reschedule"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Ty luchshiy! S menya popkorn.",
-        "script": "Ты лучший! С меня попкорн.",
-        "en": "You're the best! Popcorn's on me.",
-        "gloss": {
-         "luchshiy": "the best",
-         "popkorn": "popcorn (s menya = it's on me)"
-        }
-       }
-      ]
-     },
-     {
-      "topic": "Phone call: the courier can't get in",
-      "situation": "Your food delivery is downstairs and the intercom is broken",
-      "region": "Moskva",
-      "lines": [
-       {
-        "who": "Courier",
-        "text": "Allo, zdravstvuyte, eto kurer. Ya u vashego podyezda, a domofon ne rabotayet.",
-        "script": "Алло, здравствуйте, это курьер. Я у вашего подъезда, а домофон не работает.",
-        "en": "Hello, it's the courier. I'm at your entrance, but the intercom doesn't work.",
-        "gloss": {
-         "allo": "hello (on the phone)",
-         "zdravstvuyte": "hello (polite)",
-         "kurer": "courier",
-         "vashego": "your",
-         "podyezda": "entrance of a block of flats",
-         "domofon": "intercom",
-         "rabotayet": "works"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Oy, izvinite! Seychas spushchus. Vy s kakoy storony?",
-        "script": "Ой, извините! Сейчас спущусь. Вы с какой стороны?",
-        "en": "Oh, sorry! I'll come down now. Which side are you on?",
-        "gloss": {
-         "oy": "oh",
-         "izvinite": "sorry",
-         "seychas": "right now",
-         "spushchus": "I'll come down",
-         "kakoy": "which",
-         "storony": "side"
-        }
-       },
-       {
-        "who": "Courier",
-        "text": "So dvora, vozle pesochnitsy.",
-        "script": "Со двора, возле песочницы.",
-        "en": "On the courtyard side, by the sandpit.",
-        "gloss": {
-         "dvora": "courtyard (so dvora = from the courtyard side)",
-         "vozle": "next to",
-         "pesochnitsy": "sandpit"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Ponyal, begu! Minutku.",
-        "script": "Понял, бегу! Минутку.",
-        "en": "Got it, I'm on my way! One moment.",
-        "gloss": {
-         "ponyal": "got it (lit. understood)",
-         "begu": "I'm running",
-         "minutku": "one moment"
-        }
-       },
-       {
-        "who": "Courier",
-        "text": "Tolko pobystreye, u menya yeshchyo pyat zakazov.",
-        "script": "Только побыстрее, у меня ещё пять заказов.",
-        "en": "Just be quick, I've got five more orders.",
-        "gloss": {
-         "tolko": "only, just",
-         "pobystreye": "a bit faster",
-         "yeshchyo": "more, still",
-         "pyat": "five",
-         "zakazov": "orders"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Vsyo, vizhu vas. Spasibo, chto podozhdali!",
-        "script": "Всё, вижу вас. Спасибо, что подождали!",
-        "en": "There, I can see you. Thanks for waiting!",
-        "gloss": {
-         "vsyo": "that's it, there",
-         "vizhu": "I see",
-         "spasibo": "thank you",
-         "podozhdali": "waited"
-        }
-       }
-      ]
-     }
-    ]
-   },
-   "quote": {
-    "text": "Luchshe gor mogut byt tolko gory, na kotorykh yeshchyo ne byval.",
-    "script": "Лучше гор могут быть только горы, на которых ещё не бывал.",
-    "en": "The only thing better than mountains is mountains you've never been to.",
-    "gloss": {
-     "luchshe": "better",
-     "gor": "than mountains (genitive)",
-     "mogut": "can",
-     "byt": "be",
-     "tolko": "only",
-     "gory": "mountains",
-     "kotorykh": "which",
-     "yeshchyo": "yet",
-     "byval": "been (to)"
-    },
-    "who": "Vladimir Vysotskiy",
-    "when": "1966",
-    "about": "The actor and bard Vysotsky wrote this song for the mountaineering film Vertikal; the line became a motto for Russian hikers and for anyone always chasing the next adventure."
-   },
-   "lit": {
-    "text": "Shyopot, robkoye dykhanye, treli solovya.",
-    "script": "Шёпот, робкое дыханье, трели соловья.",
-    "en": "A whisper, timid breathing, the trills of a nightingale.",
-    "gloss": {
-     "shyopot": "whisper",
-     "robkoye": "timid",
-     "dykhanye": "breathing",
-     "treli": "trills",
-     "solovya": "of a nightingale"
-    },
-    "author": "Afanasiy Fet",
-    "work": "Shyopot, robkoye dykhanye… (untitled poem)",
-    "when": "1850",
-    "about": "Fet paints a night of love through sounds and images alone, without a single verb in the whole poem; critics mocked it at first, and today every Russian schoolchild knows it."
-   },
-   "vocab": {
-    "A": [
-     {
-      "word": "baton",
-      "wordScript": "батон",
-      "pos": "noun",
-      "region": "Moskva",
-      "ties": "phrase1",
-      "meaning": "long white loaf",
-      "note": "Muscovites say baton; in St Petersburg many people call white bread bulka instead.",
-      "example": "Mne baton i chyornyy khleb, pozhaluysta.",
-      "exScript": "Мне батон и чёрный хлеб, пожалуйста.",
-      "exampleEn": "A white loaf and some rye bread for me, please.",
-      "exGloss": {
-       "mne": "for me",
-       "baton": "white loaf",
-       "chyornyy": "black (chyornyy khleb = rye bread)",
-       "khleb": "bread",
-       "pozhaluysta": "please"
-      }
-     },
-     {
-      "word": "za granitsu",
-      "wordScript": "за границу",
-      "pos": "phrase",
-      "region": "general",
-      "ties": "news",
-      "meaning": "abroad (going there)",
-      "note": "For movement: yekhat za granitsu. For being there: zhit za granitsey.",
-      "example": "Etot zavod prodayot dizel za granitsu.",
-      "exScript": "Этот завод продаёт дизель за границу.",
-      "exampleEn": "This plant sells diesel abroad.",
-      "exGloss": {
-       "zavod": "plant, factory",
-       "prodayot": "sells",
-       "dizel": "diesel",
-       "granitsu": "border (za granitsu = abroad)"
-      }
-     }
-    ],
-    "B": [
-     {
-      "word": "tut takoye delo",
-      "wordScript": "тут такое дело",
-      "pos": "idiom",
-      "region": "general",
-      "ties": "phrase1",
-      "meaning": "here's the thing",
-      "note": "A soft lead-in before awkward news or a favour; also vot takoye delo.",
-      "example": "Slushay, tut takoye delo: ya v subbotu rabotayu.",
-      "exScript": "Слушай, тут такое дело: я в субботу работаю.",
-      "exampleEn": "Listen, here's the thing: I'm working on Saturday.",
-      "exGloss": {
-       "slushay": "listen",
-       "tut": "here",
-       "takoye": "such",
-       "delo": "matter",
-       "subbotu": "Saturday",
-       "rabotayu": "I work"
-      }
-     },
-     {
-      "word": "podyezd",
-      "wordScript": "подъезд",
-      "pos": "noun",
-      "region": "Moskva",
-      "ties": "phrase2",
-      "meaning": "entrance and stairwell of a block of flats",
-      "note": "In St Petersburg people famously say paradnaya instead.",
-      "example": "Kurer zhdyot u tretyego podyezda.",
-      "exScript": "Курьер ждёт у третьего подъезда.",
-      "exampleEn": "The courier is waiting at the third entrance.",
-      "exGloss": {
-       "kurer": "courier",
-       "zhdyot": "is waiting",
-       "tretyego": "third",
-       "podyezda": "entrance"
-      }
-     }
-    ],
-    "C": [
-     {
-      "word": "vremennyy",
-      "wordScript": "временный",
-      "pos": "adjective",
-      "region": "general",
-      "ties": "news",
-      "meaning": "temporary",
-      "note": "Everyday too: vremennaya rabota (a temp job), vremennye trudnosti (a rough patch).",
-      "example": "Eto vremennyy zapret, do kontsa yanvarya.",
-      "exScript": "Это временный запрет, до конца января.",
-      "exampleEn": "It's a temporary ban, until the end of January.",
-      "exGloss": {
-       "vremennyy": "temporary",
-       "zapret": "ban",
-       "kontsa": "end (of)",
-       "yanvarya": "of January"
-      }
-     },
-     {
-      "word": "byvat",
-      "wordScript": "бывать",
-      "pos": "verb",
-      "region": "general",
-      "ties": "quote",
-      "meaning": "to have been (somewhere), to visit from time to time",
-      "note": "The standard way to ask 'have you ever been?': Ty byval v Pitere? Also 'happens': Byvayet! 'It happens!'",
-      "example": "Ty kogda-nibud byval v gorakh?",
-      "exScript": "Ты когда-нибудь бывал в горах?",
-      "exampleEn": "Have you ever been to the mountains?",
-      "exGloss": {
-       "kogda-nibud": "ever",
-       "byval": "been",
-       "gorakh": "mountains (in the)"
-      }
-     }
-    ]
-   },
-   "quiz": [
-    {
-     "level": "A1",
-     "ref": "phrase1",
-     "q": "At the bakery, the seller asks «Vam narezat?». What is the seller offering?",
-     "options": [
-      "To bag it",
-      "To slice it",
-      "To heat it up",
-      "To give you change"
-     ],
-     "answer": 1,
-     "why": "Narezat = to slice; vam = for you.",
-     "lesson": "Vam sounds like the start of a payment or packing question, the usual shop talk, so learners guess without looking at the verb."
-    },
-    {
-     "level": "A2",
-     "ref": "news",
-     "q": "The headline says «Pravitelstvo snova zapreshchayet prodavat dizel za granitsu». What does the government do?",
-     "options": [
-      "It buys diesel from abroad",
-      "It opens the border for diesel",
-      "It bans selling diesel abroad again",
-      "It lowers the price of diesel"
-     ],
-     "answer": 2,
-     "why": "Zapreshchayet = bans, snova = again, prodavat = to sell, za granitsu = abroad.",
-     "lesson": "Granitsa is 'border', which pulls people toward 'opens the border'; za granitsu as a whole simply means 'abroad'."
-    },
-    {
-     "level": "B1",
-     "ref": "phrase1",
-     "q": "Drug sprashivayet pro voskresenye. Pochemu vy ne khotite vstrechatsya s utra?",
-     "options": [
-      "Potomu chto rabotayete",
-      "Potomu chto khotite otospatsya",
-      "Potomu chto net biletov",
-      "Potomu chto idyote v kino s drugim"
-     ],
-     "answer": 1,
-     "why": "Ya otosplyus = I'll catch up on sleep.",
-     "lesson": "Work is mentioned, but as the reason Saturday is off; Sunday morning is about sleep."
-    },
-    {
-     "level": "B2",
-     "ref": "vocab2",
-     "q": "Kurer govorit: «Ya u vashego podyezda». Gde on?",
-     "options": [
-      "Na vashem etazhe",
-      "V vashey kvartire",
-      "Na ostanovke",
-      "U vkhoda v vash dom"
-     ],
-     "answer": 3,
-     "why": "Podyezd is the entrance and stairwell of an apartment block.",
-     "lesson": "Podyezd comes from podyezzhat, 'to drive up', so learners think of a stop or a car park; it's the door of the building."
-    },
-    {
-     "level": "C1",
-     "ref": "lit",
-     "q": "V stroke Feta «Shyopot, robkoye dykhanye, treli solovya» net ni odnogo…",
-     "options": [
-      "glagola",
-      "prilagatelnogo",
-      "sushchestvitelnogo",
-      "znaka prepinaniya"
-     ],
-     "answer": 0,
-     "why": "Shyopot, dykhanye, treli are nouns, robkoye an adjective; there's no verb at all, and Fet keeps it that way through the whole poem.",
-     "lesson": "Russian drops 'is' in the present anyway, so a verbless line doesn't feel odd, and readers don't notice what is missing."
-    },
-    {
-     "level": "C2",
-     "ref": "quote",
-     "q": "Vysotskiy: «Luchshe gor mogut byt tolko gory…» Pochemu zdes «gor», a ne «gory»?",
-     "options": [
-      "Eto podlezhashcheye",
-      "Posle «bez» nuzhen roditelnyy padezh",
-      "Posle sravneniya «luchshe» bez «chem» stavyat roditelnyy padezh",
-      "Eto mesto: «na gorakh»"
-     ],
-     "answer": 2,
-     "why": "After a comparative like luchshe, Russian can drop chem and put the noun in the genitive: luchshe gor = better than mountains.",
-     "lesson": "The genitive gor is so often seen after bez that learners hear 'without mountains'; here it is the comparison case."
-    }
-   ],
-   "tip": {
-    "title": "No 'a', no 'the'",
-    "text": "Russian has no articles. Kniga can mean 'a book' or 'the book'; word order does the work. New information tends to go last: Na stole kniga = 'There's a book on the table'. Known information goes first: Kniga na stole = 'The book is on the table'."
-   },
-   "fun": {
-    "kind": "idiom",
-    "region": "general",
-    "text": "Veshat lapshu na ushi",
-    "script": "Вешать лапшу на уши",
-    "gloss": {
-     "veshat": "to hang",
-     "lapshu": "noodles",
-     "ushi": "ears"
-    },
-    "literal": "To hang noodles on someone's ears.",
-    "meaning": "To feed someone nonsense, spin a tall tale.",
-    "culture": "You'll hear it constantly: Ne veshay mne lapshu na ushi! 'Don't give me that!' Nobody agrees where the phrase comes from, which suits an idiom about tall tales."
-   }
-  },
-  "fa": {
-   "news": [
-    {
-     "topic": "Bours · Tehraan",
-     "source": "https://www.rokna.net/%D8%A8%D8%AE%D8%B4-%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%DB%8C-65/1262931-%D8%A8%D9%88%D8%B1%D8%B3-%D8%A7%D9%85%D8%B1%D9%88%D8%B2-%DB%8C%DA%A9%D8%B4%D9%86%D8%A8%D9%87-%D8%A2%D8%A8%D8%A7%D9%86-%D8%B4%D8%A7%D8%AE%D8%B5-%DA%A9%D9%84-%D8%B3%D9%82%D9%88%D8%B7-%DA%A9%D8%B1%D8%AF-%D8%AC%D8%AF%D9%88%D9%84",
-     "levels": {
-      "A": {
-       "text": "Emruz shaakhes-e bours-e Tehraan khayli kam mishavad.",
-       "script": "امروز شاخص بورس تهران خیلی کم می‌شود.",
-       "en": "Today the Tehran stock index drops a lot.",
-       "gloss": {
-        "shaakhes-e": "index of",
-        "bours-e": "stock exchange of",
-        "kam": "little, less",
-        "mishavad": "becomes (kam mishavad = goes down)"
-       }
-      },
-      "B": {
-       "text": "Shaakhes-e kol-e bours-e Tehraan emruz bish az 184 hezaar vaahed oft kard.",
-       "script": "شاخص کل بورس تهران امروز بیش از ۱۸۴ هزار واحد افت کرد.",
-       "en": "The main index of the Tehran Stock Exchange fell by more than 184,000 points today.",
-       "gloss": {
-        "shaakhes-e": "index of",
-        "kol-e": "overall (shaakhes-e kol = main index)",
-        "bours-e": "stock exchange of",
-        "bish": "more",
-        "hezaar": "thousand",
-        "vaahed": "unit, point",
-        "oft": "fall, drop",
-        "kard": "did (oft kard = fell)"
-       }
-      },
-      "C": {
-       "text": "Baa khoruj-e 7840 miliyaard tomaan pul az baazaar-e sahaam, shaakhes-e kol-e bours-e Tehraan dar mo'aamelaat-e emruz bish az 184 hezaar vaahed oft kard va 73 darsad-e namaad-haa manfi shodand.",
-       "script": "با خروج ۷۸۴۰ میلیارد تومان پول از بازار سهام، شاخص کل بورس تهران در معاملات امروز بیش از ۱۸۴ هزار واحد افت کرد و ۷۳ درصد نمادها منفی شدند.",
-       "en": "With 7,840 billion tomans pulled out of the stock market, the Tehran Stock Exchange's main index fell more than 184,000 points in today's trading, and 73 percent of listed shares ended in the red.",
-       "gloss": {
-        "khoruj-e": "outflow of",
-        "miliyaard": "billion",
-        "tomaan": "toman",
-        "pul": "money",
-        "baazaar-e": "market of",
-        "sahaam": "shares",
-        "shaakhes-e": "index of",
-        "kol-e": "overall",
-        "bours-e": "stock exchange of",
-        "mo'aamelaat-e": "trading of",
-        "bish": "more",
-        "hezaar": "thousand",
-        "vaahed": "unit, point",
-        "oft": "fall",
-        "kard": "did",
-        "darsad-e": "percent of",
-        "namaad-haa": "ticker symbols, listed shares",
-        "manfi": "negative, in the red",
-        "shodand": "became"
-       }
-      }
-     }
-    }
-   ],
-   "phrases": {
-    "A": [
-     {
-      "topic": "Buying fruit",
-      "situation": "At a greengrocer's stall",
-      "region": "Tehraan",
-      "lines": [
-       {
-        "who": "You",
-        "text": "Salaam aaghaa, porteghaal kiloyi chande?",
-        "script": "سلام آقا، پرتقال کیلویی چنده؟",
-        "en": "Hello, sir, how much are oranges a kilo?",
-        "gloss": {
-         "salaam": "hello",
-         "aaghaa": "sir",
-         "porteghaal": "oranges",
-         "kiloyi": "per kilo",
-         "chande": "how much is it (spoken for chand ast)"
-        }
-       },
-       {
-        "who": "Seller",
-        "text": "Kiloyi sad-o-panjaah hezaar tomun. Khoshmazast!",
-        "script": "کیلویی صد و پنجاه هزار تومن. خوشمزه‌ست!",
-        "en": "A hundred and fifty thousand tomans a kilo. They're delicious!",
-        "gloss": {
-         "kiloyi": "per kilo",
-         "sad-o-panjaah": "a hundred and fifty",
-         "hezaar": "thousand",
-         "tomun": "tomans (spoken for tomaan)",
-         "khoshmazast": "it's tasty (spoken for khoshmaze ast)"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Do kilo bedin, lotfan.",
-        "script": "دو کیلو بدین، لطفاً.",
-        "en": "Give me two kilos, please.",
-        "gloss": {
-         "do": "two",
-         "kilo": "kilo",
-         "bedin": "give (spoken for bedahid)",
-         "lotfan": "please"
-        }
-       },
-       {
-        "who": "Seller",
-        "text": "Chashm. Dige chi?",
-        "script": "چشم. دیگه چی؟",
-        "en": "Sure. Anything else?",
-        "gloss": {
-         "chashm": "sure (lit. eye)",
-         "dige": "else (spoken for digar)"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Hamin. Mersi.",
-        "script": "همین. مرسی.",
-        "en": "That's all. Thanks.",
-        "gloss": {
-         "hamin": "just this, that's all",
-         "mersi": "thanks"
-        }
-       }
-      ]
-     },
-     {
-      "topic": "Buying a train ticket",
-      "situation": "At the ticket office of Tehran railway station",
-      "region": "Tehraan",
-      "lines": [
-       {
-        "who": "You",
-        "text": "Bebakhshid, ye bilit baraaye Mashhad mikhaam.",
-        "script": "ببخشید، یه بلیت برای مشهد می‌خوام.",
-        "en": "Excuse me, I'd like a ticket to Mashhad.",
-        "gloss": {
-         "bebakhshid": "excuse me",
-         "ye": "a, one (spoken for yek)",
-         "bilit": "ticket",
-         "mikhaam": "I want (spoken for mikhaaham)"
-        }
-       },
-       {
-        "who": "Clerk",
-        "text": "Baraaye kay?",
-        "script": "برای کی؟",
-        "en": "For when?",
-        "gloss": {}
-       },
-       {
-        "who": "You",
-        "text": "Fardaa sobh.",
-        "script": "فردا صبح.",
-        "en": "Tomorrow morning.",
-        "gloss": {
-         "fardaa": "tomorrow",
-         "sobh": "morning"
-        }
-       },
-       {
-        "who": "Clerk",
-        "text": "Saa'at-e haft-o-nim ye ghataar hast. Raft-o-bargasht?",
-        "script": "ساعت هفت و نیم یه قطار هست. رفت و برگشت؟",
-        "en": "There's a train at half past seven. Return?",
-        "gloss": {
-         "saa'at-e": "at (the hour of)",
-         "haft-o-nim": "half past seven",
-         "ye": "a",
-         "ghataar": "train",
-         "raft-o-bargasht": "return trip"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Na, faghat raft.",
-        "script": "نه، فقط رفت.",
-        "en": "No, just one way.",
-        "gloss": {
-         "faghat": "only",
-         "raft": "one way (lit. going)"
-        }
-       }
-      ]
-     }
-    ],
-    "B": [
-     {
-      "topic": "At the pharmacy: a cold",
-      "situation": "Asking the pharmacist for something for a sore throat",
-      "region": "Tehraan",
-      "lines": [
-       {
-        "who": "You",
-        "text": "Salaam, khaanum doktor. Ye chizi baraaye sarmaakhordegi daarin?",
-        "script": "سلام خانم دکتر. یه چیزی برای سرماخوردگی دارین؟",
-        "en": "Hello, doctor. Do you have something for a cold?",
-        "gloss": {
-         "salaam": "hello",
-         "khaanum": "madam, Ms",
-         "doktor": "doctor (pharmacists are called doktor)",
-         "ye": "a",
-         "chizi": "something",
-         "sarmaakhordegi": "a cold",
-         "daarin": "you have (spoken for daarid)"
-        }
-       },
-       {
-        "who": "Pharmacist",
-        "text": "Tab ham daarin yaa faghat aabrizesh-e bini?",
-        "script": "تب هم دارین یا فقط آبریزش بینی؟",
-        "en": "Do you have a fever too, or just a runny nose?",
-        "gloss": {
-         "tab": "fever",
-         "daarin": "you have (spoken)",
-         "faghat": "only",
-         "aabrizesh-e": "running of",
-         "bini": "nose"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Tab na, vali galum dard mikone, sedaam ham gerefte.",
-        "script": "تب نه، ولی گلوم درد می‌کنه، صدام هم گرفته.",
-        "en": "No fever, but my throat hurts, and I've lost my voice too.",
-        "gloss": {
-         "tab": "fever",
-         "vali": "but",
-         "galum": "my throat (spoken for galu-yam)",
-         "dard": "pain",
-         "mikone": "does (spoken for mikonad; dard mikone = hurts)",
-         "sedaam": "my voice (spoken)",
-         "gerefte": "hoarse (lit. taken)"
-        }
-       },
-       {
-        "who": "Pharmacist",
-        "text": "Baashe. In ghors-haa ro har hasht saa'at yeki bokhorin, baa ye aab-e garm-o asal.",
-        "script": "باشه. این قرص‌ها رو هر هشت ساعت یکی بخورین، با یه آب گرم و عسل.",
-        "en": "OK. Take one of these tablets every eight hours, with warm water and honey.",
-        "gloss": {
-         "baashe": "OK",
-         "ghors-haa": "tablets",
-         "ro": "object marker (spoken for raa)",
-         "hasht": "eight",
-         "saa'at": "hours",
-         "yeki": "one",
-         "bokhorin": "take, eat (spoken for bokhorid)",
-         "ye": "a",
-         "aab-e": "water of",
-         "garm-o": "warm and",
-         "asal": "honey"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Mersi. Cheghadr mishe?",
-        "script": "مرسی. چقدر می‌شه؟",
-        "en": "Thanks. How much does it come to?",
-        "gloss": {
-         "mersi": "thanks",
-         "cheghadr": "how much",
-         "mishe": "does it come to (spoken for mishavad)"
-        }
-       },
-       {
-        "who": "Pharmacist",
-        "text": "Haftaad hezaar tomun. Zud khub shin!",
-        "script": "هفتاد هزار تومن. زود خوب شین!",
-        "en": "Seventy thousand tomans. Get well soon!",
-        "gloss": {
-         "haftaad": "seventy",
-         "hezaar": "thousand",
-         "tomun": "tomans (spoken)",
-         "zud": "soon",
-         "khub": "well, good",
-         "shin": "become (spoken for shavid)"
-        }
-       }
-      ]
-     },
-     {
-      "topic": "Phone call: the ATM kept my card",
-      "situation": "Calling the bank after a cash machine swallows your card",
-      "region": "Tehraan",
-      "lines": [
-       {
-        "who": "You",
-        "text": "Alo, salaam. Kaartam tu-ye khodpardaaz munde, birun nemiyaad!",
-        "script": "الو، سلام. کارتم توی خودپرداز مونده، بیرون نمیاد!",
-        "en": "Hello. My card is stuck in the cash machine, it won't come out!",
-        "gloss": {
-         "alo": "hello (on the phone)",
-         "salaam": "hello",
-         "kaartam": "my card",
-         "tu-ye": "inside",
-         "khodpardaaz": "ATM, cash machine",
-         "munde": "has stayed, is stuck (spoken for maande)",
-         "birun": "out",
-         "nemiyaad": "doesn't come (spoken for nemi-aayad)"
-        }
-       },
-       {
-        "who": "Bank",
-        "text": "Negaraan nabaashin. Kodum shobe hastin?",
-        "script": "نگران نباشین. کدوم شعبه هستین؟",
-        "en": "Don't worry. Which branch are you at?",
-        "gloss": {
-         "negaraan": "worried",
-         "nabaashin": "don't be (spoken for nabaashid)",
-         "kodum": "which (spoken for kodaam)",
-         "shobe": "branch",
-         "hastin": "you are (spoken)"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Shobe-ye meydun-e Vanak. Vaay, kolli kaar daashtam baahaash!",
-        "script": "شعبه میدون ونک. وای، کلی کار داشتم باهاش!",
-        "en": "The Vanak Square branch. Oh no, I had loads to do with it!",
-        "gloss": {
-         "shobe-ye": "branch of",
-         "meydun-e": "square of (spoken for meydaan)",
-         "vaay": "oh no",
-         "kolli": "loads (colloquial)",
-         "kaar": "work, things to do",
-         "daashtam": "I had",
-         "baahaash": "with it (spoken)"
-        }
-       },
-       {
-        "who": "Bank",
-        "text": "Kaart-o hamin alaan masdud mikonim. Fardaa saa'at-e noh berin shobe, tahvilesh begirin.",
-        "script": "کارت رو همین الان مسدود می‌کنیم. فردا ساعت نه برین شعبه، تحویلش بگیرین.",
-        "en": "We'll block the card right now. Go to the branch tomorrow at nine and collect it.",
-        "gloss": {
-         "kaart-o": "the card (spoken for kaart raa)",
-         "hamin": "this very",
-         "alaan": "now",
-         "masdud": "blocked",
-         "mikonim": "we make",
-         "fardaa": "tomorrow",
-         "saa'at-e": "at (the hour of)",
-         "noh": "nine",
-         "berin": "go (spoken for beravid)",
-         "shobe": "branch",
-         "tahvilesh": "its handover (tahvil gereftan = to collect)",
-         "begirin": "take (spoken for begirid)"
-        }
-       },
-       {
-        "who": "You",
-        "text": "Mamnun, lotf kardin.",
-        "script": "ممنون، لطف کردین.",
-        "en": "Thanks, that's very kind.",
-        "gloss": {
-         "mamnun": "thanks",
-         "lotf": "kindness",
-         "kardin": "you did (spoken for kardid)"
-        }
-       }
-      ]
-     }
-    ]
-   },
-   "quote": {
-    "text": "Har ke naamukht az gozasht-e ruzegaar, niz naamuzad ze hich aamuzegaar.",
-    "script": "هر که نامخت از گذشت روزگار / نیز ناموزد ز هیچ آموزگار",
-    "en": "Whoever has not learned from the passing of time will learn from no teacher either.",
-    "gloss": {
-     "naamukht": "did not learn",
-     "gozasht-e": "passing of",
-     "ruzegaar": "time, the days",
-     "niz": "also, either",
-     "naamuzad": "will not learn",
-     "ze": "from (old poetic form of az)",
-     "hich": "any, no",
-     "aamuzegaar": "teacher"
-    },
-    "who": "Rudaki",
-    "when": "10th century",
-    "about": "Rudaki, court poet of the Samanids and called the father of Persian poetry, left this couplet that Iranians still quote whenever someone refuses to learn from experience."
-   },
-   "lit": {
-    "text": "Mitaraavad mahtaab, midarakhshad shabtaab.",
-    "script": "می‌تراود مهتاب / می‌درخشد شب‌تاب",
-    "en": "The moonlight trickles down; the firefly gleams.",
-    "gloss": {
-     "mitaraavad": "seeps, trickles",
-     "mahtaab": "moonlight",
-     "midarakhshad": "shines, gleams",
-     "shabtaab": "firefly (lit. night-glow)"
-    },
-    "author": "Nimaa Yushij",
-    "work": "Mahtaab (Moonlight)",
-    "when": "1940s",
-    "about": "Nima, the father of modern Persian poetry, broke with classical metre and rhyme; this quiet opening of a moonlit night, watched by a speaker who cannot sleep, is one of the best-known lines of the new poetry."
-   },
-   "vocab": {
-    "A": [
-     {
-      "word": "chande?",
-      "wordScript": "چنده؟",
-      "pos": "phrase",
-      "region": "Tehraan",
-      "ties": "phrase1",
-      "meaning": "how much is it?",
-      "note": "Spoken for chand ast. Add the unit: kiloyi chande? 'how much a kilo?', daanei chande? 'how much each?'",
-      "example": "In sib kiloyi chande?",
-      "exScript": "این سیب کیلویی چنده؟",
-      "exampleEn": "How much are these apples a kilo?",
-      "exGloss": {
-       "sib": "apple(s)",
-       "kiloyi": "per kilo",
-       "chande": "how much is it"
-      }
-     },
-     {
-      "word": "raft-o-bargasht",
-      "wordScript": "رفت و برگشت",
-      "pos": "noun",
-      "region": "general",
-      "ties": "phrase2",
-      "meaning": "return trip, round trip",
-      "note": "Literally 'going and coming back'. A one-way ticket is just raft.",
-      "example": "Ye bilit-e raft-o-bargasht baraaye Esfahaan mikhaam.",
-      "exScript": "یه بلیت رفت و برگشت برای اصفهان می‌خوام.",
-      "exampleEn": "I'd like a return ticket to Isfahan.",
-      "exGloss": {
-       "ye": "a",
-       "bilit-e": "ticket (of)",
-       "raft-o-bargasht": "return trip",
-       "mikhaam": "I want (spoken)"
-      }
-     }
-    ],
-    "B": [
-     {
-      "word": "sedaam gerefte",
-      "wordScript": "صدام گرفته",
-      "pos": "idiom",
-      "region": "general",
-      "ties": "phrase1",
-      "meaning": "I've lost my voice, I'm hoarse",
-      "note": "Literally 'my voice has been taken'. Change the ending for others: sedaat gerefte, 'you sound hoarse'.",
-      "example": "Sarmaa khordam, sedaam gerefte.",
-      "exScript": "سرما خوردم، صدام گرفته.",
-      "exampleEn": "I've caught a cold and lost my voice.",
-      "exGloss": {
-       "sarmaa": "cold",
-       "khordam": "I ate (sarmaa khordan = catch a cold)",
-       "sedaam": "my voice",
-       "gerefte": "taken, hoarse"
-      }
-     },
-     {
-      "word": "masdud kardan",
-      "wordScript": "مسدود کردن",
-      "pos": "verb",
-      "region": "general",
-      "ties": "phrase2",
-      "meaning": "to block (a card, an account, a road)",
-      "note": "Standard at the bank; for a closed road people more often just say baste.",
-      "example": "Lotfan kaartam-o masdud konin.",
-      "exScript": "لطفاً کارتمو مسدود کنین.",
-      "exampleEn": "Please block my card.",
-      "exGloss": {
-       "lotfan": "please",
-       "kaartam-o": "my card (spoken, with raa)",
-       "masdud": "blocked",
-       "konin": "make, do (spoken for konid)"
-      }
-     }
-    ],
-    "C": [
-     {
-      "word": "manfi",
-      "wordScript": "منفی",
-      "pos": "adjective",
-      "region": "general",
-      "ties": "news",
-      "meaning": "negative; in market talk 'down, in the red'",
-      "note": "Bours manfi bud = the market was down; the opposite is mosbat. Also of people: aadam-e manfi, a pessimist.",
-      "example": "Emruz bishtar-e sahaam manfi budand.",
-      "exScript": "امروز بیشتر سهام منفی بودند.",
-      "exampleEn": "Today most shares were in the red.",
-      "exGloss": {
-       "bishtar-e": "most of",
-       "sahaam": "shares",
-       "manfi": "negative, down",
-       "budand": "were"
-      }
-     },
-     {
-      "word": "ruzegaar",
-      "wordScript": "روزگار",
-      "pos": "noun",
-      "region": "general",
-      "ties": "quote",
-      "meaning": "the times, life, fate",
-      "note": "Still common: in ruzegaar 'these days', ruzegaar-e sakht 'hard times'. Its cousin aamuzegaar 'teacher' now sounds formal.",
-      "example": "Ruzegaar be aadam chizhaa-yi yaad mide ke hich madrese-i yaad nemide.",
-      "exScript": "روزگار به آدم چیزهایی یاد می‌ده که هیچ مدرسه‌ای یاد نمی‌ده.",
-      "exampleEn": "Life teaches you things no school ever does.",
-      "exGloss": {
-       "ruzegaar": "life, the times",
-       "aadam": "a person, one",
-       "chizhaa-yi": "things",
-       "yaad": "memory (yaad daadan = to teach)",
-       "mide": "gives (spoken for midahad)",
-       "hich": "no, any",
-       "madrese-i": "a school",
-       "nemide": "doesn't give (spoken)"
-      }
-     }
-    ]
-   },
-   "quiz": [
-    {
-     "level": "A1",
-     "ref": "phrase1",
-     "q": "At the fruit stall you ask «porteghaal kiloyi chande?». What are you asking?",
-     "options": [
-      "Are the oranges fresh?",
-      "How much are oranges a kilo?",
-      "Where are the oranges from?",
-      "Can I have two kilos of oranges?"
-     ],
-     "answer": 1,
-     "why": "Kiloyi = per kilo; chande = how much is it.",
-     "lesson": "Kilo makes learners think of the amount they want, but chand asks 'how much', so it's about the price."
-    },
-    {
-     "level": "A2",
-     "ref": "news",
-     "q": "«Emruz shaakhes-e bours-e Tehraan khayli kam mishavad.» What happens today?",
-     "options": [
-      "The Tehran stock index rises a lot",
-      "Tehran's stock exchange is closed",
-      "The Tehran stock index drops a lot",
-      "Tehran's banks pay less interest"
-     ],
-     "answer": 2,
-     "why": "Kam mishavad = becomes less, goes down; khayli = a lot.",
-     "lesson": "Khayli grabs attention and sounds like big growth; the direction is in kam, 'less'."
-    },
-    {
-     "level": "B1",
-     "ref": "phrase1",
-     "q": "Too daarukhaane migi «galum dard mikone». Kojaat dard mikone?",
-     "options": [
-      "Saram",
-      "Galuyam",
-      "Dandunam",
-      "Kamaram"
-     ],
-     "answer": 1,
-     "why": "Galum is spoken for galu-yam, 'my throat'.",
-     "lesson": "The -um ending is just the spoken 'my'; learners miss the stem galu and fall back on sar (head), the most common ache."
-    },
-    {
-     "level": "B2",
-     "ref": "vocab2",
-     "q": "Kaarmand-e baank mige: «Kaart-o masdud mikonim.» Baa kaart chi kaar mikonan?",
-     "options": [
-      "Kaart-o pas midan",
-      "Kaart-o tamdid mikonan",
-      "Kaart-o post mikonan",
-      "Kaart-o mibandan ke kasi natune azash estefaade kone"
-     ],
-     "answer": 3,
-     "why": "Masdud kardan = to block the card so nobody can use it.",
-     "lesson": "The clerk also says you'll collect it tomorrow, so 'giving it back' is tempting; masdud is the blocking, not the return."
-    },
-    {
-     "level": "C1",
-     "ref": "quote",
-     "q": "Rudaki migooyad: «niz naamuzad ze hich aamuzegaar». «Ze» be che ma'nist?",
-     "options": [
-      "az",
-      "be",
-      "baa",
-      "dar"
-     ],
-     "answer": 0,
-     "why": "Ze is the old poetic short form of az, 'from'.",
-     "lesson": "Ze looks like the ezafe -e, and word order nudges readers toward be, 'to'; in classical verse it's a clipped preposition."
-    },
-    {
-     "level": "C2",
-     "ref": "lit",
-     "q": "Nimaa minevisad «mitaraavad mahtaab». «Taraavidan» yaani chi?",
-     "options": [
-      "boland shodan",
-      "aaheste chekidan va jaari shodan",
-      "khaamush shodan",
-      "raghsidan"
-     ],
-     "answer": 1,
-     "why": "Taraavidan = to seep, trickle out: the moonlight pours softly like a liquid.",
-     "lesson": "The next verb is 'shine', so readers expect another light word; Nima picks a liquid image instead."
-    }
-   ],
-   "tip": {
-    "title": "No 'he' or 'she'",
-    "text": "Persian has no grammatical gender. U means both 'he' and 'she', and the verb doesn't change: U doktor-e = 'He's a doctor' or 'She's a doctor'. Nouns have no gender either, so adjectives never change to agree: pesar-e khub (a good boy), dokhtar-e khub (a good girl)."
-   },
-   "fun": {
-    "kind": "joke",
-    "region": "general",
-    "text": "Mollaa angoshtaresh-o tu khune gom karde bud, vali tu kuche donbaalesh migasht. Porsidan: «Cheraa injaa?» Goft: «Aakhe injaa roshantare!»",
-    "script": "ملا انگشترش رو تو خونه گم کرده بود، ولی تو کوچه دنبالش می‌گشت. پرسیدن: «چرا اینجا؟» گفت: «آخه اینجا روشن‌تره!»",
-    "gloss": {
-     "mollaa": "Mulla (Nasreddin)",
-     "angoshtaresh-o": "his ring (spoken, with raa)",
-     "tu": "in (spoken)",
-     "khune": "house (spoken for khaane)",
-     "gom": "lost",
-     "karde": "done (gom karde bud = had lost)",
-     "vali": "but",
-     "kuche": "lane, street",
-     "donbaalesh": "after it",
-     "migasht": "was searching",
-     "porsidan": "they asked (spoken)",
-     "cheraa": "why",
-     "injaa": "here",
-     "goft": "he said",
-     "aakhe": "well, because",
-     "roshantare": "it's brighter (spoken for roshantar ast)"
-    },
-    "literal": "Mulla had lost his ring in the house, but he was looking for it in the lane. They asked: 'Why here?' He said: 'Well, it's brighter here!'",
-    "meaning": "Looking where it's easy rather than where the answer is.",
-    "culture": "Mulla Nasreddin tales are told from Iran to Turkey and Central Asia; this one is so well known that friends tease each other with it when someone tackles the easy problem instead of the real one."
-   }
-  }
- },
  "2026-11-02": {
   "es": {
    "news": [
@@ -64617,6 +60181,2677 @@ var LINGUA_DAILY = {
     "literal": "A job never comes to harm from being made solid.",
     "meaning": "Better safe than sorry; double-checking never hurts.",
     "culture": "Iranians say it while locking the door twice, packing an extra jumper or confirming an appointment once more; it's the cheerful reply when someone teases you for being over-careful."
+   }
+  }
+ },
+ "2026-11-15": {
+  "es": {
+   "news": [
+    {
+     "topic": "Educación · México",
+     "source": "https://hoydiario.es/noticias/mexico/claudia-sheinbaum/sheinbaum-190000-millones-becas-2027-educacion-puebla.html",
+     "levels": {
+      "A": {
+       "text": "México va a gastar más de 190 mil millones de pesos en becas.",
+       "en": "Mexico is going to spend more than 190 billion pesos on scholarships.",
+       "gloss": {
+        "va": "is going (va a = is going to)",
+        "gastar": "to spend",
+        "más": "more",
+        "mil": "thousand",
+        "millones": "millions (mil millones = a billion)",
+        "pesos": "pesos",
+        "becas": "scholarships, study grants"
+       }
+      },
+      "B": {
+       "text": "La presidenta Sheinbaum anunció en Puebla que el Gobierno invertirá más de 190 mil millones de pesos en becas para estudiantes en 2027.",
+       "en": "President Sheinbaum announced in Puebla that the government will invest more than 190 billion pesos in student scholarships in 2027.",
+       "gloss": {
+        "presidenta": "president (woman)",
+        "anunció": "announced",
+        "gobierno": "government",
+        "invertirá": "will invest",
+        "más": "more",
+        "mil": "thousand",
+        "millones": "millions",
+        "pesos": "pesos",
+        "becas": "scholarships",
+        "estudiantes": "students"
+       }
+      },
+      "C": {
+       "text": "Desde San Martín Texmelucan, Puebla, Claudia Sheinbaum anunció una inversión superior a 190 mil millones de pesos en becas estudiantiles para 2027, con lo que el presupuesto educativo alcanzaría 1.319.054 millones.",
+       "en": "From San Martín Texmelucan, Puebla, Claudia Sheinbaum announced an investment of more than 190 billion pesos in student scholarships for 2027, which would take the education budget to 1,319,054 million.",
+       "gloss": {
+        "desde": "from",
+        "anunció": "announced",
+        "inversión": "investment",
+        "superior": "higher (superior a = more than)",
+        "mil": "thousand",
+        "millones": "millions",
+        "pesos": "pesos",
+        "becas": "scholarships",
+        "estudiantiles": "student (adj.)",
+        "lo": "it (con lo que = with which)",
+        "presupuesto": "budget",
+        "educativo": "education (adj.)",
+        "alcanzaría": "would reach"
+       }
+      }
+     }
+    }
+   ],
+   "phrases": {
+    "A": [
+     {
+      "topic": "Taking a taxi",
+      "situation": "Getting into a taxi at a taxi stand in Mexico City",
+      "region": "México",
+      "lines": [
+       {
+        "who": "You",
+        "text": "Buenas tardes. ¿Me lleva a la calle Madero, por favor?",
+        "en": "Good afternoon. Can you take me to Madero Street, please?",
+        "gloss": {
+         "buenas": "good",
+         "tardes": "afternoons (buenas tardes = good afternoon)",
+         "lleva": "take (you, formal)",
+         "calle": "street",
+         "favor": "favour (por favor = please)"
+        }
+       },
+       {
+        "who": "Driver",
+        "text": "Claro. ¿En qué esquina?",
+        "en": "Sure. At which corner?",
+        "gloss": {
+         "claro": "sure, of course",
+         "qué": "which, what",
+         "esquina": "corner"
+        }
+       },
+       {
+        "who": "You",
+        "text": "En la esquina con Bolívar.",
+        "en": "At the corner with Bolívar.",
+        "gloss": {
+         "esquina": "corner"
+        }
+       },
+       {
+        "who": "Driver",
+        "text": "Va. Son unos veinte minutos.",
+        "en": "OK. It's about twenty minutes.",
+        "gloss": {
+         "va": "OK (Mexican, lit. 'it goes')",
+         "veinte": "twenty",
+         "minutos": "minutes"
+        }
+       },
+       {
+        "who": "You",
+        "text": "¿Cuánto cuesta, más o menos?",
+        "en": "How much does it cost, more or less?",
+        "gloss": {
+         "cuánto": "how much",
+         "cuesta": "costs",
+         "más": "more",
+         "menos": "less"
+        }
+       },
+       {
+        "who": "Driver",
+        "text": "Como ciento veinte pesos.",
+        "en": "About a hundred and twenty pesos.",
+        "gloss": {
+         "como": "about, like",
+         "ciento": "one hundred",
+         "veinte": "twenty",
+         "pesos": "pesos"
+        }
+       }
+      ]
+     },
+     {
+      "topic": "Asking for the Wi-Fi",
+      "situation": "At a café in Valencia, asking the waitress for the password",
+      "region": "España",
+      "lines": [
+       {
+        "who": "You",
+        "text": "Perdona, ¿hay wifi?",
+        "en": "Excuse me, is there Wi-Fi?",
+        "gloss": {
+         "perdona": "excuse me (informal)",
+         "wifi": "Wi-Fi"
+        }
+       },
+       {
+        "who": "Waitress",
+        "text": "Sí, claro. La contraseña está en la carta.",
+        "en": "Yes, of course. The password is on the menu.",
+        "gloss": {
+         "claro": "of course",
+         "contraseña": "password",
+         "carta": "menu"
+        }
+       },
+       {
+        "who": "You",
+        "text": "No la veo. ¿Me la dices?",
+        "en": "I can't see it. Can you tell me?",
+        "gloss": {
+         "veo": "I see",
+         "dices": "you tell, you say"
+        }
+       },
+       {
+        "who": "Waitress",
+        "text": "Claro: es «naranja» con el número diez.",
+        "en": "Sure: it's 'naranja' with the number ten.",
+        "gloss": {
+         "claro": "sure",
+         "naranja": "orange",
+         "número": "number",
+         "diez": "ten"
+        }
+       },
+       {
+        "who": "You",
+        "text": "¡Genial, gracias!",
+        "en": "Great, thanks!",
+        "gloss": {
+         "genial": "great",
+         "gracias": "thanks"
+        }
+       }
+      ]
+     }
+    ],
+    "B": [
+     {
+      "topic": "Flat problems: a leak",
+      "situation": "Phoning your landlord in Guadalajara about a leak in the kitchen",
+      "region": "México",
+      "lines": [
+       {
+        "who": "You",
+        "text": "Bueno, ¿don Ramiro? Habla Laura, la del depa tres.",
+        "en": "Hello, Don Ramiro? It's Laura, from flat three.",
+        "gloss": {
+         "bueno": "hello (answering the phone in Mexico)",
+         "don": "Mr (respectful title)",
+         "habla": "speaks (habla Laura = this is Laura)",
+         "depa": "flat, apartment (Mexican, short for departamento)",
+         "tres": "three"
+        }
+       },
+       {
+        "who": "Landlord",
+        "text": "Ah, quiubo, Laura. ¿Qué pasó?",
+        "en": "Oh, hi there, Laura. What's up?",
+        "gloss": {
+         "ah": "oh",
+         "quiubo": "hi, what's up (Mexican, from ¿qué hubo?)",
+         "qué": "what",
+         "pasó": "happened (¿qué pasó? = what's up?)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Fíjese que hay una gotera en la cocina desde anoche. Con la lluvia se puso peor.",
+        "en": "Well, you see, there's been a leak in the kitchen since last night. With the rain it got worse.",
+        "gloss": {
+         "fíjese": "you see, listen (formal)",
+         "gotera": "leak (from the ceiling)",
+         "cocina": "kitchen",
+         "desde": "since",
+         "anoche": "last night",
+         "lluvia": "rain",
+         "puso": "became (se puso = got)",
+         "peor": "worse"
+        }
+       },
+       {
+        "who": "Landlord",
+        "text": "Híjole. ¿Es mucha agua?",
+        "en": "Oh dear. Is it a lot of water?",
+        "gloss": {
+         "híjole": "oh dear, wow (Mexican)",
+         "mucha": "a lot of",
+         "agua": "water"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Pues sí, ya puse una cubeta, pero se llena rapidísimo.",
+        "en": "Well, yes, I've already put a bucket down, but it fills up really fast.",
+        "gloss": {
+         "pues": "well",
+         "ya": "already",
+         "puse": "I put",
+         "cubeta": "bucket (Mexican; Spain: cubo)",
+         "pero": "but",
+         "llena": "fills (se llena = fills up)",
+         "rapidísimo": "super fast"
+        }
+       },
+       {
+        "who": "Landlord",
+        "text": "Ahorita le mando al plomero, ¿sale? Llega como a las cinco.",
+        "en": "I'll send the plumber over shortly, OK? He'll get there around five.",
+        "gloss": {
+         "ahorita": "in a bit, shortly (Mexican)",
+         "mando": "I send",
+         "plomero": "plumber (Latin America; Spain: fontanero)",
+         "sale": "OK, deal (Mexican)",
+         "llega": "arrives",
+         "como": "about",
+         "cinco": "five"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Perfecto, muchas gracias. Aquí lo espero.",
+        "en": "Perfect, thanks a lot. I'll wait for him here.",
+        "gloss": {
+         "perfecto": "perfect",
+         "muchas": "many",
+         "gracias": "thanks",
+         "aquí": "here",
+         "espero": "I wait for"
+        }
+       }
+      ]
+     },
+     {
+      "topic": "At the pharmacy",
+      "situation": "Asking for something for a cough at a pharmacy in Madrid",
+      "region": "España",
+      "lines": [
+       {
+        "who": "Pharmacist",
+        "text": "Hola, buenas. ¿Qué te pongo?",
+        "en": "Hi there. What can I get you?",
+        "gloss": {
+         "hola": "hello",
+         "buenas": "hi (short for buenas tardes/días)",
+         "qué": "what",
+         "pongo": "I put (¿qué te pongo? = what can I get you?)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Hola. Pues mira, tengo una tos que no me deja dormir. ¿Tienes algo sin receta?",
+        "en": "Hi. Well, look, I've got a cough that won't let me sleep. Have you got anything without a prescription?",
+        "gloss": {
+         "hola": "hello",
+         "pues": "well",
+         "mira": "look",
+         "tos": "cough",
+         "deja": "lets",
+         "dormir": "to sleep",
+         "tienes": "you have",
+         "algo": "something",
+         "sin": "without",
+         "receta": "prescription"
+        }
+       },
+       {
+        "who": "Pharmacist",
+        "text": "¿Es tos seca o con flemas?",
+        "en": "Is it a dry cough or a chesty one?",
+        "gloss": {
+         "tos": "cough",
+         "seca": "dry",
+         "flemas": "phlegm"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Seca, seca. Y me pica mucho la garganta.",
+        "en": "Dry, totally dry. And my throat is really itchy.",
+        "gloss": {
+         "seca": "dry",
+         "pica": "itches",
+         "mucho": "a lot",
+         "garganta": "throat"
+        }
+       },
+       {
+        "who": "Pharmacist",
+        "text": "Vale, te doy este jarabe. Una cucharada cada ocho horas, ¿vale?",
+        "en": "OK, I'll give you this syrup. One spoonful every eight hours, OK?",
+        "gloss": {
+         "vale": "OK (Spain)",
+         "doy": "I give",
+         "este": "this",
+         "jarabe": "syrup",
+         "cucharada": "spoonful",
+         "cada": "every",
+         "ocho": "eight",
+         "horas": "hours"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Genial. ¿Y me lo puedo tomar con un ibuprofeno?",
+        "en": "Great. And can I take it with an ibuprofen?",
+        "gloss": {
+         "genial": "great",
+         "puedo": "I can",
+         "tomar": "to take",
+         "ibuprofeno": "ibuprofen"
+        }
+       },
+       {
+        "who": "Pharmacist",
+        "text": "Sí, sin problema. Pero si en tres días no mejoras, vete al médico.",
+        "en": "Yes, no problem. But if you're not better in three days, go to the doctor.",
+        "gloss": {
+         "sin": "without",
+         "problema": "problem",
+         "pero": "but",
+         "si": "if",
+         "tres": "three",
+         "días": "days",
+         "mejoras": "you get better",
+         "vete": "go (command)",
+         "médico": "doctor"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "quote": {
+    "text": "Uno no es lo que es por lo que escribe, sino por lo que ha leído.",
+    "en": "One is not who one is because of what one writes, but because of what one has read.",
+    "gloss": {
+     "uno": "one (impersonal 'you')",
+     "escribe": "writes",
+     "sino": "but rather",
+     "leído": "read (past participle)"
+    },
+    "who": "Jorge Luis Borges",
+    "when": "20th century",
+    "about": "The Argentine master of the short story, who was also a lifelong librarian, often said he was prouder of his reading than his writing, and this line is quoted constantly at book fairs and in reading campaigns across Latin America."
+   },
+   "lit": {
+    "text": "Otro modo de ser humano y libre. Otro modo de ser.",
+    "en": "Another way of being human and free. Another way of being.",
+    "gloss": {
+     "otro": "another",
+     "modo": "way, manner",
+     "humano": "human",
+     "libre": "free"
+    },
+    "author": "Rosario Castellanos",
+    "work": "Meditación en el umbral",
+    "when": "c. 1960",
+    "about": "The closing lines of the Mexican poet's best-known poem, which rejects the ready-made models of womanhood handed down by history and literature; it became a touchstone of Mexican feminism."
+   },
+   "vocab": {
+    "A": [
+     {
+      "word": "la beca",
+      "article": "la",
+      "pos": "noun",
+      "region": "general",
+      "ties": "news",
+      "meaning": "scholarship, study grant",
+      "note": "Plural: las becas. Someone who has one is a becario / becaria.",
+      "example": "Mi hermana tiene una beca para estudiar.",
+      "exampleEn": "My sister has a scholarship to study.",
+      "exGloss": {
+       "hermana": "sister",
+       "tiene": "has",
+       "beca": "scholarship",
+       "estudiar": "to study"
+      }
+     },
+     {
+      "word": "la esquina",
+      "article": "la",
+      "pos": "noun",
+      "region": "general",
+      "ties": "phrase1",
+      "meaning": "corner (of a street)",
+      "note": "En la esquina = on/at the corner. A corner inside a room is usually el rincón.",
+      "example": "El taxi espera en la esquina.",
+      "exampleEn": "The taxi is waiting at the corner.",
+      "exGloss": {
+       "taxi": "taxi",
+       "espera": "waits",
+       "esquina": "corner"
+      }
+     },
+     {
+      "word": "la contraseña",
+      "article": "la",
+      "pos": "noun",
+      "region": "general",
+      "ties": "phrase2",
+      "meaning": "password",
+      "note": "Used for Wi-Fi, apps and bank cards alike; a card PIN is also el PIN.",
+      "example": "¿Cuál es la contraseña del wifi?",
+      "exampleEn": "What's the Wi-Fi password?",
+      "exGloss": {
+       "cuál": "which, what",
+       "contraseña": "password",
+       "wifi": "Wi-Fi"
+      }
+     }
+    ],
+    "B": [
+     {
+      "word": "invertir",
+      "pos": "verb",
+      "region": "general",
+      "ties": "news",
+      "meaning": "to invest",
+      "note": "Stem-changing e→ie: invierto, inviertes; preterite invirtió. Noun: la inversión.",
+      "example": "El Gobierno va a invertir más en educación.",
+      "exampleEn": "The government is going to invest more in education.",
+      "exGloss": {
+       "gobierno": "government",
+       "va": "is going",
+       "invertir": "to invest",
+       "más": "more",
+       "educación": "education"
+      }
+     },
+     {
+      "word": "el depa",
+      "article": "el",
+      "pos": "slang",
+      "region": "México",
+      "ties": "phrase1",
+      "meaning": "flat, apartment (casual)",
+      "note": "Short for el departamento. Spain says el piso; Argentina also says el depto.",
+      "example": "Mi depa es chiquito, pero tiene mucha luz.",
+      "exampleEn": "My flat is tiny, but it gets a lot of light.",
+      "exGloss": {
+       "depa": "flat",
+       "chiquito": "tiny",
+       "pero": "but",
+       "tiene": "has",
+       "mucha": "a lot of",
+       "luz": "light"
+      }
+     },
+     {
+      "word": "el jarabe",
+      "article": "el",
+      "pos": "noun",
+      "region": "general",
+      "ties": "phrase2",
+      "meaning": "(cough) syrup",
+      "note": "Jarabe para la tos = cough syrup. In Mexico, el jarabe tapatío is also the famous folk dance from Jalisco.",
+      "example": "Este jarabe sabe fatal, pero funciona.",
+      "exampleEn": "This syrup tastes awful, but it works.",
+      "exGloss": {
+       "este": "this",
+       "jarabe": "syrup",
+       "sabe": "tastes",
+       "fatal": "awful (Spain, colloquial)",
+       "pero": "but",
+       "funciona": "works"
+      }
+     }
+    ],
+    "C": [
+     {
+      "word": "superior a",
+      "pos": "phrase",
+      "region": "general",
+      "ties": "news",
+      "meaning": "higher than, more than (in figures)",
+      "note": "Formal register of news and reports; in conversation people just say más de. Opposite: inferior a.",
+      "example": "La inversión es superior a la del año pasado.",
+      "exampleEn": "The investment is higher than last year's.",
+      "exGloss": {
+       "inversión": "investment",
+       "superior": "higher",
+       "pasado": "last, past"
+      }
+     },
+     {
+      "word": "uno",
+      "pos": "pronoun",
+      "region": "general",
+      "ties": "quote",
+      "meaning": "one, you (the impersonal subject)",
+      "note": "Takes a third-person verb: uno nunca sabe = you never know. A woman speaking of herself often says una: una se cansa.",
+      "example": "Uno lee un buen libro y ya no es el mismo.",
+      "exampleEn": "You read a good book and you're no longer the same.",
+      "exGloss": {
+       "uno": "one, you",
+       "lee": "reads",
+       "buen": "good",
+       "libro": "book",
+       "ya": "anymore (ya no = no longer)",
+       "mismo": "same"
+      }
+     },
+     {
+      "word": "el modo",
+      "article": "el",
+      "pos": "noun",
+      "region": "general",
+      "ties": "lit",
+      "meaning": "way, manner",
+      "note": "Everyday set phrases: de todos modos (anyway), de ningún modo (no way), modo avión (aeroplane mode). Ni modo (oh well) is Mexican.",
+      "example": "Tiene que haber otro modo de hacerlo.",
+      "exampleEn": "There has to be another way of doing it.",
+      "exGloss": {
+       "tiene": "has",
+       "haber": "to be (there)",
+       "otro": "another",
+       "modo": "way",
+       "hacerlo": "to do it"
+      }
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "level": "A1",
+     "ref": "phrase1",
+     "q": "In the taxi, how does the passenger ask to be taken to Madero Street?",
+     "options": [
+      "¿Me llevo a la calle Madero?",
+      "¿Me lleva a la calle Madero?",
+      "¿Le llevo a la calle Madero?",
+      "¿Me llevas a la calle Madero?"
+     ],
+     "answer": 1,
+     "why": "«¿Me lleva…?» uses the formal usted form: 'Will you (sir) take me…?', the natural way to address a taxi driver.",
+     "lesson": "«Llevo» ends in -o, so it means 'I take' — «¿Me llevo…?» would be asking whether you should take yourself. The ending tells you who is doing the action."
+    },
+    {
+     "level": "A2",
+     "ref": "vocab3",
+     "q": "At the café, the waitress says the «contraseña» is on the menu. What is a «contraseña»?",
+     "options": [
+      "the bill",
+      "the menu of the day",
+      "the password",
+      "the tip"
+     ],
+     "answer": 2,
+     "why": "La contraseña is a password — here, the one for the café's Wi-Fi.",
+     "lesson": "It's tempting to guess something on a café menu, like a dish or the bill, but «contra» + «seña» (sign) is literally a counter-sign: a secret word you give to get in."
+    },
+    {
+     "level": "B1",
+     "ref": "news",
+     "q": "Según la noticia, ¿en qué invertirá el Gobierno de México más de 190 mil millones de pesos en 2027?",
+     "options": [
+      "en hospitales nuevos",
+      "en trenes",
+      "en salarios de maestros",
+      "en becas para estudiantes"
+     ],
+     "answer": 3,
+     "why": "La presidenta anunció que el dinero será para «becas para estudiantes».",
+     "lesson": "Como es dinero para educación, muchos piensan en sueldos de maestros; pero una beca es una ayuda que recibe el estudiante, no el profesor."
+    },
+    {
+     "level": "B2",
+     "ref": "phrase1",
+     "q": "Don Ramiro dice «Ahorita le mando al plomero». En México, aquí «ahorita» significa…",
+     "options": [
+      "ayer por la tarde",
+      "dentro de un rato, pronto",
+      "en este mismo segundo, sin falta",
+      "nunca"
+     ],
+     "answer": 1,
+     "why": "En boca de un mexicano, «ahorita» suele significar «en un rato»: el plomero llegará «como a las cinco», no al instante.",
+     "lesson": "Como «ahora» es 'now', el diminutivo parece reforzarlo ('right this second'), pero en México suaviza y alarga el plazo: «ahorita» puede ser en diez minutos o en unas horas."
+    },
+    {
+     "level": "C1",
+     "ref": "quote",
+     "q": "Según la frase de Borges, ¿qué define a una persona?",
+     "options": [
+      "lo que escribe",
+      "lo que gana",
+      "lo que ha leído",
+      "lo que dice de sí misma"
+     ],
+     "answer": 2,
+     "why": "Borges dice que uno es lo que es «por lo que ha leído», no por lo que escribe.",
+     "lesson": "La estructura «no… por X, sino por Y» niega lo primero que aparece; quien lee rápido se queda con «lo que escribe» porque es lo primero que suena, pero «sino» introduce la idea verdadera."
+    },
+    {
+     "level": "C2",
+     "ref": "lit",
+     "q": "En los versos de Rosario Castellanos, ¿qué reclama la voz poética con «otro modo de ser humano y libre»?",
+     "options": [
+      "una forma nueva de vivir, distinta de los modelos heredados",
+      "un viaje a otro país donde ser libre",
+      "un estilo distinto de escribir poesía",
+      "volver a la vida sencilla de antes"
+     ],
+     "answer": 0,
+     "why": "El poema rechaza los modelos de mujer recibidos de la historia y pide inventar una manera propia de existir.",
+     "lesson": "«Modo» invita a leer 'estilo' (de escritura) o 'lugar', pero aquí es 'manera de ser': la repetición final, «Otro modo de ser», borra todo lo demás y deja solo la existencia."
+    }
+   ],
+   "tip": {
+    "title": "The personal a: who gets it",
+    "text": "Spanish puts a before a specific person who is the direct object: «Veo a mi hermana», but «Veo la tele». The finer point: when any person will do, the a usually drops — «Busco un fontanero» (any plumber) versus «Busco a mi fontanero» (the one I know). Much-loved pets often get it too: «Paseo a mi perro»."
+   },
+   "fun": {
+    "kind": "idiom",
+    "region": "México",
+    "text": "Le está dando el avión.",
+    "gloss": {
+     "está": "is",
+     "dando": "giving",
+     "avión": "plane"
+    },
+    "literal": "He's/She's giving him/her the plane.",
+    "meaning": "He's humouring her — nodding along and pretending to listen without really paying attention.",
+    "culture": "Mexicans use «darle el avión a alguien» for that polite nodding you do with a pushy salesman or a relative's endless story; «¡No me des el avión!» means 'Don't just humour me — actually listen!'"
+   }
+  },
+  "de": {
+   "news": [
+    {
+     "topic": "Gesundheit · Bayern",
+     "source": "https://www.evangelisch.de/inhalte/261020/15-11-2026/bayerns-gesundheitsministerin-fordert-bundeshilfe-fuer-kliniken",
+     "levels": {
+      "A": {
+       "text": "Bayern will mehr Geld vom Bund für die Krankenhäuser.",
+       "en": "Bavaria wants more money from the federal government for its hospitals.",
+       "gloss": {
+        "will": "wants",
+        "mehr": "more",
+        "geld": "money",
+        "bund": "federal government (der Bund)",
+        "krankenhäuser": "hospitals"
+       }
+      },
+      "B": {
+       "text": "Bayerns Gesundheitsministerin Judith Gerlach hat am Sonntag gefordert, dass der Bund den Kliniken noch dieses Jahr mehr Geld zahlt.",
+       "en": "Bavaria's health minister Judith Gerlach demanded on Sunday that the federal government pay the hospitals more money this very year.",
+       "gloss": {
+        "bayerns": "Bavaria's",
+        "gesundheitsministerin": "health minister (woman)",
+        "sonntag": "Sunday",
+        "gefordert": "demanded",
+        "dass": "that",
+        "bund": "federal government",
+        "kliniken": "hospitals, clinics",
+        "noch": "still (noch dieses Jahr = before this year is out)",
+        "dieses": "this",
+        "jahr": "year",
+        "mehr": "more",
+        "geld": "money",
+        "zahlt": "pays"
+       }
+      },
+      "C": {
+       "text": "Vor dem Deutschen Krankenhaustag in Düsseldorf fordert Bayerns Gesundheitsministerin Judith Gerlach, dass der Bund die zugesagten Zuschläge von 550 Millionen Euro jährlich noch in diesem Jahr an die Kliniken auszahlt und zugleich Bürokratie abbaut.",
+       "en": "Ahead of the German Hospital Conference in Düsseldorf, Bavaria's health minister Judith Gerlach is demanding that the federal government pay hospitals the promised surcharges of 550 million euros a year before this year is out, while also cutting red tape.",
+       "gloss": {
+        "vor": "before, ahead of",
+        "deutschen": "German",
+        "krankenhaustag": "hospital conference",
+        "fordert": "demands",
+        "bayerns": "Bavaria's",
+        "gesundheitsministerin": "health minister (woman)",
+        "dass": "that",
+        "bund": "federal government",
+        "zugesagten": "promised",
+        "zuschläge": "surcharges, supplements",
+        "millionen": "millions",
+        "euro": "euros",
+        "jährlich": "annually",
+        "noch": "still",
+        "diesem": "this",
+        "jahr": "year",
+        "kliniken": "hospitals",
+        "auszahlt": "pays out",
+        "zugleich": "at the same time",
+        "bürokratie": "bureaucracy",
+        "abbaut": "cuts back, dismantles"
+       }
+      }
+     }
+    }
+   ],
+   "phrases": {
+    "A": [
+     {
+      "topic": "Buying a train ticket",
+      "situation": "At the ticket counter in Munich's main station",
+      "region": "Bayern",
+      "lines": [
+       {
+        "who": "You",
+        "text": "Grüß Gott! Eine Fahrkarte nach Augsburg, bitte.",
+        "en": "Hello! A ticket to Augsburg, please.",
+        "gloss": {
+         "grüß": "greet (Grüß Gott = hello, southern German)",
+         "gott": "God",
+         "fahrkarte": "ticket",
+         "bitte": "please"
+        }
+       },
+       {
+        "who": "Clerk",
+        "text": "Einfach oder hin und zurück?",
+        "en": "Single or return?",
+        "gloss": {
+         "einfach": "single, one-way (lit. simple)",
+         "hin": "there",
+         "zurück": "back (hin und zurück = return)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Hin und zurück, bitte.",
+        "en": "Return, please.",
+        "gloss": {
+         "hin": "there",
+         "zurück": "back",
+         "bitte": "please"
+        }
+       },
+       {
+        "who": "Clerk",
+        "text": "Das macht zweiunddreißig Euro. Der Zug fährt um zehn von Gleis vier.",
+        "en": "That's thirty-two euros. The train leaves at ten from platform four.",
+        "gloss": {
+         "macht": "makes (das macht = that comes to)",
+         "zweiunddreißig": "thirty-two",
+         "euro": "euros",
+         "zug": "train",
+         "fährt": "goes, leaves",
+         "zehn": "ten",
+         "gleis": "platform, track",
+         "vier": "four"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Danke schön!",
+        "en": "Thank you very much!",
+        "gloss": {
+         "danke": "thanks",
+         "schön": "nicely (danke schön = thank you very much)"
+        }
+       },
+       {
+        "who": "Clerk",
+        "text": "Gern. Gute Fahrt!",
+        "en": "You're welcome. Have a good trip!",
+        "gloss": {
+         "gern": "gladly, you're welcome",
+         "gute": "good",
+         "fahrt": "journey, trip"
+        }
+       }
+      ]
+     },
+     {
+      "topic": "Ordering lunch at a Beisl",
+      "situation": "At a traditional little restaurant in Vienna at lunchtime",
+      "region": "Österreich",
+      "lines": [
+       {
+        "who": "Waiter",
+        "text": "Mahlzeit! Was darf's sein?",
+        "en": "Enjoy your lunch! What can I get you?",
+        "gloss": {
+         "mahlzeit": "lunchtime greeting (lit. mealtime)",
+         "was": "what",
+         "darf's": "may it (was darf's sein? = what will it be?)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Ich nehme das Schnitzel mit Erdäpfelsalat, bitte.",
+        "en": "I'll have the schnitzel with potato salad, please.",
+        "gloss": {
+         "ich": "I",
+         "nehme": "take, have",
+         "schnitzel": "schnitzel (breaded cutlet)",
+         "erdäpfelsalat": "potato salad (Austrian; Germany: Kartoffelsalat)",
+         "bitte": "please"
+        }
+       },
+       {
+        "who": "Waiter",
+        "text": "Gern. Und zum Trinken?",
+        "en": "Certainly. And to drink?",
+        "gloss": {
+         "gern": "gladly",
+         "trinken": "drinking (zum Trinken = to drink)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Ein Mineralwasser, bitte.",
+        "en": "A mineral water, please.",
+        "gloss": {
+         "mineralwasser": "mineral water",
+         "bitte": "please"
+        }
+       },
+       {
+        "who": "Waiter",
+        "text": "Kommt sofort.",
+        "en": "Coming right up.",
+        "gloss": {
+         "kommt": "comes",
+         "sofort": "immediately"
+        }
+       }
+      ]
+     }
+    ],
+    "B": [
+     {
+      "topic": "At the doctor's",
+      "situation": "Seeing your family doctor in Regensburg with a sore throat",
+      "region": "Bayern",
+      "lines": [
+       {
+        "who": "Doctor",
+        "text": "Grüß Gott, Frau Maier. Na, wo drückt's denn?",
+        "en": "Hello, Ms Maier. So, what seems to be the trouble?",
+        "gloss": {
+         "grüß": "greet",
+         "gott": "God",
+         "frau": "Ms, Mrs",
+         "na": "well, so",
+         "wo": "where",
+         "drückt's": "does it press/pinch (wo drückt's? = what's wrong?)",
+         "denn": "then (softener in questions)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Ach, seit Dienstag hab ich Fieber und Halsschmerzen, und der Kopf tut mir auch weh.",
+        "en": "Oh, since Tuesday I've had a temperature and a sore throat, and my head hurts too.",
+        "gloss": {
+         "ach": "oh",
+         "dienstag": "Tuesday",
+         "hab": "have (colloquial habe)",
+         "ich": "I",
+         "fieber": "fever, temperature",
+         "halsschmerzen": "sore throat",
+         "kopf": "head",
+         "tut": "does (tut weh = hurts)",
+         "mir": "to me",
+         "auch": "too",
+         "weh": "sore, painful"
+        }
+       },
+       {
+        "who": "Doctor",
+        "text": "Mhm, machen Sie mal den Mund auf … ja, der Hals ist ganz rot.",
+        "en": "Mhm, open your mouth for me … yes, your throat is really red.",
+        "gloss": {
+         "mhm": "mhm",
+         "machen": "make (aufmachen = open)",
+         "sie": "you (formal)",
+         "mal": "just (softener)",
+         "mund": "mouth",
+         "ja": "yes",
+         "hals": "throat",
+         "ganz": "quite, really",
+         "rot": "red"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Is des was Schlimmes?",
+        "en": "Is it anything serious?",
+        "gloss": {
+         "is": "is (Bavarian ist)",
+         "des": "that, it (Bavarian das)",
+         "was": "something",
+         "schlimmes": "bad, serious"
+        }
+       },
+       {
+        "who": "Doctor",
+        "text": "Na, keine Sorge, des is a Virus. Ich schreib Sie bis Freitag krank.",
+        "en": "No, don't worry, it's a virus. I'll sign you off sick until Friday.",
+        "gloss": {
+         "na": "no (Bavarian)",
+         "keine": "no",
+         "sorge": "worry",
+         "des": "that (Bavarian das)",
+         "is": "is (Bavarian)",
+         "a": "a (Bavarian ein)",
+         "virus": "virus",
+         "ich": "I",
+         "schreib": "write (krankschreiben = sign off sick)",
+         "sie": "you (formal)",
+         "bis": "until",
+         "freitag": "Friday",
+         "krank": "sick"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Passt. Brauch ich a Rezept?",
+        "en": "Great. Do I need a prescription?",
+        "gloss": {
+         "passt": "fine, OK (lit. it fits)",
+         "brauch": "need (colloquial brauche)",
+         "ich": "I",
+         "a": "a (Bavarian)",
+         "rezept": "prescription"
+        }
+       },
+       {
+        "who": "Doctor",
+        "text": "Na, nur Lutschtabletten aus der Apotheke, und viel trinken, gell?",
+        "en": "No, just throat lozenges from the pharmacy, and drink a lot, OK?",
+        "gloss": {
+         "na": "no (Bavarian)",
+         "nur": "only",
+         "lutschtabletten": "lozenges",
+         "apotheke": "pharmacy",
+         "viel": "a lot",
+         "trinken": "to drink",
+         "gell": "right?, OK? (southern German)"
+        }
+       }
+      ]
+     },
+     {
+      "topic": "Phoning the plumber",
+      "situation": "Calling a plumber in Graz about a dripping kitchen tap",
+      "region": "Österreich",
+      "lines": [
+       {
+        "who": "Plumber",
+        "text": "Installateur Gruber, grüß Gott?",
+        "en": "Gruber Plumbing, hello?",
+        "gloss": {
+         "installateur": "plumber (Austrian)",
+         "grüß": "greet",
+         "gott": "God"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Grüß Gott, Wieser hier. Bei mir tropft seit gestern der Wasserhahn in der Küche, und es wird immer ärger.",
+        "en": "Hello, Wieser here. My kitchen tap has been dripping since yesterday, and it's getting worse and worse.",
+        "gloss": {
+         "grüß": "greet",
+         "gott": "God",
+         "hier": "here",
+         "mir": "me (bei mir = at my place)",
+         "tropft": "drips",
+         "gestern": "yesterday",
+         "wasserhahn": "tap",
+         "küche": "kitchen",
+         "es": "it",
+         "wird": "becomes",
+         "immer": "ever (immer ärger = worse and worse)",
+         "ärger": "worse (Austrian; standard schlimmer)"
+        }
+       },
+       {
+        "who": "Plumber",
+        "text": "Oje. Haben S' den Haupthahn schon zugedreht?",
+        "en": "Oh dear. Have you already turned off the main tap?",
+        "gloss": {
+         "oje": "oh dear",
+         "haben": "have",
+         "s'": "you (Austrian short for Sie)",
+         "haupthahn": "main water tap, stopcock",
+         "schon": "already",
+         "zugedreht": "turned off",
+         "s": "you (Austrian short for Sie)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Ja, eh. Aber ohne Wasser is' halt mühsam.",
+        "en": "Yes, of course. But without water it's a real pain.",
+        "gloss": {
+         "ja": "yes",
+         "eh": "anyway, of course (Austrian)",
+         "wasser": "water",
+         "is'": "is (colloquial)",
+         "halt": "just, simply (filler)",
+         "mühsam": "tiresome, a pain",
+         "is": "is (colloquial ist)"
+        }
+       },
+       {
+        "who": "Plumber",
+        "text": "Verstehe. Morgen um acht könnt ich vorbeischauen, geht sich das aus?",
+        "en": "I see. I could drop by tomorrow at eight, does that work for you?",
+        "gloss": {
+         "verstehe": "I understand",
+         "morgen": "tomorrow",
+         "acht": "eight",
+         "könnt": "could (colloquial könnte)",
+         "ich": "I",
+         "vorbeischauen": "to drop by",
+         "geht": "goes (geht sich das aus? = does that work out? Austrian)",
+         "sich": "itself"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Ja, das geht sich aus. Danke, Sie retten mir den Tag!",
+        "en": "Yes, that works. Thanks, you're saving my day!",
+        "gloss": {
+         "ja": "yes",
+         "geht": "goes",
+         "sich": "itself (geht sich aus = works out)",
+         "danke": "thanks",
+         "sie": "you (formal)",
+         "retten": "save",
+         "mir": "for me",
+         "tag": "day"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "quote": {
+    "text": "Damit das Mögliche entsteht, muss immer wieder das Unmögliche versucht werden.",
+    "en": "For the possible to come about, the impossible must be attempted again and again.",
+    "gloss": {
+     "damit": "so that",
+     "mögliche": "possible",
+     "entsteht": "comes into being",
+     "muss": "must",
+     "immer": "always (immer wieder = again and again)",
+     "wieder": "again",
+     "unmögliche": "impossible",
+     "versucht": "attempted",
+     "werden": "be (passive)"
+    },
+    "who": "Hermann Hesse",
+    "when": "20th century",
+    "about": "The Nobel-winning author of Siddhartha and Steppenwolf, who grew up in Swabia and lived much of his life in Switzerland, wrote this line that Germans still pin on office walls and quote in graduation speeches."
+   },
+   "lit": {
+    "text": "Willst du immer weiter schweifen? Sieh, das Gute liegt so nah. Lerne nur das Glück ergreifen, denn das Glück ist immer da.",
+    "en": "Will you keep roaming ever further? Look, the good lies so near. Just learn to seize happiness, for happiness is always there.",
+    "gloss": {
+     "willst": "do you want",
+     "du": "you",
+     "immer": "ever, always",
+     "weiter": "further",
+     "schweifen": "to roam, wander (literary)",
+     "sieh": "look, see",
+     "gute": "good",
+     "liegt": "lies",
+     "so": "so",
+     "nah": "near",
+     "lerne": "learn",
+     "nur": "just",
+     "glück": "happiness, luck",
+     "ergreifen": "to seize",
+     "denn": "for, because",
+     "da": "there"
+    },
+    "author": "Johann Wolfgang von Goethe",
+    "work": "Erinnerung",
+    "when": "late 18th century",
+    "about": "Goethe's four-line poem 'Erinnerung' (Reminder) is one of the most quoted verses in German: its second line has become a proverb, written in friendship albums and said to anyone dreaming of happiness far away."
+   },
+   "vocab": {
+    "A": [
+     {
+      "word": "das Krankenhaus",
+      "article": "das",
+      "pos": "noun",
+      "region": "general",
+      "ties": "news",
+      "meaning": "hospital",
+      "note": "Plural: die Krankenhäuser. In Bavaria and Austria people also say das Spital; die Klinik is common too.",
+      "example": "Das Krankenhaus ist gleich neben dem Bahnhof.",
+      "exampleEn": "The hospital is right next to the station.",
+      "exGloss": {
+       "krankenhaus": "hospital",
+       "gleich": "right, just",
+       "bahnhof": "station"
+      }
+     },
+     {
+      "word": "die Fahrkarte",
+      "article": "die",
+      "pos": "noun",
+      "region": "general",
+      "ties": "phrase1",
+      "meaning": "(train or bus) ticket",
+      "note": "Also das Ticket. Austria often says der Fahrschein. Einfach = single, hin und zurück = return.",
+      "example": "Ich brauche eine Fahrkarte nach Nürnberg.",
+      "exampleEn": "I need a ticket to Nuremberg.",
+      "exGloss": {
+       "ich": "I",
+       "brauche": "need",
+       "fahrkarte": "ticket"
+      }
+     },
+     {
+      "word": "Mahlzeit!",
+      "pos": "idiom",
+      "region": "Österreich / Bayern",
+      "ties": "phrase2",
+      "meaning": "lunchtime greeting, 'enjoy your meal'",
+      "note": "Said around midday in offices, canteens and restaurants, even just passing in the corridor. The reply is simply «Mahlzeit!».",
+      "example": "Um zwölf sagen alle im Büro: Mahlzeit!",
+      "exampleEn": "At twelve everyone in the office says: Mahlzeit!",
+      "exGloss": {
+       "zwölf": "twelve",
+       "sagen": "say",
+       "alle": "everyone",
+       "büro": "office",
+       "mahlzeit": "enjoy your lunch"
+      }
+     }
+    ],
+    "B": [
+     {
+      "word": "fordern",
+      "pos": "verb",
+      "region": "general",
+      "ties": "news",
+      "meaning": "to demand, call for",
+      "note": "Regular: forderte, hat gefordert. Noun: die Forderung. Not to be confused with fördern (to support, fund).",
+      "example": "Die Eltern fordern mehr Lehrer für die Schule.",
+      "exampleEn": "The parents are calling for more teachers for the school.",
+      "exGloss": {
+       "eltern": "parents",
+       "fordern": "demand",
+       "mehr": "more",
+       "lehrer": "teachers",
+       "schule": "school"
+      }
+     },
+     {
+      "word": "krankschreiben",
+      "pos": "verb",
+      "region": "general",
+      "ties": "phrase1",
+      "meaning": "to sign someone off sick",
+      "note": "Separable and irregular: schreibt krank, schrieb krank, hat krankgeschrieben. Ich bin krankgeschrieben = I'm on sick leave.",
+      "example": "Der Arzt hat mich für drei Tage krankgeschrieben.",
+      "exampleEn": "The doctor signed me off sick for three days.",
+      "exGloss": {
+       "arzt": "doctor",
+       "mich": "me",
+       "drei": "three",
+       "tage": "days",
+       "krankgeschrieben": "signed off sick"
+      }
+     },
+     {
+      "word": "sich ausgehen",
+      "pos": "idiom",
+      "region": "Österreich",
+      "ties": "phrase2",
+      "meaning": "to work out, to fit (in time, money or space)",
+      "note": "Austrian (also heard in Bavaria): Geht sich das aus? = Will that work? Standard German: Klappt das? / Passt das? / Reicht das?",
+      "example": "Wenn wir jetzt fahren, geht sich das Kino noch aus.",
+      "exampleEn": "If we leave now, we'll still make the cinema.",
+      "exGloss": {
+       "wenn": "if",
+       "wir": "we",
+       "jetzt": "now",
+       "fahren": "go, drive",
+       "geht": "goes",
+       "sich": "itself",
+       "kino": "cinema",
+       "noch": "still"
+      }
+     }
+    ],
+    "C": [
+     {
+      "word": "zusagen",
+      "pos": "verb",
+      "region": "general",
+      "ties": "news",
+      "meaning": "to promise, confirm; to accept (an invitation)",
+      "note": "Separable: sagt zu, hat zugesagt. Die Zusage = promise or acceptance; the opposite is absagen.",
+      "example": "Die Stadt hat das Geld schon lange zugesagt.",
+      "exampleEn": "The city promised the money a long time ago.",
+      "exGloss": {
+       "stadt": "city",
+       "geld": "money",
+       "schon": "already",
+       "lange": "long (schon lange = for a long time)",
+       "zugesagt": "promised"
+      }
+     },
+     {
+      "word": "entstehen",
+      "pos": "verb",
+      "region": "general",
+      "ties": "quote",
+      "meaning": "to come into being, arise, be created",
+      "note": "Irregular: entstand, ist entstanden (with sein). Very common for costs, ideas and problems: Es entstehen keine Kosten.",
+      "example": "Die besten Ideen entstehen oft beim Spazierengehen.",
+      "exampleEn": "The best ideas often come about while out walking.",
+      "exGloss": {
+       "besten": "best",
+       "ideen": "ideas",
+       "entstehen": "come about",
+       "oft": "often",
+       "spazierengehen": "going for a walk"
+      }
+     },
+     {
+      "word": "ergreifen",
+      "pos": "verb",
+      "region": "general",
+      "ties": "lit",
+      "meaning": "to seize, grasp, take",
+      "note": "Irregular: ergriff, hat ergriffen. Alive today in set phrases: die Gelegenheit ergreifen (seize the chance), das Wort ergreifen (take the floor), Maßnahmen ergreifen (take measures).",
+      "example": "Sie hat die Gelegenheit ergriffen und das Wort ergriffen.",
+      "exampleEn": "She seized the opportunity and took the floor.",
+      "exGloss": {
+       "sie": "she",
+       "gelegenheit": "opportunity",
+       "ergriffen": "seized, taken",
+       "wort": "word (das Wort ergreifen = take the floor)"
+      }
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "level": "A1",
+     "ref": "phrase1",
+     "q": "At the ticket counter, the clerk asks «Einfach oder hin und zurück?». What does «hin und zurück» mean?",
+     "options": [
+      "first class",
+      "a seat by the window",
+      "a return ticket",
+      "a single ticket"
+     ],
+     "answer": 2,
+     "why": "Hin = there, zurück = back: a ticket there and back, i.e. a return.",
+     "lesson": "«Einfach» comes first and sounds like the 'easy' option, so people mix the two up; einfach is the single, one-way ticket."
+    },
+    {
+     "level": "A2",
+     "ref": "vocab3",
+     "q": "The waiter in Vienna greets you with «Mahlzeit!». When do people say this?",
+     "options": [
+      "as a greeting around lunchtime",
+      "as goodbye late at night",
+      "as a toast before drinking",
+      "as an apology for being late"
+     ],
+     "answer": 0,
+     "why": "«Mahlzeit!» is the midday greeting in Austria and Bavaria, said in restaurants, canteens and offices.",
+     "lesson": "It literally means 'mealtime', so learners treat it like 'bon appétit' said only at the table; in fact colleagues say it to each other in the corridor at noon without any food in sight."
+    },
+    {
+     "level": "B1",
+     "ref": "news",
+     "q": "Was fordert Judith Gerlach laut der Meldung?",
+     "options": [
+      "Bayern soll weniger Krankenhäuser haben.",
+      "Der Bund soll den Kliniken noch dieses Jahr mehr Geld zahlen.",
+      "Die Kliniken sollen mehr Steuern zahlen.",
+      "Die Ärzte sollen mehr verdienen."
+     ],
+     "answer": 1,
+     "why": "Sie fordert, «dass der Bund den Kliniken noch dieses Jahr mehr Geld zahlt».",
+     "lesson": "Bei «Geld» und «Kliniken» denken viele, dass die Kliniken zahlen müssen; aber im Dativ «den Kliniken» sind sie die Empfänger — der Bund ist der, der zahlt."
+    },
+    {
+     "level": "B2",
+     "ref": "phrase2",
+     "q": "Der Installateur fragt: «Geht sich das aus?» Was meint er damit?",
+     "options": [
+      "Gehen Sie bitte hinaus?",
+      "Ist der Wasserhahn kaputt?",
+      "Ist das zu teuer?",
+      "Passt Ihnen der Termin?"
+     ],
+     "answer": 3,
+     "why": "Österreichisch «sich ausgehen» heißt 'klappen, passen': Er fragt, ob morgen um acht für Sie passt.",
+     "lesson": "«Ausgehen» kennt man als 'abends weggehen' oder 'hinausgehen', deshalb klingt die Frage nach 'Gehen Sie raus?'; mit «sich» ist es aber ein ganz anderes Verb."
+    },
+    {
+     "level": "C1",
+     "ref": "quote",
+     "q": "Was muss laut Hesse geschehen, damit das Mögliche entsteht?",
+     "options": [
+      "Man muss sich mit dem Möglichen zufriedengeben.",
+      "Man muss auf den richtigen Moment warten.",
+      "Man muss immer wieder das Unmögliche versuchen.",
+      "Man muss das Unmögliche einmal erreicht haben."
+     ],
+     "answer": 2,
+     "why": "Hesse schreibt, dass «immer wieder das Unmögliche versucht werden» muss.",
+     "lesson": "Das Passiv «versucht werden» betont den Versuch, nicht den Erfolg; wer es überliest, glaubt, das Unmögliche müsse erreicht werden — Hesse verlangt aber nur das wiederholte Wagen."
+    },
+    {
+     "level": "C2",
+     "ref": "lit",
+     "q": "Was will Goethe mit «Sieh, das Gute liegt so nah» sagen?",
+     "options": [
+      "Man sollte weit reisen, um das Glück zu finden.",
+      "Das Glück findet man oft in der eigenen Nähe.",
+      "Gute Menschen wohnen meistens in der Nachbarschaft.",
+      "Das Gute ist leicht zu sehen, das Glück aber nicht."
+     ],
+     "answer": 1,
+     "why": "Der Sprecher fragt, warum man «immer weiter schweifen» will, wenn das Gute und das Glück schon nah und «immer da» sind.",
+     "lesson": "Die erste Zeile spricht vom Reisen und Schweifen, deshalb liest man sie als Empfehlung; sie ist aber eine rhetorische Frage, die genau dieses Fernweh sanft infrage stellt."
+    }
+   ],
+   "tip": {
+    "title": "Darauf or auf ihn?",
+    "text": "When a verb needs a preposition, German swaps 'preposition + it' for a da-word: «Ich warte auf den Bus» becomes «Ich warte darauf». Add an r before a vowel: dar-auf, dar-über. But for people you keep the preposition and a pronoun: «Ich warte auf ihn». The question forms work the same: «Worauf wartest du?» for things, «Auf wen?» for people."
+   },
+   "fun": {
+    "kind": "idiom",
+    "region": "general",
+    "text": "Ich verstehe nur Bahnhof.",
+    "gloss": {
+     "ich": "I",
+     "verstehe": "understand",
+     "nur": "only",
+     "bahnhof": "station"
+    },
+    "literal": "I only understand 'station'.",
+    "meaning": "I don't understand a word of it; it's all Greek to me.",
+    "culture": "Germans say it about tax forms, tech jargon or a heavy dialect; its origin is disputed, but the image of catching just one familiar word in a stream of nonsense makes it a favourite with learners and natives alike."
+   }
+  },
+  "it": {
+   "news": [
+    {
+     "topic": "Manovra · Roma",
+     "source": "https://www.ansa.it/sito/notizie/politica/2026/11/13/manovra-il-governo-apre-alle-modifiche-saltano-i-tagli-alla-scuola-piu_a9e7d8e3-ebe1-4229-a908-26b2f2a973d6.html",
+     "levels": {
+      "A": {
+       "text": "Il governo toglie i tagli alla scuola dalla manovra.",
+       "en": "The government removes the school cuts from the budget.",
+       "gloss": {
+        "governo": "government",
+        "toglie": "removes, takes away",
+        "tagli": "cuts",
+        "scuola": "school",
+        "dalla": "from the",
+        "manovra": "budget (law)"
+       }
+      },
+      "B": {
+       "text": "Dopo l'incontro con i sindacati, il governo ha deciso di togliere dalla manovra i tagli al personale della scuola.",
+       "en": "After the meeting with the unions, the government decided to remove the cuts to school staff from the budget.",
+       "gloss": {
+        "dopo": "after",
+        "l'incontro": "the meeting",
+        "incontro": "meeting",
+        "sindacati": "unions",
+        "governo": "government",
+        "deciso": "decided",
+        "togliere": "to remove",
+        "dalla": "from the",
+        "manovra": "budget",
+        "tagli": "cuts",
+        "personale": "staff",
+        "scuola": "school"
+       }
+      },
+      "C": {
+       "text": "Dopo il vertice di Palazzo Chigi con i sindacati, il governo ha ritirato i tagli al personale scolastico previsti dalla manovra, mentre Meloni sostiene che «non erano tagli».",
+       "en": "After the summit at Palazzo Chigi with the unions, the government withdrew the cuts to school staff planned in the budget, while Meloni maintains that 'they weren't cuts'.",
+       "gloss": {
+        "dopo": "after",
+        "vertice": "summit",
+        "sindacati": "unions",
+        "governo": "government",
+        "ritirato": "withdrawn",
+        "tagli": "cuts",
+        "personale": "staff",
+        "scolastico": "school (adj.)",
+        "previsti": "planned",
+        "dalla": "by the, in the",
+        "manovra": "budget",
+        "mentre": "while",
+        "sostiene": "maintains",
+        "erano": "were"
+       }
+      }
+     }
+    }
+   ],
+   "phrases": {
+    "A": [
+     {
+      "topic": "Buying shoes",
+      "situation": "In a shoe shop in Milan",
+      "region": "Italia",
+      "lines": [
+       {
+        "who": "Shop assistant",
+        "text": "Buongiorno! Posso aiutarla?",
+        "en": "Good morning! Can I help you?",
+        "gloss": {
+         "buongiorno": "good morning",
+         "posso": "can I",
+         "aiutarla": "help you (formal)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Sì, vorrei provare queste scarpe.",
+        "en": "Yes, I'd like to try on these shoes.",
+        "gloss": {
+         "sì": "yes",
+         "vorrei": "I would like",
+         "provare": "to try (on)",
+         "queste": "these",
+         "scarpe": "shoes"
+        }
+       },
+       {
+        "who": "Shop assistant",
+        "text": "Che numero porta?",
+        "en": "What size do you wear?",
+        "gloss": {
+         "numero": "number, (shoe) size",
+         "porta": "you wear (formal)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Il trentotto.",
+        "en": "Thirty-eight.",
+        "gloss": {
+         "trentotto": "thirty-eight"
+        }
+       },
+       {
+        "who": "Shop assistant",
+        "text": "Ecco. Come vanno?",
+        "en": "Here you are. How do they fit?",
+        "gloss": {
+         "ecco": "here you are",
+         "come": "how",
+         "vanno": "they go (come vanno? = how do they fit?)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Benissimo! Le prendo.",
+        "en": "Really well! I'll take them.",
+        "gloss": {
+         "benissimo": "very well",
+         "prendo": "I take"
+        }
+       }
+      ]
+     },
+     {
+      "topic": "Thanking your host",
+      "situation": "Leaving a friend's home in Bologna after dinner",
+      "region": "Italia",
+      "lines": [
+       {
+        "who": "You",
+        "text": "Grazie mille per la cena! Era tutto buonissimo.",
+        "en": "Thanks so much for dinner! Everything was delicious.",
+        "gloss": {
+         "grazie": "thanks",
+         "mille": "a thousand (grazie mille = thanks a lot)",
+         "cena": "dinner",
+         "era": "was",
+         "tutto": "everything",
+         "buonissimo": "delicious, very good"
+        }
+       },
+       {
+        "who": "Host",
+        "text": "Figurati! Mi fa piacere.",
+        "en": "Don't mention it! I'm glad.",
+        "gloss": {
+         "figurati": "don't mention it (lit. imagine)",
+         "fa": "makes (mi fa piacere = I'm glad)",
+         "piacere": "pleasure"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Le tagliatelle erano fantastiche.",
+        "en": "The tagliatelle were fantastic.",
+        "gloss": {
+         "tagliatelle": "tagliatelle (ribbon pasta)",
+         "erano": "were",
+         "fantastiche": "fantastic"
+        }
+       },
+       {
+        "who": "Host",
+        "text": "Grazie! La ricetta è di mia nonna.",
+        "en": "Thanks! The recipe is my grandmother's.",
+        "gloss": {
+         "grazie": "thanks",
+         "ricetta": "recipe",
+         "mia": "my",
+         "nonna": "grandmother"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Allora complimenti alla nonna!",
+        "en": "Then my compliments to your grandmother!",
+        "gloss": {
+         "allora": "then, so",
+         "complimenti": "compliments, well done",
+         "nonna": "grandmother"
+        }
+       }
+      ]
+     }
+    ],
+    "B": [
+     {
+      "topic": "Haggling at a flea market",
+      "situation": "At the Porta Portese Sunday market in Rome",
+      "region": "Italia",
+      "lines": [
+       {
+        "who": "You",
+        "text": "Scusi, quanto viene questa lampada?",
+        "en": "Excuse me, how much is this lamp?",
+        "gloss": {
+         "scusi": "excuse me (formal)",
+         "quanto": "how much",
+         "viene": "comes (quanto viene? = how much is it?)",
+         "questa": "this",
+         "lampada": "lamp"
+        }
+       },
+       {
+        "who": "Seller",
+        "text": "Quaranta euro. È d'epoca, eh, guardi che bella.",
+        "en": "Forty euros. It's vintage, you know, look how lovely it is.",
+        "gloss": {
+         "quaranta": "forty",
+         "euro": "euros",
+         "d'epoca": "vintage, period",
+         "epoca": "era, period",
+         "eh": "you know, eh",
+         "guardi": "look (formal)",
+         "bella": "beautiful"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Mah, è un po' cara. Facciamo venticinque?",
+        "en": "Hmm, it's a bit pricey. Shall we say twenty-five?",
+        "gloss": {
+         "mah": "hmm, well (doubt)",
+         "po'": "bit (un po' = a bit)",
+         "cara": "expensive, dear",
+         "facciamo": "let's make (facciamo X? = shall we say X?)",
+         "venticinque": "twenty-five",
+         "po": "bit (un po' = a bit)"
+        }
+       },
+       {
+        "who": "Seller",
+        "text": "Venticinque? Ma dai, così mi rovina! Trentacinque.",
+        "en": "Twenty-five? Oh come on, you'll ruin me! Thirty-five.",
+        "gloss": {
+         "venticinque": "twenty-five",
+         "dai": "come on",
+         "così": "like this, that way",
+         "rovina": "you ruin (formal)",
+         "trentacinque": "thirty-five"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Trenta, e la prendo subito.",
+        "en": "Thirty, and I'll take it right now.",
+        "gloss": {
+         "trenta": "thirty",
+         "prendo": "I take",
+         "subito": "right away"
+        }
+       },
+       {
+        "who": "Seller",
+        "text": "Vabbè, affare fatto. Gliela incarto?",
+        "en": "Oh fine, it's a deal. Shall I wrap it for you?",
+        "gloss": {
+         "vabbè": "oh well, fine",
+         "affare": "deal, bargain",
+         "fatto": "done (affare fatto = it's a deal)",
+         "gliela": "it for you",
+         "incarto": "I wrap"
+        }
+       },
+       {
+        "who": "You",
+        "text": "No, grazie, va bene così.",
+        "en": "No, thanks, it's fine as it is.",
+        "gloss": {
+         "no": "no",
+         "grazie": "thanks",
+         "va": "goes (va bene = it's fine)",
+         "bene": "well",
+         "così": "like this"
+        }
+       }
+      ]
+     },
+     {
+      "topic": "Viewing a flat",
+      "situation": "Looking round a flat for rent in Turin with an estate agent",
+      "region": "Italia",
+      "lines": [
+       {
+        "who": "Agent",
+        "text": "Allora, questo è il soggiorno. Luminoso, no?",
+        "en": "So, this is the living room. Bright, isn't it?",
+        "gloss": {
+         "allora": "so",
+         "soggiorno": "living room",
+         "luminoso": "bright, full of light",
+         "no": "no (luminoso, no? = bright, isn't it?)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Sì, carino. Ma il riscaldamento è autonomo o centralizzato?",
+        "en": "Yes, nice. But is the heating independent or central for the building?",
+        "gloss": {
+         "sì": "yes",
+         "carino": "nice, cute",
+         "riscaldamento": "heating",
+         "autonomo": "independent (own boiler)",
+         "centralizzato": "centralised (shared by the building)"
+        }
+       },
+       {
+        "who": "Agent",
+        "text": "Centralizzato, ed è compreso nelle spese condominiali.",
+        "en": "Central, and it's included in the building service charges.",
+        "gloss": {
+         "centralizzato": "centralised",
+         "compreso": "included",
+         "nelle": "in the",
+         "spese": "expenses, charges",
+         "condominiali": "of the building, condominium"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Ok. E quanto sono le spese, più o meno?",
+        "en": "OK. And how much are the charges, more or less?",
+        "gloss": {
+         "ok": "OK",
+         "quanto": "how much",
+         "spese": "charges",
+         "meno": "less"
+        }
+       },
+       {
+        "who": "Agent",
+        "text": "Sui cento euro al mese.",
+        "en": "Around a hundred euros a month.",
+        "gloss": {
+         "sui": "around (lit. on the)",
+         "cento": "hundred",
+         "euro": "euros",
+         "mese": "month"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Mmh, ci devo pensare. Le faccio sapere entro venerdì, va bene?",
+        "en": "Hmm, I need to think about it. I'll let you know by Friday, OK?",
+        "gloss": {
+         "mmh": "hmm",
+         "devo": "I must",
+         "pensare": "to think",
+         "faccio": "I make (le faccio sapere = I'll let you know)",
+         "sapere": "to know",
+         "entro": "by, within",
+         "venerdì": "Friday",
+         "va": "goes",
+         "bene": "well (va bene? = OK?)"
+        }
+       },
+       {
+        "who": "Agent",
+        "text": "Certo, nessun problema.",
+        "en": "Of course, no problem.",
+        "gloss": {
+         "certo": "of course",
+         "nessun": "no",
+         "problema": "problem"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "quote": {
+    "text": "Siamo angeli con un'ala soltanto, e possiamo volare solo restando abbracciati.",
+    "en": "We are angels with only one wing, and we can fly only by staying in each other's arms.",
+    "gloss": {
+     "siamo": "we are",
+     "angeli": "angels",
+     "un'ala": "one wing",
+     "ala": "wing",
+     "soltanto": "only",
+     "possiamo": "we can",
+     "volare": "to fly",
+     "solo": "only",
+     "restando": "staying, remaining",
+     "abbracciati": "embracing, in each other's arms"
+    },
+    "who": "Luciano De Crescenzo",
+    "when": "late 20th century",
+    "about": "The Neapolitan engineer-turned-writer and film-maker, loved for his warm, witty books on Naples and Greek philosophy, wrote the line Italians copy into wedding cards and say about friendship."
+   },
+   "lit": {
+    "text": "Che fai tu, luna, in ciel? dimmi, che fai, silenziosa luna?",
+    "en": "What are you doing, moon, in the sky? Tell me, what are you doing, silent moon?",
+    "gloss": {
+     "fai": "you do",
+     "luna": "moon",
+     "ciel": "sky (poetic for cielo)",
+     "dimmi": "tell me",
+     "silenziosa": "silent"
+    },
+    "author": "Giacomo Leopardi",
+    "work": "Canto notturno di un pastore errante dell'Asia (Canti)",
+    "when": "1829–1830",
+    "about": "The opening of Leopardi's 'Night Song of a Wandering Shepherd of Asia', in which a lonely herdsman asks the moon what life is for; Italian schoolchildren learn it by heart and its question still feels modern."
+   },
+   "vocab": {
+    "A": [
+     {
+      "word": "togliere",
+      "pos": "verb",
+      "region": "general",
+      "ties": "news",
+      "meaning": "to take away, remove, take off",
+      "note": "Irregular: tolgo, togli, toglie, tolgono; past participle tolto. Togliersi le scarpe = to take off your shoes.",
+      "example": "Mi tolgo le scarpe a casa.",
+      "exampleEn": "I take my shoes off at home.",
+      "exGloss": {
+       "tolgo": "I take off",
+       "scarpe": "shoes",
+       "casa": "home"
+      }
+     },
+     {
+      "word": "figurati!",
+      "pos": "idiom",
+      "region": "general",
+      "ties": "phrase2",
+      "meaning": "don't mention it!, not at all!",
+      "note": "The reply to grazie among friends. Formal: si figuri! It can also mean 'imagine that!' or 'no way!' depending on tone.",
+      "example": "— Grazie del passaggio! — Figurati!",
+      "exampleEn": "— Thanks for the lift! — Don't mention it!",
+      "exGloss": {
+       "grazie": "thanks",
+       "passaggio": "lift, ride",
+       "figurati": "don't mention it"
+      }
+     }
+    ],
+    "B": [
+     {
+      "word": "affare fatto",
+      "pos": "idiom",
+      "region": "general",
+      "ties": "phrase1",
+      "meaning": "it's a deal!, done!",
+      "note": "Un affare also means a bargain: che affare! = what a bargain! Un affarone = a great bargain.",
+      "example": "Trenta euro per tutti e due? Affare fatto!",
+      "exampleEn": "Thirty euros for both? Deal!",
+      "exGloss": {
+       "trenta": "thirty",
+       "euro": "euros",
+       "tutti": "all (tutti e due = both)",
+       "due": "two",
+       "affare": "deal",
+       "fatto": "done"
+      }
+     },
+     {
+      "word": "le spese condominiali",
+      "article": "le",
+      "pos": "noun",
+      "region": "general",
+      "ties": "phrase2",
+      "meaning": "building service charges",
+      "note": "Paid monthly for cleaning, the lift, shared heating and so on. Ask «Le spese sono comprese?» (Are the charges included?) when renting.",
+      "example": "L'affitto è basso, ma le spese condominiali sono alte.",
+      "exampleEn": "The rent is low, but the building charges are high.",
+      "exGloss": {
+       "l'affitto": "the rent",
+       "affitto": "rent",
+       "basso": "low",
+       "spese": "charges",
+       "condominiali": "building",
+       "alte": "high"
+      }
+     }
+    ],
+    "C": [
+     {
+      "word": "ritirare",
+      "pos": "verb",
+      "region": "general",
+      "ties": "news",
+      "meaning": "to withdraw; to collect, pick up",
+      "note": "In the news: ritirare una proposta (withdraw a proposal). In daily life: ritirare un pacco (pick up a parcel). Ritirarsi = to retire, pull out.",
+      "example": "Devo ritirare un pacco alla posta.",
+      "exampleEn": "I have to pick up a parcel at the post office.",
+      "exGloss": {
+       "devo": "I must",
+       "ritirare": "pick up",
+       "pacco": "parcel",
+       "alla": "at the",
+       "posta": "post office"
+      }
+     },
+     {
+      "word": "abbracciarsi",
+      "pos": "verb",
+      "region": "general",
+      "ties": "quote",
+      "meaning": "to hug (each other), embrace",
+      "note": "Regular -are: ci abbracciamo, si sono abbracciati. Un abbraccio = a hug; ending a message with «Un abbraccio» is like 'hugs'.",
+      "example": "Alla stazione si sono abbracciati per un minuto.",
+      "exampleEn": "At the station they hugged for a whole minute.",
+      "exGloss": {
+       "alla": "at the",
+       "stazione": "station",
+       "abbracciati": "hugged",
+       "minuto": "minute"
+      }
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "level": "A1",
+     "ref": "phrase1",
+     "q": "In the shoe shop, what does the assistant mean by «Che numero porta?»",
+     "options": [
+      "What's your phone number?",
+      "What size do you wear?",
+      "How many pairs do you want?",
+      "Which colour do you prefer?"
+     ],
+     "answer": 1,
+     "why": "With shoes, «numero» is the size, and «portare» here means to wear: 'What size do you take?'",
+     "lesson": "«Numero» looks like 'number' and «porta» like 'bring', so learners hear 'which number are you bringing?' and think of a phone number; in shops numero is your size and portare is to wear."
+    },
+    {
+     "level": "A2",
+     "ref": "vocab2",
+     "q": "You thank your host, and they answer «Figurati!». What do they mean?",
+     "options": [
+      "Imagine that!",
+      "Hurry up!",
+      "Be careful!",
+      "Don't mention it!"
+     ],
+     "answer": 3,
+     "why": "After grazie, «Figurati!» is the friendly 'not at all, don't mention it'.",
+     "lesson": "Literally it is 'imagine (it)!', and in other contexts it can mean 'imagine that!'; but as a reply to thanks it just waves the thanks away."
+    },
+    {
+     "level": "B1",
+     "ref": "news",
+     "q": "Secondo la notizia, che cosa ha deciso il governo dopo l'incontro con i sindacati?",
+     "options": [
+      "di togliere dalla manovra i tagli al personale della scuola",
+      "di chiudere alcune scuole",
+      "di aumentare i tagli alla scuola",
+      "di rinviare l'incontro con i sindacati"
+     ],
+     "answer": 0,
+     "why": "Il testo dice che il governo «ha deciso di togliere dalla manovra i tagli al personale della scuola».",
+     "lesson": "«Togliere» e «tagli» suonano entrambi come qualcosa di negativo, e così qualcuno capisce più tagli; ma togliere i tagli significa eliminarli, cioè una buona notizia per la scuola."
+    },
+    {
+     "level": "B2",
+     "ref": "phrase2",
+     "q": "Alla fine della visita dici «Le faccio sapere entro venerdì». Che cosa vuoi dire?",
+     "options": [
+      "Che venerdì firmi il contratto.",
+      "Che vuoi sapere il prezzo entro venerdì.",
+      "Che darai una risposta all'agente entro venerdì.",
+      "Che l'agente deve chiamarti venerdì."
+     ],
+     "answer": 2,
+     "why": "«Far sapere» a qualcuno significa informarlo: darai la tua risposta all'agente non oltre venerdì.",
+     "lesson": "Il verbo «sapere» fa pensare che sia tu a voler sapere qualcosa; ma con «fare» diventa causativo: «Le faccio sapere» = faccio in modo che Lei sappia."
+    },
+    {
+     "level": "C1",
+     "ref": "quote",
+     "q": "Secondo De Crescenzo, a quale condizione possiamo volare?",
+     "options": [
+      "solo se abbiamo due ali",
+      "solo restando abbracciati",
+      "solo dopo essere diventati angeli",
+      "solo se voliamo da soli"
+     ],
+     "answer": 1,
+     "why": "La frase dice che «possiamo volare solo restando abbracciati»: con una sola ala ciascuno, serve l'altro.",
+     "lesson": "«Solo» e «soltanto» compaiono due volte e qualcuno lo legge come 'da soli'; ma qui significano 'unicamente', e il senso è l'opposto: insieme, non da soli."
+    },
+    {
+     "level": "C2",
+     "ref": "lit",
+     "q": "Nei versi di Leopardi, a chi si rivolge il pastore con le sue domande?",
+     "options": [
+      "al proprio gregge",
+      "a Dio",
+      "alle stelle del cielo",
+      "alla luna"
+     ],
+     "answer": 3,
+     "why": "Il pastore chiama due volte «luna» e le chiede «che fai?».",
+     "lesson": "«In ciel» fa pensare al cielo stesso, o a Dio, come interlocutore; ma «ciel» è solo il luogo: il vocativo, tra virgole, è «luna»."
+    }
+   ],
+   "tip": {
+    "title": "La mia casa, but mia madre",
+    "text": "Italian possessives normally come with the article: «la mia casa», «il tuo telefono», «i nostri amici». The big exception is a single family member: «mia madre», «tuo fratello» — no article. Add it back for plurals or extra words: «le mie sorelle», «la mia sorellina». And «loro» always keeps it: «la loro madre»."
+   },
+   "fun": {
+    "kind": "joke",
+    "region": "Italia",
+    "text": "Qual è il colmo per un idraulico? Non capire un tubo!",
+    "gloss": {
+     "qual": "what",
+     "colmo": "height, ultimate (il colmo per = the worst thing for)",
+     "idraulico": "plumber",
+     "capire": "to understand",
+     "tubo": "pipe"
+    },
+    "literal": "What's the worst thing for a plumber? Not understanding a pipe!",
+    "meaning": "«Non capire un tubo» means not to understand a thing — a disaster for someone who works with pipes all day.",
+    "culture": "«Qual è il colmo per…?» riddles are a classic of Italian childhood and school playgrounds, built on idioms that become literal; «non capire un tubo» is everyday slang for being totally lost."
+   }
+  },
+  "ar": {
+   "news": [
+    {
+     "topic": "Kahrabaa · Lubnaan",
+     "source": "https://www.alaraby.co.uk/economy/%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D9%8A%D9%88%D8%A7%D9%81%D9%82-%D8%B9%D9%84%D9%89-%D8%AE%D8%B7%D8%A9-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1-%D9%88%D9%8A%D9%83%D9%84%D9%81-%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9-%D8%A8%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D9%88%D8%B6-%D9%85%D8%B9-%D9%82%D8%B7%D8%B1",
+     "levels": {
+      "A": {
+       "text": "Lubnaan yuwaafiqu alaa khitta jadiida lil-kahrabaa.",
+       "script": "لبنان يوافق على خطة جديدة للكهرباء.",
+       "en": "Lebanon approves a new plan for electricity.",
+       "gloss": {
+        "lubnaan": "Lebanon",
+        "yuwaafiqu": "approves, agrees",
+        "alaa": "on (yuwaafiqu alaa = approves)",
+        "khitta": "plan",
+        "jadiida": "new",
+        "lil-kahrabaa": "for electricity"
+       }
+      },
+      "B": {
+       "text": "Waafaqa majlis al-wuzaraa al-lubnaanii alaa khittat al-kahrabaa, wa-kallafa waziir al-taaqa bi-al-tafaawud ma'a Qatar.",
+       "script": "وافق مجلس الوزراء اللبناني على خطة الكهرباء، وكلّف وزير الطاقة بالتفاوض مع قطر.",
+       "en": "The Lebanese cabinet approved the electricity plan and tasked the energy minister with negotiating with Qatar.",
+       "gloss": {
+        "waafaqa": "approved",
+        "majlis": "council (majlis al-wuzaraa = cabinet)",
+        "al-wuzaraa": "the ministers",
+        "al-lubnaanii": "the Lebanese",
+        "alaa": "on",
+        "khittat": "plan of",
+        "al-kahrabaa": "electricity",
+        "wa-kallafa": "and tasked",
+        "waziir": "minister of",
+        "al-taaqa": "energy",
+        "bi-al-tafaawud": "with negotiating"
+       }
+      },
+      "C": {
+       "text": "Aqarra majlis al-wuzaraa al-lubnaanii khittat waziir al-taaqa Joe al-Siddi lil-kahrabaa, allatii tashmalu istijraar al-ghaaz al-tabii'ii wa-tatwiir al-intaaj wa-al-naql wa-al-tawzii' wa-al-jibaaya, wa-kallafahu muwaasalat al-muhaadathaat ma'a Qatar.",
+       "script": "أقرّ مجلس الوزراء اللبناني خطة وزير الطاقة جو الصدي للكهرباء، التي تشمل استجرار الغاز الطبيعي وتطوير الإنتاج والنقل والتوزيع والجباية، وكلّفه مواصلة المحادثات مع قطر.",
+       "en": "The Lebanese cabinet endorsed Energy Minister Joe al-Siddi's electricity plan, which covers importing natural gas and developing generation, transmission, distribution and bill collection, and tasked him with continuing the talks with Qatar.",
+       "gloss": {
+        "aqarra": "endorsed, approved",
+        "majlis": "council",
+        "al-wuzaraa": "the ministers",
+        "al-lubnaanii": "the Lebanese",
+        "khittat": "plan of",
+        "waziir": "minister of",
+        "al-taaqa": "energy",
+        "lil-kahrabaa": "for electricity",
+        "allatii": "which",
+        "tashmalu": "includes",
+        "istijraar": "importing, bringing in (by pipeline)",
+        "al-ghaaz": "gas",
+        "al-tabii'ii": "natural",
+        "wa-tatwiir": "and developing",
+        "al-intaaj": "production",
+        "wa-al-naql": "and transmission",
+        "wa-al-tawzii'": "and distribution",
+        "wa-al-jibaaya": "and bill collection",
+        "wa-kallafahu": "and tasked him",
+        "muwaasalat": "continuing",
+        "al-muhaadathaat": "the talks",
+        "wa-al-tawzii": "and distribution"
+       }
+      }
+     }
+    }
+   ],
+   "phrases": {
+    "A": [
+     {
+      "topic": "Buying a SIM card",
+      "situation": "At a mobile phone shop in Cairo",
+      "region": "Egypt",
+      "lines": [
+       {
+        "who": "You",
+        "text": "Law samaht, aayiz shariiha gdiida.",
+        "script": "لو سمحت، عايز شريحة جديدة.",
+        "en": "Excuse me, I'd like a new SIM card.",
+        "gloss": {
+         "law": "if",
+         "samaht": "you allow (law samaht = excuse me, please)",
+         "aayiz": "I want (m.)",
+         "shariiha": "SIM card (lit. slice)",
+         "gdiida": "new (Egyptian)"
+        }
+       },
+       {
+        "who": "Seller",
+        "text": "Haadir. Ma'aak il-basboor?",
+        "script": "حاضر. معاك الباسبور؟",
+        "en": "Certainly. Do you have your passport with you?",
+        "gloss": {
+         "haadir": "certainly, right away",
+         "ma'aak": "with you",
+         "il-basboor": "the passport"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Aywa, itfaddal.",
+        "script": "أيوه، اتفضل.",
+        "en": "Yes, here you are.",
+        "gloss": {
+         "aywa": "yes (Egyptian)",
+         "itfaddal": "here you are, please"
+        }
+       },
+       {
+        "who": "Seller",
+        "text": "Ish-shariiha b-khamsiin gineeh.",
+        "script": "الشريحة بخمسين جنيه.",
+        "en": "The SIM card is fifty pounds.",
+        "gloss": {
+         "ish-shariiha": "the SIM card",
+         "b-khamsiin": "for fifty",
+         "gineeh": "pound(s) (Egyptian currency)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Tamaam, shukran.",
+        "script": "تمام، شكراً.",
+        "en": "Great, thanks.",
+        "gloss": {
+         "tamaam": "great, fine",
+         "shukran": "thank you"
+        }
+       }
+      ]
+     },
+     {
+      "topic": "Buying ka'ke from a street seller",
+      "situation": "At a ka'ke cart on the Corniche in Beirut",
+      "region": "Lebanon",
+      "lines": [
+       {
+        "who": "You",
+        "text": "Marhaba, baddi ka'ke b-za'tar, iza bitriid.",
+        "script": "مرحبا، بدي كعكة بزعتر، إذا بتريد.",
+        "en": "Hello, I'd like a ka'ke with za'tar, please.",
+        "gloss": {
+         "marhaba": "hello",
+         "baddi": "I want (Lebanese)",
+         "ka'ke": "ka'ke (sesame bread ring)",
+         "b-za'tar": "with za'tar (thyme mix)",
+         "iza": "if",
+         "bitriid": "you please (iza bitriid = please)"
+        }
+       },
+       {
+        "who": "Seller",
+        "text": "Ahlan! Waahde?",
+        "script": "أهلا! وحدة؟",
+        "en": "Hi! Just one?",
+        "gloss": {
+         "ahlan": "hi, welcome",
+         "waahde": "one (f.)"
+        }
+       },
+       {
+        "who": "You",
+        "text": "La', tintein.",
+        "script": "لأ، تنتين.",
+        "en": "No, two.",
+        "gloss": {
+         "la'": "no",
+         "tintein": "two (Lebanese)"
+        }
+       },
+       {
+        "who": "Seller",
+        "text": "Tikram. Tfaddal.",
+        "script": "تكرم. تفضّل.",
+        "en": "With pleasure. Here you go.",
+        "gloss": {
+         "tikram": "with pleasure, at your service (Lebanese)",
+         "tfaddal": "here you go"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Shukran, yislamu ideik!",
+        "script": "شكراً، يسلمو إيديك!",
+        "en": "Thanks, bless your hands!",
+        "gloss": {
+         "shukran": "thanks",
+         "yislamu": "may they be safe",
+         "ideik": "your hands"
+        }
+       }
+      ]
+     }
+    ],
+    "B": [
+     {
+      "topic": "Signing up at a gym",
+      "situation": "At the front desk of a gym in Riyadh",
+      "region": "Saudi",
+      "lines": [
+       {
+        "who": "You",
+        "text": "As-salaamu alaykum. Abgha ashtarik fi n-naadi.",
+        "script": "السلام عليكم. أبغى أشترك في النادي.",
+        "en": "Peace be upon you. I'd like to join the gym.",
+        "gloss": {
+         "as-salaamu": "peace",
+         "alaykum": "upon you",
+         "abgha": "I want (Saudi)",
+         "ashtarik": "subscribe, sign up",
+         "n-naadi": "the club, the gym"
+        }
+       },
+       {
+        "who": "Staff",
+        "text": "Wa alaykum as-salaam, hayyaak. Tabi ishtiraak shahri walla sanawi?",
+        "script": "وعليكم السلام، حيّاك. تبي اشتراك شهري ولا سنوي؟",
+        "en": "And upon you peace, welcome. Do you want a monthly or a yearly membership?",
+        "gloss": {
+         "alaykum": "upon you",
+         "as-salaam": "peace",
+         "hayyaak": "welcome (Gulf)",
+         "tabi": "you want (Saudi)",
+         "ishtiraak": "membership, subscription",
+         "shahri": "monthly",
+         "walla": "or",
+         "sanawi": "yearly"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Kam ash-shahri?",
+        "script": "كم الشهري؟",
+        "en": "How much is the monthly one?",
+        "gloss": {
+         "kam": "how much",
+         "ash-shahri": "the monthly (one)"
+        }
+       },
+       {
+        "who": "Staff",
+        "text": "Ash-shahri b-thalaathmiyat riyaal, w-as-sanawi fiih khasm.",
+        "script": "الشهري بثلاثمية ريال، والسنوي فيه خصم.",
+        "en": "The monthly is three hundred riyals, and the yearly comes with a discount.",
+        "gloss": {
+         "ash-shahri": "the monthly",
+         "b-thalaathmiyat": "for three hundred",
+         "riyaal": "riyals",
+         "w-as-sanawi": "and the yearly",
+         "fiih": "there is (in it)",
+         "khasm": "discount"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Tayyib, wish awqaat ad-dawaam?",
+        "script": "طيب، وش أوقات الدوام؟",
+        "en": "OK, what are the opening hours?",
+        "gloss": {
+         "tayyib": "OK",
+         "wish": "what (Saudi)",
+         "awqaat": "times",
+         "ad-dawaam": "opening hours, working hours"
+        }
+       },
+       {
+        "who": "Staff",
+        "text": "Min sitta s-subh ilaa nuss al-leel.",
+        "script": "من ستة الصبح إلى نص الليل.",
+        "en": "From six in the morning till midnight.",
+        "gloss": {
+         "sitta": "six",
+         "s-subh": "the morning",
+         "ilaa": "to, until",
+         "nuss": "half (nuss al-leel = midnight)",
+         "al-leel": "the night"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Zain, khalaas, baakhudh shahri bil-bidaaya.",
+        "script": "زين، خلاص، باخذ شهري بالبداية.",
+        "en": "Good, done, I'll take a monthly one to start with.",
+        "gloss": {
+         "zain": "good (Gulf)",
+         "khalaas": "done, that's it",
+         "baakhudh": "I'll take (Saudi)",
+         "shahri": "monthly",
+         "bil-bidaaya": "at the start"
+        }
+       }
+      ]
+     },
+     {
+      "topic": "Viewing a flat",
+      "situation": "Looking at a flat to rent in Achrafieh, Beirut, with the owner",
+      "region": "Lebanon",
+      "lines": [
+       {
+        "who": "Owner",
+        "text": "Tfaddal, hayda s-saloon. Shu ra'yak?",
+        "script": "تفضّل، هيدا الصالون. شو رأيك؟",
+        "en": "Come in, this is the living room. What do you think?",
+        "gloss": {
+         "tfaddal": "come in, please",
+         "hayda": "this (Lebanese)",
+         "s-saloon": "the living room",
+         "shu": "what",
+         "ra'yak": "your opinion"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Hilo ktiir, bas fii moteur bil-binaaye?",
+        "script": "حلو كتير، بس في موتور بالبناية؟",
+        "en": "Very nice, but is there a generator in the building?",
+        "gloss": {
+         "hilo": "nice, pretty",
+         "ktiir": "very",
+         "bas": "but",
+         "fii": "there is",
+         "moteur": "generator (Lebanese, from French)",
+         "bil-binaaye": "in the building"
+        }
+       },
+       {
+        "who": "Owner",
+        "text": "Eh akiid, w-fii taaqa shamsiyye kamaan.",
+        "script": "إيه أكيد، وفي طاقة شمسية كمان.",
+        "en": "Yes, of course, and there's solar power too.",
+        "gloss": {
+         "eh": "yes",
+         "akiid": "of course",
+         "w-fii": "and there is",
+         "taaqa": "energy",
+         "shamsiyye": "solar",
+         "kamaan": "too, as well"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Mniih. W-addeesh il-iijaar bi-sh-shahr?",
+        "script": "منيح. وقديش الإيجار بالشهر؟",
+        "en": "Good. And how much is the rent per month?",
+        "gloss": {
+         "mniih": "good",
+         "w-addeesh": "and how much",
+         "il-iijaar": "the rent",
+         "bi-sh-shahr": "per month"
+        }
+       },
+       {
+        "who": "Owner",
+        "text": "Sab'miit dolaar, ma'a l-mayy.",
+        "script": "سبعمية دولار، مع المي.",
+        "en": "Seven hundred dollars, water included.",
+        "gloss": {
+         "sab'miit": "seven hundred",
+         "dolaar": "dollars",
+         "l-mayy": "the water"
+        }
+       },
+       {
+        "who": "You",
+        "text": "Ya'ne shway ghaali... Fiik tnazzil shway?",
+        "script": "يعني شوي غالي... فيك تنزّل شوي؟",
+        "en": "Well, it's a bit expensive... Can you bring it down a little?",
+        "gloss": {
+         "ya'ne": "I mean, well",
+         "shway": "a little",
+         "ghaali": "expensive",
+         "fiik": "can you (Lebanese)",
+         "tnazzil": "lower, bring down"
+        }
+       },
+       {
+        "who": "Owner",
+        "text": "Mnehke, ma fii mishkle.",
+        "script": "منحكي، ما في مشكلة.",
+        "en": "We'll talk, no problem.",
+        "gloss": {
+         "mnehke": "we'll talk",
+         "ma": "not",
+         "fii": "there is",
+         "mishkle": "problem"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "quote": {
+    "text": "Tagharrab an al-awtaani fii talabi al-ulaa, wa-saafir fa-fii al-asfaari khamsu fawaa'idi.",
+    "script": "تغرّب عن الأوطان في طلب العلا، وسافر ففي الأسفار خمس فوائدِ.",
+    "en": "Leave your homeland in pursuit of high things, and travel, for in travel there are five benefits.",
+    "gloss": {
+     "tagharrab": "go abroad, leave home",
+     "al-awtaani": "the homelands",
+     "fii": "in",
+     "talabi": "seeking",
+     "al-ulaa": "the heights, high things",
+     "wa-saafir": "and travel",
+     "fa-fii": "for in",
+     "al-asfaari": "travels, journeys",
+     "khamsu": "five",
+     "fawaa'idi": "benefits"
+    },
+    "who": "al-Imam al-Shafi'i (attributed)",
+    "when": "8th–9th century",
+    "about": "The verse is attributed to al-Shafi'i, the great jurist who studied in Mecca, Medina, Baghdad and Egypt; Arabs quote it to students heading abroad and to anyone hesitating to travel for work."
+   },
+   "lit": {
+    "text": "Fa-qul li-man yadda'ii fii al-ilmi falsafatan, hafizta shay'an wa-ghaabat anka ashyaa'u.",
+    "script": "فقل لمن يدّعي في العلم فلسفةً حفظتَ شيئاً وغابت عنك أشياءُ.",
+    "en": "So tell whoever claims a philosophy in learning: you have memorised one thing, and many things have escaped you.",
+    "gloss": {
+     "fa-qul": "so say",
+     "li-man": "to whoever",
+     "yadda'ii": "claims",
+     "fii": "in",
+     "al-ilmi": "knowledge, learning",
+     "falsafatan": "a philosophy",
+     "hafizta": "you memorised",
+     "shay'an": "one thing, something",
+     "wa-ghaabat": "and have escaped",
+     "anka": "from you",
+     "ashyaa'u": "things"
+    },
+    "author": "Abu Nuwas",
+    "work": "Da' anka lawmii (Diwan Abu Nuwas)",
+    "when": "late 8th century",
+    "about": "From the Baghdad poet's most famous wine ode, written in the Abbasid golden age; this line, a jab at a pompous critic, has outlived its context as the classic reply to anyone who thinks they know it all."
+   },
+   "vocab": {
+    "A": [
+     {
+      "word": "shariiha",
+      "wordScript": "شريحة",
+      "pos": "noun",
+      "region": "Egypt",
+      "ties": "phrase1",
+      "meaning": "SIM card; also a slice (of meat, cheese)",
+      "note": "Same word across the Arab world: Lebanon shariiha too, Saudi often says sim; MSA shariiha. Plural: sharaayih.",
+      "example": "Ish-shariiha di mish shaghghaala.",
+      "exScript": "الشريحة دي مش شغالة.",
+      "exampleEn": "This SIM card isn't working.",
+      "exGloss": {
+       "ish-shariiha": "the SIM card",
+       "di": "this (Egyptian)",
+       "mish": "not",
+       "shaghghaala": "working"
+      }
+     },
+     {
+      "word": "yislamu ideik",
+      "wordScript": "يسلمو إيديك",
+      "pos": "idiom",
+      "region": "Lebanon",
+      "ties": "phrase2",
+      "meaning": "thank you (lit. may your hands be safe), said for food or handiwork",
+      "note": "Reply: w-ideik / Allah ysallmak. Egypt: tislam iidak; Saudi: tislam yadak; MSA: salimat yadaak.",
+      "example": "Yislamu ideik, il-akl ktiir tayyib!",
+      "exScript": "يسلمو إيديك، الأكل كتير طيب!",
+      "exampleEn": "Bless your hands, the food is really delicious!",
+      "exGloss": {
+       "yislamu": "may they be safe",
+       "ideik": "your hands",
+       "il-akl": "the food",
+       "ktiir": "very",
+       "tayyib": "delicious, good"
+      }
+     }
+    ],
+    "B": [
+     {
+      "word": "ishtiraak",
+      "wordScript": "اشتراك",
+      "pos": "noun",
+      "region": "Saudi",
+      "ties": "phrase1",
+      "meaning": "subscription, membership",
+      "note": "Used across the region (and in MSA) for gyms, phone plans and streaming. Verb: ashtarik = I subscribe. In Lebanon, ishtiraak also means your monthly generator subscription.",
+      "example": "Jaddadt ishtiraaki fi n-naadi ams.",
+      "exScript": "جددت اشتراكي في النادي أمس.",
+      "exampleEn": "I renewed my gym membership yesterday.",
+      "exGloss": {
+       "jaddadt": "I renewed",
+       "ishtiraaki": "my membership",
+       "n-naadi": "the gym",
+       "ams": "yesterday"
+      }
+     },
+     {
+      "word": "il-iijaar",
+      "wordScript": "الإيجار",
+      "pos": "noun",
+      "region": "Lebanon",
+      "ties": "phrase2",
+      "meaning": "the rent",
+      "note": "Same in Egypt (il-igaar, with g) and Saudi (al-iijaar); MSA al-iijaar. Bi-sh-shahr = per month.",
+      "example": "Il-iijaar ghili ktiir hal-sene.",
+      "exScript": "الإيجار غلي كتير هالسنة.",
+      "exampleEn": "The rent has gone up a lot this year.",
+      "exGloss": {
+       "il-iijaar": "the rent",
+       "ghili": "got expensive",
+       "ktiir": "a lot",
+       "hal-sene": "this year"
+      }
+     }
+    ],
+    "C": [
+     {
+      "word": "khitta",
+      "wordScript": "خطة",
+      "pos": "noun",
+      "region": "Standard (MSA)",
+      "ties": "news",
+      "meaning": "plan",
+      "note": "Plural: khitat. Everyday too: shu l-khitta? (Lebanon), eih il-khitta? (Egypt), wish al-khitta? (Saudi) = what's the plan?",
+      "example": "Wish al-khitta al-yawm?",
+      "exScript": "وش الخطة اليوم؟",
+      "exampleEn": "What's the plan today?",
+      "exGloss": {
+       "wish": "what (Saudi)",
+       "al-khitta": "the plan",
+       "al-yawm": "today"
+      }
+     },
+     {
+      "word": "faa'ida",
+      "wordScript": "فائدة",
+      "pos": "noun",
+      "region": "Standard (MSA)",
+      "ties": "quote",
+      "meaning": "benefit, use; also interest (on money)",
+      "note": "Plural: fawaa'id. Very common in speech: ma fii faayde (Lebanon), mafiish faayda (Egypt) = it's no use.",
+      "example": "Mafiish faayda, il-mahall ifil.",
+      "exScript": "مفيش فايدة، المحل قفل.",
+      "exampleEn": "It's no use, the shop has closed.",
+      "exGloss": {
+       "mafiish": "there isn't (Egyptian)",
+       "faayda": "use, benefit",
+       "il-mahall": "the shop",
+       "ifil": "closed (Egyptian)"
+      }
+     }
+    ]
+   },
+   "quiz": [
+    {
+     "level": "A1",
+     "ref": "phrase1",
+     "q": "In the Cairo phone shop, what does «aayiz shariiha gdiida» mean?",
+     "options": [
+      "I'd like a new phone.",
+      "I'd like a new SIM card.",
+      "I'd like to top up my credit.",
+      "I'd like a new charger."
+     ],
+     "answer": 1,
+     "why": "«Aayiz» = I want, «shariiha» = SIM card, «gdiida» = new.",
+     "lesson": "In a phone shop the first guess is 'phone', but a phone is mobaayil or telifoon; shariiha literally means a 'slice', the thin chip you slide in."
+    },
+    {
+     "level": "A2",
+     "ref": "phrase2",
+     "q": "At the ka'ke cart, the seller asks «Waahde?» and you answer «La', tintein». What did you say?",
+     "options": [
+      "Yes, just one.",
+      "No, three.",
+      "No, two.",
+      "No, thanks."
+     ],
+     "answer": 2,
+     "why": "«La'» = no, and «tintein» is Lebanese for 'two'.",
+     "lesson": "«La'» on its own sounds like a refusal ('no, thanks'), but here it only rejects 'one'; the number that follows is the real answer."
+    },
+    {
+     "level": "B1",
+     "ref": "phrase1",
+     "q": "Fi n-naadi, kam ash-shahri?",
+     "options": [
+      "Mitein riyaal",
+      "Thalaathmiyat riyaal",
+      "Khamsmiyat riyaal",
+      "Ash-shahri majaani"
+     ],
+     "answer": 1,
+     "why": "Al-muwazzaf yguul: «Ash-shahri b-thalaathmiyat riyaal».",
+     "lesson": "Al-muwazzaf yizkur kamaan inn as-sanawi «fiih khasm», fa-ba'd an-naas yifakkir inn ash-shahri arkhas; laakin al-khasm lil-sanawi bas."
+    },
+    {
+     "level": "B2",
+     "ref": "news",
+     "q": "Hasab al-khabar, maadhaa kallafa majlis al-wuzaraa waziir al-taaqa?",
+     "options": [
+      "Bi-raf' si'r al-kahrabaa",
+      "Bi-bina' ma'mal jadiid fii Bayruut",
+      "Bi-al-tafaawud ma'a Qatar",
+      "Bi-isti'faa'ihi min al-hukuuma"
+     ],
+     "answer": 2,
+     "why": "Al-khabar yaquul: «wa-kallafa waziir al-taaqa bi-al-tafaawud ma'a Qatar».",
+     "lesson": "Al-khitta tatahaddathu an al-kahrabaa, fa-yazunnu ba'd al-qurraa' anna al-qaraar huwa raf' al-si'r; laakin al-taklif kaana li-al-tafaawud, wa-al-ta'rifa lam tuqarr ba'd."
+    },
+    {
+     "level": "C1",
+     "ref": "quote",
+     "q": "Kam faa'ida fii al-asfaar hasab al-bayt al-mansuub ilaa al-Shafi'i?",
+     "options": [
+      "Thalaath",
+      "Arba'",
+      "Sab'",
+      "Khams"
+     ],
+     "answer": 3,
+     "why": "Al-bayt yaquul: «fa-fii al-asfaari khamsu fawaa'idi».",
+     "lesson": "Kalimat «khamsu» qasiira wa-sahl an tadii' bayna al-kalimaat; wa-man ya'rif al-qasiida kaamila yatadhakkar anna al-bayt al-taalii yu'addid al-fawaa'id al-khams waahidatan waahidatan."
+    },
+    {
+     "level": "C2",
+     "ref": "lit",
+     "q": "Maadhaa yaquulu Abu Nuwas li-man yadda'ii al-falsafa fii al-ilm?",
+     "options": [
+      "Innahu hafiza shay'an wa-ghaabat anhu ashyaa'",
+      "Innahu a'lam al-naas",
+      "Innahu yajibu an yaqra' al-falsafa",
+      "Innahu nasiya kull maa ta'allamahu"
+     ],
+     "answer": 0,
+     "why": "Al-shaa'ir yaquul: «hafizta shay'an wa-ghaabat anka ashyaa'u», ay anna ilmahu naaqis.",
+     "lesson": "Al-ikhtiyaar al-akhiir yughrii li-anna «ghaabat anka» tushbih al-nisyaan; laakin al-shaa'ir yu'tarifu bi-annahu hafiza shay'an, wa-innamaa yanqusuhu al-kathiir."
+    }
+   ],
+   "tip": {
+    "title": "The feminine ending -a",
+    "text": "Most Arabic nouns and adjectives ending in -a are feminine: mudarris (teacher, m.) becomes mudarrisa (f.), and kabiir (big) becomes kabiira with a feminine noun. In script this -a is the round ة (taa marbuuta). When the noun is followed by an owner, it wakes up as -at: sayyaara (a car) but sayyaarat Ahmad (Ahmad's car)."
+   },
+   "fun": {
+    "kind": "saying",
+    "region": "Egypt",
+    "text": "Ya ma taht is-sawaahi dawaahi.",
+    "script": "يا ما تحت السواهي دواهي.",
+    "gloss": {
+     "ya": "oh",
+     "ma": "how much (ya ma = how many)",
+     "taht": "under",
+     "is-sawaahi": "the quiet ones, the calm surfaces",
+     "dawaahi": "surprises, calamities"
+    },
+    "literal": "Oh, how many surprises lie under the quiet ones.",
+    "meaning": "Still waters run deep: the quiet person may be the one who surprises you most.",
+    "culture": "Egyptians say it with a raised eyebrow when the shy cousin turns out to be a brilliant dancer or the silent colleague suddenly wins the argument; it rhymes, which keeps it on every grandmother's lips."
    }
   }
  }
